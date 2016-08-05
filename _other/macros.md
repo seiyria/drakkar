@@ -52,13 +52,40 @@ count             | `count <itemtype>` | `count ring` | Counts the number of the
 look              | `look at <name>` | `look at seiyria` | Looks at a player. If you have a skill >= 40, you will also appraise their current skill level.
 dash              | `dash enable|disable` | | Turns on dashes. After every round, dashes appear in your log.
 chase             | `chase <name>` | `chase seiyria` | Chase after a specified player.
-*rtb              | `*rtb` | | Moves the item in your right hand to your belt.
-*btr              | `*btr` | | Moves the first item in your belt to your right hand.
-*drink            | `*drink` | | Drinks a drinkable bottle from your sack.
-*train            | `*train 0 ## $$` | `*train 0 10 500000` | Train a certain skill. See the table below for the ## ids.
-*assess           | `*assess 0 ##` | `*assess 0 10` | Assess a certain skill. See the table below for the ## ids.
 hug               | `hug <name>` | `hug seiyria` | Hug a player. If they have committed an evil action against you, this will forgive them.
 sweep             | `sweep <dir>` | `sweep e` | Sweep in a direction. Only works if you're holding a broom, else it will try to use Martialist sweep.
+
+## System Macros
+
+Macro | Usage | Example | Explanation
+----- | ----- | ------- | -----------
+*rtb              | `*rtb`            | | Moves the item in your right hand to your belt.
+*ltb              | `*ltb`            | | Moves the item in your left hand to your belt.
+*rtp              | `*rtp`            | | Moves the item in your right hand to your pouch.
+*ltp              | `*ltp`            | | Moves the item in your left hand to your pouch.
+*rts              | `*rts`            | | Moves the item in your right hand to your sack.
+*lts              | `*lts`            | | Moves the item in your left hand to your sack.
+*itr              | `*itr`            | | Moves the item in your right hand to the counter.
+*itl              | `*itl`            | | Moves the item in your left hand to the counter.
+*rtg              | `*rtg`            | | Moves the item in your right hand to the ground.
+*ltg              | `*ltg`            | | Moves the item in your left hand to the ground.
+*btr              | `*btr #`          | `*btr 2`  | Moves the specified item in your belt to your right hand.
+*btl              | `*btl #`          | `*btl 2`  | Moves the specified item in your belt to your left hand.
+*ptr              | `*ptr #`          | `*ptr 2`  | Moves the specified item in your pouch to your right hand.
+*ptl              | `*ptl #`          | `*ptl 2`  | Moves the specified item in your pouch to your left hand.
+*str              | `*str #`          | `*str 2`  | Moves the specified item in your sack to your right hand.
+*stl              | `*stl #`          | `*stl 2`  | Moves the specified item in your sack to your left hand.
+*swap             | `*swap`           | | Swap the items in your hands.
+*utx              | `*utx #`          | `*utx 11` | Right-click an equipped item. 11 is the slot of helm, primarily used with the Researcher Helm.
+*xform            | `*xform ###`      | `*xform 101` | Cast a tier.
+*xexpire          | `*xexpire ###`    | `*xexpire 101` | Turn a tier off (if it was cast on you, and isn't a debuff)
+*drink            | `*drink`          | | Drinks a drinkable bottle from your sack.
+*train            | `*train 0 ## $$`  | `*train 0 10 500000` | Train a certain skill. See the table below for the ## ids.
+*assess           | `*assess 0 ##`    | `*assess 0 10` | Assess a certain skill. See the table below for the ## ids.
+
+Here are some other ones, but I can't quite remember what they are or how they work:
+* `*sellr`
+* `*m`
 
 Skill | Id
 ----- | --
