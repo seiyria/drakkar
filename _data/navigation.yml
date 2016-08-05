@@ -26,50 +26,93 @@ classes:
   - title: "Barbarian"
     children:
       - title: "Information"
+        url: /classes/barbarian
       - title: "Tiers"
+        url: /classes/barbarian/tiers
       - title: "Quirks"
+        url: /classes/barbarian/quirks
+      - title: "Maxes"
+        url: /classes/barbarian/maxes
   - title: "Fighter"
     children:
       - title: "Information"
+        url: /classes/fighter
   - title: "Fighter/Mentalist"
     children:
       - title: "Information"
+        url: /classes/fighter-mentalist
       - title: "Disciplines"
+        url: /classes/fighter-mentalist/skills
       - title: "Tiers"
+        url: /classes/fighter-mentalist/tiers
       - title: "Quirks"
+        url: /classes/fighter-mentalist/quirks
+      - title: "Maxes"
+        url: /classes/fighter-mentalist/maxes
   - title: "Healer"
     children:
       - title: "Information"
+        url: /classes/healer
       - title: "Disciplines"
+        url: /classes/healer/skills
       - title: "Tiers"
+        url: /classes/healer/tiers
       - title: "Quirks"
+        url: /classes/healer/quirks
+      - title: "Maxes"
+        url: /classes/healer/maxes
   - title: "Martialist"
     children:
       - title: "Information"
+        url: /classes/martialist
       - title: "Skills"
+        url: /classes/martialist/skills
       - title: "Tiers"
+        url: /classes/martialist/tiers
       - title: "Quirks"
+        url: /classes/martialist/quirks
+      - title: "Maxes"
+        url: /classes/martialist/maxes
   - title: "Mentalist"
     children:
       - title: "Information"
+        url: /classes/mentalist
       - title: "Disciplines"
+        url: /classes/mentalist/skills
       - title: "Tiers"
+        url: /classes/mentalist/tiers
       - title: "Quirks"
+        url: /classes/mentalist/quirks
+      - title: "Maxes"
+        url: /classes/mentalist/maxes
   - title: "Merchant"
     children:
       - title: "Information"
+        url: /classes/merchant
   - title: "Paladin"
     children:
       - title: "Information"
+        url: /classes/paladin
       - title: "Skills"
+        url: /classes/paladin/skills
       - title: "Tiers"
+        url: /classes/paladin/tiers
       - title: "Quirks"
+        url: /classes/paladin/quirks
+      - title: "Maxes"
+        url: /classes/paladin/maxes
   - title: "Thief"
     children:
       - title: "Information"
+        url: /classes/thief
       - title: "Disciplines"
+        url: /classes/thief/skills
       - title: "Tiers"
+        url: /classes/thief/tiers
       - title: "Quirks"
+        url: /classes/thief/quirks
+      - title: "Maxes"
+        url: /classes/thief/maxes
   - title: "Other"
     children:
       - title: "Normal Quirks"
