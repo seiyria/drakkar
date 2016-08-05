@@ -1,6 +1,6 @@
 ---
 title: "Fighter Information"
-permalink: /classes/fighter
+permalink: /classes/fighter/
 excerpt: "Fighter Information"
 ---
 

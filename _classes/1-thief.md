@@ -1,6 +1,6 @@
 ---
 title: "Thief Information"
-permalink: /classes/thief
+permalink: /classes/thief/
 excerpt: "Thief Information"
 ---
 

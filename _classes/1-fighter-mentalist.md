@@ -1,6 +1,6 @@
 ---
 title: "Fighter/Mentalist Information"
-permalink: /classes/fighter-mentalist
+permalink: /classes/fighter-mentalist/
 excerpt: "Fighter/Mentalist Information"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Barbarian Information"
-permalink: /classes/barbarian
+permalink: /classes/barbarian/
 excerpt: "Barbarian Information"
 ---
 

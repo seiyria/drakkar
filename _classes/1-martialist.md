@@ -1,6 +1,6 @@
 ---
 title: "Martialist Information"
-permalink: /classes/martialist
+permalink: /classes/martialist/
 excerpt: "Martialist Information"
 ---
 

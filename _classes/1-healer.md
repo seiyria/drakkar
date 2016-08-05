@@ -1,6 +1,6 @@
 ---
 title: "Healer Information"
-permalink: /classes/healer
+permalink: /classes/healer/
 excerpt: "Healer Information"
 ---
 

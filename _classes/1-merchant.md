@@ -1,6 +1,6 @@
 ---
 title: "Merchant Information"
-permalink: /classes/merchant
+permalink: /classes/merchant/
 excerpt: "Merchant Information"
 ---
 

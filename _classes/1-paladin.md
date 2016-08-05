@@ -1,6 +1,6 @@
 ---
 title: "Paladin Information"
-permalink: /classes/paladin
+permalink: /classes/paladin/
 excerpt: "Paladin Information"
 ---
 

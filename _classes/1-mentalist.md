@@ -1,6 +1,6 @@
 ---
 title: "Mentalist Information"
-permalink: /classes/mentalist
+permalink: /classes/mentalist/
 excerpt: "Mentalist Information"
 ---
 
