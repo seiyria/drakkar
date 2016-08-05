@@ -27,6 +27,8 @@ classes:
     children:
       - title: "Information"
         url: /classes/barbarian
+      - title: "Information"
+        url: /classes/barbarian/skills
       - title: "Tiers"
         url: /classes/barbarian/tiers
       - title: "Quirks"
