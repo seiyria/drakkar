@@ -11,12 +11,12 @@ Tier Level | Location(s) Found
 1     | Dornar
 2     | Sekora
 3     | Sekora Lairs
-4     | ??
-5     | ??
-6     | ??
-7     | ??
-8     | ??
-9     | ??
+4     | Keep
+5     | Keep
+6     | Mormar
+7     | Mormar
+8     | LabRat
+9     | LabRat
 10    | Foreman
 11    | Foreman
 12    | Barbarian Fields
