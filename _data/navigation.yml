@@ -1,97 +1,88 @@
-# example navigation
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
-
 
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Scenario Information"
+    url: /scenarios/
 
-  - title: "About"
-    url: /about/
+  - title: "Class Information"
+    url: /classes/
 
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Other"
+    url: /other/
 
-  - title: "Sample Collections"
-    url: /collection-archive/
-
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
-
-
-# documentation links
-docs:
-  - title: Getting Started
+other:
+  - title: "Other"
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+    - title: "EXP Chart"
+      url: /other/exp
+    - title: "Fating"
+      url: /other/fate
+    - title: "Macros"
+      url: /other/macros
+    - title: "Tier Locations"
+      url: /other/tiers
 
-  - title: Customization
+classes:
+  - title: "Healer"
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "Information"
+      - title: "Disciplines"
+      - title: "Tiers"
+      - title: "Quirks"
 
-  - title: Content
+# scenario links
+scenarios:
+  - title: "Nameless Lands"
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
+      - title: "Scenario Information"
+        url: /scenarios/nl/
+      - title: "Places"
+        url: /scenarios/nl/places
+      - title: "Quests"
+        url: /scenarios/nl/quests
+      - title: "Items"
+        url: /scenarios/nl/items
 
-  - title: Extras
+  - title: "Green Dragon Hatcheries"
     children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+      - title: "Scenario Information"
+        url: /scenarios/gdh/
+      - title: "Places"
+        url: /scenarios/gdh/places
+      - title: "Quests"
+        url: /scenarios/gdh/quests
+      - title: "Items"
+        url: /scenarios/gdh/items
 
-  - title: Meta
+  - title: "Black Dragon Consort"
     children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+      - title: "Scenario Information"
+        url: /scenarios/bdc/
+      - title: "Places"
+        url: /scenarios/bdc/places
+      - title: "Quests"
+        url: /scenarios/bdc/quests
+      - title: "Items"
+        url: /scenarios/bdc/items
+
+  - title: "Silver Dragon Consort"
+    children:
+      - title: "Scenario Information"
+        url: /scenarios/sdc/
+      - title: "Places"
+        url: /scenarios/sdc/places
+      - title: "Quests"
+        url: /scenarios/sdc/quests
+      - title: "Items"
+        url: /scenarios/sdc/items
+
+  - title: "Sullen Keep"
+    children:
+      - title: "Scenario Information"
+        url: /scenarios/sk/
+      - title: "Places"
+        url: /scenarios/sk/places
+      - title: "Quests"
+        url: /scenarios/sk/quests
+      - title: "Items"
+        url: /scenarios/sk/items
