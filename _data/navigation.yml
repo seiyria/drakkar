@@ -15,20 +15,65 @@ other:
     children:
     - title: "EXP Chart"
       url: /other/exp
-    - title: "Fating"
-      url: /other/fate
+    # - title: "Fating"
+    #  url: /other/fate
     - title: "Macros"
       url: /other/macros
     - title: "Tier Locations"
       url: /other/tiers
 
 classes:
+  - title: "Barbarian"
+    children:
+      - title: "Information"
+      - title: "Tiers"
+      - title: "Quirks"
+  - title: "Fighter"
+    children:
+      - title: "Information"
+  - title: "Fighter/Mentalist"
+    children:
+      - title: "Information"
+      - title: "Disciplines"
+      - title: "Tiers"
+      - title: "Quirks"
   - title: "Healer"
     children:
       - title: "Information"
       - title: "Disciplines"
       - title: "Tiers"
       - title: "Quirks"
+  - title: "Martialist"
+    children:
+      - title: "Information"
+      - title: "Skills"
+      - title: "Tiers"
+      - title: "Quirks"
+  - title: "Mentalist"
+    children:
+      - title: "Information"
+      - title: "Disciplines"
+      - title: "Tiers"
+      - title: "Quirks"
+  - title: "Merchant"
+    children:
+      - title: "Information"
+  - title: "Paladin"
+    children:
+      - title: "Information"
+      - title: "Skills"
+      - title: "Tiers"
+      - title: "Quirks"
+  - title: "Thief"
+    children:
+      - title: "Information"
+      - title: "Disciplines"
+      - title: "Tiers"
+      - title: "Quirks"
+  - title: "Other"
+    children:
+      - title: "Normal Quirks"
+      - title: "Primal Quirks"
 
 # scenario links
 scenarios:
