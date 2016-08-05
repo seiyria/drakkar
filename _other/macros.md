@@ -55,8 +55,8 @@ chase             | `chase <name>` | `chase seiyria` | Chase after a specified p
 *rtb              | `*rtb` | | Moves the item in your right hand to your belt.
 *btr              | `*btr` | | Moves the first item in your belt to your right hand.
 *drink            | `*drink` | | Drinks a drinkable bottle from your sack.
-*train            | `*train 0 ## $$ | `*train 0 10 500000` | Train a certain skill. See the table below for the ## ids.
-*assess           | `*assess 0 ## | `*assess 0 10` | Assess a certain skill. See the table below for the ## ids.
+*train            | `*train 0 ## $$` | `*train 0 10 500000` | Train a certain skill. See the table below for the ## ids.
+*assess           | `*assess 0 ##` | `*assess 0 10` | Assess a certain skill. See the table below for the ## ids.
 hug               | `hug <name>` | `hug seiyria` | Hug a player. If they have committed an evil action against you, this will forgive them.
 sweep             | `sweep <dir>` | `sweep e` | Sweep in a direction. Only works if you're holding a broom, else it will try to use Martialist sweep.
 
