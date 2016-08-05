@@ -19,7 +19,7 @@ Ctrl          | Requires CTRL to be held to activate this macro
 Alt           | Requires ALT to be held to activate this macro
 Shift         | Requires SHIFT to be held to activate this macro
 Auto return   | Activating this macro will activate it instantly ("automatically press return after entering this macro")
-Target lock   | This macro will "lock" as requiring a target (much like espear, assault, etc)
+Target lock   | This macro will "lock" on your macro bar and set it self as the active macro (much like espear, assault, etc)
 Needs path    | This macro needs a path to a target (such as firebreath, illusion, etc)
 
 When adding the actual macro part, you can have up to 3 individual macros, separated by semicolons, in your command. So, you could do: `take 500000 coins from sack; drop coins`. Some combinations can be very helpful, especially when doing repetitive actions like buying lots of chits.
