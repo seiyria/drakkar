@@ -17,9 +17,9 @@ Tier | Name | Requirements | Effect
 5    | Gift of Healing        | Level 50 | +200 HP regen, 5x5 AoE
 6    | Blessing of the Titan  | Level 55 | +250 HP, +50 HP regen
 6    | Balar's Fury           | Level 60 | +375 HP, Damage Absorption, +10 AC
-7    | Primal Mending         | Level 70/Skill 32 | 3k heal
-7    | Subdural Strike        | Level 70/Skill 32 | 1900 assault damage
-8    | Avatar Health          | ??? | +575 HP
-9    | Crystalline Regeneration | ??? | +1250 HP, +1200 Damage Absorption
+7    | Primal Mending         | Level 65/Skill 32 | 3k heal
+7    | Subdural Strike        | Level 65/Skill 32 | 1900 assault damage
+8    | Avatar Health          | Level 70/Skill 34 | +575 HP
+9    | Crystalline Regeneration | Level 78/Skill 38 | +1250 HP, +1200 Damage Absorption
 ?    | Boon of Remedy         | ??? | ???
 10   | Mindstorm              | ??? | ??? assault damage

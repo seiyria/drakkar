@@ -15,11 +15,11 @@ Tier | Name | Requirements | Effect
 4    | Ankor's Energy         | Level 44 | 2k energy damage
 5    | Focused Eye            | Level 47 | To Hit Bonus
 5    | Psionic Diversion      | Level 50 | To Hit Bonus, +2 Attacks, 120 round haste, -20 EP regen, self only
-6    | Divergent Essence      | Level 53 | To Hit Bonus, Damage Bonus
+5    | Divergent Essence      | Level 53 | To Hit Bonus, Damage Bonus
 5    | Burning Delirium       | Level 55 | 250 fire damage, DoT
-6    | Ankor's Ice            | ??? | ???
-6    | Discerning Eye         | Level 60 | To Hit Bonus
-7    | Ankor's Fire           | Level 70/Skill 32 | ???
-7    | Apocalyptic Delirium   | Level 70/Skill 32 | ???
-8    | Marksman's Focus       | ??? | To Hit Bonus
+5    | Discerning Eye         | Level 60 | To Hit Bonus
+6    | Ankor's Ice            | Level 65/Skill 32 | ???
+7    | Ankor's Fire           | Level 70/Skill 34 | ???
+7    | Apocalyptic Delirium   | Level 70/Skill 34 | ???
+8    | Marksman's Focus       | Level 78/Skill 38 | To Hit Bonus
 9    | Crystalline Madness    | ??? | ???

@@ -15,7 +15,7 @@ Tier | Name | Requirements | Effect
 5    | Griffon Claw     | Level 47 | 4 claw attacks
 5    | Razored Edge     | Level 55 | +75 damage
 5    | Dragon Claw      | Level 60 | 5 claw attacks
-6    | Razored Barbs    | Level 65 | +100 damage
-6    | Taloned Barbs    | ??? | +125 damage
-8    | Dragon Sting     | Level 75/Skill 35 | 150 melee DoT
-9    | Dragon Pierce    | ??? | 1000 damage
+6    | Razored Barbs    | Level 65/Skill 32 | +100 damage
+7    | Taloned Barbs    | Level 70/Skill 34 | +125 damage
+7    | Dragon Sting     | Level 70/Skill 34 | 150 melee, -AC DoT
+8    | Dragon Pierce    | Level 78/Skill 38 | 1000 damage
