@@ -12,11 +12,9 @@ Tier Level | Location(s) Found
 2     | Sekora
 3     | Sekora Lairs
 4     | Keep
-5     | Keep
-6     | Mormar
-7     | Mormar
-8     | LabRat
-9     | LabRat
-10    | Foreman
-11    | Foreman
-12    | Barbarian Fields
+5     | Mormar
+6     | LabRat
+7     | Foreman
+8     | Barbarian Fields
+9     | SDC
+10    | Sullen Keep

@@ -31,8 +31,8 @@ classes:
         url: /classes/barbarian/skills
       - title: "Tiers"
         url: /classes/barbarian/tiers
-      - title: "Quirks"
-        url: /classes/barbarian/quirks
+      #- title: "Quirks"
+      #  url: /classes/barbarian/quirks
       - title: "Maxes"
         url: /classes/barbarian/maxes
   - title: "Fighter"
@@ -47,8 +47,8 @@ classes:
         url: /classes/fighter-mentalist/skills
       - title: "Tiers"
         url: /classes/fighter-mentalist/tiers
-      - title: "Quirks"
-        url: /classes/fighter-mentalist/quirks
+      #- title: "Quirks"
+      #  url: /classes/fighter-mentalist/quirks
       - title: "Maxes"
         url: /classes/fighter-mentalist/maxes
   - title: "Healer"
@@ -59,8 +59,8 @@ classes:
         url: /classes/healer/skills
       - title: "Tiers"
         url: /classes/healer/tiers
-      - title: "Quirks"
-        url: /classes/healer/quirks
+      #- title: "Quirks"
+      #  url: /classes/healer/quirks
       - title: "Maxes"
         url: /classes/healer/maxes
   - title: "Martialist"
@@ -71,8 +71,8 @@ classes:
         url: /classes/martialist/skills
       - title: "Tiers"
         url: /classes/martialist/tiers
-      - title: "Quirks"
-        url: /classes/martialist/quirks
+      #- title: "Quirks"
+      #  url: /classes/martialist/quirks
       - title: "Maxes"
         url: /classes/martialist/maxes
   - title: "Mentalist"
@@ -83,8 +83,8 @@ classes:
         url: /classes/mentalist/skills
       - title: "Tiers"
         url: /classes/mentalist/tiers
-      - title: "Quirks"
-        url: /classes/mentalist/quirks
+      #- title: "Quirks"
+      #  url: /classes/mentalist/quirks
       - title: "Maxes"
         url: /classes/mentalist/maxes
   - title: "Merchant"
@@ -99,8 +99,8 @@ classes:
         url: /classes/paladin/skills
       - title: "Tiers"
         url: /classes/paladin/tiers
-      - title: "Quirks"
-        url: /classes/paladin/quirks
+      #- title: "Quirks"
+      #  url: /classes/paladin/quirks
       - title: "Maxes"
         url: /classes/paladin/maxes
   - title: "Thief"
@@ -111,14 +111,14 @@ classes:
         url: /classes/thief/skills
       - title: "Tiers"
         url: /classes/thief/tiers
-      - title: "Quirks"
-        url: /classes/thief/quirks
+      #- title: "Quirks"
+      #  url: /classes/thief/quirks
       - title: "Maxes"
         url: /classes/thief/maxes
-  - title: "Other"
-    children:
-      - title: "Normal Quirks"
-      - title: "Primal Quirks"
+  #- title: "Other"
+  #  children:
+  #    - title: "Normal Quirks"
+  #    - title: "Primal Quirks"
 
 # scenario links
 scenarios:
