@@ -636,7 +636,7 @@ others:
       - name: "Akronium Block"
 
   - name: "Ore (large)"
-    found: "Mormar"
+    found: "Mormar, NL Surface"
     drops: "Banditlord, Green Dragon, Minlok, Jelterban, Banditkin"
     sprite: "29-158"
     quests:
