@@ -19,4 +19,4 @@ Tier | Name | Requirements | Effect
 8    | Echo of Disease        | Level 70/Skill 34 | 600 disease damage, DoT
 8    | Echo of Decay          | Level 70/Skill 34 | 600 disease damage, DoT
 9    | Ancient Plague         | Level 78/Skill 38 | 1200 disease damage, DoT
-10   | Rotting Fungus         | Level 79/Skill 39 | 2900 disease damage
+10   | Rotting Fungus         | Level 79/Skill 39 | 1200 disease damage, DoT
