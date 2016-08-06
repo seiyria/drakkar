@@ -18,7 +18,7 @@ feature_row:
     url: "/classes/"
     btn_label: "Go"
   - title: "Other Information"
-    excerpt: "Information about macros, experience levels, skill payments and more"
+    excerpt: "Information about macros, experience levels, tier locations and more."
     url: "/other/"
     btn_label: "Go"
 ---
