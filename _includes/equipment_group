@@ -1,0 +1,33 @@
+{% include base_path %}
+
+{% assign all_equipment = site.data.items.[page.equipment_id] %}
+
+<div id="top"></div>
+<h4>Go to:</h4>
+<table>
+  <tr>
+    <td><a href="#Amulets">Amulets</a></td>
+    <td><a href="#Armor">Armor</a></td>
+    <td><a href="#Bracers">Bracers</a></td>
+    <td><a href="#Boots">Boots</a></td>
+    <td><a href="#Helms">Helms</a></td>
+  </tr>
+  <tr>
+    <td><a href="#Gauntlets">Gaunlets</a></td>
+    <td><a href="#Rings">Rings</a></td>
+    <td><a href="#Robes">Robes</a></td>
+    <td><a href="#Weapons">Weapons</a></td>
+    <td><a href="#Other">Other</a></td>
+  </tr>
+</table>
+
+{% include equipment type="amulets" name="Amulets" %}
+{% include equipment type="armors" name="Armor" %}
+{% include equipment type="boots" name="Boots" %}
+{% include equipment type="bracers" name="Bracers" %}
+{% include equipment type="helms" name="Helms" %}
+{% include equipment type="gauntlets" name="Gauntlets" %}
+{% include equipment type="rings" name="Rings" %}
+{% include equipment type="robes" name="Robes" %}
+{% include equipment type="weapons" name="Weapons" %}
+{% include equipment type="others" name="Other" %}

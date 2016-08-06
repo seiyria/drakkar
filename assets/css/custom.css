@@ -1,0 +1,18 @@
+
+.sprite-container {
+  text-align: center;
+}
+
+.sprite-container img {
+  width: 64px;
+  height: 64px;
+}
+
+.quest-list {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.page {
+  padding-right: 0;
+}

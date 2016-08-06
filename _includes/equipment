@@ -1,0 +1,55 @@
+{% include base_path %}
+
+{% assign equipment = all_equipment.[include.type] %}
+
+{% if equipment %}
+<div class="equipment equipment-{{include.type}}" id="{{include.name}}">
+  <h3>
+    {{include.name}} <small><a href="#top">[Back to Top]</a></small>
+  </h3>
+  <div class="item__table">
+
+    <table>
+      <thead>
+        <th width="96"></th>
+        <th>Name</th>
+        <th>Attributes</th>
+        <th>Found</th>
+        <th>Drops</th>
+        <th>Requirements</th>
+        <th>Quests</th>
+      </thead>
+
+      <tbody>
+
+      {% for f in equipment %}
+        <tr id="{{include.name}}-{{ f.name | cgi_escape }}">
+
+          <td class="sprite-container">
+            <img src="{{ f.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" alt="{{f.name}}" />
+          </td>
+          <td>
+            <a href="#{{include.name}}-{{ f.name | cgi_escape }}">{{ f.name }}</a>
+          </td>
+          <td>{{ f.attrs }}</td>
+          <td>{{ f.found }}</td>
+          <td>{{ f.drops }}</td>
+          <td>{{ f.reqs }}</td>
+          <td>
+            <ul class="quest-list">
+            {% for q in f.quests %}
+              <li> {{ q.name }} </li>
+            {% endfor %}
+            </ul>
+          </td>
+
+        </tr>
+
+      {% endfor %}
+      </tbody>
+
+    </table>
+
+  </div>
+</div>
+{% endif %}

@@ -52,7 +52,7 @@ Skill Level | Skill | Cost (EP) | Description
 19          | enchant (boost) | 30 | You can now enchant items to +6 (you lose permanent hp going from +5 to +6).
 20          | haste         | 25   | Buff; doubles round speed. Causes faster aging.
 20          | enchant (boost) | 30 | You can now enchant items to +7 (you lose permanent hp going from +6 to +7).
-21          | massteleport  | 100  | Teleport all players on your hex to a memorized location.
+21          | massteleport  | 250  | Teleport all players on your hex to a memorized location. Learned from Fate Card Seller Trainer.
 21          | enchant (boost) | 30 | You can now enchant items to +8 (you lose permanent hp, exp, and con going from +7 to +8)
 22          | energysiphon  | 10   | Take EP from target and add to your own EP.
 23          | corspray      | 200  | Cause armor damage to target.

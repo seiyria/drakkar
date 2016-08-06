@@ -126,8 +126,8 @@ scenarios:
     children:
       - title: "Scenario Information"
         url: /scenarios/nl/
-      - title: "Places"
-        url: /scenarios/nl/places
+      - title: "Lairs"
+        url: /scenarios/nl/lairs
       - title: "Quests"
         url: /scenarios/nl/quests
       - title: "Items"
@@ -137,8 +137,8 @@ scenarios:
     children:
       - title: "Scenario Information"
         url: /scenarios/gdh/
-      - title: "Places"
-        url: /scenarios/gdh/places
+      - title: "Lairs"
+        url: /scenarios/gdh/lairs
       - title: "Quests"
         url: /scenarios/gdh/quests
       - title: "Items"
@@ -148,8 +148,8 @@ scenarios:
     children:
       - title: "Scenario Information"
         url: /scenarios/bdc/
-      - title: "Places"
-        url: /scenarios/bdc/places
+      - title: "Lairs"
+        url: /scenarios/bdc/lairs
       - title: "Quests"
         url: /scenarios/bdc/quests
       - title: "Items"
@@ -159,8 +159,8 @@ scenarios:
     children:
       - title: "Scenario Information"
         url: /scenarios/sdc/
-      - title: "Places"
-        url: /scenarios/sdc/places
+      - title: "Lairs"
+        url: /scenarios/sdc/lairs
       - title: "Quests"
         url: /scenarios/sdc/quests
       - title: "Items"
@@ -170,8 +170,8 @@ scenarios:
     children:
       - title: "Scenario Information"
         url: /scenarios/sk/
-      - title: "Places"
-        url: /scenarios/sk/places
+      - title: "Lairs"
+        url: /scenarios/sk/lairs
       - title: "Quests"
         url: /scenarios/sk/quests
       - title: "Items"
