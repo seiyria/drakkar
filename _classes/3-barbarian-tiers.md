@@ -16,7 +16,7 @@ Tier | Name | Requirements | Effect
 4    | Gaze of the Crazed   | Level 50  | -30 To Hit, 100 damage DoT
 5    | Sweat of Steel       | Level 55  | 75 Damage Absorption, 3x3 Area, -14 WIS/INT
 6    | Enraged Cry          | Level 60  | +10 STR/CON, -20 WIS/INT, +5 Attacks, +15 HP Regen, +100 HP, -40 EP Regen, Damage Boost
-7    | Gaze of the Frothing | Level 60/Skill 32  | -70 To Hit, 200 damage DoT
+7    | Gaze of the Frothing | Level 65/Skill 32  | -70 To Hit, 200 damage DoT
 8    | Sweat of Deplurium   | Level 70/Skill 32  | 100 Damage Absorption, 3x3 Area, -21 WIS/INT
 8    | Gaze of the Wild     | Level 70/Skill 32  | To Hit Penalty, DoT
 9    | Without a Care       | Level 78/Skill 38 | ? Damage Absorption, 3x3 Area, -25 WIS/INT/AGI
