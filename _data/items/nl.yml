@@ -498,8 +498,8 @@ others:
       - name: "Breath Capture Vial"
 
   - name: "Book (Mormar)"
-    found: "Mormar-10"
-    drops: "Researcher"
+    found: "Mormar-15"
+    drops: "Foreman"
     sprite: "28-101"
     quests:
       - name: "Duke Merntax"
@@ -636,7 +636,7 @@ others:
       - name: "Akronium Block"
 
   - name: "Ore (large)"
-    found:
+    found: "Mormar"
     drops: "Banditlord, Green Dragon, Minlok, Jelterban, Banditkin"
     sprite: "29-158"
     quests:
