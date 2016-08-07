@@ -84,11 +84,22 @@ Macro | Usage | Example | Explanation
 *train            | `*train 0 ## $$`  | `*train 0 10 500000` | Train a certain skill. See the Skill table below for the ## ids.
 *assess           | `*assess 0 ##`    | `*assess 0 10` | Assess a certain skill. See the Skill table below for the ## ids.
 
-Here are some other ones, but I can't quite remember what they are or how they work:
+Here are some other ones that need to be formally tested and understood before adding to the list above:
 
 
-* `*sellr`
-* `*m`
+* `*sellr` (sell right, probably)
+* `*m <number> <number>` (move, probably)
+* `*look g` (look at ground, probably)
+* `*look c` (look at counter, probably)
+* `*sell`
+* `*inv`
+* `*describe belt|locker|pouch|brew|sack|counter|ground <slot>` (double click item for desc, probably)
+* `*describe r|l`
+* `*describe sale <number> <number>`
+* `*prices`
+* `*buy`
+* `*discuss`
+* `*pile`
 
 ### UTX Table
 
