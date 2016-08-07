@@ -160,27 +160,27 @@ Credits to ROAR guild for these.
 
 Macro | Example Result
 ----- | -------
-scream    | `Seiyria screams!`
-growl     | `Seiyria growls!`
-grumble   | `Seiyria grumbles!`
-holler    | `Seiyria hollers!`
-yell      | `Seiyria yells!`
-jostle    | `Seiyria jostles!`
-sing      | `Seiyria sings!`
-wink      | `Seiyria winks!`
-think     | `Nothing seems to come to mind.`
-pinch     | `Seiyria pinches!`
+scream    | `Seiyria screams!`, `Seiyria screams at Brenem!`, `Seiyria screams at you!`
+growl     | `Seiyria growls!`, `Seiyria growls at Brenem!`, `Seiyria growls at you!`
+grumble   | `Seiyria grumbles!`, `Seiyria grumbles at Brenem!`, `Seiyria grumbles at you!`
+holler    | `Seiyria hollers!`, `Seiyria hollers at Brenem!`, `Seiyria hollers at you!`
+yell      | `Seiyria yells!`, `Seiyria yells at Brenem!`, `Seiyria yells at you!`
+jostle    | `Seiyria jostles!`, `Seiyria jostles Brenem!`, `Seiyria jostles you!`
+sing      | `Seiyria sings!`, `Seiyria sings at Brenem!`, `Seiyria sings at you!`
+wink      | `Seiyria winks!`, `Seiyria winks at Brenem!`, `Seiyria winks at you!`
+think     | `Nothing seems to come to mind.`, `Seiyria seems rather annoyed.`
+pinch     | `Seiyria pinches!`, `Seiyria winks at Brenem!`, `Seiyria winks at you!`
 rofl      | `Seiyria rolls on the floor laughing!`
-spit      | `Seiyria spits!`
-tickle    | `Seiyria tickles!`
-dance     | `Seiyria dances!`
-sneeze    | `Seiyria sneezes!`
-scratch   | `Seiyria scratches!`
-kiss      | `Seiyria kisses!`
-agree     | `Seiyria agrees!`
-mock      | `Seiyria mocks!`
-prod      | `Seiyria prods!`
-disagree  | `Seiyria disagrees!`
+spit      | `Seiyria spits!`, `Seiyria spits at Brenem!`, `Seiyria spits at you!`
+tickle    | `Seiyria tickles!`, `Seiyria tickles Brenem!`, `Seiyria tickles you!`
+dance     | `Seiyria dances!`, `Seiyria dances with Brenem!`, `Seiyria dances with you!`
+sneeze    | `Seiyria sneezes!`, `Seiyria sneezes at Brenem!`, `Seiyria sneezes at you!`
+scratch   | `Seiyria scratches!`, `Seiyria scratches Brenem!`, `Seiyria scratches you!`
+kiss      | `Seiyria kisses!`, `Seiyria kisses Brenem!`, `Seiyria kisses you!`
+agree     | `Seiyria agrees!`, `Seiyria agrees with Brenem!`, `Seiyria agrees with you!`
+mock      | `Seiyria mocks!`, `Seiyria mocks Brenem!`, `Seiyria mocks you!`
+prod      | `Seiyria prods!`, `Seiyria prods Brenem!`, `Seiyria prods you!`
+disagree  | `Seiyria disagrees!`, `Seiyria disagrees with Brenem!`, `Seiyria disagrees with you!`
 
 ## Macro combinations
 
