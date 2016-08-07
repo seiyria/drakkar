@@ -19,6 +19,8 @@ other:
     #  url: /other/fate
     - title: "Macros"
       url: /other/macros
+    - title: "Party Abilities"
+      url: /other/party-abilities
     - title: "Tier Locations"
       url: /other/tiers
 

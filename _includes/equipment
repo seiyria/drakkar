@@ -23,19 +23,19 @@
       <tbody>
 
       {% for f in equipment %}
-        <tr id="{{include.name}}-{{ f.name | cgi_escape }}" itemscope itemtype="http://schema.org/IndividualProduct" itemid="#{{include.name}}-{{ f.name | cgi_escape }}">
+        <tr id="{{ f.name | cgi_escape }}" itemscope itemtype="http://schema.org/IndividualProduct" itemid="#{{include.name}}-{{ f.name | cgi_escape }}">
 
           <td class="sprite-container">
             <img itemprop="image" src="{{ f.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" alt="{{f.name}}" />
           </td>
           <td>
-            <a href="#{{include.name}}-{{ f.name | cgi_escape }}">
+            <a href="#{{ f.name | cgi_escape }}">
             <span itemprop="name">{{ f.name }}</span>
 
             <span class="hidden" itemprop="description">
               <strong>Attributes</strong>: {{ f.attrs }}<br>
               <strong>Found At</strong>: {{ f.found }}<br>
-              <strong>Dropped By</strong>: {{ f.drops }}<br>
+              <strong>Dropped By</strong>: {{ f.drops | join:', ' }}<br>
               <strong>Requirements</strong>: {{ f.reqs }}<br>
             </span>
 
@@ -43,13 +43,25 @@
           </td>
           <td>{{ f.attrs }}</td>
           <td>{{ f.found }}</td>
-          <td>{{ f.drops }}</td>
+          <td>
+            <ul class="quest-list">
+            {% for d in f.drops %}
+            <li>
+              {% if d.lair %}
+              <a href="./lairs#{{ d.name | cgi_escape }}">{{ d.name }}</a>
+              {% else %}
+              {{ d.name }}
+              {% endif %}
+            </li>
+            {% endfor %}
+            </ul>
+          </td>
           <td>{{ f.reqs }}</td>
           <td>
             <ul class="quest-list">
             {% for q in f.quests %}
               <li>
-                <a href="./quests#{{q.name | cgi_escape}}">{{ q.name }}</a>
+                <a href="./quests#{{ q.name | cgi_escape }}">{{ q.name }}</a>
               </li>
             {% endfor %}
             </ul>

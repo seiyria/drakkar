@@ -1,0 +1,174 @@
+
+- name: "Ajamtax"
+  text: "Drains EXP and skill on hit."
+  found: "Keep-4"
+  sprite: "11-16"
+  drops:
+    - name: "Ingot (Stength)"
+    - name: "Spy Scroll"
+  quests:
+    - name: "Primal"
+
+- name: "Albron"
+  text: "Mostly melee. Can punch you and teleport you to Homlet area. Does not go red unless you attack him (healers are safe)."
+  found: "Bog"
+  sprite: "titan_full"
+  drops:
+    - name: "Fluidic Diamond"
+    - name: "Albron Fur"
+  quests:
+    - name: "Titan Breath Capture"
+
+- name: "Bandit Lord"
+  text: "Bites, casts nasty ice, hits hard physically."
+  found: "Ice Floes"
+  sprite: "banditlord_full"
+  drops:
+    - name: "Bandit Lord Head"
+    - name: "Ingot (Primal)"
+  quests:
+    - name: "Bandit Lord Ring"
+    - name: "Primal"
+
+- name: "Bandit5"
+  text: "Has a fair amount of HP."
+  found: "Bandit Town"
+  sprite: "6-54"
+  drops:
+    - name: "Ingot (Justice)"
+  quests:
+    - name: "Bandit5"
+
+- name: "Black Dragon"
+  text: "Casts acid."
+  found: "Mormar-20"
+  sprite: "6-84"
+  drops:
+    - name: "Black Dragon Bracers"
+
+- name: "Foreman"
+  text: "Has a nasty, wide-range AoE that can easily kill you."
+  found: "Mormar-15"
+  sprite: "6-148"
+  drops:
+    - name: "Book (Mormar)"
+  quests:
+    - name: "Duke Merntax"
+
+- name: "Gold Dragon"
+  text: "Casts Earthcrush."
+  found: "Mormar-20"
+  sprite: "6-83"
+  drops:
+    - name: "Gold Dragon Bracers"
+
+- name: "Jelterban"
+  text: ""
+  found: "Jelterban Hedge"
+  sprite: "6-142"
+  drops:
+    - name: "Ore (large)"
+  quests:
+    - name: "Bandit Lord Ring"
+
+- name: "LabRat"
+  text: "Spawns little rats that have to be killed to kill LabRat."
+  found: "Mormar-5"
+  sprite: "11-23"
+
+- name: "Lich"
+  text: "Shreds. Bring Autoheal or a Barbarian. Ore is a common drop."
+  found: "Swamp"
+  sprite: "10-156"
+  drops:
+    - name: "Lich Robe"
+    - name: "Ore (large)"
+
+- name: "Lorsulan"
+  text: "De-zerks on hit."
+  found: "Sekora"
+  sprite: "6-72"
+  drops:
+    - name: "Lorsulan Scales"
+  quests:
+    - name: "Lorsulan Plate"
+
+- name: "Mantrapon"
+  text: "Casts acid."
+  found: "Sekora"
+  sprite: "6-203"
+  drops:
+    - name: "Mantrapon Scales"
+  quests:
+    - name: "Mantrapon Plate"
+
+- name: "Merkon"
+  text: "Spawns on Dornar-1. You have to kill Merkon on each floor, down to Dornar-6. The fights are timed."
+  found: "Dornar"
+  sprite: "11-20"
+  drops:
+    - name: "Merkon EP"
+    - name: "Merkon Attack"
+    - name: "Merkon Blue"
+    - name: "Merkon Red"
+    - name: "Merkon Shortsword"
+    - name: "Ingot (Prudence)"
+  quests:
+    - name: "Bandit Lord Ring"
+    - name: "Flame Hammer"
+    - name: "Improved Merkon Shortsword"
+
+- name: "Minlok"
+  text: "Casts shockwave, has psi-mirror. Drops 1-4 Ore."
+  found: "Minlok Retreat"
+  sprite: "11-24"
+  drops:
+    - name: "Ore (large)"
+
+- name: "Nameless Lord"
+  text: "Casts nasty firebreath."
+  found: "Nameless Town"
+  sprite: "namelesslord_full"
+  drops:
+    - name: "Nameless Lord Axe"
+    - name: "Nameless Lord Plate"
+  quests:
+    - name: "Nameless Lord"
+
+- name: "Red Dragon"
+  text: "Casts firebreath."
+  found: "Mormar-20"
+  sprite: "6-81"
+  drops:
+    - name: "Red Dragon Bracers"
+
+- name: "Researcher"
+  text: ""
+  found: "Mormar-10"
+  sprite: "6-148"
+  drops:
+    - name: "Titan Helm"
+
+- name: "Rift Guardian"
+  text: "Casts Strangle (500 / round DoT)."
+  found: "Mormar-26"
+  sprite: "riftguardian_full"
+  drops:
+    - name: "Rift Guardian Boots"
+    - name: "Rift Guardian Gloves"
+
+- name: "Silver Dragon"
+  text: "Casts lightning."
+  found: "Mormar-20"
+  sprite: "6-85"
+  drops:
+    - name: "Silver Dragon Bracers"
+
+- name: "Tortulan"
+  text: ""
+  found: "Sekora"
+  sprite: "6-125"
+  drops:
+    - name: "Tortulan Scales"
+  quests:
+    - name: "Tortulan Plate"

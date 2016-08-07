@@ -21,6 +21,11 @@
     - sprite: "29-180"
     - sprite: "29-200"
 
+- name: "Bandit5"
+  text: "Start the Primal quest, and find Adjuticon on the NL Surface. Make sure you have a party before starting. Tell him `adj, prove`, and your party members will say `adj, join`. Defend the Bandit Towns children, and you will get one Ingot (Justice) per child saved, plus one for killing Bandit5."
+  items:
+    - sprite: "29-206"
+
 - name: "Breath Capture Vial"
   text: "Take a Terror Blood (enchanted) and a Bat Wing to Kurrashna in the Decaying Lands Cave to create a Breath Capture Vial."
   items:
@@ -69,7 +74,7 @@
     - sprite: "26-90"
 
 - name: "Duke Merntax"
-  text: "You want to be at least level 60 before starting this. First, talk to the third DukeSummoner near the Nameless Lord by saying `duk, help`. He will ask you to get the research notes from Mormar. To do this, you need to kill Researcher on Mormar-15 and take his book, then begin collecting pages from every floor in Mormar. Once your book is full of all 25 pages, bring it to him. Then, you just have to summon the Duke with `duk, summon` and get his blessing, no extra items required this time. This will complete the Nameless Lord Quest."
+  text: "You want to be at least level 60 before starting this. First, talk to the third DukeSummoner near the Nameless Lord by saying `duk, help`. He will ask you to get the research notes from Mormar. To do this, you need to kill Foreman on Mormar-15 and take his book, then begin collecting pages from every floor in Mormar. Once your book is full of all 25 pages, bring it to him. Then, you just have to summon the Duke with `duk, summon` and get his blessing, no extra items required this time. This will complete the Nameless Lord Quest."
   items:
     - sprite: "28-101"
     - sprite: "26-180"

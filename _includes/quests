@@ -4,9 +4,9 @@
 
 <div id="top"></div>
 <h4>Go To:</h4>
-<div style="display: flex; flex-wrap: wrap">
+<div class="flex-container">
   {% for q in quests %}
-  <div style="flex: 20%; width: 20%">
+  <div class="flex-item">
     <small><a href="#{{q.name | cgi_escape}}">{{ q.name }}</a></small>
   </div>
   {% endfor %}

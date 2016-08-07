@@ -9,7 +9,7 @@ empty:
     quests:
 
 amulets:
-  - name: "Keep Crest"
+  - name: "Keep Crest Amulet"
     reqs:
     attrs:
     found: "Keep-0"
@@ -22,25 +22,31 @@ amulets:
     reqs: "Level 40"
     attrs: "3/0, +2 Attacks"
     found: "Dornar -6"
-    drops: "Merkon"
+    drops:
+      - name: "Merkon"
+        lair: true
     sprite: "28-8"
 
   - name: "Merkon EP"
     reqs: "Level 25"
     attrs: "+30 EP Regen"
     found: "Dornar -6"
-    drops: "Merkon"
+    drops:
+      - name: "Merkon"
+        lair: true
     sprite: "29-187"
 
 armors:
-  - name: "Albron"
+  - name: "Albron Fur"
     reqs: "Level 56, Barbarian"
     attrs: "7/7 200 Damage Reflect"
     found: "Bog"
-    drops: "Albron"
+    drops:
+      - name: "Albron"
+        lair: true
     sprite: "27-192"
 
-  - name: "Keep Crest"
+  - name: "Keep Crest Armor"
     reqs:
     attrs:
     found: "Keep-1"
@@ -53,15 +59,17 @@ armors:
     reqs:
     attrs: "2/0 Acid Prot"
     found: "NL Surface"
-    drops: "Green Dragon"
+    drops:
+      - name: "Green Dragon"
     sprite: "29-201"
     quests:
 
-  - name: "Halmon"
+  - name: "Halmon Armor"
     reqs: "Level 25"
     attrs: "5/0 Fire/Ice Prot"
     found: "NL Surface"
-    drops: "Halmon"
+    drops:
+      - name: "Halmon"
     sprite: "27-121"
 
   - name: "Lorsulan Armor"
@@ -77,7 +85,9 @@ armors:
     reqs:
     attrs: "5/0"
     found: "Sekora"
-    drops: "Lorsulan"
+    drops:
+      - name: "Lorsulan"
+        lair: true
     sprite: "30-9"
     quests:
       - name: "Lorsulan Plate"
@@ -94,7 +104,9 @@ armors:
     reqs:
     attrs:
     found: "Sekora"
-    drops: "Mantrapon"
+    drops:
+      - name: "Mantrapon"
+        lair: true
     sprite: "30-8"
     quests:
       - name: "Mantrapon Plate"
@@ -103,14 +115,17 @@ armors:
     reqs: "Level 50"
     attrs: "Damage Absorption"
     found:
-    drops: "SirMormar"
+    drops:
+      - name: "SirMormar"
     sprite: "30-15"
 
   - name: "Nameless Lord Plate"
     reqs: "Level 70"
     attrs: "8/8 +5 All Stats, Damage Absorption, Fire/Ice Prot"
     found: "Nameless Town"
-    drops: "Nameless Lord"
+    drops:
+      - name: "Nameless Lord"
+        lair: true
     sprite: "29-218"
     quests:
       - name: "Nameless Lord"
@@ -130,7 +145,9 @@ armors:
     reqs:
     attrs: "5/0"
     found: "Sekora"
-    drops: "Tortulan"
+    drops:
+      - name: "Tortulan"
+        lair: true
     sprite: "30-7"
     quests:
       - name: "Tortulan Plate"
@@ -140,7 +157,9 @@ boots:
     reqs: "Level 70"
     attrs: "8/8 +10 CON, Dancing"
     found: "Mormar-26"
-    drops: "Rift Guardian"
+    drops:
+      - name: "Rift Guardian"
+        lair: true
     sprite: "29-219"
 
 bracers:
@@ -175,28 +194,36 @@ bracers:
   - name: "Black Dragon Bracers"
     reqs: "Level 65"
     attrs: "5/5 +150 HP/EP, Dragon Armor (+AC)"
-    drops: "Black Dragon"
+    drops:
+      - name: "Black Dragon"
+        lair: true
     found: "Mormar-20"
     sprite: "29-216"
 
   - name: "Gold Dragon Bracers"
     reqs: "Level 65"
     attrs: "5/5 +150 HP/EP, Dragon Strike (???)"
-    drops: "Gold Dragon"
+    drops:
+      - name: "Gold Dragon"
+        lair: true
     found: "Mormar-20"
     sprite: "29-216"
 
   - name: "Red Dragon Bracers"
     reqs: "Level 65"
     attrs: "5/5 +150 HP/EP, Dragon Insight (Slower aging)"
-    drops: "Red Dragon"
+    drops:
+      - name: "Red Dragon"
+        lair: true
     found: "Mormar-20"
     sprite: "29-216"
 
   - name: "Silver Dragon Bracers"
     reqs: "Level 65"
     attrs: "5/5 +150 HP/EP, Dragon Energy (+200 EP)"
-    drops: "Silver Dragon"
+    drops:
+      - name: "Silver Dragon"
+        lair: true
     found: "Mormar-20"
     sprite: "29-216"
 
@@ -204,7 +231,9 @@ helms:
   - name: "Titan Helm"
     reqs: "Level 60"
     attrs: "5/5 +100 HP, Right-click for +200 HP, +100 EP"
-    drops: "Researcher"
+    drops:
+      - name: "Researcher"
+        lair: true
     found: "Mormar-10"
     sprite: "29-217"
 
@@ -221,7 +250,9 @@ gauntlets:
     reqs: "Level 70, Martialist"
     attrs: "10/0"
     found: "Mormar-26"
-    drops: "Rift Guardian"
+    drops:
+      - name: "Rift Guardian"
+        lair: true
     sprite: "29-220"
 
 rings:
@@ -267,7 +298,7 @@ rings:
     sprite: "29-168"
     quests:
 
-  - name: "Keep Crest"
+  - name: "Keep Crest Ring"
     reqs:
     attrs:
     found: "Keep-2"
@@ -288,7 +319,9 @@ rings:
     reqs: "Level 35"
     attrs: "2/2 Deadeye"
     found: "Swamp"
-    drops: "Lich"
+    drops:
+      - name: "Lich"
+        lair: true
     sprite: "29-171"
     quests:
 
@@ -297,21 +330,27 @@ robes:
     reqs: "Level 20"
     attrs: "4/0, +2 AGI"
     found: "Dornar -6"
-    drops: "Merkon"
+    drops:
+      - name: "Merkon"
+        lair: true
     sprite: "29-181"
 
   - name: "Merkon Red"
     reqs: "Level 20"
     attrs: "4/0, +25 HP"
     found: "Dornar -6"
-    drops: "Merkon"
+    drops:
+      - name: "Merkon"
+        lair: true
     sprite: "29-183"
 
   - name: "Lich"
     reqs: "Level 35"
     attrs: "5/5 100 Damage Reflect"
     found: "Swamp"
-    drops: "Lich"
+    drops:
+      - name: "Lich"
+        lair: true
     sprite: "29-183"
 
 weapons:
@@ -422,7 +461,9 @@ weapons:
     reqs: "Level 70, Barbarian"
     attrs: "6/6, 35% chance of an offhand attack when not zerked"
     found: "Nameless Town"
-    drops: "Nameless Lord"
+    drops:
+      - name: "Nameless Lord"
+        lair: true
     sprite: "27-144"
     quests:
 
@@ -443,7 +484,15 @@ others:
 
   - name: "Akronium Brick (Fluidic)"
     found: "Mormar-20"
-    drops: "Dragon"
+    drops:
+      - name: "Black Dragon"
+        lair: true
+      - name: "Gold Dragon"
+        lair: true
+      - name: "Green Dragon"
+        lair: true
+      - name: "Red Dragon"
+        lair: true
     sprite: "30-2"
     quests:
       - name: "Titan Upgrades"
@@ -471,7 +520,9 @@ others:
 
   - name: "Bandit Lord Head"
     found: "Ice Floes"
-    drops: "Bandit Lord"
+    drops:
+      - name: "Bandit Lord"
+        lair: true
     sprite: "29-180"
     quests:
       - name: "Bandit Lord Ring"
@@ -492,14 +543,18 @@ others:
 
   - name: "Bat Wing"
     found: "Bog"
-    drops: "Swampbat, Fruitbat"
+    drops:
+      - name: "Swampbat"
+      - name: "Fruitbat"
     sprite: "30-4"
     quests:
       - name: "Breath Capture Vial"
 
   - name: "Book (Mormar)"
     found: "Mormar-15"
-    drops: "Foreman"
+    drops:
+      - name: "Foreman"
+        lair: true
     sprite: "28-101"
     quests:
       - name: "Duke Merntax"
@@ -530,6 +585,8 @@ others:
   - name: "Brigand Heart"
     found: "NL Surface"
     drops:
+      - name: "Brigand"
+      - name: "Bandit"
     sprite: "29-154"
     quests:
       - name: "Dornar Entry"
@@ -544,7 +601,8 @@ others:
 
   - name: "Dragon Heart"
     found: "NL Surface"
-    drops: "Green Dragon"
+    drops:
+      - name: "Green Dragon"
     sprite: "29-202"
     quests:
       - name: "Great Halls Access"
@@ -559,49 +617,65 @@ others:
 
   - name: "Dryad Parts"
     found: "NL Surface"
-    drops: "Dryad"
+    drops:
+      - name: "Dryad"
     sprite: "29-178"
     quests:
       - name: "Coin Mold"
 
   - name: "Fluidic Diamond"
     found: "Mormar, Titans"
-    drops: "Mormar, Titans"
+    drops:
+      - name: "Mormar"
+      - name: "RiftTitan"
+      - name: "Albron"
+        lair: true
     sprite: "27-161"
     quests:
       - name: "Titan Upgrades"
 
   - name: "Forgotten Dust"
     found: "Forgottens"
-    drops: "Forgotten, Lostone"
+    drops:
+      - name: "Forgotten"
+      - name: "Lostone"
     sprite: "29-173"
     quests:
       - name: "Great Halls Access"
 
   - name: "Ingot (Justice)"
     found: "Bandit Town"
-    drops: "Bandit5"
+    drops:
+      - name: "Bandit5"
+        lair: true
     sprite: "29-206"
     quests:
       - name: "Primal"
+      - name: "Bandit5"
 
   - name: "Ingot (Primal)"
     found: "Ice Floes"
-    drops: "Bandit Lord"
+    drops:
+      - name: "Bandit Lord"
+        lair: true
     sprite: "29-209"
     quests:
       - name: "Primal"
 
   - name: "Ingot (Prudence)"
     found: "Dornar-6"
-    drops: "Merkon"
+    drops:
+      - name: "Merkon"
+        lair: true
     sprite: "29-208"
     quests:
       - name: "Primal"
 
   - name: "Ingot (Strength)"
     found: "Keep-4"
-    drops: "Ajamtax"
+    drops:
+      - name: "Ajamtax"
+        lair: true
     sprite: "29-205"
     quests:
       - name: "Primal"
@@ -615,7 +689,8 @@ others:
 
   - name: "Large Pine Tree"
     found: "Bog"
-    drops: "Bandit"
+    drops:
+      - name: "Bandit"
     sprite: "29-175"
     quests:
       - name: "HP/EP Regen Boost"
@@ -637,14 +712,23 @@ others:
 
   - name: "Ore (large)"
     found: "Mormar, NL Surface"
-    drops: "Banditlord, Green Dragon, Minlok, Jelterban, Banditkin"
+    drops:
+      - name: "Banditlord"
+      - name: "Green Dragon"
+      - name: "Minlok"
+        lair: true
+      - name: "Jelterban"
+        lair: true
+      - name: "Banditkin"
     sprite: "29-158"
     quests:
       - name: "Akronium Brick"
 
   - name: "Packet of Mandrake Root"
     found: "Bog"
-    drops: "BogWitch, Mentalist"
+    drops:
+      - name: "BogWitch"
+      - name: "Mentalist"
     sprite: "26-90"
     quests:
       - name: "Duke Xuladan"
@@ -657,7 +741,8 @@ others:
 
   - name: "Page (Shimok)"
     found: "NL Surface"
-    drops: "Wolf"
+    drops:
+      - name: "Wolf"
     sprite: "26-180"
     quests:
 
@@ -670,34 +755,40 @@ others:
 
   - name: "Sapling (Apple)"
     found: "NL Surface"
-    drops: "FallenMage"
+    drops:
+      - name: "FallenMage"
     sprite: "29-177"
     quests:
       - name: "Coin Mold"
 
   - name: "Sapling (Oak)"
     found: "Nl Surface"
-    drops: "FallenLord"
+    drops:
+      - name: "FallenLord"
     sprite: "29-176"
     quests:
 
   - name: "Sapling (Perfect Oak)"
     found: "Bog"
-    drops: "Arcanist"
+    drops:
+      - name: "Arcanist"
     sprite: "29-176"
     quests:
       - name: "Enchanted Terror Blood"
 
   - name: "Spy Scroll"
     found: "Keep-4"
-    drops: "Ajamtax"
+    drops:
+      - name: "Ajamtax"
+        lair: true
     sprite: "27-138"
     quests:
       - name: "Primal"
 
   - name: "Terror Blood"
     found: "Bog, Mormar"
-    drops: "Terror"
+    drops:
+      - name: "Terror"
     sprite: "30-3"
     quests:
       - name: "Enchanted Terror Blood"
@@ -719,7 +810,8 @@ others:
 
   - name: "Titan Bone"
     found: "Forge"
-    drops: "Amoral"
+    drops:
+      - name: "Amoral"
     sprite: "30-1"
     quests:
       - name: "Titan Weapon"
@@ -727,14 +819,18 @@ others:
 
   - name: "Volcanic Ore (small)"
     found: "Minlok Retreat"
-    drops: "Minlok"
+    drops:
+      - name: "Minlok"
+        lair: true
     sprite: "31-273"
     quests:
       - name: "Defense Staff Upgrade"
 
   - name: "Volcanic Ore (large)"
     found: "Ice Floes"
-    drops: "Bandit Lord"
+    drops:
+      - name: "Bandit Lord"
+        lair: true
     sprite: "31-273"
     quests:
       - name: "Duke Marvin"
