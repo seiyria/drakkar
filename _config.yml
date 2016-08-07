@@ -227,17 +227,17 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 
 # Plugins
-# gems:
+gems:
 #   - jekyll-paginate
-#   - jekyll-sitemap
+  - jekyll-sitemap
 #   - jekyll-gist
 #   - jekyll-feed
 #   - jemoji
 
 # mimic GitHub Pages with --safe
-# whitelist:
+whitelist:
 #   - jekyll-paginate
-#   - jekyll-sitemap
+  - jekyll-sitemap
 #   - jekyll-gist
 #   - jekyll-feed
 #   - jemoji
