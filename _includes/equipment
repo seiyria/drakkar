@@ -23,13 +23,23 @@
       <tbody>
 
       {% for f in equipment %}
-        <tr id="{{include.name}}-{{ f.name | cgi_escape }}">
+        <tr id="{{include.name}}-{{ f.name | cgi_escape }}" itemscope itemtype="http://schema.org/IndividualProduct" itemid="#{{include.name}}-{{ f.name | cgi_escape }}">
 
           <td class="sprite-container">
-            <img src="{{ f.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" alt="{{f.name}}" />
+            <img itemprop="image" src="{{ f.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" alt="{{f.name}}" />
           </td>
           <td>
-            <a href="#{{include.name}}-{{ f.name | cgi_escape }}">{{ f.name }}</a>
+            <a href="#{{include.name}}-{{ f.name | cgi_escape }}">
+            <span itemprop="name">{{ f.name }}</span>
+
+            <span class="hidden" itemprop="description">
+              <strong>Attributes</strong>: {{ f.attrs }}<br>
+              <strong>Found At</strong>: {{ f.found }}<br>
+              <strong>Dropped By</strong>: {{ f.drops }}<br>
+              <strong>Requirements</strong>: {{ f.reqs }}<br>
+            </span>
+
+            </a>
           </td>
           <td>{{ f.attrs }}</td>
           <td>{{ f.found }}</td>

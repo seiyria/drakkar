@@ -13,13 +13,13 @@
 </div>
 
 {% for q in quests %}
-<div id="{{q.name | cgi_escape }}">
+<div id="{{q.name | cgi_escape }}" itemscope itemtype="http://schema.org/IndividualProduct" itemid="#{{q.name | cgi_escape }}">
   <h3>
-    {{q.name}} <small><a href="#top">[Back to top]</a></small>
+    <span itemprop="name">{{q.name}}</span> <small><a href="#top">[Back to top]</a></small>
   </h3>
   {% for sp in q.items %}
     <img src="{{ sp.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" />
   {% endfor %}
-  <p>{{q.text | markdownify}}</p>
+  <p itemprop="description">{{q.text | markdownify}}</p>
 </div>
 {% endfor %}
