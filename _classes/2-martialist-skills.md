@@ -27,6 +27,7 @@ Skill Level | Skill | Description
 29          | chi deathtouch    | Lose 1 CON, creatures that are half of your skill die instantly. Others take anywhere from 33% to 300% damage.
 
 # Non-chis
+
 Skill Level | Description
 ----------- | -----------
 31          | `chi shield` abilities take 1 round or less, instead of 3-7 rounds.
