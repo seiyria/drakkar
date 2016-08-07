@@ -76,17 +76,36 @@ Macro | Usage | Example | Explanation
 *str              | `*str #`          | `*str 2`  | Moves the specified item in your sack to your right hand.
 *stl              | `*stl #`          | `*stl 2`  | Moves the specified item in your sack to your left hand.
 *swap             | `*swap`           | | Swap the items in your hands.
-*utx              | `*utx #`          | `*utx 11` | Right-click an equipped item. 11 is the slot of helm, primarily used with the Researcher Helm.
+*utx              | `*utx #`          | `*utx 11` | Right-click a given item. 11 is the slot of helm, primarily used with the Researcher Helm. See UTX table below for more slots.
 *xform            | `*xform ###`      | `*xform 101` | Cast a tier.
 *xexpire          | `*xexpire ###`    | `*xexpire 101` | Turn a tier off (if it was cast on you, and isn't a debuff)
-*quirk            | `*quirk ### enable|disable | `*quirk 178 enable` | Turn a quirk on or off.
+*quirk            | `*quirk ### enable|disable` | `*quirk 178 enable` | Turn a quirk on or off. See the Quirk table below for more quirks.
 *drink            | `*drink`          | | Drinks a drinkable bottle from your sack.
-*train            | `*train 0 ## $$`  | `*train 0 10 500000` | Train a certain skill. See the table below for the ## ids.
-*assess           | `*assess 0 ##`    | `*assess 0 10` | Assess a certain skill. See the table below for the ## ids.
+*train            | `*train 0 ## $$`  | `*train 0 10 500000` | Train a certain skill. See the Skill table below for the ## ids.
+*assess           | `*assess 0 ##`    | `*assess 0 10` | Assess a certain skill. See the Skill table below for the ## ids.
 
 Here are some other ones, but I can't quite remember what they are or how they work:
+
+
 * `*sellr`
 * `*m`
+
+### UTX Table
+
+Slot | UTX
+---- | ---
+right hand | 4
+left hand  | 3
+helm       | 11
+
+### Quirk Table
+
+Quirk | Id
+----- | --
+Primal Form | 178
+Dark Knowledge | 186
+
+### Skill Table
 
 Skill | Id
 ----- | --
