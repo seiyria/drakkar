@@ -40,3 +40,4 @@ Skill Level | Description
 37          | Natural damage absorption is increased by the Barbarians level.
 38          | "zerk" pool is doubled.
 39          | Small chance of `primalstun` on hit.
+40          | While holding a weapon, you will never target a player.

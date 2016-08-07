@@ -65,3 +65,4 @@ Skill Level | Description
 37          | `antistun` increases the saving throw against `primalstun`
 38          | `atone` no longer takes HP or stats. Tiers have a chance of costing nothing.
 39          | +200 HP to self and party, +5 EP regen.
+40          | Twigs can now be created in protected zones.

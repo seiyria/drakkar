@@ -78,3 +78,4 @@ Skill Level | Description
 37          | +5 EP regen, +50 EP
 38          | +pierce boost based on held weapon skill, party receives boost based on mentalist skill
 39          | Haste no longer damages the target, but ages self more.
+40          | Able to memorize teleports in previously-protected areas. You still cannot `massteleport` out of those areas, but you can `massteleport` in.

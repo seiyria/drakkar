@@ -38,3 +38,4 @@ Skill Level | Description
 37          | +30% damage against evil creatures.
 38          | +penetration if not holding a shield, +blocking if holding a shield.
 39          | Self and party gain an AC bonus.
+40          | `focus healingtouch` now heals you for up to 60% of your HP.

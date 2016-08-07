@@ -78,3 +78,4 @@ Skill Level | Description
 37          | Absorption, protfire, protice operate at 3x the current skill level
 38          | +5 EP regen, corspray gets better
 39          | +30% lightning/acid damage
+40          | Able to memorize teleports in previously-protected areas. You still cannot `massteleport` out of those areas, but you can `massteleport` in.

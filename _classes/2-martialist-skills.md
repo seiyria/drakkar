@@ -39,3 +39,4 @@ Skill Level | Description
 37          | Better combat abilities vs other open-hand Martialists.
 38          | Kick damage increased.
 39          | Chance of full-force open-hand attack inflicting `primalstun` on hit.
+40          | `sweep` now works on large creatures (dragons, wyverns, etc).
