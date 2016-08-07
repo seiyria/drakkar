@@ -79,6 +79,7 @@ Macro | Usage | Example | Explanation
 *utx              | `*utx #`          | `*utx 11` | Right-click an equipped item. 11 is the slot of helm, primarily used with the Researcher Helm.
 *xform            | `*xform ###`      | `*xform 101` | Cast a tier.
 *xexpire          | `*xexpire ###`    | `*xexpire 101` | Turn a tier off (if it was cast on you, and isn't a debuff)
+*quirk            | `*quirk ### enable|disable | `*quirk 178 enable` | Turn a quirk on or off.
 *drink            | `*drink`          | | Drinks a drinkable bottle from your sack.
 *train            | `*train 0 ## $$`  | `*train 0 10 500000` | Train a certain skill. See the table below for the ## ids.
 *assess           | `*assess 0 ##`    | `*assess 0 10` | Assess a certain skill. See the table below for the ## ids.
