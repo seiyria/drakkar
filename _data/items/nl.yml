@@ -323,7 +323,7 @@ weapons:
     sprite: "29-192"
     quests:
       - name: "Defense Staff"
-      - name: "Upgraded Defense Staff"
+      - name: "Defense Staff Upgrade"
 
   - name: "Flame Hammer"
     reqs:
@@ -427,12 +427,12 @@ weapons:
     quests:
 
 others:
-  - name: "Akronium Block"
+  - name: "Akronium Brick"
     found:
     drops:
     sprite: "29-159"
     quests:
-      - name: "Akronium Block"
+      - name: "Akronium Brick"
       - name: "Akronium Coins"
       - name: "Defense Staff"
       - name: "Great Halls"
@@ -441,14 +441,14 @@ others:
       - name: "Saber Mold"
       - name: "Titan Annealed Akronium"
 
-  - name: "Akronium Block (Fluidic)"
+  - name: "Akronium Brick (Fluidic)"
     found: "Mormar-20"
     drops: "Dragon"
     sprite: "30-2"
     quests:
       - name: "Titan Upgrades"
 
-  - name: "Akronium Block (Titan Annealed)"
+  - name: "Akronium Brick (Titan Annealed)"
     found:
     drops:
     sprite: "30-2"
@@ -618,7 +618,7 @@ others:
     drops: "Bandit"
     sprite: "29-175"
     quests:
-      - name: "EP/HP Regen Boost"
+      - name: "HP/EP Regen Boost"
       - name: "Titan Upgrades"
 
   - name: "Mine Key"
@@ -626,21 +626,21 @@ others:
     drops:
     sprite: "29-160"
     quests:
-      - name: "EP/HP Regen Boost"
+      - name: "HP/EP Regen Boost"
 
   - name: "Ore (small)"
     found: "Keep, Dornar"
     drops:
     sprite: "29-157"
     quests:
-      - name: "Akronium Block"
+      - name: "Akronium Brick"
 
   - name: "Ore (large)"
     found: "Mormar, NL Surface"
     drops: "Banditlord, Green Dragon, Minlok, Jelterban, Banditkin"
     sprite: "29-158"
     quests:
-      - name: "Akronium Block"
+      - name: "Akronium Brick"
 
   - name: "Packet of Mandrake Root"
     found: "Bog"
@@ -661,7 +661,7 @@ others:
     sprite: "26-180"
     quests:
 
-  - name: "Sabre Mold"
+  - name: "Saber Mold"
     found:
     drops:
     sprite: "30-14"
@@ -673,7 +673,7 @@ others:
     drops: "FallenMage"
     sprite: "29-177"
     quests:
-      - name: "Coin mold"
+      - name: "Coin Mold"
 
   - name: "Sapling (Oak)"
     found: "Nl Surface"
@@ -730,7 +730,7 @@ others:
     drops: "Minlok"
     sprite: "31-273"
     quests:
-      - name: "Upgraded Defense Staff"
+      - name: "Defense Staff Upgrade"
 
   - name: "Volcanic Ore (large)"
     found: "Ice Floes"

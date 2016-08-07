@@ -38,7 +38,9 @@
           <td>
             <ul class="quest-list">
             {% for q in f.quests %}
-              <li> {{ q.name }} </li>
+              <li>
+                <a href="./quests#{{q.name | cgi_escape}}">{{ q.name }}</a>
+              </li>
             {% endfor %}
             </ul>
           </td>

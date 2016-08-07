@@ -1,0 +1,25 @@
+{% include base_path %}
+
+{% assign quests = site.data.quests.[page.quest_id] %}
+
+<div id="top"></div>
+<h4>Go To:</h4>
+<div style="display: flex; flex-wrap: wrap">
+  {% for q in quests %}
+  <div style="flex: 20%; width: 20%">
+    <small><a href="#{{q.name | cgi_escape}}">{{ q.name }}</a></small>
+  </div>
+  {% endfor %}
+</div>
+
+{% for q in quests %}
+<div id="{{q.name | cgi_escape }}">
+  <h3>
+    {{q.name}} <small><a href="#top">[Back to top]</a></small>
+  </h3>
+  {% for sp in q.items %}
+    <img src="{{ sp.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" />
+  {% endfor %}
+  <p>{{q.text | markdownify}}</p>
+</div>
+{% endfor %}
