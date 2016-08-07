@@ -1,7 +1,7 @@
 ---
 title: "Mentalist Maxes"
 permalink: /classes/mentalist/maxes
-excerpt: "Mentalist Maxes"
+excerpt: "Kingdom of Drakkar Mentalist Maxes"
 ---
 
 {% include base_path %}

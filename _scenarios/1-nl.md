@@ -1,7 +1,7 @@
 ---
 title: "Nameless Lands Information"
 permalink: /scenarios/nl/
-excerpt: "Nameless Lands Information"
+excerpt: "Kingdom of Drakkar Nameless Lands Information"
 ---
 
 {% include base_path %}

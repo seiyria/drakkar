@@ -1,7 +1,7 @@
 ---
 title: "Merchant Information"
 permalink: /classes/merchant/
-excerpt: "Merchant Information"
+excerpt: "Kingdom of Drakkar Merchant Information"
 ---
 
 {% include base_path %}

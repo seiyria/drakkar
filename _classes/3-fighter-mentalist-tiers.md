@@ -1,7 +1,7 @@
 ---
 title: "Fighter/Mentalist Tiers"
 permalink: /classes/fighter-mentalist/tiers
-excerpt: "Fighter/Mentalist Tiers"
+excerpt: "Kingdom of Drakkar Fighter/Mentalist Tiers"
 ---
 
 {% include base_path %}

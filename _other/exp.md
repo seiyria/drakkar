@@ -1,7 +1,7 @@
 ---
 title: "Experience Levels"
 permalink: /other/exp
-excerpt: "Experience Levels"
+excerpt: "Kingdom of Drakkar Experience Levels"
 ---
 
 {% include base_path %}

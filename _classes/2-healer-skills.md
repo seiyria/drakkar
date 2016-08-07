@@ -1,7 +1,7 @@
 ---
 title: "Healer Skills"
 permalink: /classes/healer/skills
-excerpt: "Healer Skills"
+excerpt: "Kingdom of Drakkar Healer Skills"
 ---
 
 {% include base_path %}

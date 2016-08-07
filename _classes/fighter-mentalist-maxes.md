@@ -1,7 +1,7 @@
 ---
 title: "Fighter/Mentalist Maxes"
 permalink: /classes/fighter-mentalist/maxes
-excerpt: "Fighter/Mentalist Maxes"
+excerpt: "Kingdom of Drakkar Fighter/Mentalist Maxes"
 ---
 
 {% include base_path %}

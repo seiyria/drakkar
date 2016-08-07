@@ -1,7 +1,7 @@
 ---
 title: "Macros"
 permalink: /other/macros
-excerpt: "Macros"
+excerpt: "Kingdom of Drakkar Macros"
 ---
 
 {% include base_path %}

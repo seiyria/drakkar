@@ -1,7 +1,7 @@
 ---
 title: "Scenario Information"
 permalink: /scenarios/
-excerpt: "Scenario Information"
+excerpt: "Kingdom of Drakkar Scenario Information"
 ---
 
 {% include base_path %}

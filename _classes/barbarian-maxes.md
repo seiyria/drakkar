@@ -1,7 +1,7 @@
 ---
 title: "Barbarian Maxes"
 permalink: /classes/barbarian/maxes
-excerpt: "Barbarian Maxes"
+excerpt: "Kingdom of Drakkar Barbarian Maxes"
 ---
 
 {% include base_path %}

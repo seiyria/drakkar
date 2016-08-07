@@ -1,7 +1,7 @@
 ---
 title: "Fighter/Mentalist Skills"
 permalink: /classes/fighter-mentalist/skills
-excerpt: "Fighter/Mentalist Skills"
+excerpt: "Kingdom of Drakkar Fighter/Mentalist Skills"
 ---
 
 {% include base_path %}

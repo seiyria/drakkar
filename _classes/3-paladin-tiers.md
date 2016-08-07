@@ -1,7 +1,7 @@
 ---
 title: "Paladin Tiers"
 permalink: /classes/paladin/tiers
-excerpt: "Paladin Tiers"
+excerpt: "Kingdom of Drakkar Paladin Tiers"
 ---
 
 {% include base_path %}

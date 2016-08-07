@@ -1,7 +1,7 @@
 ---
 title: "Other Information"
 permalink: /other/
-excerpt: "Other Information"
+excerpt: "Kingdom of Drakkar Other Information"
 ---
 
 {% include base_path %}

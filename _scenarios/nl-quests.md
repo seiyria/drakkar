@@ -1,7 +1,7 @@
 ---
 title: "Nameless Lands Quests"
 permalink: /scenarios/nl/quests
-excerpt: "Nameless Lands Quests"
+excerpt: "Kingdom of Drakkar Nameless Lands Quests"
 
 quest_id: nl
 ---

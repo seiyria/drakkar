@@ -1,7 +1,7 @@
 ---
 title: "Martialist Skills"
 permalink: /classes/martialist/skills
-excerpt: "Martialist Skills"
+excerpt: "Kingdom of Drakkar Martialist Skills"
 ---
 
 {% include base_path %}

@@ -1,7 +1,7 @@
 ---
 title: "Tier Locations"
 permalink: /other/tiers
-excerpt: "Tier Locations"
+excerpt: "Kingdom of Drakkar Tier Locations"
 ---
 
 {% include base_path %}

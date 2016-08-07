@@ -1,7 +1,7 @@
 ---
 title: "Thief Information"
 permalink: /classes/thief/
-excerpt: "Thief Information"
+excerpt: "Kingdom of Drakkar Thief Information"
 ---
 
 {% include base_path %}

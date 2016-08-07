@@ -1,7 +1,7 @@
 ---
 title: "Nameless Lands Items"
 permalink: /scenarios/nl/items
-excerpt: "Nameless Lands Items"
+excerpt: "Kingdom of Drakkar Nameless Lands Items"
 
 equipment_id: nl
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Paladin Information"
 permalink: /classes/paladin/
-excerpt: "Paladin Information"
+excerpt: "Kingdom of Drakkar Paladin Information"
 ---
 
 {% include base_path %}

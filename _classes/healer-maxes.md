@@ -1,7 +1,7 @@
 ---
 title: "Healer Maxes"
 permalink: /classes/healer/maxes
-excerpt: "Healer Maxes"
+excerpt: "Kingdom of Drakkar Healer Maxes"
 ---
 
 {% include base_path %}
