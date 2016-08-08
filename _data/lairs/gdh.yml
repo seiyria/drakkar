@@ -3,6 +3,8 @@
   text: "Sucks EXP and Skill on hit."
   found: "Medusa Area"
   sprite: "6-73"
+  quests:
+    - name: "Progression 3"
   drops:
     - name: "Beholder Staff"
 
@@ -15,6 +17,8 @@
   text: "Sucks EXP and Skill on hit. Can hit up to 8x/round, 4 strikes max per target."
   found: "FoodGuardian Area"
   sprite: "foodguardian_full"
+  quests:
+    - name: "Progression 4"
   drops:
     - name: "Barbarian Gauntlets"
     - name: "Healer Gauntlets"
@@ -28,6 +32,8 @@
   text: "You can wall Medusa in to make the fight easier."
   found: "Medusa Area"
   sprite: "7-18"
+  quests:
+    - name: "Progression 3"
   drops:
     - name: "Medusa Gem"
     - name: "Medusa Shield"

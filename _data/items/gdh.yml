@@ -120,7 +120,7 @@ sashes:
       - name: "FoodGuardian"
         lair: true
     sprite: "30-194"
-    
+
   - name: "Vine Sash"
     reqs: "Level 35"
     attrs: "4/4"
@@ -132,6 +132,8 @@ weapons:
       - name: "Beholder"
         lair: true
     sprite: "30-208"
+    quests:
+      - name: "Progression 3"
   - name: "Medusa Shield"
     reqs: "Level 60"
     attrs: "Medusa Strategy (To Hit Bonus)"
@@ -160,29 +162,41 @@ others:
     sprite: "30-215"
     drops:
       - name: "Gatherer"
+    quests:
+      - name: "Gatherer Robe"
 
   - name: "Golem Essence"
     sprite: "30-207"
     drops:
       - name: "Golem"
+    quests:
+      - name: "Progression 3"
 
   - name: "Hatchling Scale"
     drops:
       - name: "Hatchling"
     sprite: "30-221"
+    quests:
+      - name: "Progression 1"
 
   - name: "Medusa Gem"
     sprite: "30-225"
     drops:
       - name: "Medusa"
         lair: true
+    quests:
+      - name: "Progression 3"
 
   - name: "Mercenary Twig"
     sprite: "30-220"
     drops:
       - name: "Mercenary"
+    quests:
+      - name: "Progression 2"
 
   - name: "Needler Heart"
     sprite: "30-214"
     drops:
       - name: "Needler"
+    quests:
+      - name: "Needler Ring"

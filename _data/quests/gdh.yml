@@ -1,30 +1,34 @@
 
 - name: "Gatherer Robe"
-  text: ""
+  text: "Take a Gatherer Feather to the farmer at the entrance of GDH to receive a Gatherer Robe."
   items:
-    - sprite: ""
+    - sprite: "30-215"
+    - sprite: "30-193"
 
 - name: "Needler Ring"
-  text: ""
+  text: "Take a Needler Heart to the NPC in the second area of GDH to receive a Needler Ring."
   items:
-    - sprite: ""
+    - sprite: "30-214"
+    - sprite: "30-192"
 
 - name: "Progression 1"
-  text: ""
+  text: "Take a Hatchling Scale to the Botanist NPC in the first area of GDH to progress to the second area of GDH1."
   items:
-    - sprite: ""
+    - sprite: "30-221"
 
 - name: "Progression 2"
-  text: ""
+  text: "First, you have to get flagged by talking to the NPC in the Escapee Caves. Then, you have to collect 10 Mercenary Twigs and `trade enable` them to the lunches that wander the area. Once you've done so, you can progress to the third area of GDH1."
   items:
-    - sprite: ""
+    - sprite: "30-220"
 
 - name: "Progression 3"
-  text: ""
+  text: "First, you have to collect a Beholder Staff and a Golem Essence. Then, hold them both and click Medusa to activate the fight. After you kill Medusa, take her Medusa Gem to the npc in the SwampWitch area. Once you've done this, you can progress to the fourth area of GDH1."
   items:
-    - sprite: ""
+    - sprite: "30-208"
+    - sprite: "30-207"
+    - sprite: "30-225"
 
 - name: "Progression 4"
-  text: ""
+  text: "Kill FoodGuardian and take the Climbing Twig. Hold it in the south-west-most hex and climb up. Once you've done so, you can safely discard the twig. This will get you into GDH2."
   items:
-    - sprite: ""
+    - sprite: "30-224"
