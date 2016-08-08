@@ -121,7 +121,7 @@ armors:
 
   - name: "Nameless Lord Plate"
     reqs: "Level 70"
-    attrs: "8/8 +5 All Stats, Damage Absorption, Fire/Ice Prot"
+    attrs: "8/8 (7/7 if Barbarian or Martialist) +5 All Stats, Damage Absorption, Fire/Ice Prot"
     found: "Nameless Town"
     drops:
       - name: "Nameless Lord"
