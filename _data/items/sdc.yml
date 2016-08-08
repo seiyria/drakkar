@@ -1,0 +1,57 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+armors:
+boots:
+bracers:
+earrings:
+helms:
+gauntlets:
+rings:
+robes:
+weapons:
+others:
+  - name: "Small Nugget"
+    found: "Gnome Area"
+    drops:
+      - name: "Gnome"
+      - name: "Crusher"
+      - name: "ElderGnome"
+      - name: "Shaman"
+    quests:
+      - name: "Level 85/Skill 40"
+    sprite: "26-75"
+
+  - name: "Medium Nugget"
+    quests:
+      - name: "Level 85/Skill 40"
+    sprite: "26-75"
+
+  - name: "Large Nugget"
+    drops:
+      - name: "Betrayer"
+        lair: true
+    quests:
+      - name: "Level 85/Skill 40"
+    sprite: "26-75"
+
+  - name: "River Nugget"
+    found: "SDC Forest"
+    quests:
+      - name: "Level 76"
+    sprite: "26-75"
+
+  - name: "Wyvern Talon"
+    found: "Wyvern Area"
+    drops: "Wyvern"
+    quests:
+      - name: "Level 78"
+    sprite: "27-135"

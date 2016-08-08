@@ -2,6 +2,7 @@
 
 {% assign lairs = site.data.lairs.[page.lair_id] %}
 
+{% if lairs %}
 <div id="top"></div>
 <h4>Go To:</h4>
 <div class="flex-container">
@@ -48,3 +49,7 @@
 
 </div>
 {% endfor %}
+
+{% else %}
+There are no lairs listed for this area.
+{% endif %}
