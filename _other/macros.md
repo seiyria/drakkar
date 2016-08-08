@@ -67,12 +67,12 @@ Macro | Usage | Example | Explanation
 *LTS              | `*LTS`            | | Moves the item in your left hand to your sack.
 *RTG              | `*RTG`            | | Moves the item in your right hand to the ground.
 *LTG              | `*LTG`            | | Moves the item in your left hand to the ground.
-*BTR              | `*BTR #`          | `*btr 2`  | Moves the specified item in your belt to your right hand.
-*BTL              | `*BTL #`          | `*btl 2`  | Moves the specified item in your belt to your left hand.
-*PTR              | `*PTR #`          | `*ptr 2`  | Moves the specified item in your pouch to your right hand.
-*PTL              | `*PTL #`          | `*ptl 2`  | Moves the specified item in your pouch to your left hand.
-*STR              | `*STR #`          | `*str 2`  | Moves the specified item in your sack to your right hand.
-*STL              | `*STL #`          | `*stl 2`  | Moves the specified item in your sack to your left hand.
+*BTR              | `*BTR #`          | `*BTR 2`  | Moves the specified item in your belt to your right hand.
+*BTL              | `*BTL #`          | `*BTL 2`  | Moves the specified item in your belt to your left hand.
+*PTR              | `*PTR #`          | `*PTR 2`  | Moves the specified item in your pouch to your right hand.
+*PTL              | `*PTL #`          | `*PTL 2`  | Moves the specified item in your pouch to your left hand.
+*STR              | `*STR #`          | `*STR 2`  | Moves the specified item in your sack to your right hand.
+*STL              | `*STL #`          | `*STL 2`  | Moves the specified item in your sack to your left hand.
 *swap             | `*swap`           | | Swap the items in your hands.
 *UTX              | `*UTX #`          | `*utx 11` | Right-click a given item. 11 is the slot of helm, primarily used with the Researcher Helm. See UTX table below for more slots.
 *xform            | `*xform ###`      | `*xform 101` | Cast a tier.
