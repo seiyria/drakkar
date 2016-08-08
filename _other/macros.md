@@ -110,10 +110,28 @@ helm       | 11
 
 ### Quirk Table
 
-Quirk | Id
------ | --
-Primal Form | 178
-Dark Knowledge | 186
+Quirk | Class | Id
+----- | ----- | --
+Resist Evil           | Paladin | 40
+Parry                 | Paladin | 43
+Quick Shadow          | Thief | 123
+Proximity Slicer      | Thief | 124
+Forgotten Aggression  | Thief | 125
+Applied Thievery      | Thief | 129
+Allied Avoidance      | Martialist | 61
+Concussive Fist       | Martialist | 62
+Dragon's Revenge      | Martialist | 67
+Dragon's Laughter     | Martialist | 68
+Dragon's Recourse     | Martialist | 69
+Psionic Reflection    | Barbarian | 143
+Riposte               | Barbarian | 145
+Specters Blanket      | Mentalist | 91
+Allied Aversion       | Mentalist | 92
+Combat Healing        | Healer | 109
+Snapshot Heal         |  Healer | 104
+Private Life          |  Primal | 173
+Primal Form           |  Primal |178
+Dark Knowledge        |  Primal |186
 
 ### Skill Table
 
