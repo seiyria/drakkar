@@ -103,7 +103,7 @@
     - name: "Mantrapon Plate"
 
 - name: "Merkon"
-  text: "Spawns on Dornar-1. You have to kill Merkon on each floor, down to Dornar-6. The fights are timed."
+  text: "Spawns on Dornar-1. You have to kill Merkon on each floor, down to Dornar-6. The fights are timed (6 minutes per fight)."
   found: "Dornar"
   sprite: "11-20"
   drops:
@@ -143,7 +143,7 @@
     - name: "Red Dragon Bracers"
 
 - name: "Researcher"
-  text: ""
+  text: "Casts a DoT."
   found: "Mormar-10"
   sprite: "6-148"
   drops:

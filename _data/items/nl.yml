@@ -317,7 +317,7 @@ rings:
 
   - name: "Lich Ring"
     reqs: "Level 35"
-    attrs: "2/2 Deadeye"
+    attrs: "2/2 Deadeye 1"
     found: "Swamp"
     drops:
       - name: "Lich"
