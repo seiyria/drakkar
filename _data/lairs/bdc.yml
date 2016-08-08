@@ -1,0 +1,14 @@
+
+- name: "Acidron Alcor"
+  text: ""
+  found: "Crypt"
+  sprite: "acidronalcor_full"
+  drops:
+    - name: "Acidron Alcor Amulet"
+
+- name: "Black Dragon Consort"
+  text: "Powerful acid attacks."
+  found: "Crypt"
+  sprite: "6-84"
+  drops:
+    - name: "Black Dragon Consort Amulet"

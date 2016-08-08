@@ -1,0 +1,151 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+
+armors:
+  - name: "Hatchling Armor"
+    reqs: "Level 50"
+    attrs: "2/2 Swampcat Accuracy (does not encumber Martialist/Barbarian)"
+    drops:
+      - name: "Hatchling"
+    sprite: "30-222"
+
+  - name: "Swampcat Fur"
+    reqs: "Level 40"
+    attrs: "Swampcat Accuracy (does not encumber Martialist/Barbarian)"
+    drops:
+      - name: "Swampcat"
+    sprite: "27-200"
+boots:
+
+bracers:
+
+earrings:
+  - name: "Attack/Defense Earring"
+    reqs: "Level 40"
+    attrs: "1/1"
+    sprite: "30-299"
+  - name: "Hatchling Earring"
+    reqs: "Level 40"
+    attrs: "+75 HP"
+    drops:
+      - name: "Hatchling"
+    sprite: "30-293"
+helms:
+
+gauntlets:
+  - name: "Barbarian Gauntlets"
+    reqs: "Level 65, Barbarian"
+    attrs: "5/0 +5 STR"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-197"
+  - name: "Healer Gauntlets"
+    reqs: "Level 65, Healer"
+    attrs: "0/5 +5 AGI"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-195"
+  - name: "Mentalist Gauntlets"
+    reqs: "Level 65, Mentalist"
+    attrs: "0/5 +5 AGI"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-195"
+  - name: "Paladin Gauntlets"
+    reqs: "Level 65, Paladin"
+    attrs: "???"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-198"
+  - name: "Thief Gauntlets"
+    reqs: "Level 65, Thief"
+    attrs: "???"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-198"
+
+rings:
+  - name: "Needler Ring"
+    reqs: "Level 50"
+    attrs: "7/7 +4 All Stats"
+    sprite: "30-192"
+  - name: "Thermature Ring"
+    reqs: "Level 70"
+    attrs: "8/8 +5 All Stats"
+    sprite: "30-201"
+    drops:
+      - name: "Thermature"
+        lair: true
+  - name: "Thermature Ring (improved)"
+    reqs: "Level 70"
+    attrs: "9/9 +5 All Stats"
+    sprite: "30-201"
+
+robes:
+  - name: "Gatherer Robe"
+    reqs: "Level 55"
+    attrs: "6/6 200 Damage Reflect"
+    sprite: "30-193"
+  - name: "Marton Robe"
+    reqs: "Level 70"
+    attrs: "5/0 Acid Prot, Lightning Prot, +1 All Stats"
+    sprite: "30-202"
+  - name: "Thermature Robe"
+    reqs: "Level 70"
+    attrs: "2/2 200 Acid Prot, Lightning Prot"
+    sprite: "30-233"
+    drops:
+      - name: "Thermature"
+        lair: true
+
+sashes:
+  - name: "FoodGuardian Sash"
+    reqs: "Level 60"
+    attrs: "5/5"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-194"
+  - name: "Vine Sash"
+    reqs: "Level 35"
+    attrs: "4/4"
+    sprite: "30-188"
+
+weapons:
+  - name: "Beholder Staff"
+    drops:
+      - name: "Beholder"
+        lair: true
+    sprite: "30-208"
+  - name: "Medusa Shield"
+    reqs: "Level 60"
+    attrs: "Medusa Strategy (To Hit Bonus)"
+    drops:
+      - name: "Medusa"
+        lair: true
+    sprite: "30-183"
+  - name: "Vine Shield"
+    reqs: "Level 40"
+    attrs: ""
+    sprite: "30-189"
+
+other:
+  - name: "Climbing Twig"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-224"
