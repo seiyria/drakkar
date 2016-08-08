@@ -2,6 +2,8 @@
 
 {% assign quests = site.data.quests.[page.quest_id] %}
 
+{% if quests %}
+
 <div id="top"></div>
 <h4>Go To:</h4>
 <div class="flex-container">
@@ -23,3 +25,7 @@
   <p itemprop="description">{{q.text | markdownify}}</p>
 </div>
 {% endfor %}
+
+{% else %}
+There are no quests listed for this area.
+{% endif %}
