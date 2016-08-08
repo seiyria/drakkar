@@ -143,9 +143,45 @@ weapons:
     attrs: ""
     sprite: "30-189"
 
-other:
+others:
+  - name: "Canteen"
+    drops:
+      - name: "Mercenary"
+    sprite: "30-209"
+
   - name: "Climbing Twig"
     drops:
       - name: "FoodGuardian"
         lair: true
     sprite: "30-224"
+
+  - name: "Gatherer Feather"
+    sprite: "30-215"
+    drops:
+      - name: "Gatherer"
+
+  - name: "Golem Essence"
+    sprite: "30-207"
+    drops:
+      - name: "Golem"
+
+  - name: "Hatchling Scale"
+    drops:
+      - name: "Hatchling"
+    sprite: "30-221"
+
+  - name: "Medusa Gem"
+    sprite: "30-225"
+    drops:
+      - name: "Medusa"
+        lair: true
+
+  - name: "Mercenary Twig"
+    sprite: "30-220"
+    drops:
+      - name: "Mercenary"
+
+  - name: "Needler Heart"
+    sprite: "30-214"
+    drops:
+      - name: "Needler"
