@@ -59,24 +59,22 @@ sweep             | `sweep <dir>` | `sweep e` | Sweep in a direction. Only works
 
 Macro | Usage | Example | Explanation
 ----- | ----- | ------- | -----------
-*rtb              | `*rtb`            | | Moves the item in your right hand to your belt.
-*ltb              | `*ltb`            | | Moves the item in your left hand to your belt.
-*rtp              | `*rtp`            | | Moves the item in your right hand to your pouch.
-*ltp              | `*ltp`            | | Moves the item in your left hand to your pouch.
-*rts              | `*rts`            | | Moves the item in your right hand to your sack.
-*lts              | `*lts`            | | Moves the item in your left hand to your sack.
-*itr              | `*itr`            | | Moves the item in your right hand to the counter.
-*itl              | `*itl`            | | Moves the item in your left hand to the counter.
-*rtg              | `*rtg`            | | Moves the item in your right hand to the ground.
-*ltg              | `*ltg`            | | Moves the item in your left hand to the ground.
-*btr              | `*btr #`          | `*btr 2`  | Moves the specified item in your belt to your right hand.
-*btl              | `*btl #`          | `*btl 2`  | Moves the specified item in your belt to your left hand.
-*ptr              | `*ptr #`          | `*ptr 2`  | Moves the specified item in your pouch to your right hand.
-*ptl              | `*ptl #`          | `*ptl 2`  | Moves the specified item in your pouch to your left hand.
-*str              | `*str #`          | `*str 2`  | Moves the specified item in your sack to your right hand.
-*stl              | `*stl #`          | `*stl 2`  | Moves the specified item in your sack to your left hand.
+*RTB              | `*RTB`            | | Moves the item in your right hand to your belt.
+*LTB              | `*LTB`            | | Moves the item in your left hand to your belt.
+*RTP              | `*RTP`            | | Moves the item in your right hand to your pouch.
+*LTP              | `*LTP`            | | Moves the item in your left hand to your pouch.
+*RTS              | `*RTS`            | | Moves the item in your right hand to your sack.
+*LTS              | `*LTS`            | | Moves the item in your left hand to your sack.
+*RTG              | `*RTG`            | | Moves the item in your right hand to the ground.
+*LTG              | `*LTG`            | | Moves the item in your left hand to the ground.
+*BTR              | `*BTR #`          | `*BTR 2`  | Moves the specified item in your belt to your right hand.
+*BTL              | `*BTL #`          | `*BTL 2`  | Moves the specified item in your belt to your left hand.
+*PTR              | `*PTR #`          | `*PTR 2`  | Moves the specified item in your pouch to your right hand.
+*PTL              | `*PTL #`          | `*PTL 2`  | Moves the specified item in your pouch to your left hand.
+*STR              | `*STR #`          | `*STR 2`  | Moves the specified item in your sack to your right hand.
+*STL              | `*STL #`          | `*STL 2`  | Moves the specified item in your sack to your left hand.
 *swap             | `*swap`           | | Swap the items in your hands.
-*utx              | `*utx #`          | `*utx 11` | Right-click a given item. 11 is the slot of helm, primarily used with the Researcher Helm. See UTX table below for more slots.
+*UTX              | `*UTX #`          | `*utx 11` | Right-click a given item. 11 is the slot of helm, primarily used with the Researcher Helm. See UTX table below for more slots.
 *xform            | `*xform ###`      | `*xform 101` | Cast a tier.
 *xexpire          | `*xexpire ###`    | `*xexpire 101` | Turn a tier off (if it was cast on you, and isn't a debuff)
 *quirk            | `*quirk ### enable|disable` | `*quirk 178 enable` | Turn a quirk on or off. See the Quirk table below for more quirks.
@@ -93,6 +91,7 @@ Here are some other ones that need to be formally tested and understood before a
 * `*look c` (look at counter, probably)
 * `*sell`
 * `*inv`
+* `*itR`
 * `*describe belt|locker|pouch|brew|sack|counter|ground <slot>` (double click item for desc, probably)
 * `*describe r|l`
 * `*describe sale <number> <number>`
@@ -111,10 +110,28 @@ helm       | 11
 
 ### Quirk Table
 
-Quirk | Id
------ | --
-Primal Form | 178
-Dark Knowledge | 186
+Quirk | Class | Id
+----- | ----- | --
+Resist Evil           | Paladin | 40
+Parry                 | Paladin | 43
+Quick Shadow          | Thief | 123
+Proximity Slicer      | Thief | 124
+Forgotten Aggression  | Thief | 125
+Applied Thievery      | Thief | 129
+Allied Avoidance      | Martialist | 61
+Concussive Fist       | Martialist | 62
+Dragon's Revenge      | Martialist | 67
+Dragon's Laughter     | Martialist | 68
+Dragon's Recourse     | Martialist | 69
+Psionic Reflection    | Barbarian | 143
+Riposte               | Barbarian | 145
+Specters Blanket      | Mentalist | 91
+Allied Aversion       | Mentalist | 92
+Combat Healing        | Healer | 109
+Snapshot Heal         |  Healer | 104
+Private Life          |  Primal | 173
+Primal Form           |  Primal |178
+Dark Knowledge        |  Primal |186
 
 ### Skill Table
 
@@ -202,3 +219,4 @@ Macro | Explanation
 `drop left; steal from` | Drop the item in your left hand, and steal from the clicked target. Useful for skilling thief.
 `belt right; take bottle from sack; drink bottle` | Drink an IH bottle if your hands are full.
 `drop bottle; wield sword` | Drop the bottle from the previous macro, then re-wield the item from your belt.
+`*RTB;*drink;*BTR 0` | Zero-round belt and drink.
