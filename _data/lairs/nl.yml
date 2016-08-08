@@ -56,7 +56,7 @@
     - name: "Duke Merntax"
 
 - name: "Gold Dragon"
-  text: "Casts Earthcrush."
+  text: "Casts Icebreath."
   found: "Mormar-20"
   sprite: "6-83"
   drops:
