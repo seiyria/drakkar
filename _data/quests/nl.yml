@@ -1,6 +1,6 @@
 
 - name: "Akronium Brick"
-  text: You need to find 100 lbs of ore. You can do this by finding any combination of 10lb and 1lb chunks. To turn them in, head to Jebroon in Nameless Town. At 100 lbs, he will give you an Akronium Brick.
+  text: "You need to find 100 lbs of ore. You can do this by finding any combination of 10lb and 1lb chunks. To turn them in, head to Jebroon in Nameless Town. At 100 lbs, he will give you an Akronium Brick."
   items:
     - sprite: "29-157"
     - sprite: "29-158"

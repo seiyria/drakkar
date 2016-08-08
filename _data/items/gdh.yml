@@ -120,6 +120,7 @@ sashes:
       - name: "FoodGuardian"
         lair: true
     sprite: "30-194"
+    
   - name: "Vine Sash"
     reqs: "Level 35"
     attrs: "4/4"
