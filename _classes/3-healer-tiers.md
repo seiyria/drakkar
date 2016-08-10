@@ -23,4 +23,5 @@ Tier | Name | Requirements | Effect
 8    | Hemorrhagic Fever      | Level 70/Skill 34 | ???
 9    | Crystalline Regeneration | Level 78/Skill 38 | +1250 HP, +1200 Damage Absorption
 ?    | Boon of Remedy         | ??? | ???
+?    | Primal Assault         | ??? | ??? assault damage
 10   | Mindstorm              | ??? | ??? assault damage
