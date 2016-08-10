@@ -21,5 +21,6 @@ Tier | Name | Requirements | Effect
 7    | Subdural Strike        | Level 65/Skill 32 | 1900 assault damage
 8    | Avatar Health          | Level 70/Skill 34 | +575 HP
 9    | Crystalline Regeneration | Level 78/Skill 38 | +1250 HP, +1200 Damage Absorption
+?    | Hemorrhagic Fever      | ??? | ???
 ?    | Boon of Remedy         | ??? | ???
 10   | Mindstorm              | ??? | ??? assault damage
