@@ -42,7 +42,7 @@ break | `break <itemtype>` | `break scales` | Breaks an item in your hands. If a
 belt  | `belt <itemtype>` | `belt staff` | Moves an item from your hands to your belt.
 sheathe | `sheathe <itemtype>` | `sheathe staff` | Same as `belt`.
 wield | `wield <itemtype>` | `wield dagger` | Moves an item from your belt to your right hand.
-draw  | `draw <itemtype>`  | `draw blunderbuss` | Same as wield.
+draw  | `draw <itemtype>`  | `draw blunderbuss` | Same as `wield`.
 withdraw          | `<name>, withdraw <amount>` | `Efo, withdraw 500000` | Withdraws a specified amount from your bank and places it on the counter.
 deposit           | `<name>, deposit <amount>` | `Efo, deposit 500000` | Deposits a specified amount from the counter into your bank.
 appraise          | `<name>, appraise <itemtype>` | `Efo, appraise bottle` | Appraises an item and gets a value for it. Can be used to identify similar-looking items such as rings.
@@ -58,6 +58,8 @@ hug               | `hug <name>` | `hug seiyria` | Hug a player. If they have co
 sweep             | `sweep <dir>` | `sweep e` | Sweep in a direction. Only works if you're holding a broom, else it will try to use Martialist sweep.
 raid-             | `raid-`       | | Show your current location as well as some other info.
 combyells         | `combyells disable|enable` | `combyells enable` | Barbarian only - become more quiet and stop yelling for every action.
+paint             | `paint` | | Repaint the screen, redrawing crit boxes.
+redraw            | `redraw`| | Same as `paint`.
 
 ## System Macros
 
