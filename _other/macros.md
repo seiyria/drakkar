@@ -54,6 +54,7 @@ dash              | `dash enable|disable` | | Turns on dashes. After every round
 chase             | `chase <name>` | `chase seiyria` | Chase after a specified player.
 hug               | `hug <name>` | `hug seiyria` | Hug a player. If they have committed an evil action against you, this will forgive them.
 sweep             | `sweep <dir>` | `sweep e` | Sweep in a direction. Only works if you're holding a broom, else it will try to use Martialist sweep.
+raid-             | `raid-`       | | Show your current location as well as some other info.
 
 ## System Macros
 
@@ -212,11 +213,12 @@ disagree  | `Seiyria disagrees!`, `Seiyria disagrees with Brenem!`, `Seiyria dis
 
 ## Macro combinations
 
-Since macros can be combined, here are some useful examples of what you can do with macro combination.
+Since macros can be combined, here are some useful examples of what you can do with macro combination. Some macros have to be edited into your macro file manually.
 
 Macro | Explanation
 ----- | -----------
-`drop left; steal from` | Drop the item in your left hand, and steal from the clicked target. Useful for skilling thief.
+`drop left; steal from` | Drop the item in your left hand, and steal from the clicked target. Useful for skilling Thief.
 `belt right; take bottle from sack; drink bottle` | Drink an IH bottle if your hands are full.
 `drop bottle; wield sword` | Drop the bottle from the previous macro, then re-wield the item from your belt.
 `*RTB;*drink;*BTR 0` | Zero-round belt and drink.
+`form transmute^D*RTB^D*itR g 1 *30770^D*RTS^D*BTR` | Transmute, belt the item in your right hand, pick up gold, sack the coin, then re-wield your weapon. Your right hand item must be beltable and your first belt slot must be open.
