@@ -147,13 +147,13 @@ Bow         | 06
 Axe         | 07
 Martialist  | 08
 Thief       | 09
-Healer      | 10
+Psionic     | 10
 Dagger      | 11
-Mentalist   | 12
-Brewing     | 13
+Streetwise  | 13
 Longsword   | 14
 Polearm     | 15
 Climbing    | 16
+Brewing     | 18
 
 ## Party Macros
 
