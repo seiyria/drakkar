@@ -40,7 +40,9 @@ put   | `put <itemtype> in <location>` | `put right in sack` | Takes a specified
 drop  | `drop <itemtype>` | `drop right` | Drops an item from your hands.
 break | `break <itemtype>` | `break scales` | Breaks an item in your hands. If a Barbarian breaks scales, they can get experience.
 belt  | `belt <itemtype>` | `belt staff` | Moves an item from your hands to your belt.
+sheathe | `sheathe <itemtype>` | `sheathe staff` | Same as `belt`.
 wield | `wield <itemtype>` | `wield dagger` | Moves an item from your belt to your right hand.
+draw  | `draw <itemtype>`  | `draw blunderbuss` | Same as wield.
 withdraw          | `<name>, withdraw <amount>` | `Efo, withdraw 500000` | Withdraws a specified amount from your bank and places it on the counter.
 deposit           | `<name>, deposit <amount>` | `Efo, deposit 500000` | Deposits a specified amount from the counter into your bank.
 appraise          | `<name>, appraise <itemtype>` | `Efo, appraise bottle` | Appraises an item and gets a value for it. Can be used to identify similar-looking items such as rings.
