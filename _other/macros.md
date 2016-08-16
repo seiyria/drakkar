@@ -57,6 +57,7 @@ chase             | `chase <name>` | `chase seiyria` | Chase after a specified p
 hug               | `hug <name>` | `hug seiyria` | Hug a player. If they have committed an evil action against you, this will forgive them.
 sweep             | `sweep <dir>` | `sweep e` | Sweep in a direction. Only works if you're holding a broom, else it will try to use Martialist sweep.
 raid-             | `raid-`       | | Show your current location as well as some other info.
+combyells         | `combyells disable|enable` | `combyells enable` | Barbarian only - become more quiet and stop yelling for every action.
 
 ## System Macros
 
