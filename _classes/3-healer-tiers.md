@@ -22,6 +22,6 @@ Tier | Name | Requirements | Effect
 8    | Avatar Health          | Level 70/Skill 34 | +575 HP
 8    | Hemorrhagic Fever      | Level 70/Skill 34 | ???
 9    | Crystalline Regeneration | Level 78/Skill 38 | +1250 HP, +1200 Damage Absorption
+9    | Primal Assault         | Level 79/Skill 39 | 4000 assault damage
 ?    | Boon of Remedy         | ??? | ???
-?    | Primal Assault         | ??? | ??? assault damage
 10   | Mindstorm              | ??? | ??? assault damage
