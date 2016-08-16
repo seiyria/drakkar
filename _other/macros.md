@@ -165,6 +165,7 @@ give    | `party give <name>`   | `party give seiyria`  | Give party leadership 
 break   | `party break`         |                       | Break the party up. Only works if you're the leader.
 leave   | `party leave`         |                       | Leave the party. If you're the leader, it's passed to the next person in line.
 eject   | `party eject <name>`  | `party eject seiyria` | Eject a player from the party.
+list    | `party list`          |                       | Show all players in party in the combat log.
 
 ## Guild Macros
 
@@ -172,6 +173,8 @@ Macro | Usage | Example | Explanation
 ----- | ----- | ------- | -----------
 tag     | `guild tag <name>`    | `guild tag seiyria`   | Tags a player into your guild. Only works if you have tagging rights.
 eject   | `guild eject <name>`  | `guild eject seiyria` | Ejects a player from your guild. Only works if you have tagging rights.
+leave   | `guild leave`         |                       | Leave a guild.
+list    | `guild list`          |                       | Similar to `party list`, but only shows guild members that are currently visible.
 
 ## Class Macros
 
@@ -179,6 +182,7 @@ Macro | Usage | Class | Explanation
 ----- | ----- | ------- | -----------
 b     | `b`   | Barbarian | Begin berserking. When "you increase your rage," there is no more berserking to be done.
 arg   | `arg` | Barbarian | Initiate automatic attacks on valid targets. Sometimes you might hit friendlies, so beware.
+cleave| `cleave` | Barbarian (51+) | De-zerks you, does a lot of damage, and debuffs the target.
 
 
 ## Emote Macros
