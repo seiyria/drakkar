@@ -25,3 +25,4 @@ Tier | Name | Requirements | Effect
 9    | Primal Assault         | Level 79/Skill 39 | 4000 assault damage
 ?    | Boon of Remedy         | ??? | ???
 10   | Mindstorm              | ??? | ??? assault damage
+10   | Sunburst               | ??? | 3k firestorm damage, 20 round DoT
