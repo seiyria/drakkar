@@ -10,15 +10,15 @@ empty:
 
 amulets:
   - name: "Acidron Alcor Amulet"
-    reqs: "???"
-    attrs: "???"
+    reqs: "Level 75"
+    attrs: "6/0 Deadeye III"
     found: "Crypt"
     drops: "Acidron Alcor"
     sprite: "28-38"
 
   - name: "Black Dragon Consort Amulet"
     reqs: "Level 75"
-    attrs: "EP Regen"
+    attrs: "6/6 EP Regen"
     found: "Crypt"
     drops: "Black Dragon Consort"
     sprite: "30-203"
