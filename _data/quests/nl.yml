@@ -114,7 +114,7 @@
     - sprite: "30-13"
 
 - name: "Improved Vamps"
-  text: "Talk to Axen in Nameless Town. He will send you to Felontes on the NL Surface (just north of the swamp lake). Felontes will send you to Pupixil in Graine Town, who will send you back to Felontes, then back to Axen again. Trade him Akronium Coins and a Dragon Heart for a pair of Improved Vamps."
+  text: "Talk to Axxen in Nameless Town (`axx, sell`). He will send you to Felontes on the NL Surface (just north of the swamp lake) and say `fel, sell`. Felontes will send you to Pupixil in Graine Town, who will send you back to Felontes, then back to Axxen again. Trade him Akronium Coins and a Dragon Heart for a pair of Improved Vamps."
   items:
     - sprite: "29-165"
     - sprite: "29-202"
