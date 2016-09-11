@@ -23,3 +23,4 @@ Tier | Name | Requirements | Effect
 7    | Apocalyptic Delirium   | Level 70/Skill 34 | 300 fire damage, DoT
 8    | Marksman's Focus       | Level 78/Skill 38 | To Hit Bonus
 9    | Crystalline Madness    | ??? | ???
+?    | Crystalline Insanity   | ??? | ???
