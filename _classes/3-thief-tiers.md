@@ -21,4 +21,4 @@ Tier | Name | Requirements | Effect
 9    | Ancient Plague         | Level 78/Skill 38 | 1200 disease damage, DoT
 10   | Rotting Fungus         | Level 79/Skill 39 | 1200 disease damage, DoT
 ?    | Shadows Brush          | Level 86          | ?
-?    | Blade of Deceit        | ? | ?
+?    | Blade of Deceit        | ? | Multiple attacks, more likely to backstab, unblockable.
