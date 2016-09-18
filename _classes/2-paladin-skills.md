@@ -27,6 +27,7 @@ Skill Level | Skill | Description
 29          | `focus pierce`      | Get a to-hit bonus, be more likely to pierce armor.
 
 # Non-foci
+
 Skill Level | Description
 ----------- | -----------
 31          | All `focus boost` foci no longer stun when used.
