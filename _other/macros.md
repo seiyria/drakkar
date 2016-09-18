@@ -82,7 +82,7 @@ Macro | Usage | Example | Explanation
 *swap             | `*swap`           | | Swap the items in your hands.
 *UTX              | `*UTX #`          | `*UTX 11` | Right-click a given item. 11 is the slot of helm, primarily used with the Researcher Helm. See UTX table below for more slots.
 *xform            | `*xform ###`      | `*xform 101` | Cast a tier.
-*xexpire          | `*xexpire ###`    | `*xexpire 101` | Turn a tier off (if it was cast on you, and isn't a debuff)
+*xexpire          | `*xexpire ###`    | `*xexpire 101` | Turn a tier off (if it was cast on you, and isn't a debuff). For example, `Sullen Intruder` is `30053`.
 *quirk            | `*quirk ### enable|disable` | `*quirk 178 enable` | Turn a quirk on or off. See the Quirk table below for more quirks.
 *drink            | `*drink`          | | Drinks a drinkable bottle from your sack.
 *train            | `*train 0 ## $$`  | `*train 0 10 500000` | Train a certain skill. See the Skill table below for the ## ids.
