@@ -25,3 +25,31 @@
   text: "Find a Gnome Head and turn it in in Gnome Town to get the second Cavern Creeper quirk."
   items:
     - sprite: "31-228"
+
+- name: "Dark Knowledge"
+  text: "Collect 40 pages and a book from OzonousMax. The pages can be found in increments of 5 in certain areas:
+
+
+    * 1-5: SDC Forest
+
+    * 6-10: Thumper Caves
+
+    * 11-15: Sick Caves
+
+    * 16-20: SDC 3 Solo Area
+
+    * 21-25: SDC 3 Meadows
+
+    * 26-30: Lava City
+
+    * 31-35: SDC 3 Water Area
+
+    * 36-40: SDC 2 IceTitan Area
+
+
+    Additionally, Corosonous and OzonousMax drop 10 random pages.
+
+    Completing this book will unlock the Dark Knowledge quirk."
+  items:
+    - sprite: "30-338"
+    - sprite: "30-339"

@@ -116,10 +116,14 @@ others:
     drops:
       - name: "OzonousMax"
         lair: true
+    quests:
+      - name: "Dark Knowledge"
     sprite: "30-338"
 
   - name: "Dark Knowledge Page"
     found: "Everywhere"
+    quests:
+      - name: "Dark Knowledge"
     sprite: "30-339"
 
   - name: "Gnome Head"
