@@ -71,6 +71,7 @@ robes:
 
 weapons:
   - name: "Betrayer Shield"
+    attrs: "21/21"
     sprite: "28-18"
     drops:
       - name: "Betrayer"

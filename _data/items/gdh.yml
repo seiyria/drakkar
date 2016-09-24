@@ -65,14 +65,14 @@ gauntlets:
     sprite: "30-195"
   - name: "Paladin Gauntlets"
     reqs: "Level 65, Paladin"
-    attrs: "4/4"
+    attrs: "4/4 +3 STR/AGI"
     drops:
       - name: "FoodGuardian"
         lair: true
     sprite: "30-198"
   - name: "Thief Gauntlets"
     reqs: "Level 65, Thief"
-    attrs: "4/4"
+    attrs: "4/4 +3 STR/AGI"
     drops:
       - name: "FoodGuardian"
         lair: true
