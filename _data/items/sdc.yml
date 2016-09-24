@@ -112,6 +112,16 @@ weapons:
     sprite: "31-326"
 
 others:
+  - name: "AGI Pot"
+    quests:
+      - name: "AGI 40"
+    sprite: "27-171"
+    
+  - name: "Climbing Pick"
+    quests:
+      - name: "Progression 1"
+    sprite: "30-334"
+
   - name: "Dark Knowledge Book"
     drops:
       - name: "OzonousMax"
@@ -166,6 +176,12 @@ others:
     quests:
       - name: "Level 76"
     sprite: "26-75"
+
+  - name: "Thumper Rock"
+    found: "Thumper Caves"
+    quests:
+      - name: "Progression 1"
+    sprite: "30-335"
 
   - name: "Wyvern Talon"
     found: "Wyvern Area"

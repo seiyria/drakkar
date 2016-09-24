@@ -16,6 +16,38 @@
     - sprite: "26-75"
     - sprite: "26-75"
 
+- name: "Progression 1"
+  text: "Gather 10 Thumper Rocks and take them to an NPC. He will take them from your sack and give you a Climbing Pick. First, drop the Climbing Pick and then pick it up (this will tie it to you). Take the Climbing Pick to the most northwest hex of SDC Forest and climb up."
+  items:
+    - sprite: "30-335"
+    - sprite: "30-334"
+
+- name: "AGI 40"
+  text: "In SDC 3 Solo Caves, you can find AGI Pots. Drinking them will increase your AGI to a base of 40."
+  items:
+    - sprite: "27-171"
+
+- name: "Stat 35"
+  text: "Throughout SDC 3 you can find flowers that increase your base stats to 35. Here are the flowers and what stat they correspond to:
+
+
+    * California Poppy = STR
+
+    * Canary Island Cress = INT
+
+    * Card Thistle = WIS
+
+    * Cardoon = CON
+
+
+    Take these flowers to Rogue in Lava Town, and have 50m in your bank, and he will give you a stat increase for the flower held in your right hand.
+    "
+  items:
+    - sprite: "30-75"
+    - sprite: "30-76"
+    - sprite: "30-77"
+    - sprite: "30-79"
+
 - name: "Cavern Creeper I"
   text: "Right-click the scroll to gain the first Cavern Creeper quirk."
   items:
