@@ -15,3 +15,13 @@
     - sprite: "26-75"
     - sprite: "26-75"
     - sprite: "26-75"
+
+- name: "Cavern Creeper I"
+  text: "Right-click the scroll to gain the first Cavern Creeper quirk."
+  items:
+    - sprite: "30-339"
+
+- name: "Cavern Creeper II"
+  text: "Find a Gnome Head and turn it in in Gnome Town to get the second Cavern Creeper quirk."
+  items:
+    - sprite: "31-228"

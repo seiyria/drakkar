@@ -65,14 +65,14 @@ gauntlets:
     sprite: "30-195"
   - name: "Paladin Gauntlets"
     reqs: "Level 65, Paladin"
-    attrs: "???"
+    attrs: "4/4"
     drops:
       - name: "FoodGuardian"
         lair: true
     sprite: "30-198"
   - name: "Thief Gauntlets"
     reqs: "Level 65, Thief"
-    attrs: "???"
+    attrs: "4/4"
     drops:
       - name: "FoodGuardian"
         lair: true
@@ -83,6 +83,8 @@ rings:
     reqs: "Level 50"
     attrs: "7/7 +4 All Stats"
     sprite: "30-192"
+    quests:
+      - name: "Needler Ring"
   - name: "Thermature Ring"
     reqs: "Level 70"
     attrs: "8/8 +5 All Stats"
@@ -100,6 +102,8 @@ robes:
     reqs: "Level 55"
     attrs: "6/6 200 Damage Reflect"
     sprite: "30-193"
+    quests:
+      - name: "Gatherer Robe"
   - name: "Marton Robe"
     reqs: "Level 70"
     attrs: "5/0 Acid Prot, Lightning Prot, +1 All Stats"

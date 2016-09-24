@@ -1,0 +1,45 @@
+- name: "Betrayer"
+  text: ""
+  found: "SDC3"
+  sprite: "banditlord_full"
+
+- name: "Cavebat"
+  text: ""
+  found: "Thumper Caves"
+  sprite: "11-24"
+  drops:
+    - name: "Cavebat Skin Scroll"
+  quests:
+    - name: "Cavern Creeper I"
+
+- name: "OzonousMax"
+  text: ""
+  found: "Lava City"
+  sprite: "ozonousmax_full"
+  drops:
+    - name: "Ozonous Armor"
+    - name: "Ozonous Bracers (Armor)"
+    - name: "Ozonous Bracers (Regeneration)"
+    - name: "Ozonous Bracers (Strike)"
+
+- name: "Skar"
+  text: "Shreds."
+  found: "Lava City"
+  sprite: "6-85"
+  drops:
+    - name: "Skar Armor"
+
+- name: "Spur"
+  text: "Lightning."
+  found: "Lava City"
+  sprite: "6-85"
+  drops:
+    - name: "Spur Robe"
+
+
+- name: "IceTitan"
+  text: "Nasty Icebreath, only aggros if you attack him (safe for healers), primal stuns"
+  found: "Ice Floes"
+  sprite: "banditlord_full"
+  drops:
+    - name: "IceTitan Ring"
