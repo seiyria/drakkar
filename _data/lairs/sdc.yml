@@ -23,14 +23,14 @@
     - name: "Ozonous Bracers (Strike)"
 
 - name: "Skar"
-  text: "Shreds."
+  text: "Shreds. Tan to get armor."
   found: "Lava City"
   sprite: "6-85"
   drops:
     - name: "Skar Armor"
 
 - name: "Spur"
-  text: "Lightning."
+  text: "Lightning. Tan to get robe."
   found: "Lava City"
   sprite: "6-85"
   drops:
