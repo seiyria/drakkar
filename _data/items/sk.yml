@@ -1,0 +1,147 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+  - name: "Attack Amulet"
+    reqs: "Level 92"
+    attrs: "10/0, Glowing, Sullen Offense"
+    sprite: "28-36"
+  - name: "Battle Cleric Amulet"
+    reqs: "Level 92, Healer"
+    attrs: "5/0, Glowing, Battle Cleric"
+    sprite: "28-34"
+
+armors:
+  - name: "Silver Fieldplate"
+    reqs: "Level 87, Barbarian or Martialist"
+    attrs: "15/15, Glowing, +10 AGI/INT/STR/WIS, 500 Damage Absorption"
+    sprite: "29-0"
+  - name: "Silver Boneplate"
+    reqs: "Level 87, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
+    attrs: "20/20, Glowing, +10 AGI/INT/STR/WIS, 1000 Damage Absorption"
+    sprite: "28-223"
+  - name: "Gold Fieldplate"
+    reqs: "Level 89, Barbarian or Martialist"
+    attrs: "20/20, Glowing, +12 AGI/INT/STR/WIS, 700 Damage Absorption"
+    sprite: "28-222"
+  - name: "Gold Boneplate"
+    reqs: "Level 89, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
+    attrs: "25/25, Glowing, +12 AGI/INT/STR/WIS, 1200 Damage Absorption"
+    sprite: "28-220"
+  - name: "Black Fieldplate"
+    reqs: "Level 92, Barbarian or Martialist"
+    attrs: "25/25, Glowing, +14 AGI/INT/STR/WIS, 900 Damage Absorption"
+    sprite: "29-3"
+  - name: "Black Boneplate"
+    reqs: "Level 92, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
+    attrs: "30/30, Glowing, +14 AGI/INT/STR/WIS, 1400 Damage Absorption"
+    sprite: "29-1"
+  - name: "Green Fieldplate"
+    reqs: "Level 95, Barbarian or Martialist"
+    attrs: "30/30, Glowing, +16 AGI/INT/STR/WIS, 1100 Damage Absorption"
+    sprite: "29-4"
+  - name: "Green Boneplate"
+    reqs: "Level 95, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
+    attrs: "35/35, Glowing, +16 AGI/INT/STR/WIS, 1600 Damage Absorption"
+    sprite: "29-5"
+boots:
+  - name: "Gold Captain Boots"
+    reqs: "Level 87"
+    attrs: "14/14, Silver, Proning, Dancing, Power, +12 CON"
+    drops:
+      - name: "Gold Captain"
+        lair: true
+    sprite: "28-205"
+
+  - name: "Sullen Boots"
+    reqs: "Level 87"
+    attrs: "12/12, Silver, Proning, Dancing, Power, +12 CON"
+    sprite: "28-205"
+
+bracers:
+  - name: "Sullen Bracers (Armor)"
+    reqs: "Level 86"
+    attrs: "10/10, +500 HP/EP, Autosense, Sullen Strike (+230 damage/hit)"
+    sprite: "31-319"
+  - name: "Sullen Bracers (Regeneration)"
+    reqs: "Level 86"
+    attrs: "10/10, +500 HP/EP, Autosense, Sullen Regeneration (+200 HP/EP Regen)"
+    sprite: "31-319"
+  - name: "Sullen Bracers (Strike)"
+    reqs: "Level 86"
+    attrs: "10/10, +500 HP/EP, Autosense, Sullen Armor (+AC)"
+    sprite: "31-319"
+earrings:
+  - name: "Sullen Insight I Earring"
+    reqs: "Level 87"
+    attrs: "Sullen Insight I (+100 EP Regen), autosense"
+    sprite: "30-293"
+
+  - name: "Sullen Insight II Earring"
+    reqs: "Level 92"
+    attrs: "Sullen Insight II (+150 EP Regen), autosense"
+    sprite: "30-293"
+helms:
+gauntlets:
+  - name: "Black Captain Gripclaws"
+    reqs: "Level 89, Martialist"
+    attrs: "17/17"
+    drops:
+      - name: "Black Captain"
+        lair: true
+    sprite: "26-139"
+  - name: "Basilisk Gripclaws"
+    reqs: "Level 86, Martialist"
+    attrs: "15/15"
+    drops:
+      - name: "Basilisk"
+        lair: true
+    sprite: "26-142"
+rings:
+robes:
+sashes:
+  - name: "Sullen Sash"
+    reqs: "Level 90"
+    attrs: "10/10, Psicutter"
+    sprite: "27-196"
+weapons:
+  - name: "Healer Totem"
+    reqs: "Level 86, Healer"
+    attrs: "21/21, Totem Taint (+800 EP, +80 EP Regen, Psi damage boost), fitted for the left hand, autosense"
+    sprite: "31-325"
+  - name: "Bisento"
+    reqs: "Level 85"
+    attrs: "12/12, Silver, scales with level"
+    sprite: "27-144"
+  - name: "Katana"
+    reqs: "Level 85"
+    attrs: "12/12, Silver, scales with level"
+    sprite: "28-6"
+  - name: "Morningstar"
+    reqs: "Level 85"
+    attrs: "12/12, Silver, Unblockable, scales with level"
+    sprite: "26-57"
+  - name: "Shortbow"
+    reqs: "Level 85"
+    attrs: "12/12, Silver, Torturous Impalement (DoT), scales with level"
+    sprite: "27-113"
+  - name: "Tanto"
+    reqs: "Level 85"
+    attrs: "12/12, Silver, Returning, scales with level"
+    sprite: "27-220"
+  - name: "Axe"
+    reqs: "Level 86"
+    attrs: "15/15, Silver, Glowing, Proning, Power"
+    sprite: "27-206"
+  - name: "Halberd"
+    reqs: "Level ??"
+    attrs: "??"
+    sprite: "28-149"
+others:

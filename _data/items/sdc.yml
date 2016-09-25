@@ -96,7 +96,7 @@ weapons:
     sprite: "31-324"
 
   - name: "Healer Totem"
-    reqs: "Level 82 Healer"
+    reqs: "Level 82, Healer"
     attrs: "10/10, +500 EP (stacks), +Healer skill"
     drops:
       - name: "LavaMental"
@@ -116,7 +116,7 @@ others:
     quests:
       - name: "AGI 40"
     sprite: "27-171"
-    
+
   - name: "Climbing Pick"
     quests:
       - name: "Progression 1"
