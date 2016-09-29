@@ -21,3 +21,5 @@ Tier | Name | Requirements | Effect
 8    | Gaze of the Wild     | Level 70/Skill 32  | To Hit Penalty, DoT
 9    | Without a Care       | Level 78/Skill 38 | ? Damage Absorption, 3x3 Area, -25 WIS/INT/AGI
 9    | Gaze of Pain & Fury  | Level 79/Skill 39 | To Hit Penalty, DoT
+?    | Blood Rite of the Wolf | ? | ?
+?    | Blood Rite of the Bear | ? | ?
