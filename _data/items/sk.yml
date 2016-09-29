@@ -145,3 +145,14 @@ weapons:
     attrs: "??"
     sprite: "28-149"
 others:
+  - name: "Book (Climbing)"
+    found: "SK Cave"
+    sprite: "28-101"
+    quests:
+      - name: "Progression 2"
+
+  - name: "Page (Climbing)"
+    found: "SK Cave"
+    sprite: "26-180"
+    quests:
+      - name: "Progression 2"

@@ -2,3 +2,9 @@
   text: "Kill hunters in area 1 to find an AGI pot. They are in temporal flux and require level 85 to drink. Drink it and you should receive the message 'your lungs feel stronger.' Your level cap will increase to 87."
   items:
     - sprite: "27-171"
+
+- name: "Progression 2"
+  text: "Kill creatures in SK Cave to find a Climbing Book and 10 Climbing Pages. Fill up the book, then climb up on the puddle once you've reached level 86 (or else you're not powerful enough)."
+  items:
+    - sprite: "28-101"
+    - sprite: "26-180"
