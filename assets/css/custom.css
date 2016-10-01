@@ -31,3 +31,8 @@
   flex: 20%;
   max-width: 20%;
 }
+
+.scrolls-auto {
+  height: calc(100vh - 81px);
+  overflow-y: auto;
+}
