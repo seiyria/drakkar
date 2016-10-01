@@ -1,0 +1,6 @@
+- name: "Basilisk"
+  text: "Stuns."
+  found: "SK Cave"
+  sprite: "6-134"
+  drops:
+    - name: "Basilisk Gripclaws"

@@ -27,6 +27,14 @@ armors:
         lair: true
     sprite: "29-10"
 
+  - name: "Betrayer Armor"
+    reqs: "Level 80"
+    attrs: "7/7 Betrayal of Ice, Fire/Ice Prot"
+    drops:
+      - name: "Betrayer"
+        lair: true
+    sprite: "27-216"
+
 boots:
 bracers:
   - name: "Ozonous Bracers (Armor)"
@@ -59,6 +67,9 @@ rings:
     reqs: "Level 75"
     attrs: "9/9 +8 all stats, random Ice/Fire/Lightning Inflation/Ablation"
     sprite: "27-155"
+    drops:
+      - name: "IceTitan"
+        lair: true
 robes:
 
   - name: "Spur Robe"
@@ -70,9 +81,13 @@ robes:
     sprite: "29-10"
 
 weapons:
-  - name: "Betrayer Shield"
+  - name: "LavaCity Shield"
     attrs: "21/21"
     sprite: "28-18"
+
+  - name: "Betrayer Shield"
+    attrs: "Lesser Strength Elixir"
+    sprite: "28-212"
     drops:
       - name: "Betrayer"
         lair: true
@@ -125,6 +140,10 @@ others:
   - name: "Dark Knowledge Book"
     drops:
       - name: "OzonousMax"
+        lair: true
+      - name: "Skar"
+        lair: true
+      - name: "Spur"
         lair: true
     quests:
       - name: "Dark Knowledge"

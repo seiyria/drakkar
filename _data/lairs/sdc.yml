@@ -1,7 +1,12 @@
 - name: "Betrayer"
   text: ""
   found: "SDC3"
-  sprite: "banditlord_full"
+  sprite: "titan_full"
+  drops:
+    - name: "Betrayer Armor"
+    - name: "Betrayer Mace"
+    - name: "Betrayer Shield"
+    - name: "Large Nugget"
 
 - name: "Cavebat"
   text: ""
