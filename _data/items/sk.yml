@@ -141,8 +141,8 @@ weapons:
     attrs: "15/15, Silver, Glowing, Proning, Power"
     sprite: "27-206"
   - name: "Halberd"
-    reqs: "Level ??"
-    attrs: "??"
+    reqs: "Level 85"
+    attrs: "10/10"
     sprite: "28-149"
 others:
   - name: "Book (Climbing)"
