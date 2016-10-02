@@ -1,9 +1,4 @@
 
-- name: "Antistun Amulet"
-  desc: ""
-  find: "Random in Nork"
-  sprite: "27-145"
-
 - name: "Archer Bow"
   desc: ""
   find: "Fisheries, KM, Maeling"
@@ -64,6 +59,16 @@
   find: "Kill GoblinKing in Aleria"
   sprite: "28-150"
 
+- name: "Gold Dragon Scales"
+  desc: ""
+  find: "Tan a gold dragon, random in N-7"
+  sprite: "27-190"
+
+- name: "Golden Amulet"
+  desc: ""
+  find: "Random in Nork"
+  sprite: "27-145"
+
 - name: "Lightning Hammer"
   desc: ""
   find: "Trade BNR to Marcus, or warden heart to NeoMarcus"
@@ -83,6 +88,11 @@
   desc: ""
   find: "Kill Prisons Naga or N-8 Naga"
   sprite: "27-189"
+
+- name: "ProtFire Bracers"
+  desc: ""
+  find: "Random in Nork"
+  sprite: "27-203"
 
 - name: "Roc Feathers"
   desc: "Sparkling feathers of a large griffon"
