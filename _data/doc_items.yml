@@ -1,8 +1,28 @@
 
+- name: "Antistun Amulet"
+  desc: ""
+  find: "Random in Nork"
+  sprite: "27-145"
+
+- name: "Archer Bow"
+  desc: ""
+  find: "Fisheries, KM, Maeling"
+  sprite: "27-209"
+
+- name: "Basilisk Shield"
+  desc: ""
+  find: "Kill Basilisk, trade scales in Volcano Town"
+  sprite: "28-20"
+
 - name: "Black Ninja Robe"
   desc: ""
   find: "Maeling-3, visible on ninja"
   sprite: "27-191"
+
+- name: "Breshard Stiletto"
+  desc: ""
+  find: "Kill Breshard"
+  sprite: "28-70"
 
 - name: "Bullywog Dagger"
   desc: "Long silver dagger with small white doves engraved along the hilt"
@@ -39,20 +59,60 @@
   find: "Random in Nork"
   sprite: "28-63"
 
+- name: "GoblinKing Axe"
+  desc: ""
+  find: "Kill GoblinKing in Aleria"
+  sprite: "28-150"
+
+- name: "Lightning Hammer"
+  desc: ""
+  find: "Trade BNR to Marcus, or warden heart to NeoMarcus"
+  sprite: "27-186"
+
 - name: "Mountaineering Boots"
   desc: ""
-  find: "Random in Nork, Aleria"
+  find: "Random in Nork"
   sprite: "28-60"
+
+- name: "Mujaba Punch Dagger"
+  desc: ""
+  find: "Kill Mujaba"
+  sprite: "28-107"
+
+- name: "Naga Scales"
+  desc: ""
+  find: "Kill Prisons Naga or N-8 Naga"
+  sprite: "27-189"
 
 - name: "Roc Feathers"
   desc: "Sparkling feathers of a large griffon"
   find: "East of Maeling, kill roc"
   sprite: "27-133"
 
+- name: "Saber"
+  desc: ""
+  find: "Kill Uther, trade broadsword for saber"
+  sprite: "27-139"
+
+- name: "Snowbeast Fur"
+  desc: ""
+  find: "Kill and tan Snowbeast"
+  sprite: "28-48"
+
+- name: "Stans"
+  desc: ""
+  find: "Steel Flower"
+  sprite: "27-217"
+
 - name: "Super Enmiss Robe"
   desc: "Black robe with yellow border and gold thread"
   find: "Maeling-4, Tengu lair"
   sprite: "28-67"
+
+- name: "Throwing Dart"
+  desc: ""
+  find: "Buy in Frore, near lockers"
+  sprite: "27-205"
 
 - name: "Vision Eye"
   desc: "Living eye of a demonic visage"
