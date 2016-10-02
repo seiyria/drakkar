@@ -46,8 +46,8 @@ draw  | `draw <itemtype>`  | `draw blunderbuss` | Same as `wield`.
 withdraw          | `<name>, withdraw <amount>` | `Efo, withdraw 500000` | Withdraws a specified amount from your bank and places it on the counter.
 deposit           | `<name>, deposit <amount>` | `Efo, deposit 500000` | Deposits a specified amount from the counter into your bank.
 appraise          | `<name>, appraise <itemtype>` | `Efo, appraise bottle` | Appraises an item and gets a value for it. Can be used to identify similar-looking items such as rings.
-trade enable      | `trade enable|disable` | | If two players `trade enable`, they can drag items onto each others boxes to place them in one of their empty hands.
-critsort enable   | `critsort enable|disable` | | Creatures on your hex will always be visible to you first. Primarily useful for zerking Barbarians.
+trade             | `trade enable|disable` | | If two players `trade enable`, they can drag items onto each others boxes to place them in one of their empty hands.
+critsort          | `critsort enable|disable` | | Creatures on your hex will always be visible to you first. Primarily useful for zerking Barbarians.
 throw             | `throw <itemtype> at <name>` | `throw dagger at slith` | Throws an item from your hand at a specified creature. Some items return when thrown, making this good for soloing some lairs.
 tan               | `<name>, tan` | `Efo, tan` | Tans a hide placed at the feet of a tanner.
 count             | `count <itemtype>` | `count ring` | Counts the number of the specified item type on the ground.
@@ -134,10 +134,14 @@ Riposte               | Barbarian | 145
 Specters Blanket      | Mentalist | 91
 Allied Aversion       | Mentalist | 92
 Combat Healing        | Healer | 109
-Snapshot Heal         |  Healer | 104
-Private Life          |  Primal | 173
-Primal Form           |  Primal |178
-Dark Knowledge        |  Primal |186
+Snapshot Heal         | Healer | 104
+Crossover Knowledge   | Fighter/Mentalist | 161
+Battlemage Retribution| Fighter/Mentalist | 162
+Battlemage Leech      | Fighter/Mentalist | 163
+Battlemage Recovery   | Fighter/Mentalist | 164
+Private Life          | Primal | 173
+Primal Form           | Primal |178
+Dark Knowledge        | Primal |186
 
 ### Skill Table
 
