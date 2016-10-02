@@ -1,0 +1,60 @@
+
+- name: "Black Ninja Robe"
+  desc: ""
+  find: "Maeling-3, visible on ninja"
+  sprite: "27-191"
+
+- name: "Bullywog Dagger"
+  desc: "Long silver dagger with small white doves engraved along the hilt"
+  find: "East of Maeling, kill bullywog"
+  sprite: "28-22"
+
+- name: "Crystal (Air)"
+  desc: ""
+  find: "Frore Ice Floes, kill yeti"
+  sprite: "28-31"
+
+- name: "Crystal (Earth)"
+  desc: "Clear quartz crystal encasing a large piece of stone"
+  find: "Homlet Caves"
+  sprite: "28-28"
+
+- name: "Crystal (Fire)"
+  desc: "Clear crystal encasing a frozen red flame"
+  find: "Fire Plains"
+  sprite: "28-30"
+
+- name: "Crystal (Water)"
+  desc: "Clear quartz crystal encasing a clear blue fluid"
+  find: "Water Plains"
+  sprite: "28-29"
+
+- name: "Elephant Boots"
+  desc: "A pair of boots made from the thick leathery hide of an elephant"
+  find: "KM-5, spectre"
+  sprite: "28-205"
+
+- name: "Featherfall Boots"
+  desc: "A pair of sky blue leather boots made of a soft spongy material"
+  find: "Random in Nork"
+  sprite: "28-63"
+
+- name: "Mountaineering Boots"
+  desc: ""
+  find: "Random in Nork, Aleria"
+  sprite: "28-60"
+
+- name: "Roc Feathers"
+  desc: "Sparkling feathers of a large griffon"
+  find: "East of Maeling, kill roc"
+  sprite: "27-133"
+
+- name: "Super Enmiss Robe"
+  desc: "Black robe with yellow border and gold thread"
+  find: "Maeling-4, Tengu lair"
+  sprite: "28-67"
+
+- name: "Vision Eye"
+  desc: "Living eye of a demonic visage"
+  find: "Seldari Dungeon, buy in Treehouse"
+  sprite: "26-63"

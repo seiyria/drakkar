@@ -1,0 +1,47 @@
+{% include base_path %}
+
+{% assign equipment = site.data.doc_items %}
+
+<div class="equipment">
+  <div class="item__table">
+
+    <table>
+      <thead>
+        <th width="96"></th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Found</th>
+      </thead>
+
+      <tbody>
+
+
+      {% for f in equipment %}
+        <tr id="{{ f.name | cgi_escape }}" itemscope itemtype="http://schema.org/IndividualProduct" itemid="#{{include.name}}-{{ f.name | cgi_escape }}">
+
+          <td class="sprite-container">
+            <img itemprop="image" src="{{ f.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" alt="{{f.name}}" />
+          </td>
+          <td>
+            <a href="#{{ f.name | cgi_escape }}">
+            <span itemprop="name">{{ f.name }}</span>
+
+            <span class="hidden" itemprop="description">
+              <strong>Description</strong>: {{ f.desc }}<br>
+              <strong>Found At</strong>: {{ f.find }}<br>
+            </span>
+
+            </a>
+          </td>
+          <td>{{ f.desc }}</td>
+          <td>{{ f.find }}</td>
+
+        </tr>
+
+      {% endfor %}
+      </tbody>
+
+    </table>
+
+  </div>
+</div>
