@@ -14,6 +14,11 @@
   find: "Maeling-3, visible on ninja"
   sprite: "27-191"
 
+- name: "Boat Pass"
+  desc: ""
+  find: "Buy from Urmak for 1000 gold"
+  sprite: "27-138"
+
 - name: "Breshard Stiletto"
   desc: ""
   find: "Kill Breshard"
@@ -90,7 +95,7 @@
   sprite: "27-189"
 
 - name: "ProtFire Bracers"
-  desc: ""
+  desc: "Pair of ornately carved ivory bracers encircled with pictures"
   find: "Random in Nork"
   sprite: "27-203"
 
