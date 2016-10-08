@@ -9,7 +9,7 @@
   items:
     - sprite: "27-135"
 
-- name: "Level 85/Skill 40"
+- name: "Level 85"
   text: "You need to collect 64 Small Nuggets from the gnome cave or town nearby, then smelt it (in the nearby brewing pot; this takes no brewing skill) into one Large Nugget. 8 Small Nugget = 1 Medium Nugget, and 8 Medium Nugget = 1 Large Nugget. Afterwards, take the Large Nugget to Armon."
   items:
     - sprite: "26-75"
