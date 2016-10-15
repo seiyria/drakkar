@@ -10,7 +10,7 @@
     - sprite: "27-135"
 
 - name: "Level 85"
-  text: "You need to collect 64 Small Nuggets from the gnome cave or town nearby, then smelt it (in the nearby brewing pot; this takes no brewing skill) into one Large Nugget. 8 Small Nugget = 1 Medium Nugget, and 8 Medium Nugget = 1 Large Nugget. Afterwards, take the Large Nugget to Armon."
+  text: "You need to collect 64 Small Nuggets from the gnome cave or town nearby, then smelt it (in the nearby brewing pot; this takes no brewing skill) into one Large Nugget. 8 Small Nugget = 1 Medium Nugget, and 8 Medium Nugget = 1 Large Nugget. Afterwards, take the Large Nugget to Armon. Note: if you did not do BDC Hermit before this to advance to skill 39, you will be capped at skill 39. To fix this, you have to turn in another big nugget."
   items:
     - sprite: "26-75"
     - sprite: "26-75"
