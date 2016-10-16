@@ -34,8 +34,9 @@
     - sprite: "30-224"
 
 - name: "Bear None"
-  text: "Collect 10 Bear Meat and turn it into the npc. When you give him 10, he gives you a Smoked Bear Meat. You'll have to brew the Smoked Bear Meat with other reagents to make Bear Beer (req. skill 13) and take the Bear Beer to activate the Cave Bear lair, then kill it."
+  text: "Collect 10 Bear Meat and turn it into the npc. When you give him 10, he gives you a Smoked Bear Meat. You'll have to brew the Smoked Bear Meat with other reagents to make Bear Beer (req. skill 13~15). Activate the Cave Bear lair and kill him to get Climbing Hooks, then climb up to the Trapper from the south side of the Barbarian Fields. Give him a Bear Beer to start the encounter (similar to Wakka) and make sure you kill all of the bears. Repeat this up to 5 times to max out Bear None."
   items:
     - sprite: "30-249"
     - sprite: "30-254"
     - sprite: "30-256"
+    - sprite: "30-255"
