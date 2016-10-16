@@ -43,6 +43,11 @@
   found: "GDH2"
   sprite: "6-152"
 
+- name: "Cave Bear"
+  text: "Ignores evil characters."
+  found: "GDH2"
+  sprite: "6-76"
+
 - name: "Thermature"
   text: "Casts nasty icebreath."
   found: "Dragon River"

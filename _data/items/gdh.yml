@@ -204,3 +204,23 @@ others:
       - name: "Needler"
     quests:
       - name: "Needler Ring"
+
+  - name: "Bear Meat"
+    sprite: "30-249"
+    drops:
+      - name: "bear"
+    found: "Barbarian Fields"
+    quests:
+      - name: "Bear None"
+
+  - name: "Smoked Bear Meat"
+    sprite: "30-254"
+    found: "Barbarian Fields"
+    quests:
+      - name: "Bear None"
+
+  - name: "Bear Beer"
+    sprite: "30-256"
+    found: "Barbarian Fields"
+    quests:
+      - name: "Bear None"
