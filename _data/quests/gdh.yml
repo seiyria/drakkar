@@ -33,6 +33,12 @@
   items:
     - sprite: "30-224"
 
+- name: "Barbarian Fields Access"
+  text: "Kill npcs in the castle to find 10 Infected Apples, and give them to the Cook in the kitchen. Danfur will give you a Barbarian Fields Key to the fields to open the doors."
+  items:
+    - sprite: "30-226"
+    - sprite: "30-248"
+
 - name: "Bear None"
   text: "Collect 10 Bear Meat and turn it into the npc. When you give him 10, he gives you a Smoked Bear Meat. You'll have to brew the Smoked Bear Meat with other reagents to make Bear Beer (req. skill 13~15). Activate the Cave Bear lair and kill him to get Climbing Hooks, then climb up to the Trapper from the south side of the Barbarian Fields. Give him a Bear Beer to start the encounter (similar to Wakka) and make sure you kill all of the bears. Repeat this up to 5 times to max out Bear None."
   items:

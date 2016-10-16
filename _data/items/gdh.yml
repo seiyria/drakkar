@@ -205,6 +205,17 @@ others:
     quests:
       - name: "Needler Ring"
 
+  - name: "Infected Apple"
+    sprite: "30-226"
+    found: "Castle"
+    quests:
+      - name: "Barbarian Fields Access"
+
+  - name: "Barbarian Fields Key"
+    sprite: "30-248"
+    quests:
+      - name: "Barbarian Fields Access"
+
   - name: "Bear Meat"
     sprite: "30-249"
     drops:
