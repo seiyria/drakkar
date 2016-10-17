@@ -25,6 +25,8 @@ other:
       url: /other/party-abilities
     - title: "Tier Locations"
       url: /other/tiers
+    - title: "Brewing Guide"
+      url: /other/brewing
 
 classes:
   - title: "Barbarian"
