@@ -230,10 +230,16 @@ others:
     drops:
       - name: "mature green dragon"
 
+  - name: "Infected Tongue"
+    sprite: "30-246"
+
   - name: "Green Dragon Blood"
     sprite: "30-236"
     drops:
       - name: "youth green dragon"
+
+  - name: "Mixed Blood Vial"
+    sprite: "30-237"
 
   - name: "Infected Apple"
     sprite: "30-226"

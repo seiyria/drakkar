@@ -124,7 +124,7 @@ recipes:
       - sprite: "30-246"
     skill_required: "11"
 
-  - name: "Blood Vial"
+  - name: "Mixed Blood Vial"
     sprite: "30-237"
     reagents:
       - sprite: "30-219"
