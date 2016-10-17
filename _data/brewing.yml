@@ -110,17 +110,44 @@ skills:
     brew: "Titanic"
 
 recipes:
-  - name: "Glaive"
-    sprite: "30-239"
+  - name: "Advanced Glaive"
+    sprite: "30-234"
     reagents:
-    skill_required: "??"
+      - sprite: "30-239"
+      - sprite: "30-237"
+    skill_required: "11"
+
+  - name: "Advanced Bow"
+    sprite: "30-235"
+    reagents:
+      - sprite: "30-247"
+      - sprite: "30-246"
+    skill_required: "11"
+
+  - name: "Blood Vial"
+    sprite: "30-237"
+    reagents:
+      - sprite: "30-219"
+      - sprite: "30-219"
+      - sprite: "30-219"
+      - sprite: "30-236"
+    skill_required: "10"
+
+  - name: "Infected Tongue"
+    sprite: "30-246"
+    reagents:
+      - sprite: "30-219"
+      - sprite: "30-245"
+      - sprite: "30-245"
+      - sprite: "30-245"
+    skill_required: "10"
 
   - name: "Smelly Robe"
     sprite: "30-244"
     reagents:
       - sprite: "30-243"
-      - sprite: "28-68"
-      - sprite: "28-69"
+      - sprite: "27-201"
+      - sprite: "28-62"
       - sprite: "27-125"
     skill_required: "??"
 
@@ -134,10 +161,10 @@ recipes:
   - name: "Bear Beer"
     sprite: "30-256"
     reagents:
+      - sprite: "30-219"
+      - sprite: "30-219"
       - sprite: "30-254"
       - sprite: "30-240"
-      - sprite: "30-219"
-      - sprite: "30-219"
     skill_required: "15"
 
   - name: "Ink Pot"

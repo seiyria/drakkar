@@ -149,6 +149,26 @@ weapons:
     reqs: "Level 40"
     attrs: ""
     sprite: "30-189"
+  - name: "Basic Glaive"
+    reqs: "??"
+    attrs: "??"
+    sprite: "30-239"
+    quests:
+      - name: "Basic Glaive"
+  - name: "Advanced Glaive"
+    reqs: "??"
+    attrs: "??"
+    sprite: "30-234"
+  - name: "Basic Bow"
+    reqs: "??"
+    attrs: "??"
+    sprite: "30-247"
+    quests:
+      - name: "Basic Bow"
+  - name: "Advanced Bow"
+    reqs: "??"
+    attrs: "??"
+    sprite: "30-235"
 
 others:
   - name: "Canteen"
@@ -204,6 +224,16 @@ others:
       - name: "Needler"
     quests:
       - name: "Needler Ring"
+
+  - name: "Green Dragon Tongue"
+    sprite: "30-245"
+    drops:
+      - name: "mature green dragon"
+
+  - name: "Green Dragon Blood"
+    sprite: "30-236"
+    drops:
+      - name: "youth green dragon"
 
   - name: "Infected Apple"
     sprite: "30-226"

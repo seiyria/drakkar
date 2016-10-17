@@ -33,6 +33,18 @@
   items:
     - sprite: "30-224"
 
+- name: "Basic Glaive"
+  text: "Trade a Pure Water to Armon in GDH2."
+  items:
+    - sprite: "30-240"
+    - sprite: "30-239"
+
+- name: "Basic Bow"
+  text: "Trade a Pure Water to Gipler in GDH2."
+  items:
+    - sprite: "30-240"
+    - sprite: "30-247"
+
 - name: "Barbarian Fields Access"
   text: "Kill npcs in the castle to find 10 Infected Apples, and give them to the Cook in the kitchen. Danfur will give you a Barbarian Fields Key to the fields to open the doors."
   items:
