@@ -11,7 +11,7 @@ excerpt: "Kingdom of Drakkar Brewing"
 {% assign skills = site.data.brewing.skills %}
 {% assign recipes = site.data.brewing.recipes %}
 
-# Elixirs
+## Elixirs
 
 Elixirs are a combination of:
 
@@ -23,7 +23,7 @@ The result will boost the chosen stat by the value of the Level Ingredient for 1
 This is your primary way to gain skill. See the skill table below for what to brew to gain skill.
 Maxing out Micro Brewer and Careful Brewer is a good idea.
 
-## Stat Ingredients
+### Stat Ingredients
 Stat Ingredients are all buyable via the GDH locker merchant.
 
 <table>
@@ -45,7 +45,7 @@ Stat Ingredients are all buyable via the GDH locker merchant.
 
 </table>
 
-## Level Ingredients
+### Level Ingredients
 
 <table>
   <thead>
@@ -71,7 +71,7 @@ Stat Ingredients are all buyable via the GDH locker merchant.
 
 </table>
 
-# Skill Levels
+## Skill Levels
 
 <table>
   <thead>
@@ -91,7 +91,7 @@ Stat Ingredients are all buyable via the GDH locker merchant.
 
 </table>
 
-# Other Recipes
+## Other Recipes
 
 <table>
   <thead>
