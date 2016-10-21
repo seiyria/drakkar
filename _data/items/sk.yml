@@ -156,3 +156,7 @@ others:
     sprite: "26-180"
     quests:
       - name: "Progression 2"
+
+  - name: "Stat Pot"
+    found: "Everywhere"
+    sprite: "26-161"
