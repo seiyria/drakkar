@@ -21,3 +21,4 @@ Tier | Name | Requirements | Effect
 ?    | Bulwark of Law             | Level 78/Skill 38 | ???
 ?    | Flash of Law               | ???      | ???
 9    | Flare of Integrity         | ???      | ???
+9    | Aura of Honor              | ???      | ???
