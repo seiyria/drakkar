@@ -25,3 +25,4 @@ Tier | Name | Requirements | Effect
 8    | Marksman's Focus       | Level 78/Skill 38 | To Hit Bonus
 9    | Crystalline Madness    | ??? | ???
 ?    | Crystalline Insanity   | ??? | ???
+?    | Aggressive Diversion   | ??? | ???
