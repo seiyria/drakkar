@@ -218,3 +218,24 @@ others:
     quests:
       - name: "Cavern Creeper I"
     sprite: "30-339"
+
+  - name: "Gumbo"
+    quests:
+      - name: "Root Armor"
+    sprite: "28-64"
+
+  - name: "Omnilla Skull"
+    found: "Water Area"
+    drops:
+      - name: "Omnilla"
+    quests:
+      - name: "Root Armor"
+    sprite: "28-64"
+
+  - name: "Chum"
+    found: "Water Area"
+    drops:
+      - name: "Carnifish"
+    quests:
+      - name: "Root Armor"
+    sprite: "29-153"

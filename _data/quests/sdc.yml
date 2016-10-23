@@ -58,6 +58,14 @@
   items:
     - sprite: "31-228"
 
+- name: "Root Armor"
+  text: "Find 1 Omnilla Skull, 1 Chum, and buy 1 Brew Pot and brew them together to make Gumbo (no brewing skill needed, but they must be brewed in SDC Town fountain). Trade the Gumbo to an npc in SDC Town for a +1 to your base armor (slot 1) Root Protective Quality. You need 1 Gumbo for +1, 3 for +2, 5 for +3, etc."
+  items:
+    - sprite: "28-64"
+    - sprite: "29-153"
+    - sprite: "30-219"
+    - sprite: "28-64"
+
 - name: "Dark Knowledge"
   text: "Collect 40 pages and a book from Skar, Spur or OzonousMax. The pages can be found in increments of 5 in certain areas:
 
