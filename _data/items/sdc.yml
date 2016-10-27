@@ -194,7 +194,7 @@ others:
     found: "SDC Forest"
     quests:
       - name: "Level 76"
-    sprite: "26-75"
+    sprite: "30-366"
 
   - name: "Thumper Rock"
     found: "Thumper Caves"

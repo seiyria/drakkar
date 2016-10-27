@@ -2,7 +2,7 @@
 - name: "Level 76"
   text: "Take a River Nugget (dropped by any named NPC in the SDC Forest) to Jarvoh. This will allow you to progress to level 76."
   items:
-    - sprite: "26-75"
+    - sprite: "30-366"
 
 - name: "Level 78"
   text: "Once you've found a Wyvern Talon, you need to tie it in the Lower Guild Hall. Aftewards, take it to the NPC on the second floor of Wyvern Area."
