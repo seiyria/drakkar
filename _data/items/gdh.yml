@@ -157,7 +157,7 @@ weapons:
       - name: "Basic Glaive"
   - name: "Advanced Glaive"
     reqs: "??"
-    attrs: "??"
+    attrs: "9/9 Psi Cutter, Returning, Fire/Ice Prot"
     sprite: "30-234"
   - name: "Basic Bow"
     reqs: "??"
