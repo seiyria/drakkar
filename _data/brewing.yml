@@ -74,6 +74,10 @@ level_ingredients:
     sprite: "30-73"
     tier: "Titanic"
     found: "Random Drop"
+  - name: "Broadleaf Arrowhead"
+    sprite: "30-74"
+    tier: "Primal"
+    found: "Random Drop (near Betrayer)"
 
 skills:
   - name: "Untrained"
@@ -108,6 +112,10 @@ skills:
     brew: "Grand/Titanic"
   - name: "Instructor"
     brew: "Titanic"
+  - name: "Master Instructor"
+    brew: "Titanic/Primal"
+  - name: "Basic Alchemist"
+    brew: "Primal"
 
 recipes:
   - name: "Advanced Glaive"
