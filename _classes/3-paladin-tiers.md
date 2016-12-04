@@ -20,5 +20,5 @@ Tier | Name | Requirements | Effect
 7    | Wave of Good               | Level 70/Skill 34 | ???
 ?    | Bulwark of Law             | Level 78/Skill 38 | ???
 ?    | Flash of Law               | ???      | ???
-9    | Flare of Integrity         | ???      | ???
+9    | Flare of Integrity         | ???      | 5000 fire damage (DoT, 4 rounds)
 9    | Aura of Honor              | ???      | ???
