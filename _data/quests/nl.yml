@@ -13,7 +13,7 @@
     - sprite: "29-165"
 
 - name: "Bandit Lord Ring"
-  text: "To gain access to the Bandit Lord in the Ice Floes, first you must get both of the Bandit Keys. To get the Bandit Lord Key (outer), you have to take an Improved Merkon Shortsword to Yomin in Graine town. Then, you must hunt monsters in the ice floes for a Bandit Lord Key (inner). Afterwards, you have to take the Bandit Lord Head to Jelterban and say `jelt, release`. To do this, you must be factioned (ie, you must see the Bandit Lord die twice before being able to trade for a ring)."
+  text: "To gain access to the Bandit Lord in the Ice Floes, first you must get both of the Bandit Keys. To get the Bandit Lord Key (outer), you must hunt monsters in the ice floes. Then, you have to take an Improved Merkon Shortsword to Yomin in Graine town for a Bandit Lord Key (inner). Afterwards, you have to take the Bandit Lord Head to Jelterban and say `jelt, release`. To do this, you must be factioned (ie, you must see the Bandit Lord die twice before being able to trade for a ring)."
   items:
     - sprite: "29-199"
     - sprite: "29-155"
