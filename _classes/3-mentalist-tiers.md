@@ -25,8 +25,8 @@ Tier | Name | Requirements | Effect
 8    | Illumnic Hammer            | Level 70/Skill 34 | 2700 energy damage, DoT, accuracy debuff
 9    | Lightning of Constriction  | Level 78/Skill 38 | 2700 lightning damage DoT (6 rounds), accuracy debuff
 9    | Razor Hail                 | Level 79/Skill 39 | 3600 ice damage, 3x3 AoE (3 rounds)
-?    | Halt Advance               | Level 86 | Target cannot move for 10 rounds.
-?    | Rain of Stone              | Level 86 | 10000 earthcrush damage, 3x3 AoE (5 rounds)
-?    | Kelvinic Floor             | Level 89 | 6000 ice damage
-?    | Kelvinic Ceiling           | Level 89 | 6000 fire damage
-?    | Advance Denial             | Level 95 | All targets in 7x7 cannot move for 10 rounds.
+10   | Halt Advance               | Level 86 | Target cannot move for 10 rounds.
+10   | Rain of Stone              | Level 86 | 10000 earthcrush damage, 3x3 AoE (5 rounds)
+10   | Kelvinic Floor             | Level 89 | 6000 ice damage
+10   | Kelvinic Ceiling           | Level 89 | 6000 fire damage
+10   | Advance Denial             | Level 95 | All targets in 7x7 cannot move for 10 rounds.
