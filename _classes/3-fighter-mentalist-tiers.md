@@ -20,7 +20,7 @@ Tier | Name | Requirements | Effect
 5    | Discerning Eye         | Level 60 | To Hit Bonus
 6    | Ankor's Ice            | Level 65/Skill 32 | 3000 ice damage, DoT, 1x1
 7    | Ankor's Fire           | Level 70/Skill 34 | 3000 fire damage, DoT, 1x1
-7    | Crushing Excrutiation  | Level 70/SKill 34 | ???
+7    | Crushing Excrutiation  | Level 70/Skill 34 | ???
 7    | Apocalyptic Delirium   | Level 70/Skill 34 | 300 fire damage, DoT
 8    | Marksman's Focus       | Level 76/Skill 35 | To Hit Bonus
 9    | Crystalline Madness    | ??? | ???
