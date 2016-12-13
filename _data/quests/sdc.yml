@@ -49,7 +49,7 @@
     - sprite: "30-79"
 
 - name: "Cavern Creeper I"
-  text: "Right-click the scroll to gain the first Cavern Creeper quirk."
+  text: "Take the scroll to Cargon to gain the first Cavern Creeper quirk."
   items:
     - sprite: "30-339"
 
