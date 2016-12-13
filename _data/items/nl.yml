@@ -65,7 +65,7 @@ armors:
     quests:
 
   - name: "Halmon Armor"
-    reqs: "Level 25"
+    reqs: "Level 25, Thief"
     attrs: "5/0 Fire/Ice Prot"
     found: "NL Surface"
     drops:
