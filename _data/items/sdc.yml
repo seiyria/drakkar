@@ -115,7 +115,7 @@ weapons:
 
   - name: "Healer Totem"
     reqs: "Level 82, Healer"
-    attrs: "10/10, +500 EP (stacks), +Healer skill"
+    attrs: "10/10, +500 EP (stacks), +50 EP Regen, +Healer skill"
     drops:
       - name: "LavaMental"
       - name: "LavaLizard"
@@ -123,7 +123,7 @@ weapons:
 
   - name: "Mentalist Totem"
     reqs: "Level 82 Mentalist"
-    attrs: "10/10, +500 EP (stacks), +Mentalist skill"
+    attrs: "10/10, +500 EP (stacks), +50 EP Regen, +Mentalist skill"
     drops:
       - name: "LavaMental"
       - name: "LavaLizard"
