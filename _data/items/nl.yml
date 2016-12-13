@@ -560,8 +560,9 @@ others:
       - name: "Duke Merntax"
 
   - name: "Book (Shimok)"
-    found: "Nameless Town"
+    found: "Nameless Surface"
     drops:
+      - name: "Wolf"
     sprite: "28-101"
     quests:
       - name: "Duke Marvin"
