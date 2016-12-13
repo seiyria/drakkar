@@ -58,3 +58,7 @@
     - sprite: "30-254"
     - sprite: "30-256"
     - sprite: "30-255"
+
+- name: "Wackaflexes"
+  text: "Head to the Castle and find Wakka. If you do `wakka, start` you can fight a bunch of moles. When you succeed, click him again and you will gain a point in the Wackaflexes quirk. You can get up to 5. There is a small delay between them as well."
+  
