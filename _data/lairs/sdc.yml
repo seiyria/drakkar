@@ -17,6 +17,13 @@
   quests:
     - name: "Cavern Creeper I"
 
+- name: "Corosonous"
+  text: "Finish Dark Knowledge before doing this fight. Can choose a Broom at the end of the fight, or improving any of the 3 SDC quirks (Tree Hugger, Air Head, Cavern Creeper)."
+  found: "Lava City"
+  sprite: "corosonous_full"
+  drops:
+    - name: "Broom"
+    
 - name: "OzonousMax"
   text: ""
   found: "Lava City"
