@@ -110,7 +110,7 @@ weapons:
 
   - name: "FireLord Spear"
     reqs: "Level 85"
-    attrs: "21/21, Glowing, Proning"
+    attrs: "20/20, Glowing, Proning, Power, Silver"
     sprite: "31-324"
 
   - name: "Healer Totem"
