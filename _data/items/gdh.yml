@@ -87,7 +87,7 @@ rings:
       - name: "Needler Ring"
   - name: "Thermature Ring"
     reqs: "Level 70"
-    attrs: "8/8 +5 All Stats"
+    attrs: "8/0 +5 All Stats"
     sprite: "30-201"
     drops:
       - name: "Thermature"
