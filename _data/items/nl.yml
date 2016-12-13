@@ -230,7 +230,7 @@ bracers:
 helms:
   - name: "Titan Helm"
     reqs: "Level 60"
-    attrs: "5/5 +100 HP, Right-click for +200 HP, +100 EP"
+    attrs: "5/5 +100 HP, Right-click for +200 HP, +100 EP, +115 damage"
     drops:
       - name: "Researcher"
         lair: true
