@@ -23,12 +23,14 @@
   sprite: "corosonous_full"
   drops:
     - name: "Broom"
+    - name: "Dark Knowledge Page"
     
 - name: "OzonousMax"
   text: "Drops random Dark Knowledge Pages (1-35)."
   found: "Lava City"
   sprite: "ozonousmax_full"
   drops:
+    - name: "Dark Knowledge Page"
     - name: "Ozonous Armor"
     - name: "Ozonous Bracers (Armor)"
     - name: "Ozonous Bracers (Regeneration)"
