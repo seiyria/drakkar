@@ -51,7 +51,7 @@ gauntlets:
 rings:
 robes:
   - name: "Acidron Alcor Robe"
-    reqs: ""
+    reqs: "Level 25"
     attrs: "+AC, Acid Prot"
     found: "Crypt"
     drops:
