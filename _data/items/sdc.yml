@@ -82,7 +82,7 @@ robes:
 
 weapons:
   - name: "LavaCity Shield"
-    attrs: "21/21"
+    attrs: "20/20"
     sprite: "28-18"
 
   - name: "Betrayer Shield"
