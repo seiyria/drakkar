@@ -25,7 +25,7 @@
     - name: "Broom"
     
 - name: "OzonousMax"
-  text: ""
+  text: "Drops random Dark Knowledge Pages (1-35)."
   found: "Lava City"
   sprite: "ozonousmax_full"
   drops:
