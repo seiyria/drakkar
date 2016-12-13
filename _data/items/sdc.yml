@@ -101,9 +101,12 @@ weapons:
         lair: true
 
   - name: "Broom"
-    reqs: "Level 82"
+    reqs: "Level 80"
     attrs: "20/20"
     sprite: "27-143"
+    drops:
+      - name: "Corosonous"
+        lair: true
 
   - name: "FireLord Spear"
     reqs: "Level 85"
