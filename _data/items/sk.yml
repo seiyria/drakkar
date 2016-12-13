@@ -68,15 +68,15 @@ boots:
 bracers:
   - name: "Sullen Bracers (Armor)"
     reqs: "Level 86"
-    attrs: "10/10, +500 HP/EP, Autosense, Sullen Strike (+230 damage/hit)"
+    attrs: "10/10, +500 HP/EP, Autosense, Sullen Armor (+AC)"
     sprite: "31-319"
   - name: "Sullen Bracers (Regeneration)"
     reqs: "Level 86"
-    attrs: "10/10, +500 HP/EP, Autosense, Sullen Regeneration (+200 HP/EP Regen)"
+    attrs: "10/10, +500 HP/EP, Autosense, Sullen Regeneration (+500 HP/EP Regen)"
     sprite: "31-319"
   - name: "Sullen Bracers (Strike)"
     reqs: "Level 86"
-    attrs: "10/10, +500 HP/EP, Autosense, Sullen Armor (+AC)"
+    attrs: "10/10, +500 HP/EP, Autosense, Sullen Strike (+1150 damage/hit)"
     sprite: "31-319"
 earrings:
   - name: "Sullen Insight I Earring"
