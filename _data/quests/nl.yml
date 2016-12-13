@@ -207,7 +207,7 @@
     - sprite: "30-12"
 
 - name: "Mormar Entry"
-  text: "Trade 2 Breath Capture Vials to Interim in the Decaying Lands Bog (he wanders)."
+  text: "Trade 2 Breath Capture Vials to Interim in the Decaying Lands Bog (he wanders). This is not necessary as you can just do pads with a M1 ring."
   items:
     - sprite: "30-5"
     - sprite: "30-5"
@@ -240,7 +240,7 @@
     * Wisdom, which is gotten by taking the Spy Scroll from Ajamtax to Breshard (`bresh, hail`) and giving him an Akronium Brick, then taking the Wisdom Scroll to the Spy on Mormar-2.
 
 
-    When you give all of the ingots to the npc, you can advance to 70/34."
+    When you give all of the ingots to the npc, you can advance to 70/35."
 
   items:
     - sprite: "29-206"
