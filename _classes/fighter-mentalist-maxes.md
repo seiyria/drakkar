@@ -13,7 +13,7 @@ Level 13 Hit Doc (Free) | 239
 Level 13 Hit Doc (Paid) | 400
 Mino Blood (Level 16)   | 480
 Level 19 Hit Doc        | 500
-Level 20 Hit Doc        | 509
+Level 20 Hit Doc        | 507
 Level 21 Hit Doc        | 516
 Level 22 Hit Doc        | 523
 Level 23 Hit Doc        | 530
