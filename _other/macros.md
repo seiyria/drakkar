@@ -110,8 +110,9 @@ Here are some other ones that need to be formally tested and understood before a
 
 Slot | UTX
 ---- | ---
-right hand | 4
+armor      | 0
 left hand  | 3
+right hand | 4
 helm       | 11
 
 ### Quirk Table
