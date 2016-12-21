@@ -19,7 +19,7 @@ Elixirs are a combination of:
 * 2 Level Ingredients
 * 1 Brew Pot (Green Bottle)
 
-The result will boost the chosen stat by the value of the Level Ingredient for 100 rounds.
+The result will boost the chosen stat by the value of the Level Ingredient for 300 rounds.
 This is your primary way to gain skill. See the skill table below for what to brew to gain skill.
 Maxing out Micro Brewer and Careful Brewer is a good idea.
 
