@@ -45,6 +45,7 @@ wield | `wield <itemtype>` | `wield dagger` | Moves an item from your belt to yo
 draw  | `draw <itemtype>`  | `draw blunderbuss` | Same as `wield`.
 withdraw          | `<name>, withdraw <amount>` | `Efo, withdraw 500000` | Withdraws a specified amount from your bank and places it on the counter.
 deposit           | `<name>, deposit <amount>` | `Efo, deposit 500000` | Deposits a specified amount from the counter into your bank.
+list skills       | `list skills`          | | List your skills and specializations, if any.
 appraise          | `<name>, appraise <itemtype>` | `Efo, appraise bottle` | Appraises an item and gets a value for it. Can be used to identify similar-looking items such as rings.
 trade             | `trade enable|disable` | | If two players `trade enable`, they can drag items onto each others boxes to place them in one of their empty hands.
 critsort          | `critsort enable|disable` | | Creatures on your hex will always be visible to you first. Primarily useful for zerking Barbarians.
