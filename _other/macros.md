@@ -85,7 +85,7 @@ Macro | Usage | Example | Explanation
 *xform            | `*xform ###`      | `*xform 101` | Cast a tier.
 *xexpire          | `*xexpire ###`    | `*xexpire 101` | Turn a tier off (if it was cast on you, and isn't a debuff). For example, `Sullen Intruder` is `30053`.
 *quirk            | `*quirk ### enable|disable` | `*quirk 178 enable` | Turn a quirk on or off. See the Quirk table below for more quirks.
-*drink            | `*drink`          | | Drinks a drinkable bottle from your sack.
+*drink            | `*drink`          | | Drinks a drinkable bottle from your sack. Note, some foods respond to `*drink` as well.
 *train            | `*train 0 ## $$`  | `*train 0 10 500000` | Train a certain skill. See the Skill table below for the ## ids.
 *assess           | `*assess 0 ##`    | `*assess 0 10` | Assess a certain skill. See the Skill table below for the ## ids.
 
