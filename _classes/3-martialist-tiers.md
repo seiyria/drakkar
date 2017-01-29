@@ -17,7 +17,7 @@ Tier | Name | Requirements | Effect
 5    | Dragon Claw      | Level 60 | 5 claw attacks
 6    | Razored Barbs    | Level 65/Skill 32 | +100 damage
 7    | Taloned Barbs    | Level 70/Skill 34 | +125 damage
-7    | Dragon Sting     | Level 70/Skill 34 | 150 melee, -AC DoT
+7    | Dragon Sting     | Level 71/Skill 34 | 315 melee, -AC DoT (3 rounds)
 8    | Dragon Pierce    | Level 78/Skill 38 | 1000 damage
 10   | Dragon Bite      | Level 86 | ??? damage
 10   | Zen of Attack    | ???      | ???
