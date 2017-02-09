@@ -65,7 +65,7 @@ boots:
     sprite: "28-205"
 
   - name: "Sullen Boots"
-    reqs: "Level 87"
+    reqs: "Level 90"
     attrs: "12/12, Silver, Proning, Dancing, Power, +12 CON"
     sprite: "28-205"
 
