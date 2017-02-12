@@ -8,7 +8,9 @@ excerpt: "Kingdom of Drakkar Healer Maxes"
 
 Condition | Max HP
 --------- | ------
-Yellow/Major (Level 1)  | 130
+Pointy Yellow           | 200
+Round Yellow            | 250
+Major (Level 1)         | 130
 Level 13 Hit Doc (Free) | 227
 Level 13 Hit Doc (Paid) | 380
 Mino Blood (Level 16)   | 420
