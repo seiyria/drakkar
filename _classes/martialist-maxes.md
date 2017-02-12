@@ -8,7 +8,9 @@ excerpt: "Kingdom of Drakkar Martialist Maxes"
 
 Condition | Max HP
 --------- | ------
-Yellow/Major (Level 1)  | 180
+Pointy Yellow           | 200
+Round Yellow            | 250
+Major (Level 1)         | 180
 Level 13 Hit Doc (Free) | 287
 Level 13 Hit Doc (Paid) | 480
 Mino Blood (Level 16)   | 530
