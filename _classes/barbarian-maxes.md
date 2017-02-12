@@ -8,7 +8,9 @@ excerpt: "Kingdom of Drakkar Barbarian Maxes"
 
 Condition | Max HP
 --------- | ------
-Yellow/Major (Level 1)  | 200
+Pointy Yellow           | 200
+Round Yellow            | 250
+Major (Level 1)         | 200
 Level 13 Hit Doc (Free) | 347
 Level 13 Hit Doc (Paid) | 580
 Mino Blood (Level 16)   | 600
