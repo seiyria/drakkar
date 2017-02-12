@@ -8,7 +8,9 @@ excerpt: "Kingdom of Drakkar Mentalist Maxes"
 
 Condition | Max HP
 --------- | ------
-Yellow/Major (Level 1)  | 100
+Pointy Yellow           | 200
+Round Yellow            | 250
+Major (Level 1)         | 100
 Level 13 Hit Doc (Free) | 209
 Level 13 Hit Doc (Paid) | 350
 Mino Blood (Level 16)   | 400
