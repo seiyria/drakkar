@@ -8,7 +8,9 @@ excerpt: "Kingdom of Drakkar Thief Maxes"
 
 Condition | Max HP
 --------- | ------
-Yellow/Major (Level 1)  | 170
+Pointy Yellow           | 200
+Round Yellow            | 250
+Major (Level 1)         | 170
 Level 13 Hit Doc (Free) | 227
 Level 13 Hit Doc (Paid) | 380
 Mino Blood (Level 16)   | 420
