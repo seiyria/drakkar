@@ -4,3 +4,20 @@
   sprite: "6-134"
   drops:
     - name: "Basilisk Gripclaws"
+
+- name: "Gold Captain"
+  text: ""
+  found: "Gold Floor"
+  sprite: "6-152"
+  drops:
+    - name: "Gold Captain Boots"
+  
+- name: "Green Captain"
+  text: ""
+  found: "Green Floor"
+  sprite: "6-152"
+  drops:
+    - name: "Attack Amulet"
+    - name: "Stolen Skill Amulet"
+    - name: "Battle Cleric Amulet"
+    - name: "Nightwalker Amulet"
