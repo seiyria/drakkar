@@ -41,8 +41,42 @@ You can right click on the camel icon to get more options.
 * Scripting: These options are all displayed on the main interface and will be discussed later.
   
 ##### Scripts
+This interface has a lot going on. In the top left, we have the class selector, which lets you filter macros into a particular class. On the top right, by default, it will be a dropdown of characters you have logged in (You can say "show all" to see all of them, though). You'll want to select a particular character to be able to do anything useful.
+
+Next up, you have a big list of tiers and attacks (probably) on the left side, and a partially or entirely empty box on the right side. This is where you say what your "script" is. You define a list of skills you use and what interval you use them at, and that makes up your script. You can move things onto or off of a character by using the arrows in the middle.
+
+You can add or remove skills by using the two buttons to do so. Removing a skill removes it _from the macro list_ so be warned. Adding or saving one requires you to first fill in the description, command, and other options below. It is a bit finnicky, though. It also somehow ties into AutoProtter but again I have no idea how that works. I also do not know what HB only is (I assume "HotBar only" but I don't understand the context). Target, I believe, will cast it on your current target in game. That said, if you want to make a command repeat every X rounds (say you want to re-cast Accuracy every 30 rounds), you would do:
+
+Description: Accuracy
+Command: *xform 220
+Timer: 50
+
+By default, it'll cast it on you every 50 rounds. You could also do something like this to cast Aid on your party every 75 rounds:
+
+Description: Aid
+Command: form aid self|bar|jen
+Timer: 75
+
+What that will do is cast aid on yourself first, then when it can, it will cast it on a target that matches "bar" and then one that matches "jen" and it will do this every 75 rounds.
+
 ##### Substitutions
-##### Scripting
+This is where the fun comes in. If you want to script a place with non-standard mob names like Sullen Keep, this will be your friend.
+
+Suppose you want to cast all of your tiers on any creature in the world, but you don't want to change the name every 10 seconds. You'll want to use clicky + substitutions. So, in my case, as a healer, I want to cast these every round:
+
+* Brainstorm
+* Subdural Strike
+* Primal Assault
+* Mindstorm
+
+Lots of damage to be done here. So, I'll make an in game macro called "healertier" and set it to target lock, then click it. This means every time clicky triggers, it will try to hit the target with healertier. Obviously, not a valid in-game command, but Proxy will make it work, and here's how we're going to do it. I'll be making 4 substitutions that match "healertier" which means all of them will trigger at once, and it will look like this:
+
+* Replace `healertier` with `xform 152 at` (Brainstorm)
+* Replace `healertier` with `xform 601 at` (Subdural Strike)
+* Replace `healertier` with `xform 607 at` (Primal Assault)
+* Replace `healertier` with `xform 609 at` (Mindstorm)
+
+Then turn clicky on, and voila. I do boatloads of damage now!
 
 ### Main Screen
 Here there is a lot to explain, there are a lot of categories and a lot of buttons. One main thing to understand is that you have to have a character highlighted in the "Active" box for any actions to take hold on them. You can select multiple by using shift and clicking, or select individuals by holding ctrl and clicking. Without further ado...
