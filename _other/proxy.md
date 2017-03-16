@@ -47,15 +47,19 @@ Next up, you have a big list of tiers and attacks (probably) on the left side, a
 
 You can add or remove skills by using the two buttons to do so. Removing a skill removes it _from the macro list_ so be warned. Adding or saving one requires you to first fill in the description, command, and other options below. It is a bit finnicky, though. It also somehow ties into AutoProtter but again I have no idea how that works. I also do not know what HB only is (I assume "HotBar only" but I don't understand the context). Target, I believe, will cast it on your current target in game. That said, if you want to make a command repeat every X rounds (say you want to re-cast Accuracy every 30 rounds), you would do:
 
+```
 Description: Accuracy
 Command: *xform 220
 Timer: 50
+```
 
 By default, it'll cast it on you every 50 rounds. You could also do something like this to cast Aid on your party every 75 rounds:
 
+```
 Description: Aid
 Command: form aid self|bar|jen
 Timer: 75
+```
 
 What that will do is cast aid on yourself first, then when it can, it will cast it on a target that matches "bar" and then one that matches "jen" and it will do this every 75 rounds.
 
