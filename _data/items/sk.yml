@@ -19,8 +19,12 @@ amulets:
     sprite: "28-34"
   - name: "Battle Cleric Amulet"
     reqs: "Level 92, Healer"
-    attrs: "5/0, Glowing, Battle Cleric, -500 EP Regen"
+    attrs: "5/0, Glowing, Battle Cleric (-500 EP Regen)"
     sprite: "28-34"
+  - name: "Nightwalker Amulet"
+    reqs: "Level 92, Thief"
+    attrs: "10/0, Blessing of the Nightwalker II (???)"
+    sprite: "30-200"
 
 armors:
   - name: "Silver Fieldplate"
