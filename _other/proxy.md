@@ -1,6 +1,6 @@
 ---
 title: "DrakProxy"
-permalink: /other/other
+permalink: /other/proxy
 excerpt: "Kingdom of Drakkar DrakProxy"
 ---
 
