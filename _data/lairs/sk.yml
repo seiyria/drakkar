@@ -11,7 +11,14 @@
   sprite: "6-152"
   drops:
     - name: "Gold Captain Boots"
-  
+    
+ - name: "Black Captain"
+  text: ""
+  found: "Black Floor"
+  sprite: "6-152"
+  drops:
+    - name: "Black Captain Gripclaws"
+    
 - name: "Green Captain"
   text: ""
   found: "Green Floor"
