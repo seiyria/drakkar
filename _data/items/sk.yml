@@ -13,18 +13,30 @@ amulets:
     reqs: "Level 92"
     attrs: "10/0, Glowing, Sullen Offense"
     sprite: "28-36"
+    drops:
+      - name: "Green Captain"
+        lair: true
   - name: "Stolen Skill Amulet"
     reqs: "Level 92, Fighter/Mentalist"
     attrs: "5/0, Glowing, Stolen Skill (+1 Attack)"
     sprite: "28-34"
+    drops:
+      - name: "Green Captain"
+        lair: true
   - name: "Battle Cleric Amulet"
     reqs: "Level 92, Healer"
     attrs: "5/0, Glowing, Battle Cleric (-500 EP Regen)"
     sprite: "28-34"
+    drops:
+      - name: "Green Captain"
+        lair: true
   - name: "Nightwalker Amulet"
     reqs: "Level 92, Thief"
     attrs: "10/0, Blessing of the Nightwalker II (???)"
     sprite: "30-200"
+    drops:
+      - name: "Green Captain"
+        lair: true
 
 armors:
   - name: "Silver Fieldplate"
