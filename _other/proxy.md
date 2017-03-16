@@ -112,4 +112,4 @@ This shows which characters you have logged in.
 This shows all the characters you have set up.
 
 #### Recordings
-I have no idea what this is or what it's for. Presumably it lets you make macros that involve mouse movement and the like.
+This will record a sequence of commands (you can see what is being recorded in the command log) and then replay them on demand. It seems to combine with Rover, somehow.
