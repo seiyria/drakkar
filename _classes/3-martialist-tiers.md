@@ -20,4 +20,5 @@ Tier | Name | Requirements | Effect
 7    | Dragon Sting     | Level 71/Skill 34 | 315 melee, -AC DoT (3 rounds)
 8    | Dragon Pierce    | Level 78/Skill 38 | 1000 damage
 10   | Dragon Bite      | Level 86 | ??? damage
+10   | Dragon Barbs     | ???      | ???
 10   | Zen of Attack    | ???      | ???
