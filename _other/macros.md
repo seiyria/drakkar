@@ -236,4 +236,8 @@ Macro | Explanation
 `belt right; take bottle from sack; drink bottle` | Drink an IH bottle if your hands are full.
 `drop bottle; wield sword` | Drop the bottle from the previous macro, then re-wield the item from your belt.
 `*RTB;*drink;*BTR 0` | Zero-round belt and drink.
+`*STR 29;drop right;form sense` | Mass sensing of sack contents - takes from the last position first, and drops the current in-hand item.
 `form transmute^D*RTB^D*itR g 1 *30770^D*RTS^D*BTR` | Transmute, belt the item in your right hand, pick up gold, sack the coin, then re-wield your weapon. Your right hand item must be beltable and your first belt slot must be open.
+
+## ^D
+`^D` is a macro-separator, much like a semicolon. It's sortof a way to get around any built in restrictions, since instead of sending as one macro (as with `;`), `^D` technically sends each macro separately, meaning you can chain macros much more effectively. To add `^D` you have to manually open your `.mac` file and edit the macro there. You can also extend the macro length artificially beyond 3 commands, up to way more (I don't know the practical limit offhand).
