@@ -24,5 +24,5 @@ Tier | Name | Requirements | Effect
 9    | Crystalline Regeneration | Level 78/Skill 38 | +1250 HP, +1200 Damage Absorption
 9    | Primal Assault         | Level 79/Skill 39 | 4000 assault damage
 10   | Mindstorm              | Level 86 | ??? assault damage
-?    | Boon of Remedy         | ??? | ???
-10   | Sunburst               | ??? | 3k firestorm damage, 20 round DoT
+?    | Boon of Remedy         | Level 89/Skill 42 | ???
+10   | Sunburst               | Level 89/Skill 42 | 3k firestorm damage, 20 round DoT
