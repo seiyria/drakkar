@@ -23,3 +23,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * Agility affects how well you dodge hits and how well you hide/steal.
 
 * Willpower affects how well you mitigate stuns.
+
+* Constitution affects your chances of getting a higher HP rest (higher con = better rest).
