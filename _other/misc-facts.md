@@ -22,9 +22,11 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Agility affects how well you dodge hits and how well you hide/steal.
 
-* Willpower affects how well you mitigate stuns.
+* Willpower affects how well you mitigate psi damage.
 
 * Constitution affects your chances of getting a higher HP rest (higher con = better rest).
+
+* Constitution affects your chances of mitigating combat stuns.
 
 * Intelligence gives better EP rests and EP regen to Mentalists and Fighter/Mentalists.
 
