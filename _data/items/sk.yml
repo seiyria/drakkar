@@ -184,3 +184,7 @@ others:
   - name: "Stat Pot"
     found: "Everywhere"
     sprite: "26-161"
+    
+  - name: "Invader Scroll"
+    found: "Parapet"
+    sprite: "27-138"
