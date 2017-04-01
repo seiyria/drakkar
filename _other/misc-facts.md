@@ -31,3 +31,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * Intelligence gives better EP rests and EP regen to Mentalists and Fighter/Mentalists.
 
 * Wisdom gives better EP rests and EP regen to Healers.
+
+* Attacks gives you more rolls to determine how hard you hit with a melee attack (the highest roll is kept).
