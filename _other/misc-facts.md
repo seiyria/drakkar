@@ -20,4 +20,4 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Strength affects how well you hit enemies, how hard you hit, and your encumberance limit.
 
-* Agility affects how well you dodge enemies.
+* Agility affects how well you dodge hits and how well you hide/steal.
