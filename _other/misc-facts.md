@@ -13,3 +13,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * Luck is used to determine the number of times you can buy HP from the HP doc before he asks for an item.
 
 * Charisma is used to determine the cost of HP from the HP doc.
+
+* Charisma is used to determine how effective paid skill training is.
