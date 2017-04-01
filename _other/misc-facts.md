@@ -40,7 +40,7 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
 
-* Any class can backstab, mug, and hide as if they were a thief, provided they have the requisite skill level.
+* Any class can backstab and hide as if they were a thief, provided they have the requisite skill level.
 
 * In addition to stripping, some lairs can eat. This is mostly creatures like dragons, FoodGuardian, and others. Getting eaten doesn't happen every time, but it can suck your XP and skills.
 
