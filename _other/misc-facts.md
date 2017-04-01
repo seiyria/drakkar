@@ -18,6 +18,6 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
 
-* Strength affects how well you hit enemies.
+* Strength affects how well you hit enemies, how hard you hit, and your encumberance limit.
 
 * Agility affects how well you dodge enemies.
