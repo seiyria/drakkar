@@ -15,3 +15,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * Charisma is used to determine the cost of HP from the HP doc.
 
 * Charisma is used to determine how effective paid skill training is.
+
+* Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
