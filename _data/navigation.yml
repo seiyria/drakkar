@@ -27,6 +27,8 @@ other:
       url: /other/tiers
     - title: "Brewing Guide"
       url: /other/brewing
+    - title: "Miscellaneous Facts"
+      url: /other/misc
 
 classes:
   - title: "Barbarian"
