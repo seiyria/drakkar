@@ -25,3 +25,7 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * Willpower affects how well you mitigate stuns.
 
 * Constitution affects your chances of getting a higher HP rest (higher con = better rest).
+
+* Intelligence gives better EP rests and EP regen to Mentalists and Fighter/Mentalists.
+
+* Wisdom gives better EP rests and EP regen to Healers.
