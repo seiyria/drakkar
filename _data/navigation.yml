@@ -182,3 +182,8 @@ scenarios:
         url: /scenarios/sk/quests
       - title: "Items"
         url: /scenarios/sk/items
+        
+  - title: "Invader's Refuge"
+    children:
+      - title: "Scenario Information"
+        url: /scenarios/ir
