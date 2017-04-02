@@ -47,3 +47,7 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * You can be randomly stripped by monsters, they may rarely search your corpse for gear.
 
 * Dying on a healer (via a player, or yourself) will restore your CON to the highest value it has ever been.
+
+* Going to the level 13 HP Doc and saying `###, train` will show you your base HP.
+
+* You can see your base EP by drinking a zap from UGH.
