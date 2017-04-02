@@ -78,6 +78,11 @@
   desc: ""
   find: "Trade BNR to Marcus, or warden heart to NeoMarcus"
   sprite: "27-186"
+  
+- name: "Mama RD Armor"
+  desc: ""
+  find: "Tan Mama RD"
+  sprite: "27-184"
 
 - name: "Mountaineering Boots"
   desc: ""
