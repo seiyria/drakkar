@@ -36,6 +36,10 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * The Aid disc boosts your ability to hide, see through hide, and your melee to-hit rolls.
 
+* `form illusion rockwall` triggers the Cavern Creeper quirk.
+
+* `form illusion dense|l-forest|r-forest` triggers the Tree Hugger quirk.
+
 ## Miscellaneous
 
 * Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
