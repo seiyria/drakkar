@@ -177,6 +177,7 @@ break   | `party break`         |                       | Break the party up. On
 leave   | `party leave`         |                       | Leave the party. If you're the leader, it's passed to the next person in line.
 eject   | `party eject <name>`  | `party eject seiyria` | Eject a player from the party.
 list    | `party list`          |                       | Show all players in party in the combat log.
+sidekick| `party sidekick`      |                       | Put a party into sidekick mode.
 
 ## Guild Macros
 
