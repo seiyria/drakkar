@@ -23,12 +23,12 @@ other:
       url: /other/doc-items
     - title: "Party Abilities"
       url: /other/party-abilities
+    - title: "Party Sidekick"
+      url: /other/party-sidekick
     - title: "Tier Locations"
       url: /other/tiers
     - title: "Brewing Guide"
       url: /other/brewing
-    - title: "Party Sidekick"
-      url: /other/sidekick
     - title: "Miscellaneous Facts"
       url: /other/misc
 
