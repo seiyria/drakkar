@@ -45,3 +45,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * In addition to stripping, some lairs can eat. This is mostly creatures like dragons, FoodGuardian, and others. Getting eaten doesn't happen every time, but it can suck your XP and skills.
 
 * You can be randomly stripped by monsters, they may rarely search your corpse for gear.
+
+* Dying on a healer will restore your CON to the highest value it has ever been.
