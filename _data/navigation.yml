@@ -27,6 +27,8 @@ other:
       url: /other/tiers
     - title: "Brewing Guide"
       url: /other/brewing
+    - title: "Party Sidekick"
+      url: /other/sidekick
     - title: "Miscellaneous Facts"
       url: /other/misc
 
