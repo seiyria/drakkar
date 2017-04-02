@@ -54,11 +54,6 @@
   find: "KM-5, spectre"
   sprite: "28-205"
 
-- name: "Featherfall Boots"
-  desc: "A pair of sky blue leather boots made of a soft spongy material"
-  find: "Random in Nork"
-  sprite: "28-63"
-
 - name: "GoblinKing Axe"
   desc: ""
   find: "Kill GoblinKing in Aleria"
@@ -88,11 +83,6 @@
   desc: ""
   find: "Random in Nork"
   sprite: "28-60"
-
-- name: "Mujaba Punch Dagger"
-  desc: ""
-  find: "Kill Mujaba"
-  sprite: "28-107"
 
 - name: "Naga Scales"
   desc: ""
