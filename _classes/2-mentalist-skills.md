@@ -15,7 +15,7 @@ Skill Level | Skill | Cost (EP) | Description
 3           | sense         | 10  | Sense the properties of the item in your right hand.
 4           | respirate     | 20  | Buff; take no damage while in the water.
 5           | protfire      | 10  | Buff; take less fire damage.
-6           | illusion      | 25  | Create an illusory hex of type `fire`, `water`, `wall`, `ice` at target hex.
+6           | illusion      | 25  | Create an illusory hex of type `fire`, `water`, `wall`, `ice`, `rockwall`, `empty`, `l-forest`, `r-forest`, `dense` at target hex.
 6           | fireball      | 10  | 3x3 fire AoE at target location.
 7           | protice       | 20  | Buff; take less ice damage.
 8           | icestorm      | 15  | 3x3 ice AoE at target location.
