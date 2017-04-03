@@ -40,6 +40,10 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * `form illusion dense|l-forest|r-forest` triggers the Tree Hugger quirk.
 
+## Quirks
+
+* Innate Armor, when 100/100, adds as much AC as the Paladin Nameless Lord Armor.
+
 ## Miscellaneous
 
 * Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
