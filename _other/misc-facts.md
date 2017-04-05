@@ -59,3 +59,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * Going to the level 13 HP Doc and saying `###, train` will show you your base HP.
 
 * You can see your base EP by drinking a zap from UGH.
+
+* Holding the corpse of some lairs will prevent them from respawning.
