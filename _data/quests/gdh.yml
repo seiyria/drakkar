@@ -29,7 +29,7 @@
     - sprite: "30-225"
 
 - name: "Progression 4"
-  text: "Kill FoodGuardian and take the Climbing Twig. Hold it in the south-west-most hex and climb up. Once you've done so, you can safely discard the twig. This will get you into GDH2."
+  text: "Kill FoodGuardian and take the Climbing Twig. Hold it in the south-west-most hex of the swampwitch side of the water and climb up. Once you've done so, you can safely discard the twig (or save it for another class). This will get you into GDH2."
   items:
     - sprite: "30-224"
 
