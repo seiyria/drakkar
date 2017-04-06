@@ -16,6 +16,6 @@
 - name: "Hermit"
   text: "Can stun. Hits hard."
   found: "Forest"
-  sprite: ""
+  sprite: "6-141"
   drops:
     - name: "Hermit Scroll"
