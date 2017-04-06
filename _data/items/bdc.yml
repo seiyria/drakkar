@@ -74,7 +74,7 @@ others:
       - name: "Tengu Skill Progression"
     sprite: "30-291"
 
-  - name: "Ink Pot"
+  - name: "Hermit Scroll"
     quests:
       - name: "Hermit Skill Progression"
-    sprite: "30-292"
+    sprite: "27-179"
