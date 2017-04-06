@@ -12,3 +12,10 @@
   sprite: "6-84"
   drops:
     - name: "Black Dragon Consort Amulet"
+
+- name: "Hermit"
+  text: "Can stun. Hits hard."
+  found: "Forest"
+  sprite: ""
+  drops:
+    - name: "Hermit Scroll"
