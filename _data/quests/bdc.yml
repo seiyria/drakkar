@@ -1,5 +1,5 @@
 - name: "Hermit Skill Progression"
-  text: "Kill the Hermit in the BDC forest and take his scroll to advance to skill 39."
+  text: "Kill the Hermit in the BDC forest and take his scroll (read with right click) to advance to skill 39."
   items:
     - sprite: "27-179"
 
