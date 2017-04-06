@@ -77,4 +77,7 @@ others:
   - name: "Hermit Scroll"
     quests:
       - name: "Hermit Skill Progression"
+    drops:
+      - name: "Hermit"
+        lair: true
     sprite: "27-179"
