@@ -61,3 +61,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * You can see your base EP by drinking a zap from UGH.
 
 * Holding the corpse of some lairs will prevent them from respawning.
+
+* If you have a skill >= 40, you can `look at xxx` to see how far they are percentwise on that skill.
