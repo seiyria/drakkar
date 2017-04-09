@@ -8,7 +8,7 @@ excerpt: "Kingdom of Drakkar Thief Tiers"
 
 Tier | Name | Requirements | Effect
 ---- | ---- | ------------ | ------
-1    | Taste of Venom         | Level 35 | 300 disease damage, DoT
+1    | Taste of Venom         | Level 35 | 300 poison damage, DoT
 2    | Taste of Disease       | Level 38 | 400 disease damage, DoT
 3    | Taste of Decay         | Level 41 | 500 disease damage, DoT
 3    | Razor Blades           | Level 44 | 12-18 attacks, single target
