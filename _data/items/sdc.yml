@@ -65,7 +65,7 @@ gauntlets:
 rings:
   - name: "IceTitan Ring"
     reqs: "Level 75"
-    attrs: "9/9 +8 all stats, random Ice/Fire/Lightning Inflation/Ablation"
+    attrs: "9/9 +8 all stats, random Ice/Fire/Lightning Inflation/Ablation II"
     sprite: "27-155"
     drops:
       - name: "IceTitan"
