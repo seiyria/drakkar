@@ -169,6 +169,12 @@ weapons:
     attrs: "10/10"
     sprite: "28-149"
 others:
+  - name: "Progression Pot"
+    found: "SK Forest"
+    sprite: "27-171"
+    quests:
+      - name: "Progression 1"
+      
   - name: "Book (Climbing)"
     found: "SK Cave"
     sprite: "28-101"
