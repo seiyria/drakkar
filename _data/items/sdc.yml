@@ -70,6 +70,14 @@ rings:
     drops:
       - name: "IceTitan"
         lair: true
+        
+  - name: "Gnomes Ring"
+    reqs: "Level 75"
+    attrs: "9/9 +4 all stats, random Ice/Fire/Lightning Inflation/Ablation"
+    sprite: "27-155"
+    drops:
+      - name: "gnomes"
+      
 robes:
 
   - name: "Spur Robe"
