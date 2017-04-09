@@ -213,7 +213,7 @@
     - sprite: "30-5"
 
 - name: "Nameless Lord"
-  text: "First, you have to have completed the Primal quest and be at least level 60. Then, you have to do the quests for Duke Marvin, Duke Xuladan, and Duke Merntax. After summoning all of the Dukes, you are granted +600 NL-only HP and you can talk to the LordSummoner. Doing `lor, summon` will summon the Nameless Lord. After killing him, you can advance to 75/35."
+  text: "First, you have to have completed the Primal quest and be at least level 60. Then, you have to do the quests for Duke Marvin, Duke Xuladan, and Duke Merntax. After summoning all of the Dukes, you are granted +600 NL-only HP and you can talk to the LordSummoner. Doing `lor, summon` will summon the Nameless Lord. After killing him, you can advance to level 75."
 
 - name: "Primal"
   text: "To start the Primal quest, you have to go find a certain npc dependent on your alignment:
