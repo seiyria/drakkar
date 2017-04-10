@@ -68,7 +68,7 @@
     - sprite: "31-273"
 
 - name: "Duke Xuladan"
-  text: "You want to be at least level 60 before starting this. First, talk to the second DukeSummoner near the Nameless Lord by saying `duk, help`. He will ask you first to complete the maze in Nameless Town. You can get 5 tries in the maze for one chunk of Akronium Coins. When in the maze, you have to find the Judge, stand on his hex, and click his npc box. This will satisfy the DukeSummoner, so you can summon the Duke with `duk, summon`. The Duke will want a Packet of Mandrake Root, found in the Bog. After you've given it to him, you'll be 2/3 of the way to completing the Nameless Lord quest."
+  text: "You want to be at least level 60 before starting this. First, talk to the second DukeSummoner near the Nameless Lord by saying `duk, help`. He will ask you first to complete the maze in Nameless Town. You can get 5 tries in the maze for one chunk of Akronium Coins (`keep, go`). When in the maze, you have to find the Judge, stand on his hex, and click his npc box. This will satisfy the DukeSummoner, so you can summon the Duke with `duk, summon`. The Duke will want a Packet of Mandrake Root, found in the Bog. After you've given it to him, you'll be 2/3 of the way to completing the Nameless Lord quest."
   items:
     - sprite: "29-165"
     - sprite: "26-90"
