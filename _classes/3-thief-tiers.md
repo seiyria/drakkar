@@ -20,6 +20,6 @@ Tier | Name | Requirements | Effect
 8    | Echo of Decay          | Level 70/Skill 34 | 600 disease damage, DoT
 9    | Ancient Plague         | Level 78/Skill 38 | 1200 disease damage, DoT
 10   | Rotting Fungus         | Level 79/Skill 39 | 1200 disease damage, DoT
-10   | Shadows Brush          | Level 86          | +AC, +To Hit, ? hide bonus
+10   | Shadows Brush          | Level 86          | +AC, +To Hit, self hide bonus
 10   | Blade of Deceit        | ? | Multiple attacks, more likely to backstab, unblockable.
 11   | Shadow Caress          | ? | ?
