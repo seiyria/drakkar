@@ -18,3 +18,4 @@ Tier Level | Location(s) Found
 8     | Barbarian Fields
 9     | SDC
 10    | Sullen Keep
+11    | Invader's Refuge
