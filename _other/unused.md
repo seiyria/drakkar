@@ -8,7 +8,7 @@ excerpt: "Kingdom of Drakkar Unused Sprites"
 
 {% assign all_unused  = site.data.unused.all_unused %}
 
-Kingdom of Drakkar has a lot of unused sprites in the game data. Check them out:
+Kingdom of Drakkar has a lot of unused sprites in the game data (some of these may be visible on npcs, but are not obtainable to players). Check them out:
 
 <div class="row">
   
