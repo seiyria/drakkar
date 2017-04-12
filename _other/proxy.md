@@ -118,4 +118,24 @@ This will record a sequence of commands (you can see what is being recorded in t
 
 Proxy has some built in commands that aren't documented, but will do various things. I'm not sure what they all are, but I'll document them and their sample usages here:
 
-* `PIX X Y op cmd` - This can be used to get a particular pixel of the game screen and do things. Example "drink at low health": `PIX 644 19 000000FF != *drink` - presumably this checks the pixel at 644, 19 - makes sure it isn't red (rgba format, probably), and if it isn't transparent (?) then it executes `*drink`
+* `AUTOTARGETOFF`
+* `AUTOTARGETON`
+* `MASSATTACK <T>`
+* `SETATTACK`
+* `AUTOCLEAROFF`
+* `AUTOCLEARON`
+* `SETTARGET`
+* `SETTARGET <T>`
+* `NOMODE`
+* `MAXMODE`
+* `PARRYMODE`
+* `SCREENSHOT`
+* `SLAM`
+* `SLAMALL`
+* `SAVEPOS`
+* `PIX <X> <Y> <op> <cmd>` - This can be used to get a particular pixel of the game screen and do things. Example "drink at low health": `PIX 644 19 000000FF != *drink` - presumably this checks the pixel at 644, 19 - makes sure it isn't red (rgba format, probably), and if it isn't transparent (?) then it executes `*drink`
+* `CMAP`
+* `ZERKN <D>`
+* `ZERKN <D> <D>`
+* `ZERKU <D> <D>`
+* `SWEEPER <D>`
