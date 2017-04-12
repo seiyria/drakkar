@@ -31,6 +31,8 @@ other:
       url: /other/brewing
     - title: "Miscellaneous Facts"
       url: /other/misc
+    - title: "Unused Sprites"
+      url: /other/unused-sprites
 
 classes:
   - title: "Barbarian"
