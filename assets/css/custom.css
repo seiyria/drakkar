@@ -1,6 +1,7 @@
 
 .sprite-container-wrap {
   width: 20%;
+  display: inline-block;
 }
 
 .sprite-container {
