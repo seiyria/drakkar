@@ -1,4 +1,8 @@
 
+.sprite-container-wrap {
+  width: 20%;
+}
+
 .sprite-container {
   text-align: center;
 }
