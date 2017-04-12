@@ -113,3 +113,9 @@ This shows all the characters you have set up.
 
 #### Recordings
 This will record a sequence of commands (you can see what is being recorded in the command log) and then replay them on demand. It seems to combine with Rover, somehow.
+
+## Proxy-specific Commands
+
+Proxy has some built in commands that aren't documented, but will do various things. I'm not sure what they all are, but I'll document them and their sample usages here:
+
+* `PIX X Y op cmd` - This can be used to get a particular pixel of the game screen and do things. Example "drink at low health": `PIX 644 19 000000FF != *drink` - presumably this checks the pixel at 644, 19 - makes sure it isn't red (rgba format, probably), and if it isn't transparent (?) then it executes `*drink`
