@@ -13,7 +13,7 @@ Kingdom of Drakkar has a lot of unused sprites in the game data. Check them out:
 <div class="row">
   
   {% for spr in all_unused %}
-  <div class="col-md-3 sprite-container">
+  <div class="sprite-container-wrap sprite-container">
     <img itemprop="image" src="{{ spr.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" alt="{{spr.sprite}}" />
     <br>
     {{ spr.sprite }}
