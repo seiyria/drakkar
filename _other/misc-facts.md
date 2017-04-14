@@ -44,6 +44,12 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Innate Armor, when 100/100, adds as much AC as the Paladin Nameless Lord Armor.
 
+## Progress Quest Evasion
+
+* You can turn in a tied (to someone else) mormar/shimok book.
+
+* You can skip the 50-advancement quest and just go primal.
+
 ## Miscellaneous
 
 * Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
