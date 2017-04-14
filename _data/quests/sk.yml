@@ -19,8 +19,11 @@
   text: "Collect 10 pages of armor and buy a mold from Armornon, then turn it in to an npc nearby to get the corresponding armor. Fieldplates are used by Barbarian/Martialist, Boneplates are used by everyone else. Here are where you can find each page:
   
     * Silver - Drops infrequently from Silver enemies, somewhat frequently from Gold enemies
+    
     * Gold - Drops infrequently from Gold enemies, somewhat frequently from Black enemies
+    
     * Black - Drops infrequently from Black enemies, somewhat frequently from Green enemies
+    
     * Green - Drops infrequently from Green enemies, somewhat frequently from Parapet enemies"
     
   items:
