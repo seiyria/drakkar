@@ -43,34 +43,58 @@ armors:
     reqs: "Level 87, Barbarian or Martialist"
     attrs: "15/15, Glowing, +10 AGI/INT/STR/WIS, 500 Damage Absorption"
     sprite: "29-0"
+    quests:
+      - name: "SK Armor"
+      
   - name: "Silver Boneplate"
     reqs: "Level 87, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
     attrs: "20/20, Glowing, +10 AGI/INT/STR/WIS, 1000 Damage Absorption"
     sprite: "28-223"
+    quests:
+      - name: "SK Armor"
+      
   - name: "Gold Fieldplate"
     reqs: "Level 89, Barbarian or Martialist"
     attrs: "20/20, Glowing, +12 AGI/INT/STR/WIS, 700 Damage Absorption"
     sprite: "28-222"
+    quests:
+      - name: "SK Armor"
+      
   - name: "Gold Boneplate"
     reqs: "Level 89, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
     attrs: "25/25, Glowing, +12 AGI/INT/STR/WIS, 1200 Damage Absorption"
     sprite: "28-220"
+    quests:
+      - name: "SK Armor"
+      
   - name: "Black Fieldplate"
     reqs: "Level 92, Barbarian or Martialist"
     attrs: "25/25, Glowing, +14 AGI/INT/STR/WIS, 900 Damage Absorption"
     sprite: "29-3"
+    quests:
+      - name: "SK Armor"
+      
   - name: "Black Boneplate"
     reqs: "Level 92, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
     attrs: "30/30, Glowing, +14 AGI/INT/STR/WIS, 1400 Damage Absorption"
     sprite: "29-1"
+    quests:
+      - name: "SK Armor"
+      
   - name: "Green Fieldplate"
     reqs: "Level 95, Barbarian or Martialist"
     attrs: "30/30, Glowing, +16 AGI/INT/STR/WIS, 1100 Damage Absorption"
     sprite: "29-4"
+    quests:
+      - name: "SK Armor"
+      
   - name: "Green Boneplate"
     reqs: "Level 95, Fighter/Mentalist, Healer, Mentalists, Paladin, or Thief"
     attrs: "35/35, Glowing, +16 AGI/INT/STR/WIS, 1600 Damage Absorption"
     sprite: "29-5"
+    quests:
+      - name: "SK Armor"
+      
 boots:
   - name: "Gold Captain Boots"
     reqs: "Level 87"
@@ -98,6 +122,7 @@ bracers:
     reqs: "Level 86"
     attrs: "10/10, +500 HP/EP, Autosense, Sullen Strike (+1150 damage/hit)"
     sprite: "31-319"
+    
 earrings:
   - name: "Sullen Insight I Earring"
     reqs: "Level 87"
@@ -109,6 +134,7 @@ earrings:
     attrs: "Sullen Insight II (+150 EP Regen), autosense"
     sprite: "30-293"
 helms:
+
 gauntlets:
   - name: "Black Captain Gripclaws"
     reqs: "Level 89, Martialist"
@@ -131,6 +157,7 @@ sashes:
     reqs: "Level 90"
     attrs: "10/10, Psicutter"
     sprite: "27-196"
+    
 weapons:
   - name: "Healer Totem"
     reqs: "Level 86, Healer"
@@ -168,6 +195,7 @@ weapons:
     reqs: "Level 85"
     attrs: "10/10"
     sprite: "28-149"
+    
 others:
   - name: "Progression Pot"
     found: "SK Forest"
@@ -186,6 +214,50 @@ others:
     sprite: "26-180"
     quests:
       - name: "Progression 2"
+      
+  - name: "Page (Bone, Silver)"
+    found: "SK Silver, Gold"
+    sprite: "28-223"
+    quests:
+      - name: "SK Armor"
+  - name: "Page (Field, Silver)"
+    found: "SK Silver, Gold"
+    sprite: "29-0"
+    quests:
+      - name: "SK Armor"
+  
+  - name: "Page (Bone, Gold)"
+    found: "SK Gold, Black"
+    sprite: "28-220"
+    quests:
+      - name: "SK Armor"
+  - name: "Page (Field, Gold)"
+    found: "SK Gold, Black"
+    sprite: "28-222"
+    quests:
+      - name: "SK Armor"
+
+  - name: "Page (Bone, Black)"
+    found: "SK Black, Green"
+    sprite: "29-1"
+    quests:
+      - name: "SK Armor"
+  - name: "Page (Field, Black)"
+    found: "SK Black, Green"
+    sprite: "29-3"
+    quests:
+      - name: "SK Armor"
+
+  - name: "Page (Bone, Green)"
+    found: "SK Green, Parapet"
+    sprite: "29-5"
+    quests:
+      - name: "SK Armor"
+  - name: "Page (Field, Green)"
+    found: "SK Green, Parapet"
+    sprite: "29-4"
+    quests:
+      - name: "SK Armor"
 
   - name: "Stat Pot"
     found: "Everywhere"
