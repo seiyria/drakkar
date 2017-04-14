@@ -14,3 +14,21 @@
 
 - name: "Progression 4"
   text: "Once you've reached level 89, you have to take the stairs to the Green area of SK to progress to level 95."
+
+- name: "SK Armor"
+  text: "Collect 10 pages of armor and buy a mold from Armornon, then turn it in to an npc nearby to get the corresponding armor. Fieldplates are used by Barbarian/Martialist, Boneplates are used by everyone else. Here are where you can find each page:
+  
+    * Silver - Drops infrequently from Silver enemies, somewhat frequently from Gold enemies
+    * Gold - Drops infrequently from Gold enemies, somewhat frequently from Black enemies
+    * Black - Drops infrequently from Black enemies, somewhat frequently from Green enemies
+    * Green - Drops infrequently from Green enemies, somewhat frequently from Parapet enemies"
+    
+  items:
+    - sprite: "28-223"
+    - sprite: "29-0"
+    - sprite: "28-220"
+    - sprite: "28-222"
+    - sprite: "29-1"
+    - sprite: "29-2"
+    - sprite: "29-5"
+    - sprite: "29-4"
