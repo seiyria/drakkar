@@ -63,3 +63,5 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * Holding the corpse of some lairs will prevent them from respawning.
 
 * If you have a skill >= 40, you can `look at xxx` to see how far they are percentwise on that skill.
+
+* You can only gain skill in areas where you'd normally be able to get xp.
