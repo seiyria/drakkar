@@ -39,7 +39,7 @@ boots:
 bracers:
   - name: "Ozonous Bracers (Armor)"
     reqs: "Level 85"
-    attrs: "9/9, +450 HP/EP, Autosense, Consort Strike (+230 damage/hit)"
+    attrs: "9/9, +450 HP/EP, Autosense, Consort Armor (+AC)"
     drops:
       - name: "OzonousMax"
         lair: true
@@ -53,7 +53,7 @@ bracers:
     sprite: "31-319"
   - name: "Ozonous Bracers (Strike)"
     reqs: "Level 85"
-    attrs: "9/9, +450 HP/EP, Autosense, Consort Armor (+AC)"
+    attrs: "9/9, +450 HP/EP, Autosense, Consort Strike (+230 damage/hit)"
     drops:
       - name: "OzonousMax"
         lair: true
