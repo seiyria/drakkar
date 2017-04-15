@@ -10,6 +10,7 @@
   found: "Gold Floor"
   sprite: "6-152"
   drops:
+    - name: "Stat Pot"
     - name: "Gold Captain Boots"
     
 - name: "Black Captain"
@@ -17,14 +18,21 @@
   found: "Black Floor"
   sprite: "6-152"
   drops:
+    - name: "Stat Pot"
     - name: "Black Captain Gripclaws"
     
 - name: "Green Captain"
-  text: ""
+  text: "Drops any 2 rares and a stat pot. Hurts. Very tough fight."
   found: "Green Floor"
   sprite: "6-152"
   drops:
+    - name: "Stat Pot"
     - name: "Attack Amulet"
     - name: "Stolen Skill Amulet"
     - name: "Battle Cleric Amulet"
     - name: "Nightwalker Amulet"
+    - name: "Sullen Bracers (Armor)"
+    - name: "Sullen Bracers (Regeneration)"
+    - name: "Sullen Bracers (Strike)"
+    - name: "Sullen Insight II Earring"
+    - name: "Sullen Sash"
