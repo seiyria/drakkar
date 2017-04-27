@@ -243,6 +243,7 @@ bracers:
     sprite: "26-15"
 
   - name: "Pokick Bracers"
+    attrs: "+50 HP"
     drops:
       - name: "Pokick"
         lair: true
@@ -251,6 +252,7 @@ bracers:
       - name: "Po Earthcrush Prot Bracers"
 
   - name: "Pomend Bracers"
+    attrs: "+50 EP"
     drops:
       - name: "Pomend"
         lair: true
@@ -690,6 +692,11 @@ weapons:
     quests:
       - name: "Improva Weapons"
 
+  - name: "Curvy Longsword"
+    attrs: "+5, damages gear"
+    sprite: "28-124"
+    found: "Timmy Caves"
+
   - name: "Firestorm Longsword"
     attrs: "+3, LvX Firestorm (X = level floor found on)"
     sprite: "28-215"
@@ -797,6 +804,14 @@ weapons:
     sprite: "26-136"
     quests:
       - name: "Kite Shield"
+
+  - name: "Wooden Shield"
+    attrs: "+3"
+    sprite: "28-209"
+
+  - name: "Energyshield Shield"
+    attrs: "LvX Energyshield"
+    sprite: "28-210"
 
 others:
 

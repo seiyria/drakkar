@@ -28,6 +28,14 @@
     - sprite: "26-75"
     - sprite: "27-205"
 
+- name: "Sick Caves Access"
+  text: "Gather 4 furs from nearby animals and take them to Mac. You will be able to `down` on the nearby hole into the cave."
+  items:
+    - sprite: "30-367"
+    - sprite: "30-368"
+    - sprite: "30-369"
+    - sprite: "30-370"
+
 - name: "AGI 40"
   text: "In SDC 3 Solo Caves, you can find AGI Pots. Drinking them will increase your AGI to a base of 40."
   items:

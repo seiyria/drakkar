@@ -20,7 +20,7 @@
   sprite: "6-78"
   drops:
     - name: "Water Scroll"
-    - name: "Offensive Ring"
+    - name: "Defensive Ring"
     - name: "Vanidor Key"
     - name: "DeathSasquatch Fur"
   quests:
