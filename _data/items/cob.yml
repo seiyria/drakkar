@@ -68,7 +68,7 @@ amulets:
 
   - name: "Intelligence Amulet"
     reqs:
-    attrs: "+4 INT"
+    attrs: "+5 INT"
     found: "Psi Tower"
     drops:
       - name: "SD Scaler"
@@ -391,7 +391,7 @@ rings:
     found: "Forest"
     drops:
       - name: "Tree Ogre"
-    sprite: "28-191"
+    sprite: "28-192"
 
   - name: "Brass Ring"
     reqs: ""
@@ -522,7 +522,7 @@ robes:
       - name: "Quaz"
 
   - name: "Wraith Robe"
-    reqs: ""
+    reqs: "Mentalist"
     attrs: "+1 Psi Skill"
     found: "Spectre Dungeon"
     drops:
@@ -879,7 +879,10 @@ others:
     found: ""
     drops:
       - name: "Roc"
+        lair: true
     sprite: "28-82"
+    quests:
+      - name: "Lucien Gauntlets"
 
   - name: "Regen Rock"
     sprite: "26-71"

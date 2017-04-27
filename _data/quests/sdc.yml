@@ -21,8 +21,8 @@
   items:
     - sprite: "30-335"
     - sprite: "30-334"
-    
-- name "Progression 2"
+
+- name: "Progression 2"
   text: "Gather 1 Large Nugget and take it to Modax. He will trade it for a key which you can use to access the Miner49er area (hold in right hand and walk onto the SE hex in Gnomes). Beware of the lair. This is optional - you can just get a MT past it."
   items:
     - sprite: "26-75"

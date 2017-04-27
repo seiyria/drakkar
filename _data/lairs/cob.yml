@@ -7,6 +7,13 @@
   quests:
     - name: "Forged Weapons"
 
+- name: "Roc"
+  text: "Bites (w/ poison)."
+  found: "NW Caves, climb up on hay"
+  sprite: "6-108"
+  quests:
+    - name: "Lucien Gauntlets"
+
 - name: "DeathSasquatch"
   text: "Tan for armor. Lair is surrounded by UD-5 monsters - be careful."
   found: "UD-5"
