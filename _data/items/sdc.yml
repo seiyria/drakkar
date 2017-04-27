@@ -250,3 +250,8 @@ others:
     quests:
       - name: "Root Armor"
     sprite: "29-153"
+    
+  - name: "Miner49er Key"
+    quests:
+      - name: "Progression 2"
+    sprite: "27-205"
