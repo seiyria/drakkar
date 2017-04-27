@@ -632,7 +632,7 @@ weapons:
     sprite: "28-108"
 
   - name: "Forged Greatsword"
-    attrs: "+5"
+    attrs: "+4"
     sprite: "28-171"
     quests:
       - name: "Forged Weapons"
