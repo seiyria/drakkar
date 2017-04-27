@@ -777,6 +777,25 @@ weapons:
       - name: "Son of Graaagh"
         lair: true
 
+  - name: "Moon Shield"
+    attrs: "+2"
+    sprite: "28-211"
+    quests:
+      - name: "Titanium Shield"
+
+  - name: "Titanium Shield"
+    attrs: "+2, +100 HP"
+    sprite: "28-26"
+    quests:
+      - name: "Titanium Shield"
+
+  - name: "Kite Shield"
+    reqs: "Level 25"
+    attrs: "0/5, +200 HP"
+    sprite: "26-136"
+    quests:
+      - name: "Kite Shield"
+
 others:
 
   - name: "2oz Constitution Pot"
