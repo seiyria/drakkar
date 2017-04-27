@@ -1,3 +1,11 @@
+- name: "Crypt Access"
+  text: "Climb up to the Trapper NPC and activate the Archaeologist quest. Talk with him in the BDC Garden and kill the 4 spectres in BDC Castle. Take their statues to the Archaeologist to go down to the crypt."
+  items:
+    - sprite: "30-258"
+    - sprite: "30-258"
+    - sprite: "30-258"
+    - sprite: "30-258"
+
 - name: "Hermit Skill Progression"
   text: "Kill the Hermit in the BDC forest and take his scroll (read with right click) to advance to skill 39."
   items:

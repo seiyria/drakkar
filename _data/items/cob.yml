@@ -552,7 +552,7 @@ sashes:
 
   - name: "GiantKing Sash"
     reqs: "Level 30 Barbarian"
-    attrs: "7/0 +3 STR"
+    attrs: "7/0 +3 STR, +3 Attacks"
     found: ""
     sprite: "28-79"
     drops:
@@ -648,6 +648,14 @@ weapons:
       - name: "Boris"
         lair: true
 
+  - name: "GiantKing Greatsword"
+    reqs: "Barbarian"
+    attrs: "5/0 +3 Attacks, +3 STR"
+    sprite: ""
+    drops:
+      - name: "GiantKing"
+        lair: true
+
   - name: "Forged Halberd"
     attrs: "+4"
     sprite: "26-172"
@@ -676,7 +684,8 @@ weapons:
         lair: true
 
   - name: "GiantKing Halberd"
-    attrs: "+5, +3 STR (Only for Barbarian)"
+    reqs: "Barbarian"
+    attrs: "5/0, +3 Attacks, +3 STR"
     sprite: "26-167"
     drops:
       - name: "GiantKing"
