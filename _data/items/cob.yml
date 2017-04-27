@@ -620,7 +620,7 @@ weapons:
       - name: "Forged Weapons"
 
   - name: "Lazloth Dagger"
-    attrs: "+8, Glowing"
+    attrs: "+8, Glowing, Returning"
     sprite: "28-109"
     drops:
       - name: "Lazloth"
