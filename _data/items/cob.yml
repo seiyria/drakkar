@@ -120,7 +120,7 @@ armors:
 
   - name: "Ningizidda Scales"
     reqs: ""
-    attrs: "0/5, +4 STR, Psicutter"
+    attrs: "0/5, +4 STR, 450 Fire/Ice Prot"
     found:
     drops:
       - name: "Ningizidda"
@@ -172,7 +172,7 @@ armors:
     sprite: "29-6"
 
   - name: "Vanidor Plate"
-    reqs: ""
+    reqs: "Level 25 Paladin/Fighter/Mentalist/Thief"
     attrs: "6/6, +3 STR/AGI, Psicutter"
     found:
     drops:
@@ -210,7 +210,7 @@ boots:
     sprite: "27-202"
 
   - name: "Lazloth Boots"
-    reqs: "Level 35 Thief"
+    reqs: "Level 30 Thief"
     attrs: "6/0 +2 AGI"
     found:
     drops:
@@ -261,7 +261,7 @@ bracers:
       - name: "Po Earthcrush Prot Bracers"
 
   - name: "Earthcrush Prot Bracers"
-    attrs: "Earthcrush Prot"
+    attrs: "500 Earthcrush Prot"
     sprite: "27-148"
     quests:
       - name: "Po Earthcrush Prot Bracers"
@@ -289,10 +289,10 @@ bracers:
     quests:
       - name: "+100 HP (Kaldor Shackle)"
 
-  - name: "Undead Bracers"
+  - name: "Combat Bracers"
     reqs: ""
-    attrs: "X/X (X = floor found on)"
-    found: "Undead City"
+    attrs: "1/1-6/6"
+    found: "Undead City, Giants Keep"
     drops:
     sprite: "26-13"
 
@@ -469,13 +469,13 @@ robes:
 
   - name: "King's Robe"
     reqs: "Level 25 Barbarian"
-    attrs: "4/4 +100 HP, Psicutter"
+    attrs: "4/4 +100 HP, Psicutter (no hp loss from hp-sucking staves)"
     sprite: "28-173"
     quests:
       - name: "King's Robe"
 
   - name: "Loriapi Robe"
-    attrs: "+4, Psicutter, +19 EP Regen"
+    attrs: "+4, Psicutter, +19 EP Regen (no hp loss from hp-sucking staves)"
     drops:
       - name: "Loriapi"
         lair: true
@@ -483,7 +483,7 @@ robes:
 
   - name: "Lanapi Robe"
     reqs: "Level 35"
-    attrs: "+35 EP Regen, no HP loss on death"
+    attrs: "0/8, +35 EP Regen, 500 Fire/Ice Prot, no HP loss on death (additionally, no hp loss from hp-sucking staves)"
     found: ""
     sprite: "26-112"
     drops:
@@ -491,8 +491,8 @@ robes:
         lair: true
 
   - name: "Lazloth Earthcrush Robe"
-    reqs: "Level 35"
-    attrs: "3/0 +2 AGI, 500 Earthcrush Prot"
+    reqs: "Level 30"
+    attrs: "3/0 +3 AGI, 500 Earthcrush Prot"
     found: ""
     sprite: "28-175"
     drops:
@@ -500,8 +500,8 @@ robes:
         lair: true
 
   - name: "Lazloth Shockwave Robe"
-    reqs: "Level 35"
-    attrs: "3/0 +2 AGI, 500 Shockwave Prot"
+    reqs: "Level 30"
+    attrs: "3/0 +3 AGI, 500 Shockwave Prot"
     found: ""
     sprite: "28-176"
     drops:
@@ -551,7 +551,7 @@ sashes:
         lair: true
 
   - name: "GiantKing Sash"
-    reqs: "Level 35 Barbarian"
+    reqs: "Level 30 Barbarian"
     attrs: "7/0 +3 STR"
     found: ""
     sprite: "28-79"
@@ -560,7 +560,7 @@ sashes:
         lair: true
 
   - name: "Lanapi Sash"
-    reqs: "Level 35"
+    reqs: "Level 30"
     attrs: "8/8"
     found: ""
     sprite: "28-166"
@@ -569,7 +569,7 @@ sashes:
         lair: true
 
   - name: "Lazloth Sash"
-    reqs: "Level 35 Thief"
+    reqs: "Level 30 Thief"
     attrs: "9/0 +2 AGI"
     found: ""
     sprite: "28-168"
@@ -586,6 +586,7 @@ weapons:
       - name: "Forged Weapons"
 
   - name: "Vanidor Axe"
+    reqs: "Level 25"
     attrs: "+5, Returning"
     sprite: "wtfisntthisinanormalplace-vaniaxe"
     drops:
@@ -622,6 +623,7 @@ weapons:
       - name: "Forged Weapons"
 
   - name: "Lazloth Dagger"
+    reqs: "Level 30 Thief"
     attrs: "+8, Glowing, Returning"
     sprite: "28-109"
     drops:
