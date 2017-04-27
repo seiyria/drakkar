@@ -6,7 +6,7 @@
   text: "Take Graagh's Halberd to Duke Moreal in the well in Graaagh's Castle."
 
 - name: "+100 HP (Juntes' Brother)"
-  text: "Find Ionas in Desert Town and talk to him, and he will give you a ring to take to Juntes. Go southwest into the swamp and find Juntes and click him while holding the ring, he will give you a ring to take to Ionas. Take it back to Ionas."
+  text: "Find Ionas in Desert Town and talk to him, and he will give you a ring to take to Juntes. Go southwest into the swamp and find Juntes and click him while holding the ring in your right hand, he will give you a ring to take to Ionas. Take it back to Ionas."
   items:
     - sprite: "27-154"
     - sprite: "27-155"
@@ -137,7 +137,7 @@
 - name: "Abner Boots"
   text: "Trade Silver Dragon Scales for Abner Boots in Tree Town."
   items:
-    - sprite: "29-10"
+    - sprite: "2-27"
     - sprite: "28-208"
 
 - name: "Jasper Boots"
