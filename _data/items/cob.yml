@@ -353,7 +353,7 @@ gauntlets:
 rings:
   - name: "Balanced Ring"
     reqs: ""
-    attrs: "8/8"
+    attrs: "8/8-9/9"
     found: ""
     drops:
       - name: "Graaagh"
@@ -363,6 +363,8 @@ rings:
       - name: "Juntes"
         lair: true
       - name: "Beetle"
+        lair: true
+      - name: "Son of Graaagh"
         lair: true
     sprite: "28-190"
 
