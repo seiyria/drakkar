@@ -11,10 +11,10 @@
     <td><a href="#Bracers">Bracers</a></td>
     <td><a href="#Boots">Boots</a></td>
     <td><a href="#Earrings">Earrings</a></td>
-    <td><a href="#Helms">Helms</a></td>
+    <td><a href="#Gauntlets">Gauntlets</a></td>
   </tr>
   <tr>
-    <td><a href="#Gauntlets">Gauntlets</a></td>
+    <td><a href="#Helms">Helms</a></td>
     <td><a href="#Rings">Rings</a></td>
     <td><a href="#Robes">Robes</a></td>
     <td><a href="#Sashes">Sashes</a></td>
@@ -28,8 +28,8 @@
 {% include equipment type="boots" name="Boots" %}
 {% include equipment type="bracers" name="Bracers" %}
 {% include equipment type="earrings" name="Earrings" %}
-{% include equipment type="helms" name="Helms" %}
 {% include equipment type="gauntlets" name="Gauntlets" %}
+{% include equipment type="helms" name="Helms" %}
 {% include equipment type="rings" name="Rings" %}
 {% include equipment type="robes" name="Robes" %}
 {% include equipment type="sashes" name="Sashes" %}

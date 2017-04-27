@@ -134,6 +134,17 @@ classes:
 
 # scenario links
 scenarios:
+  - title: "Cobrahn"
+    children:
+      - title: "Scenario Information"
+        url: /scenarios/cob/
+      - title: "Lairs"
+        url: /scenarios/cob/lairs
+      - title: "Quests"
+        url: /scenarios/cob/quests
+      - title: "Items"
+        url: /scenarios/cob/items
+        
   - title: "Nameless Lands"
     children:
       - title: "Scenario Information"
@@ -188,7 +199,7 @@ scenarios:
         url: /scenarios/sk/quests
       - title: "Items"
         url: /scenarios/sk/items
-        
+
   - title: "Invader's Refuge"
     children:
       - title: "Scenario Information"

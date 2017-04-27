@@ -7,7 +7,7 @@ header:
   cta_label: "<i class='fa fa-arrow-circle-right'></i> Check it out"
   cta_url: "/scenarios/"
   caption:
-excerpt: 'A humble fansite that aggregates information I consider to be important, as well as building on it to provide the latest SDC+ information. The site also is not going anywhere, and the information is completely open and usable.'
+excerpt: 'A humble fansite that aggregates all data relating to the Kingdom of Drakkar, including lairs, quests, items, class and scenario info. Aims to be the best Drakkar resource in existence.'
 feature_row:
   - title: "Scenario Information"
     excerpt: "Information about all of the latest scenarios (items, quests, places), and maybe some older ones."
