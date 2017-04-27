@@ -1,0 +1,978 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+  - name: "Earthcrush Amulet"
+    reqs:
+    attrs: "500 Earthcrush Prot"
+    found:
+    drops:
+    sprite: "28-8"
+    quests:
+      - name: "Earthcrush Prot Amulet"
+
+  - name: "Kaldor Amulet"
+    reqs:
+    attrs: "+2 healer skills, +2 EP regen"
+    found:
+    drops:
+      - name: "Kaldor"
+        lair: true
+    sprite: "28-50"
+
+  - name: "Psicrush Amulet"
+    reqs:
+    attrs: "X Psicrush Prot (X = floor found on)"
+    found: "Undead City"
+    sprite: "28-185"
+
+  - name: "EP Amulet"
+    reqs:
+    attrs: "+45 EP"
+    found: "Psi Tower"
+    drops:
+      - name: "BD Scaler"
+        lair: true
+    sprite: "28-184"
+    quests:
+      - name: "Energylance"
+
+  - name: "Strength Amulet"
+    reqs:
+    attrs: "+4 STR"
+    found: "Psi Tower"
+    drops:
+      - name: "GD Scaler"
+        lair: true
+    sprite: "28-186"
+    quests:
+      - name: "Energylance"
+
+  - name: "Agility Amulet"
+    reqs:
+    attrs: "+4 AGI"
+    found: "Psi Tower"
+    drops:
+      - name: "Beetle Scaler"
+        lair: true
+    sprite: "28-187"
+    quests:
+      - name: "Energylance"
+
+  - name: "Intelligence Amulet"
+    reqs:
+    attrs: "+4 INT"
+    found: "Psi Tower"
+    drops:
+      - name: "SD Scaler"
+        lair: true
+    sprite: "28-188"
+    quests:
+      - name: "Energylance"
+
+  - name: "Anti-Steve Amulet"
+    reqs:
+    attrs: "No HP loss on death"
+    found: "Psi Tower"
+    drops:
+    sprite: "26-10"
+    quests:
+      - name: "Anti-Steve Amulet"
+
+armors:
+  - name: "Beetle Scales"
+    reqs:
+    attrs: "+3, Psimirror"
+    found:
+    drops:
+      - name: "Beetle"
+        lair: true
+    sprite: "26-16"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "DeathSasquatch Fur"
+    reqs: "Level 25 Barbarian"
+    attrs: "0/7, +200 HP"
+    found:
+    drops:
+      - name: "DeathSasquatch"
+        lair: true
+    sprite: "27-192"
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Beetle Fullplate"
+    reqs: "G/G alignment"
+    attrs: "0/5, +4 STR, Psicutter"
+    found:
+    drops:
+    sprite: "28-74"
+    quests:
+      - name: "Beetle Fullplate"
+
+  - name: "Ningizidda Scales"
+    reqs: ""
+    attrs: "0/5, +4 STR, Psicutter"
+    found:
+    drops:
+      - name: "Ningizidda"
+        lair: true
+    sprite: "26-105"
+
+  - name: "Silver Dragon Scales"
+    reqs: ""
+    attrs: "+5, Lightning Prot"
+    found:
+    drops:
+      - name: "Silver Dragon"
+        lair: true
+      - name: "SD Scaler"
+        lair: true
+    sprite: "29-10"
+
+  - name: "Black Dragon Scales"
+    reqs: ""
+    attrs: "0/6, +2 AGI, Acid Prot"
+    found:
+    drops:
+      - name: "Black Dragon"
+        lair: true
+      - name: "BD Scaler"
+        lair: true
+    sprite: "29-2"
+
+  - name: "Gold Dragon Scales"
+    reqs: ""
+    attrs: "0/7, +1 STR, Fire/Ice/Earthcrush Prot"
+    found:
+    drops:
+      - name: "Gold Dragon"
+        lair: true
+      - name: "GD Scaler"
+        lair: true
+    sprite: "28-221"
+
+  - name: "Green Dragon Scales"
+    reqs: ""
+    attrs: "0/2, Acid Prot"
+    found:
+    drops:
+      - name: "Green Dragon"
+        lair: true
+      - name: "Energylance Scaler"
+        lair: true
+    sprite: "29-6"
+
+  - name: "Vanidor Plate"
+    reqs: ""
+    attrs: "6/6, +3 STR/AGI, Psicutter"
+    found:
+    drops:
+      - name: "Vanidor"
+        lair: true
+    sprite: "29-11"
+
+boots:
+  - name: "Abner Boots"
+    reqs: ""
+    attrs: "0/4"
+    found:
+    drops:
+    quests:
+      - name: "Abner Boots"
+    sprite: "28-208"
+
+  - name: "Jasper Boots"
+    reqs: ""
+    attrs: "0/4"
+    found:
+    drops:
+    quests:
+      - name: "Jasper Boots"
+    sprite: "28-205"
+
+  - name: "Moon Boots"
+    reqs: ""
+    attrs: "Psicutter"
+    found:
+    drops:
+      - name: "Timmy Area"
+      - name: "Lanapi"
+        lair: true
+    sprite: "27-202"
+
+  - name: "Lazloth Boots"
+    reqs: "Level 35 Thief"
+    attrs: "6/0 +2 AGI"
+    found:
+    drops:
+      - name: "Lazloth"
+        lair: true
+
+    sprite: "26-102"
+
+  - name: "Undead Boots"
+    reqs: ""
+    attrs: "X/X (X = floor found on)"
+    found: "Undead City"
+    drops:
+    sprite: "28-206"
+
+bracers:
+
+  - name: "Energyspear Bracers"
+    reqs: ""
+    attrs: "X Enmiss Prot (X = floor found on)"
+    found: "Undead City"
+    drops:
+    sprite: "26-127"
+
+  - name: "Firestorm Bracers"
+    reqs: ""
+    attrs: "X Firestorm Prot (X = floor found on)"
+    found: "Undead City"
+    drops:
+    sprite: "26-15"
+
+  - name: "Pokick Bracers"
+    drops:
+      - name: "Pokick"
+        lair: true
+    sprite: "27-148"
+    quests:
+      - name: "Po Earthcrush Prot Bracers"
+
+  - name: "Pomend Bracers"
+    drops:
+      - name: "Pomend"
+        lair: true
+    sprite: "27-148"
+    quests:
+      - name: "Po Earthcrush Prot Bracers"
+
+  - name: "Earthcrush Prot Bracers"
+    attrs: "Earthcrush Prot"
+    sprite: "27-148"
+    quests:
+      - name: "Po Earthcrush Prot Bracers"
+
+  - name: "Earthcrush Prot Bracers"
+    attrs: "500 Earthcrush Prot"
+    drops:
+        - name: "ArchMagiGuard"
+          lair: true
+    sprite: "26-126"
+
+  - name: "Shockwave Prot Bracers"
+    attrs: "500 Shockwave Prot"
+    drops:
+        - name: "ArchMagiGuard"
+          lair: true
+    sprite: "26-126"
+
+  - name: "Shackles"
+    reqs: ""
+    attrs: ""
+    found: "Kaldor's Castle"
+    drops:
+    sprite: "27-198"
+    quests:
+      - name: "+100 HP (Kaldor Shackle)"
+
+  - name: "Undead Bracers"
+    reqs: ""
+    attrs: "X/X (X = floor found on)"
+    found: "Undead City"
+    drops:
+    sprite: "26-13"
+
+earrings:
+helms:
+  - name: "Green Dragon Helm"
+    reqs: ""
+    attrs: "+5, Combat-stun Prot"
+    found: ""
+    drops:
+    sprite: "28-161"
+    quests:
+      - name: "Green Dragon Helm"
+
+  - name: "Infravision Helm"
+    reqs: ""
+    attrs: "3x3 Infravision"
+    found: ""
+    drops:
+    sprite: "27-149"
+    quests:
+      - name: "Infravision Helm"
+
+  - name: "Ningizidda Helm"
+    reqs: ""
+    attrs: "Stun Prot, Psicutter"
+    found: ""
+    drops:
+      - name: "Ningizidda"
+        lair: true
+    sprite: "28-162"
+
+gauntlets:
+  - name: "Juntes Gauntlets"
+    reqs: "Martialist"
+    attrs: "+4, +2 AGI, Glowing, Deplete"
+    found: ""
+    drops:
+      - name: "Juntes"
+        lair: true
+    sprite: "28-156"
+
+  - name: "Lucien Gauntlets"
+    reqs: "Martialist"
+    attrs: "+4, +1 STR"
+    found: ""
+    drops:
+      - name: "Juntes"
+        lair: true
+    sprite: "28-156"
+
+  - name: "Undead Gauntlets"
+    reqs: ""
+    attrs: "+X (X = floor found on)"
+    found: "Undead City"
+    drops:
+      - name: "Rada"
+    sprite: "28-158"
+
+rings:
+  - name: "Balanced Ring"
+    reqs: ""
+    attrs: "8/8"
+    found: ""
+    drops:
+      - name: "Graaagh"
+        lair: true
+      - name: "Loriapi"
+        lair: true
+      - name: "Juntes"
+        lair: true
+      - name: "Beetle"
+        lair: true
+    sprite: "28-190"
+
+  - name: "Defensive Ring"
+    reqs: ""
+    attrs: "0/10"
+    found: "Undead City"
+    drops:
+      - name: "Ghast"
+    sprite: "28-193"
+
+  - name: "Offensive Ring"
+    reqs: ""
+    attrs: "10/0"
+    found: ""
+    drops:
+      - name: "GiantKing"
+        lair: true
+      - name: "DeathSasquatch"
+        lair: true
+    sprite: "28-190"
+
+  - name: "Bone Ring"
+    reqs: ""
+    attrs: ""
+    found: "Forest"
+    drops:
+      - name: "Tree Ogre"
+    sprite: "28-191"
+
+  - name: "Brass Ring"
+    reqs: ""
+    attrs: ""
+    found: "Desert"
+    drops:
+    sprite: "26-64"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Energyshield Ring"
+    reqs: ""
+    attrs: "1/1-5/5, Energyshield"
+    found: "Timmy Secret"
+    drops:
+    sprite: "28-191"
+
+  - name: "Maggio Ring"
+    reqs: ""
+    attrs: ""
+    found: "Desert"
+    drops:
+    sprite: "26-38"
+    quests:
+      - name: "Infravision Helm"
+
+robes:
+  - name: "Arun Robe"
+    drops:
+      - name: "Arun"
+        lair: true
+    sprite: "28-182"
+
+  - name: "Combat Robe"
+    attrs: "+4-5, Fire Prot"
+    drops:
+      - name: "EvilTimmeh"
+        lair: true
+      - name: "Mr.Alverica"
+        lair: true
+    sprite: "28-71"
+
+  - name: "Energylance Robe"
+    attrs: "+2, Energylance Prot"
+    drops:
+      - name: "Energylance Scaler"
+        lair: true
+    sprite: "28-181"
+
+  - name: "Guntver Robe"
+    attrs: "+2, +EP Regen"
+    drops:
+      - name: "Guntver"
+        lair: true
+    sprite: "26-106"
+
+  - name: "Juntes Robe"
+    reqs: "Martialist"
+    attrs: "Fire Prot"
+    drops:
+      - name: "Juntes"
+        lair: true
+    sprite: "28-179"
+
+  - name: "Kaldor Robe"
+    attrs: "+3, Assault Prot"
+    drops:
+      - name: "Kaldor"
+        lair: true
+    sprite: "27-134"
+
+  - name: "King's Robe"
+    reqs: "Level 25 Barbarian"
+    attrs: "4/4 +100 HP, Psicutter"
+    sprite: "28-173"
+    quests:
+      - name: "King's Robe"
+
+  - name: "Loriapi Robe"
+    attrs: "+4, Psicutter, +19 EP Regen"
+    drops:
+      - name: "Loriapi"
+        lair: true
+    sprite: "28-91"
+
+  - name: "Lanapi Robe"
+    reqs: "Level 35"
+    attrs: "+35 EP Regen, no HP loss on death"
+    found: ""
+    sprite: "26-112"
+    drops:
+      - name: "Lanapi"
+        lair: true
+
+  - name: "Lazloth Earthcrush Robe"
+    reqs: "Level 35"
+    attrs: "3/0 +2 AGI, 500 Earthcrush Prot"
+    found: ""
+    sprite: "28-175"
+    drops:
+      - name: "Lazloth"
+        lair: true
+
+  - name: "Lazloth Shockwave Robe"
+    reqs: "Level 35"
+    attrs: "3/0 +2 AGI, 500 Shockwave Prot"
+    found: ""
+    sprite: "28-176"
+    drops:
+      - name: "Lazloth"
+        lair: true
+
+  - name: "Red Robe"
+    reqs: ""
+    attrs: "+2, Fire/Ice Prot, Psimirror"
+    found: ""
+    drops:
+      - name: "Loriapi"
+        lair: true
+    sprite: "28-183"
+
+  - name: "Undead Robe"
+    reqs: ""
+    attrs: "0/X (X = floor found on)"
+    found: "Undead City"
+    sprite: "28-180"
+    drops:
+      - name: "Quaz"
+
+  - name: "Wraith Robe"
+    reqs: ""
+    attrs: "+1 Psi Skill"
+    found: "Spectre Dungeon"
+    drops:
+      - name: "wraith"
+    sprite: "28-178"
+
+sashes:
+
+  - name: "Combat Sash"
+    reqs: ""
+    attrs: "1/1-6/6 (Commonly 5/5)"
+    found: ""
+    sprite: "28-170"
+    drops:
+      - name: "Arun"
+        lair: true
+      - name: "Boris"
+        lair: true
+      - name: "Loriapi"
+        lair: true
+      - name: "Vanidor"
+        lair: true
+
+  - name: "GiantKing Sash"
+    reqs: "Level 35 Barbarian"
+    attrs: "7/0 +3 STR"
+    found: ""
+    sprite: "28-79"
+    drops:
+      - name: "GiantKing"
+        lair: true
+
+  - name: "Lanapi Sash"
+    reqs: "Level 35"
+    attrs: "8/8"
+    found: ""
+    sprite: "28-166"
+    drops:
+      - name: "Lanapi"
+        lair: true
+
+  - name: "Lazloth Sash"
+    reqs: "Level 35 Thief"
+    attrs: "9/0 +2 AGI"
+    found: ""
+    sprite: "28-168"
+    drops:
+      - name: "Lazloth"
+        lair: true
+
+weapons:
+
+  - name: "Forged Axe"
+    attrs: "+4, Returning"
+    sprite: "26-173"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Vanidor Axe"
+    attrs: "+5, Returning"
+    sprite: ""
+    drops:
+      - name: "Vanidor"
+        lair: true
+
+  - name: "Alverica's Crossbow"
+    attrs: "+7-9"
+    sprite: "27-115"
+    drops:
+      - name: "Mr.Alverica"
+        lair: true
+
+  - name: "Push Bow"
+    attrs: "+5, Lv30 Push"
+    sprite: "28-138"
+
+  - name: "Energyspear Bow"
+    attrs: "+3-6, Lv15 Energyspear"
+    sprite: "28-140"
+    drops:
+      - name: "EvilTimmeh"
+        lair: true
+
+  - name: "Golden Energyspear Bow"
+    attrs: "+6, Lv30 Energyspear"
+    sprite: "28-137"
+    found: "Lazloth Puzzle"
+
+  - name: "Forged Dagger"
+    attrs: "+6"
+    sprite: "28-114"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Lazloth Dagger"
+    attrs: "+8, Glowing"
+    sprite: "28-109"
+    drops:
+      - name: "Lazloth"
+        lair: true
+
+  - name: "Kaldor Dagger"
+    reqs: "E/E alignment"
+    attrs: "+2"
+    sprite: "28-108"
+
+  - name: "Forged Greatsword"
+    attrs: "+5"
+    sprite: "28-171"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Batwing Greatsword"
+    attrs: "+5"
+    sprite: "28-129"
+    drops:
+      - name: "Boris"
+        lair: true
+
+  - name: "Forged Halberd"
+    attrs: "+4"
+    sprite: "26-172"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Firestorm Halberd"
+    attrs: "+3, LvX Firestorm (X = level floor found on)"
+    sprite: ""
+    found: "Undead City"
+
+  - name: "Graaagh Halberd"
+    attrs: "+2, +5 STR (Only for Barbarian)"
+    sprite: "28-135"
+    drops:
+      - name: "Graaagh"
+        lair: true
+      - name: "Son of Graaagh"
+        lair: true
+
+  - name: "Son of Graaagh Halberd"
+    attrs: "+5"
+    sprite: "26-143"
+    drops:
+      - name: "Son of Graaagh"
+        lair: true
+
+  - name: "GiantKing Halberd"
+    attrs: "+5, +3 STR (Only for Barbarian)"
+    sprite: "26-167"
+    drops:
+      - name: "GiantKing"
+        lair: true
+
+  - name: "Forged Hammer"
+    attrs: "+5"
+    sprite: "26-173"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Improva Hammer"
+    attrs: "???"
+    sprite: "28-147"
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Firestorm Longsword"
+    attrs: "+3, LvX Firestorm (X = level floor found on)"
+    sprite: "28-215"
+    found: "Undead City"
+
+  - name: "Forged Longsword"
+    attrs: "+4"
+    sprite: "26-174"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Improva Longsword"
+    attrs: "???"
+    sprite: "28-123"
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Firestorm Mace"
+    attrs: "+3, LvX Firestorm (X = level floor found on)"
+    sprite: "28-144"
+    found: "Undead City, Giant Keep"
+
+  - name: "Forged Mace"
+    attrs: "+5"
+    sprite: "26-176"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Kaldor Mace"
+    attrs: "+1, Lv16 Stun"
+    sprite: "28-142"
+    drops:
+      - name: "Kaldor"
+        lair: true
+
+  - name: "Forged Shortsword"
+    attrs: "+5"
+    sprite: "26-170"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Improva Shortsword"
+    attrs: "+7"
+    sprite: "28-113"
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Forged Spear"
+    attrs: "+5"
+    sprite: "26-152"
+    quests:
+      - name: "Forged Weapons"
+
+  - name: "Guntver Staff"
+    attrs: "+3, +3 Psi Skill"
+    sprite: "26-134"
+    drops:
+      - name: "Guntver"
+        lair: true
+
+  - name: "Arun Staff"
+    reqs: "Healer"
+    attrs: "+4 Psi Skill"
+    sprite: "28-151"
+    drops:
+      - name: "Arun"
+        lair: true
+
+  - name: "Loriapi Staff"
+    attrs: "+6, +6 Psi Skills"
+    sprite: "28-152"
+    drops:
+      - name: "Loriapi"
+        lair: true
+
+  - name: "Lanapi Staff"
+    attrs: "+9, +10 Psi Skills"
+    sprite: "28-153"
+    drops:
+      - name: "Lanapi"
+        lair: true
+
+  - name: "Son of Graaagh Spear"
+    attrs: "+6"
+    sprite: "28-134"
+    drops:
+      - name: "Son of Graaagh"
+        lair: true
+
+others:
+
+  - name: "2oz Constitution Pot"
+    attrs: "+2 CON (18 max)"
+    sprite: "27-177"
+    found: "Conqueror's Club"
+
+  - name: "Shalalala Pot"
+    attrs: "Mini-Fate"
+    sprite: "27-167"
+    quests:
+      - name: "Shalalala Mini-Fate Potion"
+
+  - name: "Dion Pot"
+    attrs: "Mini-Fate"
+    sprite: "27-167"
+    quests:
+      - name: "Dion Mini-Fate Potion"
+
+  - name: "Fire Ruby"
+    sprite: "28-2"
+    drops:
+      - name: "Red Dragon"
+        lair: true
+
+  - name: "Dragon Diamond"
+    sprite: "27-161"
+    drops:
+      - name: "Silver Dragon"
+        lair: true
+
+  - name: "Black Pearl"
+    sprite: "28-4"
+    drops:
+      - name: "Black Dragon"
+        lair: true
+
+  - name: "Gold Brick"
+    sprite: "28-103"
+    drops:
+      - name: "Gold Dragon"
+        lair: true
+    quests:
+      - name: "Earthcrush Prot Amulet"
+
+  - name: "Flight Emerald"
+    sprite: "27-156"
+    drops:
+      - name: "Green Dragon"
+        lair: true
+
+  - name: "Elemental Scroll (Wind)"
+    sprite: "26-180"
+    found: "Undead City (4, 5)"
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Elemental Scroll (Fire)"
+    sprite: "26-180"
+    found: "Undead City (4, 5)"
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Elemental Scroll (Earth)"
+    sprite: "26-180"
+    found: "Undead City (4, 5)"
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Elemental Scroll (Water)"
+    sprite: "26-180"
+    drops:
+      - name: "DeathSasquatch"
+        lair: true
+    quests:
+      - name: "Improva Weapons"
+
+  - name: "Roc Egg"
+    reqs: ""
+    attrs: ""
+    found: ""
+    drops:
+      - name: "Roc"
+    sprite: "28-82"
+
+  - name: "Regen Rock"
+    sprite: "26-71"
+    quests:
+      - name: "Lair Regen"
+
+  - name: "Cthon Egg"
+    sprite: "26-121"
+    found: "Psi Tower"
+    drops:
+      - name: "cthon"
+    quests:
+      - name: "Anti-Steve Amulet"
+
+  - name: "Grub"
+    sprite: "26-78"
+    found: "Psi Tower"
+    drops:
+      - name: "cthon"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Brass Ring"
+    sprite: "26-64"
+    found: "Forest Floor"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Cedar Packet"
+    sprite: "26-88"
+    found: "Forest Floor"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Mandrake Packet"
+    sprite: "26-90"
+    found: "Swamp"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Sapphire"
+    sprite: "26-69"
+    found: "Giant Keep"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Silver Nugget"
+    sprite: "26-74"
+    found: "Timmy Caves"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Turnip"
+    sprite: "26-101"
+    found: "Giant Keep"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Stat Pot (EP)"
+    attrs: "+1 EP"
+    sprite: "26-164"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Stat Pot (CON)"
+    attrs: "+1 CON"
+    sprite: "26-161"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Stat Pot (WIS)"
+    attrs: "+1 WIS"
+    sprite: "26-163"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Stat Pot (STR)"
+    attrs: "+1 STR"
+    sprite: "26-159"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Stat Pot (INT)"
+    attrs: "+1 INT"
+    sprite: "26-165"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Stat Pot (AGI)"
+    attrs: "+1 AGI"
+    sprite: "26-162"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Stat Pot (WIL)"
+    attrs: "+1 WIL"
+    sprite: "26-160"
+    quests:
+      - name: "Stat Pots"
+
+  - name: "Wooden Bolt"
+    sprite: "27-116"
+    found: "Giant Keep"
+    quests:
+      - name: "Titanium Shield"
+
+  - name: "Youth Pot"
+    attrs: "Restores Youth"
+    sprite: "28-78"
+    found: "Conqueror's Club, Lairs"
+    drops:
+      - name: "Boris"
+        lair: true
+      - name: "Loriapi"
+        lair: true
