@@ -30,8 +30,6 @@
   text: "Loriapi's Assistant. Autoheals frequently."
   found: "Loriapi's Hut"
   sprite: "6-105"
-  drops:
-    - name: "Energyspear Bow"
 
 - name: "Loriapi"
   text: "Uses energyspear, energylance, shockwave, and deplete. Hits with staff. If not wearing Loriapi Robe, staff hits take 2 perm hp."
