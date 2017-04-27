@@ -25,7 +25,7 @@ armors:
     drops:
       - name: "Skar"
         lair: true
-    sprite: "29-10"
+    sprite: "2-27"
 
   - name: "Betrayer Armor"
     reqs: "Level 80"
@@ -70,14 +70,14 @@ rings:
     drops:
       - name: "IceTitan"
         lair: true
-        
+
   - name: "Gnomes Ring"
     reqs: "Level 75"
     attrs: "9/9 +4 all stats, random Ice/Fire/Lightning Inflation/Ablation"
     sprite: "27-155"
     drops:
       - name: "gnomes"
-      
+
 robes:
 
   - name: "Spur Robe"
@@ -86,7 +86,7 @@ robes:
     drops:
       - name: "Spur"
         lair: true
-    sprite: "29-10"
+    sprite: "2-27"
 
 weapons:
   - name: "LavaCity Shield"

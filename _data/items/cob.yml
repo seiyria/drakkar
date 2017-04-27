@@ -136,7 +136,7 @@ armors:
         lair: true
       - name: "SD Scaler"
         lair: true
-    sprite: "29-10"
+    sprite: "2-27"
 
   - name: "Black Dragon Scales"
     reqs: ""
@@ -583,7 +583,7 @@ weapons:
 
   - name: "Vanidor Axe"
     attrs: "+5, Returning"
-    sprite: ""
+    sprite: "wtfisntthisinanormalplace-vaniaxe"
     drops:
       - name: "Vanidor"
         lair: true
@@ -650,7 +650,7 @@ weapons:
 
   - name: "Firestorm Halberd"
     attrs: "+3, LvX Firestorm (X = level floor found on)"
-    sprite: ""
+    sprite: "wtfisntthisinanormalplace-fshally"
     found: "Undead City"
 
   - name: "Graaagh Halberd"
