@@ -47,6 +47,10 @@
 
 - name: "Castle Access"
   text: "Kill NPCs near castle to find a key to the castle. After that, you need to kill merccaptains to find 2 more keys to get all the way into the castle."
+  items:
+    - sprite: "30-253"
+    - sprite: "30-251"
+    - sprite: "30-252"
 
 - name: "Barbarian Fields Access"
   text: "Kill NPCs in the castle to find 10 Infected Apples, and give them to the Cook in the kitchen. Danfur will give you a Barbarian Fields Key to the fields to open the doors."
@@ -64,3 +68,5 @@
 
 - name: "Wackaflexes"
   text: "Head to the Castle and find Wakka (he is behind a locked door, a key can be found nearby). If you do `wakka, begin` you can fight a bunch of moles. When you succeed, click him again and you will gain a point in the Wackaflexes quirk. You can get up to 5. There is a small delay between them as well."
+  items:
+    - sprite: "28-47"

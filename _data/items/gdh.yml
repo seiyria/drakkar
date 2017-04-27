@@ -271,3 +271,27 @@ others:
     found: "Barbarian Fields"
     quests:
       - name: "Bear None"
+
+  - name: "Castle Key"
+    sprite: "30-253"
+    found: "GDH2"
+    quests:
+      - name: "Castle Access"
+
+  - name: "MercCaptain Key 1"
+    sprite: 30-251"
+    found: "GDH Castle"
+    quests:
+      - name: "Castle Access"
+
+  - name: "MercCaptain Key 2"
+    sprite: "30-252"
+    found: "GDH Castle"
+    quests:
+      - name: "Castle Access"
+
+  - name: "Wakka Key"
+    sprite: "28-47"
+    found: "GDH Castle"
+    quests:
+      - name: "Wackaflexes"
