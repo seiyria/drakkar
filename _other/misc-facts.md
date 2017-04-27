@@ -40,6 +40,8 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * `form illusion dense|l-forest|r-forest` triggers the Tree Hugger quirk.
 
+* You can `form illusion wall` then `form illusion water` on the wall to create an unbreakable wall that you can `passwall` onto and easily crush melee bosses.
+
 * If you accidentally step into the open while hidden, you can manually type a movement command to get next to a wall again before your hide breaks.
 
 ## Quirks
