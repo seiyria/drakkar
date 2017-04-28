@@ -7,6 +7,7 @@
     - name: "Betrayer Mace"
     - name: "Betrayer Shield"
     - name: "Large Nugget"
+    - name: "Gnomes Ring"
 
 - name: "Cavebat"
   text: ""
@@ -18,7 +19,7 @@
     - name: "Cavern Creeper I"
 
 - name: "Corosonous"
-  text: "Finish Dark Knowledge before doing this fight. Bring Acid prot (2 AcidronAlcor robes). Can choose a Broom at the end of the fight, or improving any of the 3 SDC quirks (Tree Hugger, Air Head, Cavern Creeper)."
+  text: "Finish Dark Knowledge before doing this fight. Breaks bottles. Bring Acid prot (2 AcidronAlcor robes). Can choose a Broom at the end of the fight, or improving any of the 3 SDC quirks (Tree Hugger, Air Head, Cavern Creeper). Drops random Dark Knowledge Pages (1-35), 4 random stat flowers and 4 Essence Twigs."
   found: "Lava City"
   sprite: "corosonous_full"
   drops:
@@ -26,7 +27,7 @@
     - name: "Dark Knowledge Page"
     
 - name: "OzonousMax"
-  text: "Drops random Dark Knowledge Pages (1-35)."
+  text: "Sucks stats. Breaks bottles. Mean lightning attack. Drops random Dark Knowledge Pages (1-35), 4 random stat flowers, and 4 Essence Twigs."
   found: "Lava City"
   sprite: "ozonousmax_full"
   drops:
@@ -37,14 +38,14 @@
     - name: "Ozonous Bracers (Strike)"
 
 - name: "Skar"
-  text: "Shreds. Tan to get armor."
+  text: "Shreds. Damage reflect. Breaks bottles. Tan to get armor."
   found: "Lava City"
   sprite: "6-85"
   drops:
     - name: "Skar Armor"
 
 - name: "Spur"
-  text: "Lightning. Tan to get robe."
+  text: "Lightning. Breaks bottles. Tan to get robe."
   found: "Lava City"
   sprite: "6-85"
   drops:
