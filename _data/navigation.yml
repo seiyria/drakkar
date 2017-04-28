@@ -33,6 +33,8 @@ other:
       url: /other/misc
     - title: "Unused Sprites"
       url: /other/unused-sprites
+    - title: "Audio Gallery"
+      url: /other/audio-gallery
 
 classes:
   - title: "Barbarian"
@@ -144,7 +146,7 @@ scenarios:
         url: /scenarios/cob/quests
       - title: "Items"
         url: /scenarios/cob/items
-        
+
   - title: "Nameless Lands"
     children:
       - title: "Scenario Information"

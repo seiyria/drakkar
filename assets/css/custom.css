@@ -41,3 +41,8 @@
   height: calc(100vh - 81px);
   overflow-y: auto;
 }
+
+.sound-row {
+  display: flex;
+  justify-content: space-between;
+}
