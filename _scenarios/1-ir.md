@@ -18,6 +18,8 @@ The dungeon starts easy and has approximately 25 difficulty scales.
 
 * Paintings - These are like Chests, but appear on the walls.
 
+* Tables - These are like Chests and Paintings, but appear on the floor.
+
 * Arcane Abilities - These are like party abilities, but only apply to you. You can only start buying these at level 96+, but you can accrue points before that.
 
 * Arcane Quirks - These are like normal quirks, but you can only start getting them at level 96.
