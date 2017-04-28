@@ -1,5 +1,5 @@
 - name: "Basilisk"
-  text: "Stuns."
+  text: "Stuns. Breaks bottles."
   found: "SK Cave"
   sprite: "6-134"
   drops:
