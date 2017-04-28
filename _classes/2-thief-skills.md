@@ -42,5 +42,5 @@ Skill Level | Description
 37          | Automatic "quick stab" (stacks with quirk), all party members have chance of standard attacks counting as backstabs.
 38          | DoTs last 5 more rounds.
 39          | Hide works at any HP.
-40 (Weapon) | No hide penalty with any item.
+40 (Weapon) | Reduced hide penalty with any item of this weapon class.
 40 (Thief)  | Boost to hide.
