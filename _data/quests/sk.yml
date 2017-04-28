@@ -10,9 +10,12 @@
     - sprite: "26-180"
 
 - name: "Progression 3"
-  text: "Once you've reached level 88, you have to take the stairs to the Black area of SK to progress to level 90."
+  text: "Use the stairs to get between cave and SK Silver to flag progress to level 88. You can do this any time after climbing up from cave (via Progression 2)."
 
 - name: "Progression 4"
+  text: "Once you've reached level 88, you have to take the stairs to the Black area of SK to progress to level 90."
+
+- name: "Progression 5"
   text: "Once you've reached level 90, you have to take the stairs to the Green area of SK to progress to level 95."
 
 - name: "SK Armor"
