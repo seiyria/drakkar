@@ -23,8 +23,6 @@ armors:
     drops:
       - name: "Duke Talinar"
         lair: true
-    quests:
-      - name: "Poison Amulet"
     sprite: "26-22"
 
   - name: "Seldari Jacket"
@@ -187,11 +185,6 @@ robes:
     found:
     drops:
     sprite: "28-73"
-
-sashes:
-  - name: "Attack Sash"
-    attrs: "+1 Attack"
-    sprite: "28-45"
 
 weapons:
   - name: "Bandit Lord Shortsword"
