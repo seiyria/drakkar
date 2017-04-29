@@ -136,6 +136,17 @@ classes:
 
 # scenario links
 scenarios:
+  - title: "Aleria"
+    children:
+      - title: "Scenario Information"
+        url: /scenarios/aleria/
+      - title: "Lairs"
+        url: /scenarios/aleria/lairs
+      - title: "Quests"
+        url: /scenarios/aleria/quests
+      - title: "Items"
+        url: /scenarios/aleria/items
+
   - title: "Cobrahn"
     children:
       - title: "Scenario Information"

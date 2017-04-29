@@ -41,7 +41,13 @@
     </div>
     {% for d in q.quests %}
     <small class="flex-item">
-      <a href="./quests#{{d.name | cgi_escape}}">{{ d.name }}</a>
+      {% if d.scenario %}
+        <a href="../{{ d.scenario }}/quests#{{d.name | cgi_escape}}">{{ d.name }}</a>
+      {% endif %}
+
+      {% unless d.scenario %}
+        <a href="./quests#{{d.name | cgi_escape}}">{{ d.name }}</a>
+      {% endunless %}
     </small>
     {% endfor %}
   </div>

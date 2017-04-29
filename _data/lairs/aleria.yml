@@ -1,0 +1,121 @@
+- name: "Fire Lizard"
+  text: "Uses Firebreath"
+  found: "NW of Mujaba"
+  sprite: "6-106"
+  drops:
+    - name: "Fire Lizard Boots"
+
+- name: "Hippogriff"
+  text: ""
+  found: "Desert"
+  sprite: "6-142"
+  drops:
+    - name: "Haste Boots"
+
+- name: "Great Wyrm"
+  text: "Bites (w/ stun and poison)."
+  found: "Thumperville"
+  sprite: "6-89"
+
+- name: "Ghoul Lord"
+  text: ""
+  found: "Ghoul Dungeon"
+  sprite: "10-177"
+
+- name: "Lord Koss"
+  text: ""
+  found: "Koss Castle"
+  sprite: "11-16"
+  drops:
+    - name: "Koss Morningstar"
+  quests:
+    - name: "Alerian Good Quest"
+    - name: "Alerian Evil Quest"
+
+- name: "Bandit Lord"
+  text: "Uses blind"
+  found: "Bandit Hovel"
+  sprite: "6-162"
+  drops:
+    - name: "Bandit Lord Shortsword"
+  quests:
+    - name: "Alerian Good Quest"
+    - name: "Alerian Neutral Quest"
+    - name: "Alerian Evil Quest"
+    - name: "Conqueror's Club Access"
+      scenario: "cob"
+
+- name: "Tarak"
+  text: "Uses assault."
+  found: "Tarak's Castle"
+  sprite: "6-38"
+  drops:
+    - name: "Tarak Blast Hammer"
+    - name: "Tarak's Robe"
+  quests:
+    - name: "Tarak Castle Access"
+    - name: "Tarak Robe Alignment Change"
+
+- name: "Duke Talinar"
+  text: ""
+  found: "Castle Carrena"
+  sprite: "6-161"
+  drops:
+    - name: "Tower Shield"
+  quests:
+    - name: "Alerian Good Quest"
+    - name: "Alerian Neutral Quest"
+    - name: "Alerian Evil Quest"
+
+- name: "Mujaba"
+  text: ""
+  found: "Desert"
+  sprite: "6-45"
+  drops:
+    - name: "Mujaba's Dagger"
+    - name: "Mujaba's Key"
+  quests:
+    - name: "Alerian Good Quest"
+    - name: "Tarak Castle Access"
+
+- name: "Slimebeast"
+  text: "Bites (w/ poison, gear damage)."
+  found: "Slime Waters"
+  sprite: "6-74"
+  drops:
+    - name: "Slimebeast Hammer"
+  quests:
+    - name: "Tarak Castle Access"
+
+- name: "GoblinKing"
+  text: ""
+  found: "Underneath Dwarves"
+  sprite: "6-52"
+  drops:
+    - name: "GoblinKing Axe"
+  quests:
+    - name: "Light Ring"
+    - name: "Alerian Good Quest"
+
+- name: "Kragan"
+  text: ""
+  found: "Underneath NW Caves"
+  sprite: "6-103"
+  drops:
+    - name: "Push Club"
+
+- name: "Gothar"
+  text: "Uses Assault"
+  found: "Underneath Koss"
+  sprite: "6-144"
+
+- name: "Cyressa"
+  text: "The Seldari Queen. Uses Lightning."
+  found: "Seldari Dungeon -2"
+  sprite: "11-13"
+  drops:
+    - name: "Seldari Queen Goblet"
+  quests:
+    - name: "Alerian Good Quest"
+    - name: "Alerian Neutral Quest"
+    - name: "Alerian Evil Quest"

@@ -10,4 +10,4 @@ Cobrahn (formerly known as The Pit) is a scenario that can be accessed upon reac
 
 When you die here in normal cob, you lose 2 hp.
 
-To get to Crazy Cob, go to Timmy Town and tell any blue npc `xxx, gocrazy`.
+To get to Crazy Cob, go to Timmy Town and tell any blue npc `xxx, gocrazy`. XP and Skill gains are doubled here.

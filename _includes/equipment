@@ -61,7 +61,13 @@
             <ul class="quest-list">
             {% for q in f.quests %}
               <li>
-                <a href="./quests#{{ q.name | cgi_escape }}">{{ q.name }}</a>
+                {% if q.scenario %}
+                  <a href="../{{ q.scenario }}/quests#{{q.name | cgi_escape}}">{{ q.name }}</a>
+                {% endif %}
+
+                {% unless q.scenario %}
+                  <a href="./quests#{{q.name | cgi_escape}}">{{ q.name }}</a>
+                {% endunless %}
               </li>
             {% endfor %}
             </ul>
