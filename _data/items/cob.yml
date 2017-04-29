@@ -651,7 +651,7 @@ weapons:
   - name: "GiantKing Greatsword"
     reqs: "Barbarian"
     attrs: "5/0 +3 Attacks, +3 STR"
-    sprite: ""
+    sprite: "wtfisntthisinanormalplace-gk2gs"
     drops:
       - name: "GiantKing"
         lair: true
