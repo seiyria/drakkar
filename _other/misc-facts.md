@@ -56,6 +56,8 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 ## Miscellaneous
 
+* Most lairs can see through Limited Invisibility (liminv).
+
 * Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
 
 * Any class can backstab and hide as if they were a thief, provided they have the requisite skill level.

@@ -136,6 +136,17 @@ classes:
 
 # scenario links
 scenarios:
+  - title: "Nork"
+    children:
+      - title: "Scenario Information"
+        url: /scenarios/nork/
+      - title: "Lairs"
+        url: /scenarios/nork/lairs
+      - title: "Quests"
+        url: /scenarios/nork/quests
+      - title: "Items"
+        url: /scenarios/nork/items
+
   - title: "Aleria"
     children:
       - title: "Scenario Information"

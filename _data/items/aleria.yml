@@ -95,7 +95,7 @@ bracers:
 earrings:
 helms:
   - name: "Good Helm"
-    reqs:
+    reqs: "G/G"
     attrs: "+1 Willpower, Featherfall"
     found:
     drops:
@@ -104,7 +104,7 @@ helms:
       - name: "Alerian Good Quest"
 
   - name: "Neutral Helm"
-    reqs:
+    reqs: "N/N"
     attrs: "+2 AGI"
     found:
     drops:
@@ -113,7 +113,7 @@ helms:
       - name: "Neutral Helm"
 
   - name: "Evil Helm"
-    reqs:
+    reqs: "E/E"
     attrs: "Limited Infravision"
     found:
     drops:
@@ -228,6 +228,7 @@ weapons:
 
   - name: "Koss Morningstar"
     sprite: "28-218"
+    reqs: "E/E Fighter, Paladin, Fighter/Mentalist"
     quests:
       - name: "Alerian Good Quest"
     drops:

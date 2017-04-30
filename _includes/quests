@@ -1,6 +1,6 @@
 {% include base_path %}
 
-{% assign quests = site.data.quests.[page.quest_id] %}
+{% assign quests = site.data.quests.[page.quest_id] | sort:"name" %}
 
 {% if quests %}
 

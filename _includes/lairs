@@ -1,6 +1,6 @@
 {% include base_path %}
 
-{% assign lairs = site.data.lairs.[page.lair_id] %}
+{% assign lairs = site.data.lairs.[page.lair_id] | sort:"name" %}
 
 {% if lairs %}
 <div id="top"></div>
