@@ -214,6 +214,9 @@
     - sprite: "28-91"
     - sprite: "28-173"
 
+- name: "Timmy Atonement"
+  text: "Do a quest that involves Timmy in Timmy Town to get an atonement."
+
 - name: "Unprone Gear"
   text: "Take 2 of the same item to an NPC in the Conqueror's Club and he will give you one that does not prone."
 

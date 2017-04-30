@@ -92,6 +92,9 @@ weapons:
   - name: "LavaCity Shield"
     attrs: "20/20"
     sprite: "28-18"
+    drops:
+      - name: "FireGiant"
+      - name: "FireLord"
 
   - name: "Betrayer Shield"
     attrs: "Lesser Strength Elixir"
@@ -250,7 +253,7 @@ others:
     quests:
       - name: "Root Armor"
     sprite: "29-153"
-    
+
   - name: "Miner49er Key"
     quests:
       - name: "Progression 2"

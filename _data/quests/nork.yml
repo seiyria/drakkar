@@ -202,7 +202,9 @@ Go back to Mayor Dagano, drop all 4 items and say: `dag, axe of the heathen`, `d
     - sprite: "28-20"
 
 - name: "Betty Atonement"
-  text: ""
+  text: "Get Betty's Doll from Art on the west side of Frore. Go NW to the island of skeletons and harpies. Hold the doll while leading her back to Art. You will need to kill every monster because otherwise she might die. She can be protted, so liminv works here. When you get back to Art, you'll receive some miscellaneous rewards including an atonement."
+  items:
+    - sprite: "28-44"
 
 - name: "Regen Amulet (Small)"
   text: "Get a key from an npc in Maeling-2 by trading a Flawless Pearl from Maeling-3. Take two Silver Bows, a Door Pearl, and the resulting key to Peewee in King Minotaur Dungeon-2 (the key will unlock his door). Hold the Door Pearl in hand and click Peewee 5 times. Drop 1 bow and say `pee, trade`. Do that with the second bow as well, and he'll give you a Regen Amulet (Small)."
@@ -215,7 +217,11 @@ Go back to Mayor Dagano, drop all 4 items and say: `dag, axe of the heathen`, `d
     - sprite: "28-9"
 
 - name: "Strength Halberd"
-  text: ""
+  text: "Take a 6oz Root and a Minotaur Blood to the trader on King Minotaur Dungeon-5 and trade them for the Strength Halberd."
+  items:
+    - sprite: "26-116"
+    - sprite: "26-149"
+    - sprite: "28-133"
 
 - name: "Wartberg's Amulet"
   text: "Take a tanned Mummy King Cloak to Wartberg in Nork. Drop both the cloak and 2k gold on his hex and click him to receive his amulet."
@@ -233,7 +239,14 @@ Go back to Mayor Dagano, drop all 4 items and say: `dag, axe of the heathen`, `d
     - sprite: "27-129"
 
 - name: "Club House Access"
-  text: ""
+  text: "Gather Chipuda's Staff, Breshard's Stiletto, a Sabre, and the King's Key. Go to the Club House in the ice floes E of Frore. Open the door with the key, then trade the staff for the Power Helm. Hold the helm to walk through the next door, then trade the stiletto for the Power Robe. Hold the robe and helm in hand to walk through the next door, then trade the Sabre to go up the stairs and into the Club House."
+  items:
+    - sprite: "27-182"
+    - sprite: "28-70"
+    - sprite: "27-139"
+    - sprite: "28-54"
+    - sprite: "28-64"
+    - sprite: "28-92"
 
 - name: "Queen's Goblets"
   text: "
