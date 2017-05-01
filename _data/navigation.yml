@@ -13,28 +13,30 @@ main:
 other:
   - title: "Other"
     children:
+    - title: "Audio Gallery"
+      url: /other/audio-gallery
+    - title: "Brewing Guide"
+      url: /other/brewing
     - title: "EXP Chart"
       url: /other/exp
+    - title: "HP/EP Doc Items"
+      url: /other/doc-items
     # - title: "Fating"
     #  url: /other/fate
     - title: "Macros"
       url: /other/macros
-    - title: "HP/EP Doc Items"
-      url: /other/doc-items
+    - title: "Miscellaneous Facts"
+      url: /other/misc
     - title: "Party Abilities"
       url: /other/party-abilities
     - title: "Party Sidekick"
       url: /other/party-sidekick
+    - title: "Skill Names"
+      url: /other/skill-names
     - title: "Tier Locations"
       url: /other/tiers
-    - title: "Brewing Guide"
-      url: /other/brewing
-    - title: "Miscellaneous Facts"
-      url: /other/misc
     - title: "Unused Sprites"
       url: /other/unused-sprites
-    - title: "Audio Gallery"
-      url: /other/audio-gallery
 
 classes:
   - title: "Barbarian"

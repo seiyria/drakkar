@@ -1,0 +1,242 @@
+
+weapon:
+  - Unskilled
+  - Clumsy
+  - Familiar
+  - Student
+  - Practiced
+  - Dedicated
+  - Skilled
+  - Experienced
+  - Proficient
+  - Astute
+  - Expert
+  - Prodigy
+  - Brilliant
+  - Incredible
+  - Astounding
+  - Master
+  - High Master
+  - Grand Master
+  - Warrior
+  - High Warrior
+  - Specialist
+  - Beholder of the Art
+  - Initiate of Stance
+  - Student of Stance
+  - Master of Stance
+  - Initiate of Form
+  - Student of Form
+  - Master of Form
+  - Initiate of Style
+  - Student of Style
+  - Master of Style
+  - Definer of Stance
+  - Definer of Form
+  - Definer of Style
+  - Initiate of the Art
+  - Student of the Art
+  - 2nd Degree Student
+  - 3rd Degree Student
+  - 4th Degree Student
+  - Master of the Art
+  - Definer of the Art
+  - Definer of the Art (41)
+  - Definer of the Art (42)
+
+martial:
+  - Unskilled
+  - Initiate
+  - White Belt
+  - Yellow Belt
+  - Green Belt
+  - Blue Belt
+  - Red Belt
+  - Brown Belt
+  - 2nd Brown Belt
+  - 3rd Brown Belt
+  - Black Belt
+  - 2nd Black Belt
+  - 3rd Black Belt
+  - 4th Black Belt
+  - 5th Black Belt
+  - 6th Black Belt
+  - 7th Black Belt
+  - 8th Black Belt
+  - 9th Black Belt
+  - Master
+  - Grand Master
+  - Beholder of the Art- Seeker of the Sash
+  - Bronze Sash
+  - 2nd Degree Bronze
+  - 3rd Degree Bronze
+  - 4th Degree Bronze
+  - 5th Degree Bronze
+  - 6th Degree Bronze
+  - 7th Degree Bronze
+  - 8th Degree Bronze
+  - Silver Sash
+  - 2nd Degree Silver
+  - 3rd Degree Silver
+  - 4th Degree Silver
+  - 5th Degree Silver
+  - 6th Degree Silver
+  - 7th Degree Silver
+  - 8th Degree Silver
+  - Gold Sash
+  - Initiate 2nd Degree Gold
+  - Initiate 3rd Degree Gold
+  - Initiate 4th Degree Gold
+  - Initiate Gold Sash
+  - Student Gold Sash
+  - Master
+  - Definer of the Art
+
+healer:
+  - Unskilled
+  - Mender of Wounds
+  - Paramedic
+  - Inflictor of Wounds
+  - Student
+  - Curer of Poison
+  - Restorer of Vision
+  - Healer
+  - Healer of Wounds
+  - Taker of Consciousness
+  - Revealer of Paths
+  - Inflictor of Poison
+  - Former of Lightning
+  - Protector of the Mind
+  - Protector of the Conscious
+  - Healer of Ways
+  - Shaker of Worlds
+  - Stealer of the Mind
+  - Controller of the Conscious
+  - Controller of Life
+  - Controller of Health
+  - Master Healer
+  - Beholder of the Art
+  - Initiate of the Mind
+  - 2nd Level Mind Initiate
+  - 3rd Level Mind Initiate
+  - 4th Level Mind Initiate
+  - Student of the Mind
+  - 2nd Level Mind Student
+  - 3rd Level Mind Student
+  - 4th Level Mind Student
+  - Master of the Mind
+  - Initiate of Life
+  - 2nd Level Life Initiate
+  - 3rd Level Life Initiate
+  - 4th Level Life Initiate
+  - Student of Life
+  - 2nd Level Life Student
+  - 3rd Level Life Student
+  - 4th Level Life Student
+  - Initiate of Health
+  - 2nd Level Health Initiate
+  - 3rd Level Health Initiate
+  - 4th Level Health Initiate
+  - Student of Health
+  - 2nd Level Health Student
+  - 3rd Level Health Student
+  - 4th Level Health Student
+  - Master of Health
+  - Definer of the Art
+
+mentalist:
+  - Unskilled
+  - Beginner
+  - Trainee
+  - Jester
+  - Student
+  - Mentalist
+  - Forger of Fire
+  - Defender from Ice
+  - Forger of Ice
+  - Controller of Fire
+  - Concealer of Paths
+  - Maker of Paths
+  - Enchanter
+  - Controller of Ice
+  - Worker of Force
+  - Defier of Gravity
+  - Master of Earth
+  - Defier of Vision
+  - Wizard
+  - Master of Dimensions
+  - Master of Time
+  - Master Mentalist
+  - Beholder of the Art
+  - Initiate of the Elements
+  - Student of the Elements
+  - Initiate of Elemental Fire
+  - Initiate of Elemental Water
+  - Initiate of Elemental Earth
+  - Initiate of Elemental Air
+  - Student of Elemental Fire
+  - Student of Elemental Water
+  - Student of Elemental Earth
+  - Student of Elemental Air
+  - Master of Elemental Fire
+  - Master of Elemental Water
+  - Master of Elemental Earth
+  - Master of Elemental Air
+  - Initiate of Ether
+  - Initiate 2nd Level Ether
+  - Initiate 3rd Level Ether
+  - Initiate 4th Level Ether
+  - Initiate Student of Ether
+  - 2nd Level Ether Student
+  - 3rd Level Ether Student
+  - 4th Level Either Student
+  - Master of Ether
+  - Definer of the Art
+
+thief:
+  - Unskilled
+  - Humorous
+  - Amusing
+  - Drunkard
+  - Clumsy
+  - Pickpocket
+  - Thief
+  - Dextrous
+  - Adept
+  - Agile
+  - Swift
+  - Expert
+  - Shadow Seeker
+  - Dark Striker
+  - Shadow Thief
+  - Master Thief
+  - Shadow Knight
+  - Shadow Mage
+  - Shadow Lord
+  - Shadow Finder
+  - Grand Master Thief
+  - Beholder of the Art
+  - Seeker of Knowledge
+  - Acquirer of Wealth
+  - Dark Initiate
+  - 2nd Level Dark Initiate
+  - 3rd Level Dark Initiate
+  - 4th Level Dark Initiate
+  - Dark Student
+  - 2nd Level Dark Student
+  - 3rd Level Dark Student
+  - 4th Level Dark Student
+  - Master of the Dark
+  - Initiate of the Seal
+  - 3rd Level Seal Initiate
+  - 2nd Level Seal Initiate
+  - 4th Level Seal Initiate
+  - Student of the Seal
+  - 2nd Level Seal Student
+  - 3rd Level Seal Student
+  - 4th Level Seal Student
+  - Master of the Seal
+  - Initiate of Deception
+  - Student of Deception
+  - Master of Deception
+  - Definer of the Art
