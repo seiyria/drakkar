@@ -9,14 +9,1027 @@ empty:
     quests:
 
 amulets:
+  - name: "Protection Amulet"
+    reqs:
+    attrs: "50 Enmiss/Lightning Prot, 100 Acid Prot"
+    found:
+    sprite: "28-9"
+
+  - name: "Regen Amulet (Small)"
+    reqs:
+    attrs: "+5 EP Regen"
+    found:
+    quests:
+      - name: "Regen Amulet (Small)"
+    sprite: "28-9"
+
+  - name: "Regen Amulet (Large)"
+    reqs:
+    attrs: "+10 EP Regen"
+    found:
+    drops:
+      - name: "Chipuda"
+        lair: true
+      - name: "Big Lich"
+        lair: true
+    sprite: "28-50"
+
+  - name: "HP Amulet"
+    attrs: "+25 HP"
+    quests:
+      - name: "HP Amulet"
+    sprite: "29-23"
+
+  - name: "Red Dragon Amulet (Fire)"
+    attrs: "25-50 Fire Prot"
+    drops:
+      - name: "Red Dragon"
+        lair: true
+    sprite: "28-8"
+
+  - name: "Red Dragon Amulet (Firestorm)"
+    attrs: "50-100 Fire Prot"
+    drops:
+      - name: "Firestorm Red Dragon"
+        lair: true
+      - name: "Spot"
+        lair: true
+    sprite: "28-8"
+
+  - name: "Wartberg's Amulet"
+    attrs: "Lv10 Protstun"
+    quests:
+      - name: "Wartberg's Amulet"
+    sprite: "27-145"
+
+  - name: "Volton Amulet"
+    attrs: "3/3"
+    drops:
+      - name: "Volton"
+        lair: true
+    sprite: "27-145"
+
+  - name: "Stunrah Amulet"
+    attrs: "2/2"
+    drops:
+      - name: "Stunrah"
+        lair: true
+    sprite: "27-145"
+
+  - name: "Durgon Amulet"
+    drops:
+      - name: "Durgon"
+        lair: true
+    sprite: "28-187"
+
 armors:
+  - name: "Rat Fur"
+    reqs:
+    attrs: "Psicutter"
+    found:
+    drops:
+      - name: "Rat"
+    sprite: "28-42"
+
+  - name: "Roc Feathers"
+    reqs:
+    attrs: "Psicutter"
+    found:
+    drops:
+      - name: "Roc"
+    sprite: "27-133"
+
+  - name: "Griffon Feathers"
+    reqs:
+    attrs: "200 Fire/Ice Prot"
+    found:
+    drops:
+      - name: "Griffon"
+        lair: true
+    sprite: "27-204"
+
+  - name: "Griffon Feathers (Big)"
+    reqs:
+    attrs: "250 Fire/Ice Prot"
+    found:
+    drops:
+      - name: "Big Griffon"
+        lair: true
+    sprite: "27-204"
+
+  - name: "Basilisk Scales"
+    attrs: "80 Fire/Ice Prot"
+    drops:
+      - name: "Basilisk"
+        lair: true
+    sprite: "28-21"
+
+  - name: "Naga Scales"
+    attrs: "20 Fire/Ice Prot"
+    drops:
+      - name: "Naga"
+        lair: true
+    sprite: "27-189"
+
+  - name: "Naga Scales (Big)"
+    attrs: "???"
+    drops:
+      - name: "Big Naga"
+        lair: true
+    sprite: "27-189"
+
+  - name: "Red Dragon Scales (Fire)"
+    attrs: "80 Fire/Ice Prot"
+    drops:
+      - name: "Red Dragon"
+        lair: true
+    sprite: "27-187"
+
+  - name: "Red Dragon Scales (Firestorm)"
+    attrs: "80 Fire/Ice Prot, 50 Firestorm Prot"
+    drops:
+      - name: "Firestorm Red Dragon"
+        lair: true
+    sprite: "27-187"
+
+  - name: "Red Dragon Scales (Big)"
+    attrs: "250 Fire/Ice Prot, 100 Acid Prot"
+    drops:
+      - name: "Big Red Dragon"
+        lair: true
+    sprite: "27-184"
+
+  - name: "Silver Dragon Scales"
+    attrs: "100 Fire/Ice/Lightning Prot"
+    drops:
+      - name: "Silver Dragon"
+        lair: true
+      - name: "Breshard"
+        lair: true
+      - name: "Slicer"
+        lair: true
+      - name: "Chipuda"
+        lair: true
+    quests:
+      - name: "Improved Black Dragon Scales"
+    sprite: "27-216"
+
+  - name: "Black Dragon Scales"
+    attrs: "100 Fire/Ice/Acid Prot"
+    drops:
+      - name: "Black Dragon"
+        lair: true
+    quests:
+      - name: "Improved Black Dragon Scales"
+    sprite: "28-12"
+
+  - name: "Gold Dragon Scales"
+    attrs: "70 Fire/Ice Prot, 100 Earthcrush Pto"
+    drops:
+      - name: "Gold Dragon"
+    sprite: "27-190"
+
+  - name: "Black Dragon Scales (Improved)"
+    attrs: "100 Fire/Ice/Acid/Lightning Prot"
+    quests:
+      - name: "Improved Black Dragon Scales"
+    sprite: "28-12"
+
+  - name: "Yeti Fur (Small)"
+    attrs: "50 Fire/Ice Prot"
+    drops:
+      - name: "Yeti"
+    sprite: "27-192"
+
+  - name: "Yeti Fur (Big)"
+    attrs: "???"
+    drops:
+      - name: "Yeti"
+    sprite: "27-192"
+
+  - name: "Snowbeast Fur"
+    drops:
+      - name: "Snowbeast"
+        lair: true
+    sprite: "28-48"
+
+  - name: "Sanquin Armor"
+    attrs: "20-40 Ice Prot"
+    drops:
+      - name: "Sanquin"
+    sprite: "27-183"
+
+  - name: "Fullplate"
+    attrs: "250 Fire/Ice Prot, 100 Acid Prot"
+    quests:
+      - name: "Fullplate"
+    sprite: "28-74"
+
+  - name: "Uther's Plate"
+    attrs: "+2 100 Fire/Ice Prot"
+    drops:
+      - name: "Uther"
+        lair: true
+    sprite: "27-213"
+
+  - name: "Batwings"
+    reqs: "Thief, Mentalist"
+    attrs: "5/5, Infinite Succor"
+    quests:
+      - name: "Seahag Class Armor"
+    sprite: "28-174"
+
+  - name: "White Plate"
+    reqs: "Paladin, Fighter, Fighter/Mentalist"
+    attrs: "0/6"
+    quests:
+      - name: "Seahag Class Armor"
+    sprite: "26-145"
+
 boots:
+  - name: "Combat Boots"
+    attrs: "2/0"
+    sprite: "28-60"
+
+  - name: "Climbing Boots"
+    quests:
+      - name: "Hill Giant Access"
+    sprite: "28-60"
+
+  - name: "Snow Boots"
+    attrs: "??? Ice Prot"
+    sprite: "27-201"
+
+  - name: "Lizard Boots"
+    attrs: "50 Fire Prot"
+    sprite: "28-62"
+
+  - name: "Fire Giant Boots"
+    attrs: "0/3 100 Fire Prot"
+    drops:
+      - name: "Fire Giant"
+        lair: true
+    sprite: "28-62"
+
+  - name: "Respirate Boots"
+    attrs: "Respirate"
+    sprite: "28-61"
+
+  - name: "Featherfall Boots"
+    attrs: "Featherfall"
+    sprite: "28-63"
+
+  - name: "Haste Boots"
+    attrs: "+3 Move Rate"
+    drops:
+      - name: "Big Red Dragon"
+        lair: true
+    sprite: "28-25"
+
+  - name: "Dancer Boots"
+    attrs: "3/3, Dancing"
+    quests:
+      - name: "Dancer Boots"
+    sprite: "28-83"
+
+  - name: "Elephant Boots"
+    attrs: "3/3, Prone Protection"
+    found: "King Minotaur Dungeon-5"
+    drops:
+      - name: "Spectre"
+    sprite: "28-205"
+
 bracers:
-earrings:
+  - name: "Golden Bracers"
+    attrs: "Imbuable"
+    sprite: "27-148"
+
+  - name: "Fire Prot Bracers"
+    attrs: "50 Fire Prot"
+    sprite: "27-203"
+
+  - name: "Lightning Prot Bracers"
+    attrs: "25 Lightning Prot"
+    drops:
+      - name: "Silver Dragon"
+        lair: true
+    sprite: "27-198"
+
+  - name: "Acid Prot Bracers"
+    attrs: "25 Acid Prot"
+    found: "Acid Caves"
+    sprite: "27-198"
+
 gauntlets:
+  - name: "Dragon Gauntlets"
+    attrs: "+3"
+    drops:
+      - name: "Red Dragon"
+        lair: true
+    sprite: "27-208"
+
+  - name: "Dragon Gauntlets (Improved)"
+    attrs: "+5"
+    quests:
+      - name: "Improved Dragon Gauntlets"
+    sprite: "27-208"
+
+  - name: "Katsumo Gauntlets"
+    reqs: "Martialist"
+    attrs: "+4, Psicutter"
+    quests:
+      - name: "Katsumo Gauntlets"
+      - name: "Improved Katsumo Gauntlets"
+    sprite: "28-86"
+
+  - name: "Katsumo Gauntlets (Improved)"
+    reqs: "Martialist"
+    attrs: "???"
+    quests:
+      - name: "Improved Katsumo Gauntlets"
+    sprite: "28-86"
+
+  - name: "Vampire Gauntlets"
+    attrs: "+5"
+    quests:
+      - name: "Vampire Gauntlets"
+    sprite: "28-52"
+
 helms:
+  - name: "Combat Helm"
+    attrs: "0/2"
+    sprite: "27-212"
+
+  - name: "Respirate Helm"
+    attrs: "Respirate"
+    sprite: "28-66"
+
+  - name: "Power Helm"
+    reqs: "G/G"
+    attrs: "+4, Psicutter, Combat-stun Prot"
+    quests:
+      - name: "Club House Access"
+    sprite: "28-64"
+
+  - name: "Snowbeast Skull"
+    drops:
+      - name: "Snowbeast"
+        lair: true
+    sprite: "28-49"
+
 rings:
+  - name: "Defense Ring"
+    attrs: "0/1-6"
+    sprite: "27-155"
+
+  - name: "Balanced Ring"
+    reqs: "E/E"
+    attrs: "5/5"
+    found: "Maeling-2"
+    drops:
+      - name: "Ogre Lord"
+    sprite: "27-181"
+
+  - name: "Balanced Ring"
+    attrs: "4/4, LvX Energyshield"
+    found: "King Minotaur Dungeon-4"
+    sprite: "27-181"
+
+  - name: "Balanced Ring"
+    attrs: "5/5"
+    found: "Dark Tower"
+    drops:
+      - name: "Stalker"
+    sprite: "27-181"
+
+  - name: "Succor Ring"
+    attrs: "Succor Charges"
+    quests:
+      - name: "Succor Ring"
+    sprite: "27-153"
+
+  - name: "Sense Ring"
+    attrs: "Succor Charges"
+    sprite: "27-153"
+
 robes:
+  - name: "Ghost Cloak"
+    attrs: "Door Charges"
+    drops:
+      - name: "Ghost"
+        lair: true
+    sprite: "26-26"
+
+  - name: "Mummy Cloak"
+    drops:
+      - name: "Mummy King"
+        lair: true
+    quests:
+      - name: "Improved Mummy Cloak"
+    sprite: "28-11"
+
+  - name: "Mummy Cloak (Improved)"
+    attrs: "1/1, Acid Prot"
+    quests:
+      - name: "Improved Mummy Cloak"
+    sprite: "28-11"
+
+  - name: "Yellow Robe"
+    attrs: "50 Fire/Ice Prot"
+    quests:
+      - name: "Improved Yellow Robe"
+    sprite: "28-71"
+
+  - name: "Yellow Robe (Improved)"
+    attrs: "1/1, 50 Fire/Ice Prot"
+    quests:
+      - name: "Improved Yellow Robe"
+    sprite: "28-71"
+
+  - name: "Rakshasha Cloak"
+    attrs: "30 Fire Prot, Assault Prot"
+    found: "Prisons"
+    drops:
+      - name: "Rakshasha"
+    sprite: "27-193"
+
+  - name: "Rakshasha Cloak (Glowing)"
+    attrs: "3/3, Psimirror, Energyshield"
+    drops:
+      - name: "Big Rakshasha"
+        lair: true
+    sprite: "28-95"
+
+  - name: "Enmiss Robe"
+    attrs: "50 Enmiss Prot"
+    found: "Fate Pools"
+    drops:
+      - name: "Spectre"
+    sprite: "28-67"
+
+  - name: "Enmiss Robe (Super)"
+    attrs: "100 Enmiss Prot"
+    drops:
+      - name: "Maeling Tengu"
+        lair: true
+    sprite: "28-67"
+
+  - name: "Black Ninja Robe"
+    attrs: "+2 AGI"
+    found: "Maeling-3"
+    quests:
+      - name: "Improved Black Ninja Robe"
+    sprite: "27-191"
+
+  - name: "Black Ninja Robe (Improved)"
+    attrs: "+3 AGI"
+    quests:
+      - name: "Improved Black Ninja Robe"
+    sprite: "27-191"
+
+  - name: "Silver Ninja Robe"
+    attrs: "200 Fire/Ice Prot"
+    found: "Maeling-4, Dark Tower"
+    sprite: "28-32"
+
+  - name: "Seahag Robe"
+    attrs: "+1"
+    drops:
+      - name: "Seahag"
+        lair: true
+    quests:
+      - name: "Seahag Class Armor"
+    sprite: "27-134"
+
+  - name: "Slith Robe (Fighter)"
+    attrs: "3/3, +15 HP, Psicrush Prot"
+    quests:
+      - name: "Slith Robe"
+    sprite: "26-25"
+
+  - name: "Slith Robe (Psionic)"
+    attrs: "3/3, +15 EP, Psicrush Prot"
+    quests:
+      - name: "Slith Robe"
+    sprite: "26-25"
+
+  - name: "Slith Robe (Martialist)"
+    attrs: "3/3, +1 STR/AGI"
+    quests:
+      - name: "Slith Robe"
+    sprite: "26-25"
+
+  - name: "Power Robe"
+    attrs: "+4, 250 Earthcrush Prot"
+    quests:
+      - name: "Club House Access"
+    sprite: "28-92"
+
 sashes:
+  - name: "Ratburrow Sash"
+    attrs: "2/2, Critcure Charges"
+    quests:
+      - name: "Ratburrow Sash"
+      - name: "Improved Ratburrow Sash"
+    sprite: "27-207"
+
+  - name: "Ratburrow Sash (Improved)"
+    attrs: "3/3, Critcure Charges"
+    quests:
+      - name: "Improved Ratburrow Sash"
+    sprite: "27-207"
+
+  - name: "Attack Sash"
+    attrs: "+1 Attack"
+    quests:
+      - name: "Attack Sash"
+    sprite: "28-45"
+
 weapons:
+  - name: "Basilisk Shield"
+    attrs: "Glowing"
+    quests:
+      - name: "Basilisk Shield"
+      - name: "Improved Basilisk Shield"
+    sprite: "28-20"
+
+  - name: "Basilisk Shield (Improved)"
+    attrs: "+3, Glowing"
+    quests:
+      - name: "Improved Basilisk Shield"
+    sprite: "28-20"
+
+  - name: "Breshard Shield"
+    attrs: "+4, Glowing"
+    drops:
+      - name: "Breshard"
+        lair: true
+    sprite: "28-212"
+
+  - name: "Dark Guard Axe"
+    attrs: "+1"
+    found: "Nork-3.5"
+    drops:
+      - name: "Dark Guard"
+    quests:
+      - name: "Ratburrow Sash"
+    sprite: "26-173"
+
+  - name: "Minotaur Axe"
+    attrs: "+1"
+    found: "Nork-3.5"
+    drops:
+      - name: "Minotaur"
+    quests:
+      - name: "Ratburrow Sash"
+    sprite: "26-140"
+
+  - name: "Minotaur Axe"
+    reqs: "E/E"
+    attrs: "+3"
+    drops:
+      - name: "Minotaur"
+        lair: true
+    quests:
+      - name: "Minotaur Axe Alignment Change"
+    sprite: "27-215"
+
+  - name: "Minotaur Axe (Dungeon)"
+    attrs: "+4, Returning, Glowing, Silver"
+    found: "King Minotaur Dungeon-4"
+    drops:
+      - name: "Minotaur"
+    sprite: "27-215"
+
+  - name: "King Minotaur Axe"
+    attrs: "+6, Returning, Silver"
+    drops:
+      - name: "King Minotaur"
+        lair: true
+    sprite: "27-215"
+
+  - name: "Mummy King Crossbow"
+    attrs: "+2, Glowing"
+    drops:
+      - name: "Mummy King"
+        lair: true
+    sprite: "27-115"
+
+  - name: "Erodian Crossbow"
+    reqs: "N/N"
+    attrs: "+4"
+    drops:
+      - name: "Erodian"
+        lair: true
+    sprite: "27-115"
+
+  - name: "Poison Bow"
+    reqs: "N/N"
+    attrs: "+3, Glowing, LvX Poison"
+    quests:
+      - name: "Poison Bow"
+      - name: "Improved Poison Bow"
+    sprite: "28-81"
+
+  - name: "Poison Bow (Improved)"
+    reqs: "N/N"
+    attrs: "+3, Glowing, LvX Poison"
+    quests:
+      - name: "Poison Bow"
+      - name: "Improved Poison Bow"
+    sprite: "28-81"
+
+  - name: "Silver Bow (Norken)"
+    attrs: "+3"
+    quests:
+      - name: "Silver Bow (Norken)"
+    sprite: "27-209"
+
+  - name: "Silver Bow"
+    attrs: "+4"
+    drops: "Fisheries"
+    quests:
+      - name: "Regen Amulet (Small)"
+      - name: "HP Amulet"
+      - name: "Succor Ring"
+    sprite: "27-209"
+
+  - name: "Silver Bow (Minotaurian)"
+    found: "King Minotaur Dungeon-4, -5"
+    attrs: "+6, Proning, Glowing"
+    sprite: "27-209"
+
+  - name: "Bullywog Dagger"
+    found: "Maeling Forest"
+    attrs: "+3, Returning"
+    drops:
+      - name: "Bullywog"
+    sprite: "28-22"
+
+  - name: "Kaxx Dagger"
+    attrs: "+5"
+    drops:
+      - name: "Kaxxmaxamilian"
+        lair: true
+    sprite: "28-22"
+
+  - name: "Lightning Tanto"
+    attrs: "Glowing, Lv5 Lightning"
+    drops:
+      - name: "Maeling Stunner"
+        lair: true
+    sprite: "27-220"
+
+  - name: "Warden Dagger"
+    attrs: "+6, Returning"
+    reqs: "N/N"
+    drops:
+      - name: "Warden"
+        lair: true
+    sprite: "27-119"
+
+  - name: "Silver Dagger"
+    attrs: "+2, Silver"
+    found: "Thief Shops"
+    quests:
+      - name: "Improved Silver Dagger"
+    sprite: "27-219"
+
+  - name: "Silver Dagger (Improved)"
+    attrs: "+3, Silver"
+    quests:
+      - name: "Improved Silver Dagger"
+    sprite: "27-219"
+
+  - name: "Breshard Stiletto"
+    attrs: "+6, Returning, Lv30 Poison, Stat Suck"
+    drops:
+      - name: "Breshard"
+        lair: true
+    sprite: "28-70"
+
+  - name: "Slicer Sword (Greatsword)"
+    attrs: "+3, Glowing, Proning"
+    drops:
+      - name: "Slicer"
+        lair: true
+    sprite: "28-7"
+
+  - name: "Berovar Greatsword"
+    attrs: "+3-5, Glowing"
+    drops:
+      - name: "Berovar"
+        lair: true
+    sprite: "28-130"
+
+  - name: "Excalibur"
+    reqs: "G/G"
+    attrs: "+6, LvX Earthcrush"
+    quests:
+      - name: "Excalibur"
+    sprite: "28-55"
+
+  - name: "+4 Halberd"
+    attrs: "+4, Silver"
+    quests:
+      - name: "+4 Halberd"
+    sprite: "27-144"
+
+  - name: "Halberd Giant Halberd"
+    attrs: "+5, Silver, Glowing, Proning"
+    drops:
+      - name: "Halberd Giant"
+        lair: true
+    sprite: "27-144"
+
+  - name: "Fire Giant Halberd"
+    attrs: "+6, Silver, Glowing, Proning"
+    drops:
+      - name: "Fire Giant"
+        lair: true
+    sprite: "27-144"
+
+  - name: "Strength Halberd"
+    reqs: "Barbarian"
+    attrs: "+5, +2 STR"
+    quests:
+      - name: "Strength Halberd"
+    sprite: "28-133"
+
+  - name: "Push Club"
+    attrs: "Lv9 Push"
+    drops:
+      - name: "Cloud Giant"
+        lair: true
+    sprite: "27-152"
+
+  - name: "Lightning Hammer"
+    reqs: "G/G"
+    attrs: "+4, Lv5 Lightning, Returning"
+    quests:
+      - name: "Lightning Hammer"
+    sprite: "27-186"
+
+  - name: "NeoLightning Hammer"
+    attrs: ""
+    quests:
+      - name: "NeoLightning Hammer"
+    sprite: "27-186"
+
+  - name: "Returning Hammer"
+    attrs: "+4, Glowing, Returning"
+    quests:
+      - name: "Returning Hammer"
+    sprite: "26-53"
+
+  - name: "Griffon Longsword"
+    reqs: "G/G"
+    attrs: "+3, Silver, Glowing"
+    drops:
+      - name: "Griffon"
+        lair: true
+    quests:
+      - name: "Improved Griffon Longsword"
+    sprite: "28-23"
+
+  - name: "Griffon Longsword (Improved)"
+    reqs: "G/G"
+    attrs: "+4, Silver, Glowing"
+    quests:
+      - name: "Improved Griffon Longsword"
+    sprite: "28-23"
+
+  - name: "Slicer Sword (Longsword)"
+    attrs: "+4, Proning, Glowing"
+    drops:
+      - name: "Slicer"
+        lair: true
+    sprite: "28-23"
+
+  - name: "Uther's Broadsword"
+    reqs: "E/E"
+    attrs: "+6, Vamps for Fighter"
+    drops:
+      - name: "Uther"
+        lair: true
+    quests:
+      - name: "Sabre"
+    sprite: "28-41"
+
+  - name: "Sabre"
+    reqs: "G/G"
+    attrs: "+6, Silver, Glowing, Power"
+    quests:
+      - name: "Sabre"
+    sprite: "27-139"
+
+  - name: "Smasher Mace"
+    attrs: "+7, Glowing, Proning"
+    drops:
+      - name: "Smasher"
+        lair: true
+    sprite: "28-145"
+
+  - name: "Glittering Shortsword"
+    attrs: "+5, Glowing"
+    quests:
+      - name: "Glittering Shortsword"
+    sprite: "28-114"
+
+  - name: "Fisheries Staff"
+    attrs: "+3, Glowing"
+    found: "Fisheries"
+    drops:
+      - name: "Mutant"
+    sprite: "27-195"
+
+  - name: "Slith Staff"
+    attrs: "+4 WIS"
+    quests:
+      - name: "Slith Staff"
+    sprite: "28-155"
+
+  - name: "Chipuda's Staff"
+    reqs: "Mentalist"
+    attrs: "+6, +2 psi skills"
+    drops:
+      - name: "Chipuda"
+        lair: true
+    sprite: "27-182"
+
 others:
+    - name: "Slith Amber"
+      drops:
+        - name: "Slith"
+          lair: true
+      quests:
+        - name: "Slith Robe"
+      sprite: "26-67"
+
+    - name: "Slith Eye"
+      drops:
+        - name: "Slith"
+          lair: true
+      quests:
+        - name: "Slith Staff"
+      sprite: "26-63"
+
+    - name: "Moose Stick"
+      quests:
+        - name: "Chipuda Access"
+      sprite: "28-43"
+
+    - name: "Fate Card"
+      attrs: "Dangerous - casts Fate"
+      sprite: "28-59"
+
+    - name: "Sanquin Egg"
+      found: "Nork-3.5"
+      drops:
+        - name: "Sanquin"
+      quests:
+        - name: "Ratburrow Sash"
+      sprite: "28-72"
+
+    - name: "Leviathan Egg"
+      drops:
+        - name: "Leviathan"
+          lair: true
+      quests:
+        - name: "Fullplate"
+      sprite: "28-72"
+
+    - name: "Spider Queen Egg"
+      found: "Nork-3.5"
+      drops:
+        - name: "Spider Queen"
+      quests:
+        - name: "Ratburrow Sash"
+      sprite: "26-80"
+
+    - name: "Blood Root"
+      attrs: "Restores EP"
+      found: "King Minotaur Dungeon-5"
+      drops:
+        - name: "Minotaur"
+      quests:
+        - name: "Strength Halberd"
+      sprite: "26-116"
+
+    - name: "Minotaur Blood"
+      attrs: "+1 HP if drank on King Minotaur Dungeon-5"
+      found: "King Minotaur Dungeon-5"
+      drops:
+        - name: "Minotaur"
+      quests:
+        - name: "Strength Halberd"
+      sprite: "26-149"
+
+    - name: "Vampire Heart"
+      drops:
+        - name: "Vampire"
+          lair: true
+      quests:
+        - name: "Vampire Gauntlets"
+      sprite: "28-51"
+
+    - name: "Warden Heart"
+      drops:
+        - name: "Warden"
+          lair: true
+      quests:
+        - name: "NeoLightning Hammer"
+      sprite: "28-51"
+
+    - name: "Betty Doll"
+      quests:
+        - name: "Betty Atonement"
+      sprite: "28-44"
+
+    - name: "Crystal (Earth)"
+      found: "Homlet"
+      quests:
+        - name: "Uther Access"
+      sprite: "28-28"
+
+    - name: "Crystal (Water)"
+      found: "Water Plains"
+      quests:
+        - name: "Uther Access"
+      sprite: "28-29"
+
+    - name: "Crystal (Fire)"
+      found: "Fire Plains"
+      quests:
+        - name: "Uther Access"
+      sprite: "28-30"
+
+    - name: "Crystal (Air)"
+      found: "Ice Floes"
+      drops:
+        - name: "Yeti"
+      quests:
+        - name: "Uther Access"
+      sprite: "28-31"
+
+    - name: "Slith Stat Pot"
+      attrs: "+1 Random Stat"
+      drops:
+        - name: "Slith"
+          lair: true
+      sprite: "27-169"
+
+    - name: "Willpower Pot"
+      quests:
+        - name: "Betty Atonement"
+      attrs: "+1 WIL (max: 19)"
+      sprite: "27-128"
+
+    - name: "Willpower Pot"
+      attrs: "+1 WIL (max: 19)"
+      sprite: "27-172"
+
+    - name: "Constitution Pot (Minor)"
+      attrs: "+1 CON (max: 15)"
+      found: "Steel Flower"
+      sprite: "27-172"
+
+    - name: "Constitution Pot (Major)"
+      attrs: "+1 CON (max: 18)"
+      sprite: "27-172"
+
+    - name: "Agility Pot"
+      attrs: "+1 AGI (max: 18)"
+      sprite: "27-171"
+
+    - name: "Strength Pot"
+      attrs: "+1 STR (max: 18)"
+      sprite: "27-170"
+
+    - name: "EP Pot"
+      attrs: "+1-6 EP"
+      sprite: "27-178"
+
+    - name: "Intelligence Pot"
+      attrs: "+1 INT (max: 19)"
+      sprite: "27-176"
+
+    - name: "Wisdom Pot"
+      attrs: "+1 WIS (max: 19)"
+      sprite: "27-167"
+
+    - name: "Youth Pot"
+      attrs: "Restore Youth to Young"
+      sprite: "27-167"
+
+    - name: "Zap"
+      attrs: "Restores EP"
+      sprite: "27-173"
+
+    - name: "HP Pot (Basic)"
+      attrs: "+1-3 HP"
+      sprite: "26-92"
+
+    - name: "HP Pot (Advanced)"
+      attrs: "+1-3 HP"
+      sprite: "26-158"

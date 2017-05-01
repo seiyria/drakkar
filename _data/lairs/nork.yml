@@ -23,6 +23,7 @@
   sprite: "6-65"
   drops:
     - name: "Mummy Cloak"
+    - name: "Mummy King Crossbow"
   quests:
     - name: "Mummy King Access"
 
@@ -36,20 +37,22 @@
     - name: "Prisons Naga Access"
 
 - name: "Roc"
-  text: ""
+  text: "Tan for feathers."
   found: "Nork-3"
   sprite: "6-108"
   drops:
+    - name: "Roc Feathers"
     - name: "Roc Egg"
   quests:
     - name: "Roc Access"
     - name: "Poison Bow"
 
 - name: "Ghost"
-  text: "Can hide."
+  text: "Can hide. Tan for cloak."
   found: "Nork-3.5"
   sprite: "6-94"
   drops:
+    - name: "Ghost Cloak"
     - name: "Ghost Pearl"
   quests:
     - name: "Roc Access"
@@ -78,14 +81,14 @@
   sprite: "6-121"
   drops:
     - name: "Griffon Longsword"
-    - name: "Griffon Armor (Big)"
+    - name: "Griffon Feathers (Big)"
 
 - name: "Red Dragon"
   text: "Uses firebreath. Steals IH. Tan for scales. Eats."
   found: "South of Volcano Town, Nork-5, beneath Fate Pools"
   sprite: "6-81"
   drops:
-    - name: "Red Dragon Amulet"
+    - name: "Red Dragon Amulet (Fire)"
     - name: "Dragon Gauntlets"
     - name: "Red Dragon Scales (Fire)"
 
@@ -145,9 +148,16 @@
   found: "King Minotaur Dungeon-5"
   sprite: "6-221"
   drops:
-    - name: "Minotaur Axe (Returning)"
+    - name: "King Minotaur Axe"
   quests:
     - name: "Attack Sash"
+
+- name: "Kaxxmaxamilian"
+  text: ""
+  found: "Funhouse"
+  sprite: "6-110"
+  drops:
+    - name: "Kaxx Dagger"
 
 - name: "Slicer"
   text: ""
@@ -190,7 +200,16 @@
   found: "Fire Plains"
   sprite: "6-223"
   drops:
+    - name: "Fire Giant Boots"
     - name: "Fire Giant Halberd"
+
+- name: "Spot"
+  text: "Uses firestorm. Tan for scales."
+  found: "Fire Plains"
+  sprite: "6-81"
+  drops:
+    - name: "Red Dragon Amulet (Firestorm)"
+    - name: "Red Dragon Scales (Firestorm)"
 
 - name: "Big Lich"
   text: "Uses espear, darkness."
@@ -275,7 +294,7 @@
   sprite: "6-60"
   found: "Nork-8"
   drops:
-    - name: "Rakshasha Cloak (Reflecting)"
+    - name: "Rakshasha Cloak (Glowing)"
 
 - name: "Uther"
   text: "Sucks xp/skill on hit."
@@ -293,7 +312,7 @@
   sprite: "6-120"
   found: "Nork-8"
   drops:
-    - name: "Naga Armor (Big)"
+    - name: "Naga Scales (Big)"
   quests:
     - name: "Nork-9 Access"
 
@@ -342,7 +361,7 @@
   found: "North of Frore, upstairs"
   sprite: "6-132"
   drops:
-    - name: "Chipuda Staff"
+    - name: "Chipuda's Staff"
     - name: "Regen Amulet (Big)"
   quests:
     - name: "Chipuda Access"
@@ -354,6 +373,7 @@
   drops:
     - name: "Slith Eye"
     - name: "Slith Amber"
+    - name: "Slith Stat Pot"
   quests:
     - name: "Slith Staff"
     - name: "Slith Robe"

@@ -139,7 +139,7 @@
   items:
     - sprite: "27-134"
     - sprite: "26-145"
-    - sprite: "18-174"
+    - sprite: "28-174"
 
 - name: "Slith Staff"
   text: "Trade Slith's Eye for the Slith Staff behind the lair."
@@ -151,6 +151,8 @@
   text: "Trade the Slith Amber for the Slith Robe. Different classes receive different robes."
   items:
     - sprite: "26-67"
+    - sprite: "26-25"
+    - sprite: "26-25"
     - sprite: "26-25"
 
 - name: "King's Key"
@@ -182,8 +184,8 @@ Go back to Mayor Dagano, drop all 4 items and say: `dag, axe of the heathen`, `d
     - sprite: "26-167"
     - sprite: "27-207"
 
-- name: "Silver Bow"
-  text: "Take Griffon Feathers to Eventine in the Nork smithy and trade them for a Silver Bow."
+- name: "Silver Bow (Norken)"
+  text: "Take Griffon Feathers to Eventine in the Nork smithy and trade them for a Silver Bow (Norken)."
   items:
     - sprite: "27-204"
     - sprite: "27-209"
@@ -337,9 +339,9 @@ Find the 15 Queen Goblets and bring them to Harkob in the Steel Flower. He will 
 - name: "Improved Silver Dagger"
   text: "Mythe in the Nork Smithy would like a Silver Dagger (purchased in the Steel Flower) to be encrusted with a Flawless Emerald. He will improve the dagger for you."
   items:
-    - sprite: "27-119"
+    - sprite: "27-219"
     - sprite: "27-157"
-    - sprite: "27-119"
+    - sprite: "27-219"
 
 - name: "Improved Poison Bow"
   text: "Ptath on the east side of Nork will improve the Poison on your Poison Bow if you bring him a Poison Bow and a Poison Vial."
@@ -377,7 +379,7 @@ Find the 15 Queen Goblets and bring them to Harkob in the Steel Flower. He will 
     - sprite: "28-1"
     - sprite: "27-191"
 
-- name: "Mino Axe Alignment Change"
+- name: "Minotaur Axe Alignment Change"
   text: "Lotu, west of Maeling, will change the alignment on a Minotaur Axe to be G/G."
   items:
     - sprite: "27-215"
