@@ -32,6 +32,10 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Attacks gives you more rolls to determine how hard you hit with a melee attack (the highest roll is kept).
 
+## Skills
+
+* There are some capped skills while progressing. This means that you can only get a certain number of skill gain, max, at a time. The skills are: 5, 11, 18, 26
+
 ## Disciplines
 
 * The Aid disc boosts your ability to hide, see through hide, and your melee to-hit rolls.
