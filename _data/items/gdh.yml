@@ -57,14 +57,14 @@ gauntlets:
         lair: true
     sprite: "30-195"
   - name: "Mentalist Gauntlets"
-    reqs: "Level 65, Mentalist"
+    reqs: "Level 65, Mentalist, Fighter/Mentalist"
     attrs: "0/5 +5 AGI"
     drops:
       - name: "FoodGuardian"
         lair: true
     sprite: "30-195"
-  - name: "Paladin Gauntlets"
-    reqs: "Level 65, Paladin"
+  - name: "Fighter Gauntlets"
+    reqs: "Level 65, Fighter, Paladin, Fighter/Mentalist"
     attrs: "4/4 +3 STR/AGI"
     drops:
       - name: "FoodGuardian"
