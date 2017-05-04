@@ -669,7 +669,7 @@ weapons:
   - name: "Kaxx Dagger"
     attrs: "+5"
     drops:
-      - name: "Kaxxmaxamilian"
+      - name: "Kaxmaxmillion"
         lair: true
     sprite: "28-22"
 
