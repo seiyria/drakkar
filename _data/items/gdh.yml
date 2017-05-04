@@ -279,7 +279,7 @@ others:
       - name: "Castle Access"
 
   - name: "MercCaptain Key 1"
-    sprite: 30-251"
+    sprite: "30-251"
     found: "GDH Castle"
     quests:
       - name: "Castle Access"
