@@ -12,10 +12,26 @@
       <map name="{{ map_data.img }}" href="#">
         {% for node in map_data.nodes %}
           <area shape="rect"
-                coords="{{ node.x | times:64 }}, {{ node.y | times:64 }}, {{ node.x | plus:1 | times:64 }}, {{ node.y | plus:1 | times:64 }}"
+                {% assign result_x = node.x | plus:1 %}
+                {% if node.width %}
+                  {% assign result_x = result_x | plus:node.width %}
+                {% endif %}
+                {% assign result_x = result_x | times:64 %}
+
+                {% assign result_y = node.y | plus:1 %}
+                {% if node.height %}
+                  {% assign result_y = result_y | plus:node.height %}
+                {% endif %}
+                {% assign result_y = result_y | times:64 %}
+
+                coords="{{ node.x | times:64 }}, {{ node.y | times:64 }}, {{ result_x }}, {{ result_y }}"
 
               {% if node.lair %}
                 data-lair="{{ node.name }}"
+              {% endif %}
+
+              {% if node.desc %}
+                data-desc="{{ node.desc }}"
               {% endif %}
 
               {% if node.related_quests %}

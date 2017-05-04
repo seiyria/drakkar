@@ -1,4 +1,31 @@
 
+- name: "Sullen Keep Forest/Cave"
+  img: "forest-cave"
+  nodes:
+    - name: "Cave Entry"
+      x: 9
+      y: 9
+      related_quests:
+        - "Progression 1"
+
+    - name: "Shady"
+      desc: "Sells anti-prone potions for 3mil"
+      x: 29
+      y: 11
+
+    - name: "SK Climb Up"
+      x: 21
+      y: 28
+      related_quests:
+        - "Progression 2"
+
+    - name: "Basilisk"
+      lair: true
+      x: 29
+      y: 26
+      width: 2
+      height: 2
+
 - name: "Sullen Keep Base"
   img: "keep+0"
   nodes:
@@ -40,3 +67,8 @@
       y: 10
       related_quests:
         - "Progression 5"
+
+    - name: "Gold Captain"
+      lair: true
+      x: 14
+      y: 3

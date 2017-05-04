@@ -68,6 +68,10 @@ $(document).ready(function(){
 
         var content = '<span>' + area.data('name') + '</span>';
 
+        if(area.data('desc')) {
+          content += '<br>' + area.data('desc') + '<br>';
+        }
+
         if(area.data('lair')) {
           content += '<br><a target="_blank" href="lairs#' + area.data('name').split(' ').join('+') + '">Lair Info</a>';
         }
