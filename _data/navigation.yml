@@ -225,6 +225,8 @@ scenarios:
         url: /scenarios/sk/quests
       - title: "Items"
         url: /scenarios/sk/items
+      - title: "Maps"
+        url: /scenarios/sk/maps
 
   - title: "Invader's Refuge"
     children:
