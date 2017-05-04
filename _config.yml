@@ -60,6 +60,7 @@ analytics:
   google:
     tracking_id          :
 
+plugins_dir:     _plugins
 
 # Site Author
 author:
@@ -91,7 +92,6 @@ author:
   weibo            :
   xing             :
   youtube          :
-
 
 # Reading Files
 include:
@@ -126,6 +126,7 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+width: 200
 
 # Conversion
 markdown: kramdown

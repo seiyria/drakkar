@@ -1,0 +1,42 @@
+
+- name: "Sullen Keep Base"
+  img: "keep+0"
+  nodes:
+    - name: "Forger"
+      map: "keep+1"
+      x: 29
+      y: 3
+      related_quests:
+        - "SK Armor"
+
+    - name: "Armornon"
+      x: 7
+      y: 18
+      related_quests:
+        - "SK Armor"
+
+    - name: "Black Captain"
+      lair: true
+      x: 18
+      y: 7
+
+    - name: "Stairs: Barracks"
+      x: 28
+      y: 24
+      related_quests:
+        - "Progression 3"
+
+- name: "Sullen Keep +1"
+  img: "keep+1"
+  nodes:
+    - name: "Stairs: Black Level"
+      x: 2
+      y: 10
+      related_quests:
+        - "Progression 4"
+
+    - name: "Stairs: Green Level"
+      x: 23
+      y: 10
+      related_quests:
+        - "Progression 5"

@@ -46,3 +46,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+.maps-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.map {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.map img {
+  width: 200px !important;
+  height: 200px !important;
+}
