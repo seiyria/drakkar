@@ -2,7 +2,7 @@
 
 {% assign quests = site.data.quests.[page.quest_id] | sort:"name" %}
 
-<small><a target="_blank" href="https://github.com/seiyria/drakkar/edit/gh-pages/_data/lairs/{{ page.quest_id }}.yml">[Improve this data?]</a></small>
+<small><a target="_blank" href="https://github.com/seiyria/drakkar/edit/gh-pages/_data/quests/{{ page.quest_id }}.yml">[Improve this data?]</a></small>
 
 {% if quests %}
 
