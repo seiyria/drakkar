@@ -47,7 +47,16 @@ $(document).ready(function(){
         $(".tooltipstered").tooltipster('destroy');
 
         zoom.parent().off('mousewheel.focal');
+
+        $(document).unbind("keyup", watch);
       }
+
+      var watch = function(e) {
+        if(e.keyCode !== 27) return;
+        close();
+      }
+
+      $(document).keyup(watch);
 
       closeDiv.on('click', close);
       backdrop.on('click', close);
