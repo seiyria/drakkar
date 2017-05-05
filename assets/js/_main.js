@@ -24,7 +24,7 @@ $(document).ready(function(){
 
       var bigImage = $([
         '<div style="position: absolute; z-index: 100; left: ' + gutter + '; right: ' + gutter + '; top: ' + gutter + '; bottom: ' + gutter + '">',
-          '<img style="max-width: none" src="' + node.attr('href') + '" usemap="' + node.data('map') + '" />',
+          '<img style="max-width: none" src="' + node.attr('href').split('_thumbs').join('') + '" usemap="' + node.data('map') + '" />',
         '</div>'
       ].join(''));
 

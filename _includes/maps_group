@@ -48,7 +48,7 @@
          class="is-fancy"
          href="{{ map_data.img | prepend: "-" | prepend: page.maps_id | prepend: "/assets/maps/" | prepend: base_path | append: ".png" }}">
 
-        <img src="{{ map_data.img | prepend: "-" | prepend: page.maps_id | prepend: "/assets/maps/" | prepend: base_path | append: ".png" }}"
+        <img src="{{ map_data.img | prepend: "-" | prepend: page.maps_id | prepend: "/assets/maps_thumbs/" | prepend: base_path | append: ".png" }}"
          width="200"
          height="200"
          alt="{{map_data.name}} Map"
