@@ -17,7 +17,7 @@
     - sprite: "30-221"
 
 - name: "Progression 2"
-  text: "First, you have to get flagged by talking to the NPC in the Escapee Caves. Then, you have to collect 10 Mercenary Twigs and `trade enable` them to the lunches that wander the area. Once you've done so, you can progress to the third area of GDH1."
+  text: "First, you have to get flagged by talking to the NPC in the Escapee Caves. Then, you have to collect 2 Mercenary Twigs and `trade enable` them to the lunches that wander the area. Once you've done so, you can progress to the third area of GDH1."
   items:
     - sprite: "30-220"
 
