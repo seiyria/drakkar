@@ -42,6 +42,14 @@ earrings:
 helms:
 
 gauntlets:
+  - name: "Climbing Hooks"
+    drops:
+      - name: "Cave Bear"
+        lair: true
+    quests:
+      - name: "Bear None"
+    sprite: "30-255"
+
   - name: "Barbarian Gauntlets"
     reqs: "Level 65, Barbarian"
     attrs: "5/0 +5 STR"
@@ -92,10 +100,14 @@ rings:
     drops:
       - name: "Thermature"
         lair: true
+    quests:
+      - name: "Improved Thermature Ring"
   - name: "Thermature Ring (improved)"
     reqs: "Level 70"
     attrs: "9/9 +5 All Stats"
     sprite: "30-201"
+    quests:
+      - name: "Improved Thermature Ring"
 
 robes:
   - name: "Gatherer Robe"

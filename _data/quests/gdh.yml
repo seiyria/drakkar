@@ -59,7 +59,7 @@
     - sprite: "30-248"
 
 - name: "Bear None"
-  text: "Collect 10 Bear Meat and turn it into the npc. When you give him 10, he gives you a Smoked Bear Meat. You'll have to brew the Smoked Bear Meat with other reagents to make Bear Beer (req. skill 13~15). Activate the Cave Bear lair and kill him to get Climbing Hooks, then climb up to the Trapper from the south side of the Barbarian Fields. Give him a Bear Beer to start the encounter (similar to Wakka) and make sure you kill all of the bears. Repeat this up to 5 times to max out Bear None."
+  text: "Collect 10 Bear Meat and turn it into Smokie. When you give him 10, he gives you a Smoked Bear Meat. You'll have to brew the Smoked Bear Meat with other reagents to make Bear Beer (req. skill 13~15). Activate the Cave Bear lair and kill him to get Climbing Hooks, then climb up to the Trapper from the south side of the Barbarian Fields. Give him a Bear Beer to start the encounter (similar to Wakka) and make sure you kill all of the bears. Repeat this up to 5 times to max out Bear None."
   items:
     - sprite: "30-249"
     - sprite: "30-254"
@@ -70,3 +70,11 @@
   text: "Head to the Castle and find Wakka (he is behind a locked door, a key can be found nearby). If you do `wakka, begin` you can fight a bunch of moles. When you succeed, click him again and you will gain a point in the Wackaflexes quirk. You can get up to 5. There is a small delay between them as well."
   items:
     - sprite: "28-47"
+
+- name: "Improved Thermature Ring"
+  text: "Collect 10 Bear Meat. Take them to Smokie in the Barbarian Fields and trade them for a Smoked Bear Meat. Take a Thermature Ring and the Smoked Bear Meat to Krog and he will improve your ring."
+  items:
+    - sprite: "30-249"
+    - sprite: "30-254"
+    - sprite: "30-201"
+    - sprite: "30-201"

@@ -192,6 +192,8 @@ scenarios:
         url: /scenarios/gdh/quests
       - title: "Items"
         url: /scenarios/gdh/items
+      - title: "Maps"
+        url: /scenarios/gdh/maps
 
   - title: "Black Dragon Consort"
     children:

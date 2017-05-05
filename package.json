@@ -22,7 +22,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.5",
+    "imagemin-cli": "^3.0.0",
     "node-sass": "^3.4.2",
+    "node-thumbnail": "^0.10.0",
     "npm-run-all": "^1.7.0",
     "onchange": "^2.2.0",
     "postcss-cli": "^2.5.1",
@@ -38,6 +40,7 @@
     "build:css": "npm run scss && npm run autoprefixer",
     "build:js": "npm run uglify",
     "build:all": "npm run build:css && npm run build:js",
-    "generate:thumbs": "thumb -w 200 -s \"\" assets/maps/ assets/maps_thumbs/"
+    "generate:thumbs": "thumb -w 200 -s \"\" assets/maps/ assets/maps_thumbs/",
+    "clean:images": "imagemin assets/maps/* -o assets/maps/"
   }
 }

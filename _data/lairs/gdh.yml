@@ -9,9 +9,13 @@
     - name: "Beholder Staff"
 
 - name: "Cave Bear"
-  text: "Grey to evil characters"
+  text: "Grey to evil characters. Nasty. Gets nastier if you take too long."
   found: "GDH2"
   sprite: "6-76"
+  drops:
+    - name: "Climbing Hooks"
+  quests:
+    - name: "Bear None"
 
 - name: "FoodGuardian"
   text: "Sucks EXP and Skill on hit. Can hit up to 8x/round, 4 strikes max per target."
@@ -42,7 +46,7 @@
   text: "Has a strong attack that can one-shot players. High HP regen."
   found: "GDH2"
   sprite: "6-152"
-  
+
 - name: "Thermature"
   text: "Casts nasty icebreath."
   found: "Dragon River"

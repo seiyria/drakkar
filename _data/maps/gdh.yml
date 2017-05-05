@@ -1,0 +1,143 @@
+- name: "GDH2 Area"
+  img: "2-area"
+  nodes:
+    - name: "Cave Bear"
+      lair: true
+      x: 25
+      y: 2
+      related_quests:
+        - "Bear None"
+
+    - name: "Trapper Climb Up"
+      x: 20
+      y: 29
+      related_quests:
+        - "Bear None"
+
+    - name: "Trapper"
+      desc: "You can also climb down here."
+      x: 20
+      y: 33
+      related_quests:
+        - "Bear None"
+
+    - name: "SW Barbarian Camp"
+      desc: "Drops tiers: Gaze of the Wild, Echo of Decay, <br>Taloned Barbs, Hemorrhagic Fever, <br>Ankor's Fire, Tempuric Firestorm, Wave of Good"
+      x: 6
+      y: 26
+      width: 2
+      height: 2
+
+    - name: "NW Barbarian Camp"
+      desc: "Drops tiers: Sweat of Deplurium, Echo of Disease, <br>Dragon Sting, Avatar Health, <br>Apocalyptic Delirium, Illumnic Hammer, Shield of Nobility"
+      x: 13
+      y: 17
+      width: 2
+      height: 2
+
+    - name: "Center Barbarian Camp"
+      desc: "Drops tiers: Gaze of the Wild, Echo of Decay, <br>Taloned Barbs, Hemorrhagic Fever, <br>Ankor's Fire, Tempuric Firestorm, Wave of Good"
+      x: 22
+      y: 24
+      width: 2
+      height: 2
+
+    - name: "E Barbarian Camp"
+      desc: "Drops tiers: Sweat of Deplurium, Echo of Disease, <br>Dragon Sting, Avatar Health, <br>Apocalyptic Delirium, Illumnic Hammer, Shield of Nobility"
+      x: 35
+      y: 21
+      width: 2
+      height: 2
+
+    - name: "Smokie"
+      x: 43
+      y: 13
+      related_quests:
+        - "Bear None"
+        - "Improved Thermature Ring"
+
+    - name: "Danfur"
+      x: 42
+      y: 34
+      related_quests:
+        - "Barbarian Fields Access"
+
+    - name: "Barbarian Fields Door"
+      x: 42
+      y: 32
+      width: 1
+      related_quests:
+        - "Barbarian Fields Access"
+
+    - name: "Marton"
+      x: 41
+      y: 37
+
+    - name: "Krog"
+      x: 44
+      y: 37
+      related_quests:
+        - "Improved Thermature Ring"
+
+    - name: "Cook"
+      x: 52
+      y: 38
+      related_quests:
+        - "Barbarian Fields Access"
+
+    - name: "Wakka"
+      x: 42
+      y: 46
+      related_quests:
+        - "Wackaflexes"
+
+    - name: "Merc Captain"
+      lair: true
+      x: 57
+      y: 35
+      related_quests:
+        - "Castle Access"
+
+    - name: "Merc Captain"
+      lair: true
+      x: 57
+      y: 46
+      related_quests:
+        - "Castle Access"
+
+    - name: "Castle Door"
+      x: 61
+      y: 41
+      related_quests:
+        - "Castle Access"
+
+    - name: "Black Dragon Arbiter"
+      desc: "Click to go to BDC"
+      x: 69
+      y: 68
+
+    - name: "Silver Dragon Arbiter"
+      desc: "Click to go to SDC"
+      x: 83
+      y: 68
+
+    - name: "Silvuh"
+      x: 67
+      y: 28
+
+    - name: "Gipler"
+      x: 63
+      y: 28
+      related_quests:
+        - "Basic Bow"
+
+    - name: "Armon"
+      x: 64
+      y: 26
+      related_quests:
+        - "Basic Glaive"
+
+    - name: "Thermature"
+      lair: true
+      x: 86
+      y: 25
