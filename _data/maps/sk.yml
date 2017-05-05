@@ -72,3 +72,27 @@
       lair: true
       x: 14
       y: 3
+
+- name: "Sullen Keep +2"
+  img: "keep+2"
+  nodes:
+    - name: "Stairs: Gold Level"
+      x: 22
+      y: 10
+
+    - name: "Stairs: Parapet"
+      x: 1
+      y: 10
+
+    - name: "Green Captain"
+      lair: true
+      x: 13
+      y: 3
+
+
+- name: "Sullen Keep Parapet"
+  img: "keep+3"
+  nodes:
+  - name: "Stairs: Green Level"
+    x: 3
+    y: 16
