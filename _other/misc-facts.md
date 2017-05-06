@@ -58,6 +58,12 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * You can skip the 50-advancement quest and just go primal.
 
+## Races
+
+* Outcasts get better prices from Lisa in Cobrahn.
+
+* Woodland and Forest Dwellers can hear more forest-y sounds than other races.
+
 ## Miscellaneous
 
 * You can see if an area is twiggable by checking the description of the twig. If the glow is subdued, you can't twig out.

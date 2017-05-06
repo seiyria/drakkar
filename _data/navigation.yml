@@ -207,6 +207,8 @@ scenarios:
         url: /scenarios/bdc/quests
       - title: "Items"
         url: /scenarios/bdc/items
+      - title: "Maps"
+        url: /scenarios/bdc/maps
 
   - title: "Silver Dragon Consort"
     children:

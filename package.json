@@ -40,7 +40,7 @@
     "build:css": "npm run scss && npm run autoprefixer",
     "build:js": "npm run uglify",
     "build:all": "npm run build:css && npm run build:js",
-    "generate:thumbs": "thumb -w 200 -s \"\" assets/maps/ assets/maps_thumbs/",
+    "generate:thumbs": "thumb -w 200 -o -s \"\" assets/maps/ assets/maps_thumbs/",
     "clean:images": "imagemin assets/maps/* -o assets/maps/"
   }
 }

@@ -1,6 +1,6 @@
 
 - name: "Acidron Alcor"
-  text: ""
+  text: "Powerful acid attacks."
   found: "Crypt"
   sprite: "acidronalcor_full"
   drops:
@@ -19,3 +19,5 @@
   sprite: "6-141"
   drops:
     - name: "Hermit Scroll"
+  quests:
+    - name: "Hermit Skill Progression"
