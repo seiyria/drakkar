@@ -6,7 +6,7 @@
     - sprite: "30-193"
 
 - name: "Needler Ring"
-  text: "Take a Needler Heart to the NPC in the second area of GDH to receive a Needler Ring."
+  text: "Take a Needler Heart to Sturderon in the second area of GDH to receive a Needler Ring."
   items:
     - sprite: "30-214"
     - sprite: "30-192"
@@ -22,7 +22,7 @@
     - sprite: "30-220"
 
 - name: "Progression 3"
-  text: "First, you have to collect a Beholder Staff and a Golem Essence. Then, hold them both and click Medusa to activate the fight. After you kill Medusa, take her Medusa Gem to the npc in the SwampWitch area. Once you've done this, you can progress to the fourth area of GDH1."
+  text: "First, you have to collect a Beholder Staff and a Golem Essence. Then, hold them both and click Medusa to activate the fight. After you kill Medusa, take her Medusa Gem to the npc in the SwampWitch area (you can also find the gem rarely from Remains). Once you've done this, you can progress to the fourth area of GDH1."
   items:
     - sprite: "30-208"
     - sprite: "30-207"
@@ -78,3 +78,20 @@
     - sprite: "30-254"
     - sprite: "30-201"
     - sprite: "30-201"
+
+- name: "Vine Shield"
+  text: "Lead 10 LostFarmers from Offical to the boat near Captain. You have to do `los, follow` to get them to follow you. Go back to Official to get your shield when you've done them all."
+  items:
+    - sprite: "30-189"
+
+- name: "Vine Sash"
+  text: "Talk to Captain, bring him 20 Canteens. Tell him `capt, help` to turn in Canteens."
+  items:
+    - sprite: "30-209"
+    - sprite: "30-188"
+
+- name: "Combat Earring"
+  text: "Bring Hatchling Scales to Barnlot near Medusa. Trade them for the Combat Earring."
+  items:
+    - sprite: "30-222"
+    - sprite: "30-299"

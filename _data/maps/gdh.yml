@@ -1,3 +1,76 @@
+- name: "GDH1 Area"
+  img: "1-area"
+  nodes:
+    - name: "Botanist"
+      x: 13
+      y: 2
+      related_quests:
+        - "Progression 1"
+
+    - name: "Official"
+      x: 17
+      y: 16
+      related_quests:
+        - "Vine Shield"
+
+    - name: "Farmer"
+      x: 29
+      y: 14
+      related_quests:
+        - "Gatherer Robe"
+
+    - name: "Sturderon"
+      x: 57
+      y: 5
+      related_quests:
+        - "Needler Ring"
+
+    - name: "Captain"
+      x: 43
+      y: 1
+      related_quests:
+        - "Vine Sash"
+
+    - name: "Barnlot"
+      x: 56
+      y: 14
+      related_quests:
+        - "Combat Earring"
+
+    - name: "Medusa"
+      lair: true
+      x: 58
+      y: 18
+      related_quests:
+        - "Progression 3"
+
+    - name: "Beholder"
+      lair: true
+      x: 54
+      y: 33
+      related_quests:
+        - "Progression 3"
+
+    - name: "Servant"
+      x: 54
+      y: 44
+      related_quests:
+        - "Progression 3"
+
+    - name: "LucidEscapee"
+      x: 42
+      y: 32
+      related_quests:
+        - "Progression 2"
+
+    - name: "FoodGuardian"
+      lair: true
+      x: 37
+      y: 44
+      related_quests:
+        - "Progression 4"
+
+
 - name: "GDH2 Area"
   img: "2-area"
   nodes:

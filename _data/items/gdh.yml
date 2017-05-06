@@ -29,10 +29,13 @@ boots:
 bracers:
 
 earrings:
-  - name: "Attack/Defense Earring"
+  - name: "Combat Earring"
     reqs: "Level 40"
     attrs: "1/1"
     sprite: "30-299"
+    quests:
+      - name: "Combat Earring"
+      
   - name: "Hatchling Earring"
     reqs: "Level 40"
     attrs: "+75 HP"
@@ -141,6 +144,8 @@ sashes:
     reqs: "Level 35"
     attrs: "4/4"
     sprite: "30-188"
+    related_quests:
+      - name: "Vine Sash"
 
 weapons:
   - name: "Beholder Staff"
@@ -185,7 +190,7 @@ weapons:
 others:
   - name: "Canteen"
     drops:
-      - name: "Mercenary"
+      - name: "Militia"
     sprite: "30-209"
 
   - name: "Climbing Twig"
