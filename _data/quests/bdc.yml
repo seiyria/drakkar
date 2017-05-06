@@ -12,7 +12,7 @@
     - sprite: "27-179"
 
 - name: "Tengu Skill Progression"
-  text: "Gather 10 Tengu Glands and brew then for an ink pot. Drink the Ink Pot to advance to skill 39."
+  text: "Gather 10 Tengu Glands and take them to Caniblas. Drink the Ink Pot to advance to skill 39."
   items:
     - sprite: "30-291"
     - sprite: "30-292"
