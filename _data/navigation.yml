@@ -31,6 +31,8 @@ other:
       url: /other/party-abilities
     - title: "Party Sidekick"
       url: /other/party-sidekick
+    - title: "Races"
+      url: /other/races
     - title: "Skill Names"
       url: /other/skill-names
     - title: "Tier Locations"
