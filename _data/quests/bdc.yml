@@ -1,5 +1,5 @@
 - name: "Crypt Access"
-  text: "??? to activate the Archaeologist quest. Talk with him in the BDC forest and kill the 4 spectres in BDC castle. Take their statues to the Archaeologist to go down to the crypt."
+  text: "To activate the Archaeologist quest, you must first do the Trapper climbup in GDH2. Talk with him in the BDC forest and kill the 4 spectres in BDC castle. Take their statues to the Archaeologist to go down to the crypt."
   items:
     - sprite: "30-258"
     - sprite: "30-258"
