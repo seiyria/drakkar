@@ -5,7 +5,7 @@
     - sprite: "30-366"
 
 - name: "Level 78"
-  text: "Once you've found a Wyvern Talon, you need to tie it in the Lower Guild Hall. Afterwards, take it to the NPC on the second floor of Wyvern Area (you must be level 76 to turn this in)."
+  text: "Take a Wyvern Talon to Arpigo on the second floor of Wyvern Area (you must be level 76 to turn this in)."
   items:
     - sprite: "27-135"
 
@@ -17,7 +17,7 @@
     - sprite: "26-75"
 
 - name: "Progression 1"
-  text: "Gather 2 Thumper Rocks and take them to an NPC. He will take them from your sack and give you a Climbing Pick. First, drop the Climbing Pick and then pick it up (this will tie it to you). Take the Climbing Pick to the most northwest hex of SDC Forest and climb up."
+  text: "Gather 2 Thumper Rocks and take them to Mneer. He will take them from your sack and give you a Climbing Pick. First, drop the Climbing Pick and then pick it up (this will tie it to you). Take the Climbing Pick to the most northwest hex of SDC Forest and climb up."
   items:
     - sprite: "30-335"
     - sprite: "30-334"
@@ -37,7 +37,7 @@
     - sprite: "30-370"
 
 - name: "Sick Caves 2 Access"
-  text: "Gather 4 Wraith Cloth and give to Mac` and you will be able to climb down to sick caves 2."
+  text: "Gather 5 Wraith Cloth and give to Mac` and you will be able to climb down to Sick Caves 2."
   items:
     - sprite: "30-282"
 
@@ -94,7 +94,7 @@
     - sprite: "30-347"
 
 - name: "Tree Hugger II"
-  text: "Bring a Broadleaf Arrowhead flower to an npc in Gnome Town."
+  text: "Bring a Broadleaf Arrowhead flower to Monrah near Betrayer."
   items:
     - sprite: "30-74"
 
@@ -133,3 +133,6 @@
   items:
     - sprite: "30-338"
     - sprite: "30-339"
+
+- name: "+12 Titan"
+  text: "Collect 8 leathers and 8 plate mails. Smelt the leathers into a crystal extract and enchant it to +6. Smelt the plates into a silver extract. Smelt the +6 crystal extract, silver extract, brew pot, and a small gold nugget to receive a refined fluidic crystal. Enchant the crystal to +6. Take the crystal to Alex with a Titan weapon to have it improved."

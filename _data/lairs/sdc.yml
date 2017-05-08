@@ -9,8 +9,8 @@
     - name: "Large Nugget"
     - name: "Gnomes Ring"
 
-- name: "Cavebat"
-  text: ""
+- name: "GiantBat"
+  text: "Stuns."
   found: "Thumper Caves"
   sprite: "11-24"
   drops:
@@ -25,7 +25,7 @@
   drops:
     - name: "Broom"
     - name: "Dark Knowledge Page"
-    
+
 - name: "OzonousMax"
   text: "Sucks stats. Breaks bottles. Mean lightning attack. Drops random Dark Knowledge Pages (1-35), 4 random stat flowers, and 4 Essence Twigs."
   found: "Lava City"

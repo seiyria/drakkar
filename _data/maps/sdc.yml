@@ -1,0 +1,219 @@
+- name: "Sick Caves -1"
+  img: "sickcaves-1"
+  nodes:
+    - name: "Mac`"
+      x: 10
+      y: 14
+      related_quests:
+        - "Sick Caves 2 Access"
+        - "Crystal Resistance I"
+
+    - name: "SDC Forest Stairs Up"
+      x: 7
+      y: 6
+
+    - name: "Sick Caves -2 Climb Down"
+      x: 4
+      y: 14
+      related_quests:
+        - "Sick Caves 2 Access"
+
+- name: "Sick Caves -2"
+  img: "sickcaves-2"
+  nodes:
+    - name: "Marburn"
+      x: 1
+      y: 4
+      related_quests:
+        - "Crystal Resistance II"
+
+    - name: "Sick Caves -1 Stairs Up"
+      desc: "Yes, stairs, not climb."
+      x: 4
+      y: 14
+
+- name: "Forest"
+  img: "forest"
+  nodes:
+    - name: "Mac"
+      x: 27
+      y: 1
+      related_quests:
+        - "Sick Caves Access"
+
+    - name: "Sick Caves Climb Down"
+      x: 25
+      y: 6
+      related_quests:
+        - "Sick Caves Access"
+
+    - name: "Wyverns Area Climb Up"
+      x: 1
+      y: 18
+      related_quests:
+        - "Progression 1"
+
+    - name: "Jarvoh"
+      x: 21
+      y: 43.5
+      related_quests:
+        - "Level 76"
+
+    - name: "Mneer"
+      x: 34
+      y: 34
+      related_quests:
+        - "Progression 1"
+
+    - name: "GiantBat"
+      lair: true
+      x: 11
+      y: 49
+      related_quests:
+        - "Cavern Creeper I"
+
+- name: "Wyverns +1"
+  img: "wyverns-1"
+  nodes:
+    - name: "Climb Up to Wyverns+2"
+      x: 4
+      y: 6
+
+    - name: "Climb Down to Forest"
+      x: 14
+      y: 13
+
+- name: "Wyverns +2"
+  img: "wyverns-2"
+  nodes:
+    - name: "Climb Up to Gnomes Area"
+      x: 7
+      y: 3
+      related_quests:
+        - "Level 78"
+
+    - name: "Arpigo"
+      x: 25
+      y: 17
+      related_quests:
+        - "Level 78"
+
+    - name: "Climb Down to Wyverns+1"
+      x: 16
+      y: 16
+
+- name: "Gnome Area"
+  img: "gnome-1"
+  nodes:
+  - name: "Monrah"
+    x: 19
+    y: 1
+    related_quests:
+      - "Tree Hugger II"
+
+  - name: "Betrayer"
+    lair: true
+    x: 3
+    y: 5
+
+  - name: "Climb Down to Gnomes"
+    x: 19
+    y: 15
+
+  - name: "Climb Up to Gnomes"
+    x: 20
+    y: 18
+
+  - name: "Climb Down to Gnomes-2"
+    x: 15
+    y: 13
+
+  - name: "Miner Area Entrance"
+    desc: "Hold key to go through"
+    x: 21
+    y: 34
+    related_quests:
+      - "Progression 2"
+
+  - name: "Climb Down to Wyverns+2"
+    x: 5
+    y: 39
+
+  - name: "Alex"
+    x: 6
+    y: 32
+    related_quests:
+      - "+12 Titan"
+
+  - name: "Goobert"
+    x: 6
+    y: 34
+
+  - name: "Modax"
+    x: 6
+    y: 26
+    related_quests:
+      - "Progression 2"
+
+  - name: "Armon"
+    x: 6
+    y: 21
+    related_quests:
+      - "Level 85"
+
+  - name: "Juan"
+    x: 6
+    y: 18
+    related_quests:
+      - "Tree Hugger I"
+
+  - name: "Jaxon"
+    x: 1
+    y: 16
+    related_quests:
+      - "Cavern Creeper II"
+
+- name: "Gnome Cave -2"
+  img: "gnome-2"
+  nodes:
+    - name: "Gnome Area Climb Up"
+      x: 2
+      y: 24
+
+- name: "Miner Area"
+  img: "miner"
+  nodes:
+    - name: "Ice Floes Climb Up"
+      x: 13
+      y: 1
+
+    - name: "Gnomes Area Climb Up"
+      x: 9
+      y: 18
+
+- name: "Ice Floes"
+  img: "icefloes"
+  nodes:
+    - name: "IceTitan"
+      x: 2
+      y: 2
+
+    - name: "Meadows Climb Up"
+      x: 10
+      y: 4
+
+    - name: "Miner Area Climb Down"
+      x: 5
+      y: 41
+
+- name: "Solo Caves -1"
+  img: "solocaves-1"
+
+- name: "Solo Caves -2"
+  img: "solocaves-2"
+
+- name: "Solo Caves -3"
+  img: "solocaves-3"
+
+- name: "Solo Caves -4"
+  img: "solocaves-4"

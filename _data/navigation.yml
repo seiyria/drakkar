@@ -220,6 +220,8 @@ scenarios:
         url: /scenarios/sdc/quests
       - title: "Items"
         url: /scenarios/sdc/items
+      - title: "Maps"
+        url: /scenarios/sdc/maps
 
   - title: "Sullen Keep"
     children:

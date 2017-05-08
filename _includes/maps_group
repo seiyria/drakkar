@@ -1,6 +1,6 @@
 {% include base_path %}
 
-{% assign all_maps = site.data.maps.[page.maps_id] %}
+{% assign all_maps = site.data.maps.[page.maps_id] | sort:"name" %}
 
 <p>Click a map to expand, use the mousewheel to zoom, drag a map to pan</p>
 
