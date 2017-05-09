@@ -175,7 +175,7 @@
     - sprite: "28-8"
 
 - name: "Padded Helms"
-  text: "Take Large Yeti Fur and other helm to the padding NPC in Timmy Town. Trade them for a padded helm (better versions of the previous helm - defense adds +1). Most helms can be padded (if you have a full list of items+stats, please submit)."
+  text: "Take Large Yeti Fur and other helm to Merton in Timmy Town. Trade them for a padded helm (better versions of the previous helm). Most helms can be padded (if you have a full list of items+stats, please submit)."
   items:
     - sprite: "27-192"
     
