@@ -61,6 +61,7 @@ raid-             | `raid-`       | | Show your current location as well as some
 combyells         | `combyells disable|enable` | `combyells enable` | Barbarian only - become more quiet and stop yelling for every action.
 paint             | `paint` | | Repaint the screen, redrawing crit boxes.
 redraw            | `redraw`| | Same as `paint`.
+.                 | `.`     | | Repeat the last command.
 
 ## System Macros
 
