@@ -93,7 +93,7 @@
     - sprite: "29-152"
 
 - name: "Great Halls Access"
-  text: "Faction with either Nameless or Graine (you can check at a Diplomat by going `dip, graine` or `dip, nameless`. You want 13000 points in a specific faction. The easiest way to do it is to kill Elites in Nameless Town for a few hours. After you've factioned, take an Akronium Brick, a Dragon Heart, and Forgotten Dust to the appropriate CryptKeeper (the one you factioned for) and you will have access to the Great Halls."
+  text: "Faction with either Nameless or Graine (you can check at a Diplomat by going `dip, graine` or `dip, nameless`. You want 13000 points in a specific faction. The easiest way to do it is to kill Elites in Nameless Town for a few hours. After you've factioned, take an Akronium Brick, a Dragon Heart, and Forgotten Dust to the appropriate CryptKeeper (the one you factioned for) and you will have access to the Great Halls. You will need to be level 35 to speak to any NPCs in here."
   items:
     - sprite: "29-159"
     - sprite: "29-202"
