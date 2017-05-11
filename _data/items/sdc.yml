@@ -254,6 +254,34 @@ others:
       - name: "Root Armor"
     sprite: "29-153"
 
+  - name: "Lava Twig"
+    found: "LavaCity"
+    drops:
+      - name: "OzonousMax"
+        lair: true
+      - name: "Corosonous"
+        lair: true
+      - name: "firegiant"
+    quests:
+      - name: "Root Weapon"
+    sprite: "30-220"
+
+  - name: "Spur Key"
+    drops:
+      - name: "Spur"
+        lair: true
+    quests:
+      - name: "OzonousMax Access"
+    sprite: "30-251"
+
+  - name: "Skar Key"
+    drops:
+      - name: "Skar"
+        lair: true
+    quests:
+      - name: "OzonousMax Access"
+    sprite: "30-251"
+
   - name: "Miner49er Key"
     quests:
       - name: "Progression 2"

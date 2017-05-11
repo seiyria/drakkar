@@ -206,6 +206,66 @@
       x: 5
       y: 41
 
+- name: "Lava City Area"
+  img: "lavacity"
+  nodes:
+    - name: "Worster"
+      x: 26
+      y: 35
+      related_quests:
+        - "Root Armor"
+
+    - name: "Hermit"
+      x: 68
+      y: 39
+      related_quests:
+        - "Root Weapon"
+
+    - name: "Stairs to Sullen Keep Forest"
+      desc: "Must be level 85 to go up"
+      x: 68
+      y: 46
+
+    - name: "Skar"
+      lair: true
+      x: 55
+      y: 56
+      related_quests:
+        - "OzonousMax Access"
+
+    - name: "Spur"
+      lair: true
+      x: 44
+      y: 56
+      related_quests:
+        - "OzonousMax Access"
+
+    - name: "Spur Door"
+      desc: "Needs Spur Key"
+      x: 50
+      y: 38
+      related_quests:
+        - "OzonousMax Access"
+
+    - name: "Skar Door"
+      desc: "Needs Skar Key"
+      x: 49
+      y: 36
+      related_quests:
+        - "OzonousMax Access"
+
+    - name: "OzonousMax"
+      lair: true
+      x: 49
+      y: 31
+      related_quests:
+        - "OzonousMax Access"
+
+    - name: "Corosonous"
+      lair: true
+      x: 49
+      y: 3
+
 - name: "Solo Caves -1"
   img: "solocaves-1"
 

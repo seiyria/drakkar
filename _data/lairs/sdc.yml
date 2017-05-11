@@ -43,6 +43,7 @@
   sprite: "6-85"
   drops:
     - name: "Skar Armor"
+    - name: "Skar Key"
 
 - name: "Spur"
   text: "Lightning. Breaks bottles. Tan to get robe."
@@ -50,7 +51,7 @@
   sprite: "6-85"
   drops:
     - name: "Spur Robe"
-
+    - name: "Spur Key"
 
 - name: "IceTitan"
   text: "Nasty Icebreath, only aggros if you attack him (safe for healers), primal stuns"
