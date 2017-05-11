@@ -150,6 +150,8 @@ scenarios:
         url: /scenarios/nork/quests
       - title: "Items"
         url: /scenarios/nork/items
+      - title: "Maps"
+        url: /scenarios/nork/maps
 
   - title: "Aleria"
     children:
