@@ -205,7 +205,7 @@ weapons:
     sprite: "28-146"
 
   - name: "Defense Greatsword"
-    attrs: "???"
+    attrs: "0/4"
     sprite: "28-127"
 
   - name: "Defense Halberd"
@@ -248,7 +248,7 @@ weapons:
     sprite: "28-114"
 
   - name: "Obsidian Dagger"
-    attrs: "???"
+    attrs: "+6"
     sprite: "28-110"
 
   - name: "Push Club"
@@ -287,6 +287,9 @@ weapons:
       - name: "Alerian Evil Quest"
 
 others:
+  - name: "Random Stat Pot"
+    sprite: "26-95"
+    
   - name: "Floating Pot"
     sprite: "26-42"
     quests:

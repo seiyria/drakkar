@@ -409,7 +409,7 @@ rings:
     sprite: "27-153"
 
   - name: "Sense Ring"
-    attrs: "Succor Charges"
+    attrs: "Sense Charges"
     sprite: "27-153"
 
 robes:
