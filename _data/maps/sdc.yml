@@ -266,6 +266,14 @@
       x: 49
       y: 3
 
+    - name: "Stairs Down to Solo Caves"
+      x: 14
+      y: 52
+
+    - name: "Ice Floes Climb Down"
+      x: 12
+      y: 53
+
 - name: "Solo Caves -1"
   img: "solocaves-1"
 
