@@ -20,7 +20,7 @@ armors:
 
   - name: "Swampcat Fur"
     reqs: "Level 40"
-    attrs: "Swampcat Accuracy (does not encumber Martialist/Barbarian)"
+    attrs: "Swampcat Accuracy (does not encumber Barbarian)"
     drops:
       - name: "Swampcat"
     sprite: "27-200"
