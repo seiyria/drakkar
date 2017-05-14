@@ -32,9 +32,25 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Attacks gives you more rolls to determine how hard you hit with a melee attack (the highest roll is kept).
 
+* Dying on a healer (via a player, or yourself) will restore your CON to the highest value possible for your level. 
+
+* It is possible to exceed your CON cap using SK random pots, but overages are lost on restore.
+
+* Going to the level 13 HP Doc and saying `###, train` will show you your base HP.
+
+* You can see your base EP by drinking a zap from UGH.
+
 ## Skills
 
 * There are some capped skills while progressing. This means that you can only get a certain number of skill gain, max, at a time. The skills are: 5, 11, 18, 26
+
+* Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
+
+* Any class can backstab and hide as if they were a thief, provided they have the requisite skill level.
+
+* If you have a skill >= 40, you can `look at xxx` to see how far they are percentwise on that skill.
+
+* You can only gain skill in areas where you'd normally be able to get xp.
 
 ## Disciplines
 
@@ -47,6 +63,8 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 * You can `form illusion wall` then `form illusion water` on the wall to create an unbreakable wall that you can `passwall` onto and easily crush melee bosses.
 
 * If you accidentally step into the open while hidden, you can manually type a movement command to get next to a wall again before your hide breaks.
+
+* Most lairs can see through Limited Invisibility (liminv).
 
 ## Quirks
 
@@ -68,24 +86,8 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * You can see if an area is twiggable by checking the description of the twig. If the glow is subdued, you can't twig out.
 
-* Most lairs can see through Limited Invisibility (liminv).
-
-* Different weapons carry different hide penalties. If you're holding a halberd, you're more likely to be seen than if you're holding a dagger.
-
-* Any class can backstab and hide as if they were a thief, provided they have the requisite skill level.
-
 * In addition to stripping, some lairs can eat. This is mostly creatures like dragons, FoodGuardian, and others. Getting eaten doesn't happen every time, but it can suck your XP and skills.
 
 * You can be randomly stripped by monsters, they may rarely search your corpse for gear.
 
-* Dying on a healer (via a player, or yourself) will restore your CON to the highest value it has ever been.
-
-* Going to the level 13 HP Doc and saying `###, train` will show you your base HP.
-
-* You can see your base EP by drinking a zap from UGH.
-
 * Holding the corpse of some lairs will prevent them from respawning.
-
-* If you have a skill >= 40, you can `look at xxx` to see how far they are percentwise on that skill.
-
-* You can only gain skill in areas where you'd normally be able to get xp.
