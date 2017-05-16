@@ -53,6 +53,11 @@
   desc: "A pair of boots made from the thick leathery hide of an elephant"
   find: "KM-5, spectre"
   sprite: "28-205"
+  
+- name: "EP Pot"
+  desc: ""
+  find: "Random drop, buy from Funhouse"
+  sprite: "27-178"
 
 - name: "GoblinKing Axe"
   desc: ""
