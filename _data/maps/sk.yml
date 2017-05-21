@@ -7,6 +7,10 @@
       y: 9
       related_quests:
         - "Progression 1"
+        
+    - name: "Cave Exit"
+      x: 11
+      y: 11
 
     - name: "Shady"
       desc: "Sells anti-prone potions for 3mil"
