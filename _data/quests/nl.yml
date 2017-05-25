@@ -265,3 +265,12 @@
     - sprite: "29-159"
     - sprite: "30-6"
     - sprite: "30-2"
+
+- name: "Minlok Access"
+  text: "To get the Mines Key (Outer), take a Forgotten Dust to Akbat and say `ak, mines`, `ak, key`, `ak, price`. Trade Forgotten Dust for the first key to get into the mines. Then, get your Miner faction to 13000 by killing enemies in the ice floes (you can check your faction with `dip, miner`). When you are friendly, go to any miner in the facility and say `min, key` while holding a Brigand Heart and you will get the second key. To get the third key, simply kill `rogueminer` enemies."
+  items: 
+    - sprite: "29-173"
+    - sprite: "29-160"
+    - sprite: "29-154"
+    - sprite: "29-161"
+    - sprite: "29-162"
