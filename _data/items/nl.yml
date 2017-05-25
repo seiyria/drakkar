@@ -697,6 +697,24 @@ others:
     quests:
       - name: "HP/EP Regen Boost"
       - name: "Titan Upgrades"
+      
+  - name: "Mines Key (Outer)"
+    sprite: "29-160"
+    quests:
+      - name: "HP/EP Regen Boost"
+      - name: "Minlok Access"
+      
+  - name: "Mines Key (Inner)"
+    sprite: "29-161"
+    quests:
+      - name: "Minlok Access"
+      
+  - name: "Mines Key (Minlok)"
+    sprite: "29-161"
+    drops:
+      - name: "Rogueminer"
+    quests:
+      - name: "Minlok Access"
 
   - name: "Ore (small)"
     found: "Keep, Dornar"
@@ -829,19 +847,3 @@ others:
     sprite: "31-273"
     quests:
       - name: "Duke Marvin"
-      
-  - name: "Mines Key (Outer)"
-    sprite: "29-160"
-    quests:
-      - name: "HP/EP Regen Boost"
-      - name: "Minlok Access"
-      
-  - name: "Mines Key (Inner)"
-    sprite: "29-161"
-    quests:
-      - name: "Minlok Access"
-      
-  - name: "Mines Key (Minlok)"
-    sprite: "29-161"
-    quests:
-      - name: "Minlok Access"
