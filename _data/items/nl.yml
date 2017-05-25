@@ -710,7 +710,7 @@ others:
       - name: "Minlok Access"
       
   - name: "Mines Key (Minlok)"
-    sprite: "29-161"
+    sprite: "29-162"
     drops:
       - name: "Rogueminer"
     quests:
