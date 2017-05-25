@@ -591,6 +591,7 @@ others:
     sprite: "29-154"
     quests:
       - name: "Dornar Entry"
+      - name: "Minlok Access"
 
   - name: "Coin Mold"
     found:
@@ -696,13 +697,6 @@ others:
     quests:
       - name: "HP/EP Regen Boost"
       - name: "Titan Upgrades"
-
-  - name: "Mine Key"
-    found:
-    drops:
-    sprite: "29-160"
-    quests:
-      - name: "HP/EP Regen Boost"
 
   - name: "Ore (small)"
     found: "Keep, Dornar"
@@ -835,3 +829,19 @@ others:
     sprite: "31-273"
     quests:
       - name: "Duke Marvin"
+      
+  - name: "Mines Key (Outer)"
+    sprite: "29-160"
+    quests:
+      - name: "HP/EP Regen Boost"
+      - name: "Minlok Access"
+      
+  - name: "Mines Key (Inner)"
+    sprite: "29-161"
+    quests:
+      - name: "Minlok Access"
+      
+  - name: "Mines Key (Minlok)"
+    sprite: "29-161"
+    quests:
+      - name: "Minlok Access"
