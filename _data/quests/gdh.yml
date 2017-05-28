@@ -22,7 +22,7 @@
     - sprite: "30-220"
 
 - name: "Progression 3"
-  text: "First, you have to collect a Beholder Staff and a Golem Essence. Then, hold them both and right-click the essence to activate the fight. After you kill Medusa, take her Medusa Gem to the npc in the SwampWitch area (you can also find the gem rarely from Remains). Once you've done this, you can progress to the fourth area of GDH1."
+  text: "First, you have to collect a Beholder Staff and a Golem Essence. Then, hold them both and right-click the essence to activate the fight. After you kill Medusa, take her Medusa Gem to the Servant in the SwampWitch area (you can also find the gem rarely from Remains). Once you've done this, you can progress to the fourth area of GDH1."
   items:
     - sprite: "30-208"
     - sprite: "30-207"
