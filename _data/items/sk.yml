@@ -185,7 +185,7 @@ weapons:
     sprite: "27-113"
   - name: "Tanto"
     reqs: "Level 85"
-    attrs: "12/12, Silver, Returning, scales with level"
+    attrs: "12/12, Silver, Returning, scales with level, fitted for the left hand"
     sprite: "27-220"
   - name: "Axe"
     reqs: "Level 86"
