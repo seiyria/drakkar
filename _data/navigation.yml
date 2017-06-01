@@ -39,6 +39,8 @@ other:
       url: /other/tiers
     - title: "Unused Sprites"
       url: /other/unused-sprites
+    - title: "Weapon Specializations"
+      url: /other/weapon-specs
 
 classes:
   - title: "Barbarian"
