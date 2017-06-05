@@ -23,6 +23,6 @@ Tier | Name | Requirements | Effect
 7    | Crushing Excrutiation  | Level 70/Skill 34 | ???
 7    | Apocalyptic Delirium   | Level 70/Skill 34 | 300 fire damage, DoT
 8    | Marksman's Focus       | Level 76/Skill 35 | To Hit Bonus
-9    | Crystalline Madness    | Level 80/Skill 40 | 1500 fire damage, DoT (5 rounds)
+9    | Crystalline Madness    | Level 78/Skill 38 | 550 fire damage, -Accuracy, DoT (>30 rounds)
 ?    | Aggressive Diversion   | Level 86 | To Hit Bonus, Damage Bonus
 ?    | Crystalline Insanity   | ??? | ???
