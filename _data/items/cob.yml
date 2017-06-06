@@ -99,7 +99,7 @@ armors:
       - name: "Forged Weapons"
 
   - name: "DeathSasquatch Fur"
-    reqs: "Level 25 Barbarian"
+    reqs: "Barbarian"
     attrs: "0/7, +200 HP"
     found:
     drops:
