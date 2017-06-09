@@ -233,7 +233,7 @@ Go back to Mayor Dagano, drop all 4 items and say: `dag, axe of the heathen`, `d
     - sprite: "27-145"
 
 - name: "Hector's Ring"
-  text: "Retrieve the Goblin Lord Gem and use the key he drops to open the door and hold the gem and show Pelagus: `pel, proof`. Take the ring from Pelagus to Genetta (randomly found in Nork-1) and tell her `gen, pelagis` and she will give you an amulet. Take both of those to Hector and he'll give you his ring."
+  text: "Retrieve the Goblin Lord Gem and use the key he drops to open the door and hold the gem and show Pelagus: `pel, proof`. Take the ring from Pelagis to Genetta (randomly found in Nork-1) and tell her `gen, pelagis` and she will give you an amulet. Take both of those to Hector and he'll give you his ring if you drop them both on the ground."
   items:
     - sprite: "27-127"
     - sprite: "27-129"
