@@ -61,7 +61,7 @@
     - sprite: "29-153"
 
 - name: "Duke Marvin"
-  text: "You want to be at least level 60 before starting this. First, talk to the first DukeSummoner near the Nameless Lord by saying `duk, help`. He will direct you to Shimok, who is hidden behind a locked door. If you talk to him and say `shi, book`, he will tell you to go find his and his pages. Once you've filled the book with all 20 pages, bring it back to Shimok and say `shi, research`. He will take your book and grant you favor with the first Duke, allowing you to summon him with `duk, summon`. The Duke will then want Volcanic Ore (large) from the Bandit Lord. After you've given it to him, you'll be 1/3 of the way to completing the Nameless Lord quest."
+  text: "You want to be at least level 60 before starting this. First, talk to the first DukeSummoner near the Nameless Lord by saying `duk, help`. He will direct you to Shimok, who is hidden behind a locked door. If you talk to him and say `shi, book`, he will tell you to go find his book and his pages. Once you've filled the book with all 20 pages, bring it back to Shimok and say `shi, research`. He will take your book and grant you favor with the first Duke, allowing you to summon him with `duk, summon`. The Duke will then want Volcanic Ore (large) from the Bandit Lord. After you've given it to him, you'll be 1/3 of the way to completing the Nameless Lord quest."
   items:
     - sprite: "28-101"
     - sprite: "26-180"
