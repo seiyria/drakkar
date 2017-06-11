@@ -1,6 +1,6 @@
 
 - name: "Basic HP/EP Regen Boost"
-  text: "You need to take a Mines Key (Inner) to either Samex in the Basement for HP regen, or Giltry in Nameless Town for EP regen."
+  text: "You need to take a Mines Key (Outer) to either Samex in the Basement for HP regen, or Giltry in Nameless Town for EP regen."
   items:
     - sprite: "29-160"
    
