@@ -695,13 +695,13 @@ others:
       - name: "Bandit"
     sprite: "29-175"
     quests:
-      - name: "HP/EP Regen Boost"
+      - name: "Advanced HP/EP Regen Boost"
       - name: "Titan Upgrades"
       
   - name: "Mines Key (Outer)"
     sprite: "29-160"
     quests:
-      - name: "HP/EP Regen Boost"
+      - name: "Basic HP/EP Regen Boost"
       - name: "Minlok Access"
       
   - name: "Mines Key (Inner)"
