@@ -1,4 +1,14 @@
 
+- name: "Basic HP/EP Regen Boost"
+  text: "You need to take a Mines Key (Inner) to either Samex in the Basement for HP regen, or Giltry in Nameless Town for EP regen."
+  items:
+    - sprite: "29-160"
+   
+- name: "Advanced HP/EP Regen Boost"
+  text: "You need to take a Large Pine Tree to either Blamex in the Decaying Lands Caves for HP regen, or Fidaltry for EP regen."
+  items:
+    - sprite: "29-175"
+
 - name: "Akronium Brick"
   text: "You need to find 100 lbs of ore. You can do this by finding any combination of 10lb and 1lb chunks. To turn them in, head to Jebroon in Nameless Town. At 100 lbs, he will give you an Akronium Brick."
   items:
