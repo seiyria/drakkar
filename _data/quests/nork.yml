@@ -434,3 +434,9 @@ Find the 15 Queen Goblets and bring them to Harkob in the Steel Flower. He will 
     - sprite: "27-208"
     - sprite: "27-126"
     - sprite: "27-208"
+
+- name: "Katsumo Gauntlets"
+  text: "Bring a Black Ninja Robe to Katsumo to trade for the Katsumo Gauntlets."
+  items:
+    - sprite: "27-191"
+    - sprite: "28-86"
