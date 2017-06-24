@@ -20,22 +20,22 @@
     - sprite: "27-198"
 
 - name: "Stat Pots"
-  text: "There are a bunch of items you can find and trade in Cobrahn to get stats to 21 (and EP can go to that particular class max). Here are the items you take (the stat they give), and where you take them:
+  text: "There are a bunch of items you can find and trade in Cobrahn to get stats to 21 (and EP can go to that particular class max). Here are the items you take [where the item is found] (the stat they give), and where you take them:
 
 
-    * Grub (EP) - SW Caves
+    * Grub [Psi Tower] (EP) - SW Caves
 
-    * Cedar Packet (CON) - Near Tree Town
+    * Cedar Packet [Forest Floor] (CON) - Near Tree Town
 
-    * Sapphire (WIS) - Cave NW of Desert Town
+    * Sapphire [Giant Keep] (WIS) - Cave NW of Desert Town
 
-    * Silver Nugget (STR) - NW Caves, north and up stairs
+    * Silver Nugget [Timmy Caves] (STR) - NW Caves, north and up stairs
 
-    * Turnip (INT) - NW Caves, east side
+    * Turnip [Giant Keep] (INT) - NW Caves, east side
 
-    * Brass Ring (AGI) - Timmy Caves
+    * Brass Ring [Desert Area] (AGI) - Timmy Caves
 
-    * Mandrake Packet (WIL) - east side of Jungle
+    * Mandrake Packet [Swamp] (WIL) - east side of Jungle
 "
   items:
     - sprite: "26-78"
