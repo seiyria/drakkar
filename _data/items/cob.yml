@@ -933,12 +933,6 @@ others:
     quests:
       - name: "Stat Pots"
 
-  - name: "Brass Ring"
-    sprite: "26-64"
-    found: "Forest Floor"
-    quests:
-      - name: "Stat Pots"
-
   - name: "Cedar Packet"
     sprite: "26-88"
     found: "Forest Floor"
