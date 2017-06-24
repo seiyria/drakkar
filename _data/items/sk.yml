@@ -134,6 +134,13 @@ earrings:
     attrs: "Sullen Insight II (+150 EP Regen), autosense"
     sprite: "30-293"
 helms:
+  - name: "Spartan Helm"
+    reqs: "Level 94"
+    attrs: "10/10, Psicutter, Stun prot"
+    drops:
+      - name: "Green Captain"
+        lair: true
+    sprite: "28-163"
 
 gauntlets:
   - name: "Black Captain Gripclaws"
