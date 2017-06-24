@@ -1,5 +1,5 @@
 - name: "Progression 1"
-  text: "Kill hunters in area 1 to find an AGI pot. They are in temporal flux and require level 85 to drink. Drink it and you should receive the message 'your lungs feel stronger.' You will gain access to SK Cave, and your level cap will increase to 87."
+  text: "Kill hunters in area 1 to find an AGI pot. They are in temporal flux and require level 85 to drink. Drink it and you should receive the message 'your lungs feel stronger.' You will gain access to SK Cave, your level cap will increase to 87, and your skill cap will increase to 42."
   items:
     - sprite: "27-171"
 
