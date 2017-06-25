@@ -35,7 +35,7 @@ Skill Level | Description
 33          | Chance of kicking an opponent who damages you. Stacks with Dragons Revenge.
 34          | +100 damage reflect
 35          | `chi deathtouch` now gets a third attack for non-fatal strikes.
-36          | `chi jumpstrike` gains an additional kill
+36          | `chi jumpstrike` gains an additional kick
 37          | Better combat abilities vs other open-hand Martialists.
 38          | Kick damage increased.
 39          | Chance of full-force open-hand attack inflicting `primalstun` on hit.
