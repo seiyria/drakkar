@@ -76,6 +76,8 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * You can skip the 50-advancement quest and just go primal.
 
+* You can do the pads for Mormar-1 and Mormar-2 to skip the normal access quest.
+
 ## Races
 
 * Outcasts get better prices from Lisa in Cobrahn.
