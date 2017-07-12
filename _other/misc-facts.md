@@ -66,6 +66,8 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * Most lairs can see through Limited Invisibility (liminv).
 
+* Any plate armor intended for use with fighter-type classes (Lorsulan Plate, Leviathan Fullplate, etc) will cut outgoing psionic damage.
+
 ## Quirks
 
 * Innate Armor, when 100/100, adds as much AC as the Paladin Nameless Lord Armor.
