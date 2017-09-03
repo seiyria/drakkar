@@ -201,7 +201,7 @@
     - sprite: "30-10"
 
 - name: "Mantrapon Plate"
-  text: "Trade 1 Akronium Coin and Mantrapon Scales (while wearing Tortulan Scales) to Mindra in the Basement."
+  text: "Trade 1 Akronium Coin and Mantrapon Scales (while wearing Tortulan Plate) to Mindra in the Basement."
   items:
     - sprite: "29-165"
     - sprite: "30-10"
@@ -209,7 +209,7 @@
     - sprite: "30-11"
 
 - name: "Lorsulan Plate"
-  text: "Trade 1 Akronium Coin and Lorsulan Scales (while wearing Tortulan Scales) to Duneral in the Basement."
+  text: "Trade 1 Akronium Coin and Lorsulan Scales (while wearing Tortulan Plate) to Duneral in the Basement."
   items:
     - sprite: "29-165"
     - sprite: "30-10"
