@@ -67,7 +67,7 @@ redraw            | `redraw`| | Same as `paint`.
 
 Macro | Usage | Example | Explanation
 ----- | ----- | ------- | -----------
-*GTS              | `*GTS N Item`     | `*GTS 1 30770` | Pick up N items off of the ground matching the Item code.
+*GTS              | `*GTS N Item`     | `*GTS 1 30770` | Pick up N items off of the ground matching the Item code. You do **NOT** need an empty hand for this to work!
 *RTB              | `*RTB`            | | Moves the item in your right hand to your belt.
 *LTB              | `*LTB`            | | Moves the item in your left hand to your belt.
 *RTP              | `*RTP`            | | Moves the item in your right hand to your pouch.
