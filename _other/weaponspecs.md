@@ -10,8 +10,8 @@ Weapon specializations are essentially a skill boost in one particular skill. Yo
 
 You can choose to either spec 3 times for the same weapon, or for 3 different weapons.
 
-If you choose to specialize multiple times in the same weapon, you can do it at level 15, level 17, and level 19. If you choose to do 3 separate weapons, you can specialize at level 15, level 19, and level 24. 
+If you choose to specialize multiple times in different weapons, you can do it at level 15, level 17, and level 19. If you choose to do 3 of the same weapons, you can specialize at level 15, level 19, and level 24. 
 
-To specialize, you go to a trainer, hold a weapon from the particular weapon class (say, longsword) and you'll say `xxx, specialize longsword`.
+To specialize, you go to a trainer, hold a weapon from the particular weapon class (say, longsword) and you'll say `xxx, specialize longsword`. Halberds are considered "polearm" for specialization purposes.
 
 Specializations can be removed by going to an NPC in the Conqueror's Club and giving up a Lanapi stuff (warning: you will LOSE access to this area and have to regain it by fetching the 9 items).
