@@ -98,7 +98,7 @@ armors:
 boots:
   - name: "Gold Captain Boots"
     reqs: "Level 87"
-    attrs: "14/14, Silver, Proning, Dancing, Power, +12 CON"
+    attrs: "14/14, Silver, Proning, Power, +12 CON"
     drops:
       - name: "Gold Captain"
         lair: true
