@@ -242,6 +242,7 @@ Macro | Explanation
 `*STR 29;drop right;form sense` | Mass sensing of sack contents - takes from the last position first, and drops the current in-hand item.
 `form transmute^D*RTB^D*itR g 1 *30770^D*RTS^D*BTR` | Transmute, belt the item in your right hand, pick up gold, sack the coin, then re-wield your weapon. Your right hand item must be beltable and your first belt slot must be open.
 `*GTS 1 30770^Dform transmute^D*GTS 1 30770` | Grab coin, transmute, grab coin again.
+`*sell 0 100000000` | Deposit 100m coins to banker 0.
 
 ## ^D
 `^D` is a macro-separator, much like a semicolon. It's sortof a way to get around any built in restrictions, since instead of sending as one macro (as with `;`), `^D` technically sends each macro separately, meaning you can chain macros much more effectively. To add `^D` you have to manually open your `.mac` (such as `Seiyria.mac`) file in notepad and edit the macro there. You can also extend the macro length artificially beyond 3 commands, up to a total of 79 characters.
