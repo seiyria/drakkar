@@ -73,6 +73,11 @@
   desc: ""
   find: "Random in Nork"
   sprite: "27-145"
+  
+- name: "Leviathan Egg"
+  desc: ""
+  find: "Kill Leviathan"
+  sprite: "28-72"
 
 - name: "Lightning Hammer"
   desc: ""
