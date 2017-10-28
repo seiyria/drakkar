@@ -15,7 +15,7 @@ Tier | Name | Requirements | Effect
 5    | Spear of Ice               | Level 42 | 2100 ice damage
 5    | Rebellious Fury            | Level 48 | 2500 energy damage
 5    | Anarchy                    | Level 50 | 6000 energy damage
-6    | Slow Advance               | Level 50 | Target creature can only move 1 step per round
+6    | Slow Advance               | Level 54 | Target creature can only move 1 step per round
 6    | Chaos                      | Level 55 | 2000 energy damage DoT (4 rounds)
 6    | Guardian                   | Level 55 | `findfriendly` a Guardian, only works in Nameless Lands
 6    | Slow Area Advance          | Level 60 | AoE, all monsters in a 5x5 area can only move 1 step per round
