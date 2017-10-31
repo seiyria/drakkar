@@ -72,6 +72,13 @@
       related_quests:
         - "Cavern Creeper I"
 
+    - name: "Cargon"
+      lair: true
+      x: 2
+      y: 40
+      related_quests:
+        - "Cavern Creeper I"
+        
 - name: "Wyverns +1"
   img: "wyverns-1"
   nodes:
