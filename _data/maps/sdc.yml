@@ -73,8 +73,7 @@
         - "Cavern Creeper I"
 
     - name: "Cargon"
-      lair: true
-      x: 2
+      x: 12
       y: 40
       related_quests:
         - "Cavern Creeper I"
