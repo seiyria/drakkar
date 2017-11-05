@@ -279,13 +279,6 @@ bracers:
         - name: "ArchMagiGuard"
           lair: true
     sprite: "26-126"
-
-  - name: "Shackles"
-    reqs: ""
-    attrs: "1/1-2/2"
-    found: "Timmy"
-    drops:
-    sprite: "27-198"
       
   - name: "Shackles"
     reqs: ""
@@ -296,6 +289,13 @@ bracers:
     quests:
       - name: "+100 HP (Kaldor Shackle)"
 
+  - name: "Timmy Bracers"
+    reqs: ""
+    attrs: "1/1-2/2"
+    found: "Timmy"
+    drops:
+    sprite: "27-198"
+    
   - name: "Combat Bracers"
     reqs: ""
     attrs: "1/1-6/6"
