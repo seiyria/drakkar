@@ -282,6 +282,13 @@ bracers:
 
   - name: "Shackles"
     reqs: ""
+    attrs: "1/1-2/2"
+    found: "Timmy"
+    drops:
+    sprite: "27-198"
+      
+  - name: "Shackles"
+    reqs: ""
     attrs: ""
     found: "Kaldor's Castle"
     drops:
