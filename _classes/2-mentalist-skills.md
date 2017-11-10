@@ -45,7 +45,7 @@ Skill Level | Skill | Cost (EP) | Description
 17          | enchant (boost) | 30 | You can now enchant items to +5 (you lose permanent hp going from +4 to +5).
 17          | imbue (boost)   | 30 | You can now imbue your disciplines into golden bracers. Their effectiveness will be half of your Mentalist skill.
 17          | findfriendly (boost) | 30 | You summon a red dragon to help you fight.
-18          | psimirror     | 100  | Buff; chance of reflection psionic attacks back at the caster.
+18          | psimirror     | 100  | Buff; 33% chance of reflecting 33% of psionic damage back at the caster.
 18          | shockwave     | 100  | 3x3 blast AoE on self. More damaging than blast.
 18          | passwall      | 20   | Buff; allows for walking through some walls.
 19          | teleport      | 50   | Teleport to a memorized location. Memorize up to 20 locations per scenario by going `memorize <locationname>`.
