@@ -72,7 +72,7 @@
     - sprite: "28-31"
 
 - name: "Nork-9 Access"
-  text: "Do a thing with Nagas."
+  text: "Step on each of the Naga tiles, then the doors will be usable."
 
 - name: "Chipuda Access"
   text: "Get a Moose Stick from Billy in Frore. Head SE out of Frore to find a Moose on a clearing. While holding the Moose Stick, walk back to Billy. When the Moose steps on Billy's hex, he will drop Chipuda's Key."
