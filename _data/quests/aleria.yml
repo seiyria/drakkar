@@ -1,5 +1,5 @@
 - name: "Light Ring"
-  text: "Take a GoblinKing Axe to to King Borav. Drop it on the ground and say `kin, goblinking` and he will give you a ring."
+  text: "Take a GoblinKing Axe to to King Borav. Drop it on the ground and say `kin, axe` and `kin, alliance` and he will give you a ring."
   items:
     - sprite: "28-150"
     - sprite: "28-190"
