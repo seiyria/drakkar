@@ -1,0 +1,36 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+armors:      
+boots:
+bracers: 
+earrings:
+helms:
+gauntlets:
+rings:
+robes:
+  - name: "Mummy Robe"
+    reqs: "Level 96"
+    attrs: "+10, +5 STR/INT/WIS/AGI Fire prot"
+    sprite: "26-27"
+  - name: "Banshee Robe"
+    reqs: "Level 96"
+    attrs: "+10, +5 STR/INT/WIS/AGI Ice prot"
+    sprite: "26-106"
+sashes:    
+weapons:    
+others:
+  - name: "Iron Bread"
+    reqs: ""
+    attrs: ""
+    sprite: "29-153"
+    quests:
+      - Iron Bread Armor
