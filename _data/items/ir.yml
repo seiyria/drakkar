@@ -13,6 +13,10 @@ armors:
 boots:
 bracers: 
 earrings:
+  - name: "Melee Earring"
+    reqs: "Level 96"
+    attrs: "5/0 - 15/0"
+    sprite: "28-192"
 helms:
 gauntlets:
 rings:
