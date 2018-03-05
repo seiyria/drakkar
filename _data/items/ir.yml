@@ -17,14 +17,18 @@ helms:
 gauntlets:
 rings:
 robes:
-  - name: "Mummy Robe"
-    reqs: "Level 96"
-    attrs: "+10, +5 STR/INT/WIS/AGI Fire prot"
-    sprite: "26-27"
   - name: "Banshee Robe"
     reqs: "Level 96"
     attrs: "+10, +5 STR/INT/WIS/AGI Ice prot"
     sprite: "26-106"
+    drops: 
+      - name: "banshee"
+  - name: "Mummy Robe"
+    reqs: "Level 96"
+    attrs: "+10, +5 STR/INT/WIS/AGI Fire prot"
+    drops:
+      - name: "mummy"
+    sprite: "26-27"
 sashes:    
 weapons:    
 others:
