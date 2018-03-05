@@ -33,4 +33,4 @@ others:
     attrs: ""
     sprite: "29-153"
     quests:
-      - Iron Bread Armor
+      - name: Iron Bread Armor
