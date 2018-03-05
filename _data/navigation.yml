@@ -244,5 +244,7 @@ scenarios:
     children:
       - title: "Scenario Information"
         url: /scenarios/ir
+      - title: "Quests"
+        url: /scenarios/ir/quests
       - title: "Items"
         url: /scenarios/ir/items
