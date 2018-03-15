@@ -52,6 +52,8 @@ There's a lotta weird, hidden, or otherwise tough to understand things in Drakka
 
 * You can only gain skill in areas where you'd normally be able to get xp.
 
+* Thieves do more damage to targets facing away from them.
+
 ## Disciplines
 
 * The Aid disc boosts your ability to hide, see through hide, and your melee to-hit rolls.
