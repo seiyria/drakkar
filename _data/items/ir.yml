@@ -42,3 +42,10 @@ others:
     sprite: "29-153"
     quests:
       - name: Iron Bread Armor
+  - name: "Undead Silk"
+    found: ""
+    drops:
+      - name: "tan"
+    quests:
+      - name: "Undead Silk Armor"
+    sprite: "30-282"
