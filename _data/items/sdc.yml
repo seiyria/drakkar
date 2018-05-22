@@ -179,6 +179,14 @@ others:
     quests:
       - name: "Cavern Creeper II"
     sprite: "31-228"
+    
+  - name: "Spectre Silk"
+    found: "Sick Caves"
+    drops:
+      - name: "Spectre"
+    quests:
+      - name: "Crystal Resistance I"
+    sprite: "30-282"
 
   - name: "Small Nugget"
     found: "Gnome Area"
