@@ -9,6 +9,10 @@ empty:
     quests:
 
 amulets:
+  - name: "Stolen Skill Amulet"
+    reqs: "Level 99"
+    attrs: "8/0, Glowing, Stolen Skill (+1 Attack)"
+    sprite: "28-34"
 armors:      
 boots:
 bracers: 
@@ -20,6 +24,10 @@ earrings:
 helms:
 gauntlets:
 rings:
+  - name: "Dungeon Ring"
+    reqs: "Level 99"
+    attrs: "12/12 +9 all stats, random Ice/Fire/Lightning Inflation/Ablation II"
+    sprite: "27-155"
 robes:
   - name: "Banshee Robe"
     reqs: "Level 96"
