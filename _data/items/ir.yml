@@ -42,6 +42,10 @@ robes:
       - name: "mummy"
     sprite: "26-27"
 sashes:    
+  - name: "Dungeon Sash"
+    reqs: "Level 90"
+    attrs: "5/5, psicutter, damage deflate"
+    sprite: "28-166"
 weapons:    
 others:
   - name: "Iron Bread"
