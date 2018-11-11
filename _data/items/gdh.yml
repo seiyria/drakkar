@@ -123,6 +123,8 @@ robes:
     reqs: "Level 70"
     attrs: "5/0 Acid Prot, Lightning Prot, +1 All Stats"
     sprite: "30-202"
+    quests:
+      - name: "Marton Robe"
   - name: "Thermature Robe"
     reqs: "Level 70"
     attrs: "2/2 200 Acid Prot, Lightning Prot"
@@ -219,6 +221,13 @@ others:
     sprite: "30-221"
     quests:
       - name: "Progression 1"
+
+  - name: "Marton Gem"
+    sprite: "30-241"
+    drops:
+      - name: "barbarian"
+    quests:
+      - name: "Marton Robe"
 
   - name: "Medusa Gem"
     sprite: "30-225"
