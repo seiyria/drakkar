@@ -95,3 +95,6 @@
   items:
     - sprite: "30-222"
     - sprite: "30-299"
+
+- name: "Marton Robe"
+  text: "See <a href=\"https://seiyria.com/drakkar/other/brewing\">Brewing</a>."
