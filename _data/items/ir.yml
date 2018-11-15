@@ -18,8 +18,8 @@ boots:
 bracers: 
 earrings:
   - name: "Melee Earring"
-    reqs: "Level 96"
-    attrs: "5/0 - 15/0"
+    reqs: "Level 40"
+    attrs: "X/0 (X = floor found on)"
     sprite: "28-192"
 helms:
 gauntlets:
