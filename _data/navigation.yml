@@ -248,3 +248,5 @@ scenarios:
         url: /scenarios/ir/quests
       - title: "Items"
         url: /scenarios/ir/items
+      - title: "Maps"
+        url: /scenarios/ir/maps
