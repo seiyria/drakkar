@@ -3,6 +3,7 @@
   found: "SK Cave"
   sprite: "6-134"
   drops:
+    - name: "Stat Pot"
     - name: "Basilisk Gripclaws"
 
 - name: "Gold Captain"
@@ -34,6 +35,7 @@
     - name: "Sullen Bracers (Armor)"
     - name: "Sullen Bracers (Regeneration)"
     - name: "Sullen Bracers (Strike)"
+    - name: "Sullen Insight I Earring"
     - name: "Sullen Insight II Earring"
     - name: "Sullen Sash"
     - name: "Spartan Helm"
