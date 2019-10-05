@@ -52,7 +52,7 @@ rings:
 robes:
   - name: "Acidron Alcor Robe"
     reqs: "Level 25"
-    attrs: "+AC, Acid Prot"
+    attrs: "+5, +AC, Acid Prot"
     found: "Crypt"
     drops:
       - name: "Acidron Alcor"
