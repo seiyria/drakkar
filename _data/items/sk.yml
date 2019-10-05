@@ -126,13 +126,20 @@ bracers:
 earrings:
   - name: "Sullen Insight I Earring"
     reqs: "Level 87"
+    found: "Random mobs"
     attrs: "Sullen Insight I (+100 EP Regen), autosense"
     sprite: "30-293"
+    drops:
+      - name: "Green Captain"
+        lair: true
 
   - name: "Sullen Insight II Earring"
     reqs: "Level 92"
     attrs: "Sullen Insight II (+150 EP Regen), autosense"
     sprite: "30-293"
+    drops:
+      - name: "Green Captain"
+        lair: true
 helms:
   - name: "Spartan Helm"
     reqs: "Level 94"
@@ -162,8 +169,12 @@ robes:
 sashes:
   - name: "Sullen Sash"
     reqs: "Level 90"
+    found: "Random mobs"
     attrs: "10/10, Psicutter"
     sprite: "27-196"
+    drops:
+      - name: "Green Captain"
+        lair: true
     
 weapons:
   - name: "Healer Totem"
@@ -267,8 +278,11 @@ others:
       - name: "SK Armor"
 
   - name: "Stat Pot"
-    found: "Everywhere"
+    found: "Random mobs"
     sprite: "26-161"
+    drops:
+      - name: "Basilisk"
+        lair: true
     
   - name: "Invader Scroll"
     found: "Parapet"
