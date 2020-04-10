@@ -162,6 +162,10 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+  lore:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -195,6 +199,18 @@ defaults:
       comments: false
       sidebar:
         nav: "scenarios"
+
+  - scope:
+      path: ""
+      type: lore
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "lore"
 
   - scope:
       path: ""

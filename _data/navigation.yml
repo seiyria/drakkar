@@ -7,6 +7,9 @@ main:
   - title: "Class Information"
     url: /classes/
 
+  - title: "Lore"
+    url: /lore/
+
   - title: "Other"
     url: /other/
 
@@ -250,3 +253,46 @@ scenarios:
         url: /scenarios/ir/items
       - title: "Maps"
         url: /scenarios/ir/maps
+
+# lore links
+lore:
+  - title: "Nork"
+    children:
+      - title: "The Town of Nork"
+        url: /lore/nork/places/nork
+      - title: "The Province of Maeling"
+        url: /lore/nork/places/maeling
+      - title: "Volcano Town"
+        url: /lore/nork/places/volcano-town
+      - title: "City-State of Frore"
+        url: /lore/nork/places/frore
+      - title: "The Sea Hag"
+        url: /lore/nork/creatures/sea-hag
+
+  - title: "Aleria"
+    children:
+      - title: "To Aleria"
+        url: /lore/aleria/intro
+
+  - title: "Cobrahn"
+    children:
+      - title: "Journey to Cobrahn"
+        url: /lore/cobrahn/journey-to-cobrahn
+      - title: "Return to Nork"
+        url: /lore/cobrahn/return-to-nork
+
+  - title: "Nameless Lands"
+    children:
+      - title: "To the Nameless Lands"
+        url: /lore/nl/intro
+      - title: "Story of Graine"
+        url: /lore/nl/people/graine
+      - title: "Death of the Nameless Lord"
+        url: /lore/nl/people/nameless-lord
+
+  - title: "Miscellaneous"
+    children:
+      - title: "Graine's Journal"
+        url: /lore/misc/graine
+      - title: "Glebog's Journal"
+        url: /lore/misc/glebog
