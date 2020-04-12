@@ -188,7 +188,7 @@ Macro | Usage | Example | Explanation
 tag     | `guild tag <name>`    | `guild tag seiyria`   | Tags a player into your guild. Only works if you have tagging rights.
 eject   | `guild eject <name>`  | `guild eject seiyria` | Ejects a player from your guild. Only works if you have tagging rights.
 leave   | `guild leave`         |                       | Leave a guild.
-list    | `guild list`          |                       | Similar to `party list`, but only shows guild members that are currently visible.
+display | `guild display`       |                       | Unsure of use. Simply says "Performing <guild> guild operations".
 
 ## Class Macros
 
