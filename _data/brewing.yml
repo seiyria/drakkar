@@ -116,6 +116,8 @@ skills:
     brew: "Titanic/Primal"
   - name: "Basic Alchemist"
     brew: "Primal"
+  - name: "Basic Alchemist"
+    brew: "Primal"
 
 recipes:
   - name: "Advanced Glaive"
