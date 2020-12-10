@@ -112,7 +112,7 @@ skills:
     brew: "Grand/Titanic"
   - name: "Instructor"
     brew: "Titanic"
-  - name: "Master Instructor"
+  - name: "Advanced Instructor"
     brew: "Titanic/Primal"
   - name: "Basic Alchemist"
     brew: "Primal"
