@@ -1,0 +1,53 @@
+
+- name: "Forest"
+  img: "forest"
+  nodes:
+    - name: "Canniblas"
+      x: 3
+      y: 7
+      related_quests:
+        - "Tengu Skill Progression"
+
+    - name: "Hermit"
+      lair: true
+      x: 4
+      y: 27
+      related_quests:
+        - "Hermit Skill Progression"
+
+    - name: "Archaeologst"
+      x: 25
+      y: 29
+      related_quests:
+        - "Crypt Access"
+
+    - name: "Black Dragon Consort"
+      lair: true
+      x: 27
+      y: 13
+
+    - name: "Acidron Alcor"
+      lair: true
+      x: 22
+      y: 13
+
+    - name: "Castle Climb Up"
+      x: 12
+      y: 25
+
+    - name: "Exit to GDH"
+      x: 43
+      y: 28
+
+- name: "Castle"
+  img: "castle"
+  nodes:
+    - name: "Forest Climb Down"
+      x: 6
+      y: 19
+
+    - name: "Stairs to Crypt"
+      x: 27
+      y: 8
+      related_quests:
+        - "Crypt Access"

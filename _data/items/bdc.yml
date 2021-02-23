@@ -1,0 +1,83 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+  - name: "Acidron Alcor Amulet"
+    reqs: "Level 75"
+    attrs: "6/0 Deadeye III"
+    found: "Crypt"
+    drops:
+      - name: "Acidron Alcor"
+    sprite: "28-38"
+
+  - name: "Acidron Alcor EP Amulet"
+    reqs: "Level 75"
+    attrs: "6/6 EP Regen"
+    found: "Crypt"
+    drops:
+      - name: "Acidron Alcor"
+        lair: true
+    sprite: "30-203"
+    quests:
+
+  - name: "Black Dragon Consort Amulet"
+    reqs: "Level 75"
+    attrs: "3/3 EP Regen"
+    found: "Crypt"
+    drops:
+      - name: "Black Dragon Consort"
+        lair: true
+    sprite: "30-203"
+    quests:
+
+armors:
+boots:
+bracers:
+earrings:
+  - name: "Crusted Carbon"
+    reqs: "Level 60"
+    attrs: "Acid Prot, Psicutter"
+    found: "BDC Castle/Garden"
+    sprite: "30-287"
+helms:
+gauntlets:
+rings:
+robes:
+  - name: "Acidron Alcor Robe"
+    reqs: "Level 25"
+    attrs: "+5, +AC, Acid Prot"
+    found: "Crypt"
+    drops:
+      - name: "Acidron Alcor"
+        lair: true
+    sprite: "28-12"
+sashes:
+  - name: "Heroes Sash"
+    reqs: "Level 70"
+    attrs: "0/7 Psicutter"
+    found: "BDC Castle/Garden"
+    sprite: "30-286"
+weapons:
+others:
+  - name: "Tengu Gland"
+    found: "BDC"
+    drops:
+      - name: "Tengu"
+    quests:
+      - name: "Tengu Skill Progression"
+    sprite: "30-291"
+
+  - name: "Hermit Scroll"
+    quests:
+      - name: "Hermit Skill Progression"
+    drops:
+      - name: "Hermit"
+        lair: true
+    sprite: "27-179"

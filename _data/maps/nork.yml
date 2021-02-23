@@ -1,0 +1,113 @@
+- name: "Guild Hall (Lower)"
+  img: "lgh"
+  nodes:
+    - name: "Biggie"
+      desc: "Gives a Zap once per day."
+      x: 4
+      y: 2
+
+    - name: "Alt 1"
+      desc: "Click to make it so portals go to alt 1."
+      x: 6
+      y: 2
+
+    - name: "Alt 2/Blurt"
+      desc: "Click to make it so portals go to alt 2./Click to tie untied items to you."
+      x: 8
+      y: 2
+
+    - name: "Wells"
+      desc: "Can hold 1 twig."
+      x: 7
+      y: 11
+
+    - name: "Portal to Nork"
+      x: 16
+      y: 1
+
+    - name: "Portal to Maeling"
+      x: 16
+      y: 3
+
+    - name: "Portal to Volcano Town"
+      x: 16
+      y: 5
+
+    - name: "Portal to Nork-4"
+      x: 16
+      y: 7
+
+    - name: "Portal to Maeling-1"
+      x: 16
+      y: 9
+
+- name: "Guild Hall (Upper)"
+  img: "ugh"
+  nodes:
+    - name: "Midric"
+      desc: "`mid, protect` to get 'Traveller's Respite' buff."
+      x: 9
+      y: 3
+
+    - name: "Small"
+      desc: "Gives a Zap once per day."
+      x: 1
+      y: 5
+
+    - name: "Yulga"
+      desc: "Gives +1 enchant per weapon."
+      x: 12
+      y: 5
+
+    - name: "Fargo"
+      desc: "Holds a twig."
+      x: 12
+      y: 9
+
+    - name: "Olay"
+      desc: "Gives 1 Youth Pot per month."
+      x: 12
+      y: 11
+
+    - name: "Alt 2"
+      desc: "Click to make it so portals go to alt 2."
+      x: 11
+      y: 8
+
+    - name: "Alt 1"
+      desc: "Click to make it so portals go to alt 1."
+      x: 12
+      y: 3
+
+    - name: "Dylan"
+      desc: "Click to give a training chit from Cobrahn."
+      x: 12
+      y: 1
+
+    - name: "Portal to Frore"
+      x: 17
+      y: 1
+
+    - name: "Portal to Nork-6"
+      x: 17
+      y: 3
+
+    - name: "Portal to Evil Nork"
+      x: 17
+      y: 5
+
+    - name: "Portal to King Minotaur Dungeon-2"
+      x: 17
+      y: 7
+
+    - name: "Portal to Aleria"
+      x: 17
+      y: 9
+
+    - name: "Portal to Cobrahn"
+      x: 17
+      y: 11
+
+    - name: "Portal to SDC2 Gnome Town"
+      x: 14
+      y: 12

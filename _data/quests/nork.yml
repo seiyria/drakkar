@@ -1,0 +1,442 @@
+- name: "Goblin Lord Access"
+  text: "Find a Goblin Lord Key by killing goblins on Nork-1."
+  items:
+    - sprite: "28-47"
+
+- name: "Lizard King Access"
+  text: "Find SirHaldan in Nork town and say `sir, oath`. He will send you to Annalie, randomly found in Nork as well. Tell her `ann, wards`. She will tell you to go find the Lizard King in Nork-2."
+
+- name: "Mummy King Access"
+  text: "Find a key in Nork-3 and use it to open the locked double-doors."
+  items:
+    - sprite: "28-53"
+
+- name: "Prisons Naga Access"
+  text: "Find a Naga Statutette in the Prisons, and hold it while crossing the water on the lowest level of the Prisons."
+  items:
+    - sprite: "27-179"
+
+- name: "Roc Access"
+  text: "Find an Ivory Arrow in the Haunted Area of Nork-5 and take the arrow to Clemant in the same area to get the key."
+  items:
+    - sprite: "27-116"
+    - sprite: "27-179"
+
+- name: "Hill Giant Access"
+  text: "Something about climbing boots and climb up somewhere."
+  items:
+    - sprite: "28-60"
+
+- name: "Basilisk Access"
+  text: "Find Kuron in Volcano Town and say `kur, secret`. She will want a corpse of a nearby monster. Bring her one, hold it, and say `kur, secret`. Then you're enchanted to enter the Basilisk lair."
+
+- name: "Silver Dragon Access"
+  text: "Find Jerekiak in Nork-6 and clear out all hostile enemies near him. When he is safe: `jer, hello`. He will tell you the traitor's name. Find Talbot in Nork and tell him the traitor's name: `tal, <traitors name>`. Then you're enchanted to climb up to the Silver Dragon lair."
+
+- name: "Big Lich Access"
+  text: "Find the two buildings south of Frore. Walk into the northeast air hex on the east building. Get through the wall nearby to get into the Lich area. Find the Lich, kill it, take the amulet, hold it, and step onto the center hex in his room. Do this a few times and you'll end up in a big room with a singular lich."
+  items:
+    - sprite: "28-33"
+    - sprite: "28-34"
+    - sprite: "28-35"
+    - sprite: "28-36"
+    - sprite: "28-37"
+    - sprite: "28-38"
+
+- name: "Maeling Dungeon Lair Access"
+  text: "In Maeling Dungeon-4, there are several lairs you can access:
+
+    * Tengu Lair: ???
+
+    * Golem Lair: ???
+
+    * Stunner Lair: ???
+
+    * Single Ninja Lair: ???
+
+    * Double Ninja Lair: Kill a named ninja and take the Pulsating Gem"
+
+  items:
+    - sprite: "27-127"
+    - sprite: "27-127"
+    - sprite: "27-127"
+    - sprite: "27-127"
+    - sprite: "27-127"
+
+- name: "Uther Access"
+  text: "Find the four elemental crystals, hold them while trying to enter Uther's Castle. After the fourth one poofs you will be in."
+  items:
+    - sprite: "28-28"
+    - sprite: "28-29"
+    - sprite: "28-30"
+    - sprite: "28-31"
+
+- name: "Nork-9 Access"
+  text: "Step on each of the Naga tiles, then the doors will be usable."
+
+- name: "Chipuda Access"
+  text: "Get a Moose Stick from Billy in Frore. Head SE out of Frore to find a Moose on a clearing. While holding the Moose Stick, walk back to Billy. When the Moose steps on Billy's hex, he will drop Chipuda's Key."
+  items:
+    - sprite: "28-43"
+    - sprite: "28-47"
+
+- name: "Poison Bow"
+  text: "Take a Roc Egg to the npc holding the Poison Bow and trade it to him for the bow."
+  items:
+    - sprite: "28-72"
+    - sprite: "28-81"
+
+- name: "Fullplate"
+  text: "Take a Leviathan Egg to the Fullplate Trader in Frore and click him with the egg in hand to trade for the Fullplate."
+  items:
+    - sprite: "28-72"
+    - sprite: "28-74"
+
+- name: "+4 Halberd"
+  text: "Take a Minotaur Axe to the NPC in the Prisons and trade it to him for a +4 Halberd."
+  items:
+    - sprite: "27-215"
+    - sprite: "27-144"
+
+- name: "Attack Sash"
+  text: "Trade King Minotaur's Axe for the Attack Sash."
+  items:
+    - sprite: "27-215"
+    - sprite: "28-45"
+
+- name: "Sabre"
+  text: "Trade Uther's Broadsword to Corielus in Frore to receive the Sabre."
+  items:
+    - sprite: "28-41"
+    - sprite: "27-139"
+
+- name: "Vampire Gauntlets"
+  text: "Take a Vampire Heart to the NPC on top of the Dark Tower and trade it to him for the Vampire Gauntlets."
+  items:
+    - sprite: "28-51"
+    - sprite: "28-52"
+
+- name: "Lightning Hammer"
+  text: "Take a Black Ninja Robe to Marcus in Maeling and he will give you a Lightning Hammer."
+  items:
+    - sprite: "27-191"
+    - sprite: "27-186"
+
+- name: "NeoLightning Hammer"
+  text: "Take a Warden Heart to NeoMarcus in Nork-9 and he will give you a NeoLightning Hammer."
+  items:
+    - sprite: "28-51"
+    - sprite: "27-186"
+
+- name: "Excalibur"
+  text: "Trade a Warden Heart to the NPC locked in the cage in Nork-10 to get Excalibur."
+  items:
+    - sprite: "28-51"
+    - sprite: "28-55"
+
+- name: "Seahag Class Armor"
+  text: "Take the Seahag Robe to the trader in Frore. Depending on your class, you will get a different armor."
+  items:
+    - sprite: "27-134"
+    - sprite: "26-145"
+    - sprite: "28-174"
+
+- name: "Slith Staff"
+  text: "Trade Slith's Eye for the Slith Staff behind the lair."
+  items:
+    - sprite: "26-63"
+    - sprite: "28-155"
+
+- name: "Slith Robe"
+  text: "Trade the Slith Amber for the Slith Robe. Different classes receive different robes."
+  items:
+    - sprite: "26-67"
+    - sprite: "26-25"
+    - sprite: "26-25"
+    - sprite: "26-25"
+
+- name: "King's Key"
+  text: "Take a Snowbeast Skull to the King in Frore, and he will reward you with the King's Key."
+  items:
+    - sprite: "28-49"
+    - sprite: "28-54"
+
+- name: "Ratburrow Sash"
+  text: "Take a Rat corpse to Mungo in Ratburrow, drop it on his hex, and say `mun, rat`. Find Mayor Dagano and say `dag, mission`. Find these items in Nork-3.5:
+
+
+    * Sanquin Egg (Southwest Quarter)
+
+    * Dark Guard Axe (Southwest Quarter)
+
+    * Spider Queen Egg (Northeast Quarter)
+
+    * Minotaur Axe (Northwest Quarter)
+
+Go back to Mayor Dagano, drop all 4 items and say: `dag, axe of the heathen`, `dag, axe of the bull`, `dag, egg of the icedrake`, `dag, egg of the webweaver`. He will give you the Ratburrow Sash for your efforts.
+    "
+
+  items:
+    - sprite: "6-96"
+    - sprite: "28-72"
+    - sprite: "26-49"
+    - sprite: "26-80"
+    - sprite: "26-167"
+    - sprite: "27-207"
+
+- name: "Silver Bow (Norken)"
+  text: "Take Griffon Feathers to Eventine in the Nork smithy and trade them for a Silver Bow (Norken)."
+  items:
+    - sprite: "27-204"
+    - sprite: "27-209"
+
+- name: "Dancer Boots"
+  text: "Take a key found on Nork-5 to unlock the Dancer Boots trader on Nork-7. Find a Bolt on Nork-7 and take it to the trader to receive the boots."
+  items:
+    - sprite: "28-47"
+    - sprite: "27-117"
+    - sprite: "28-83"
+
+- name: "Basilisk Shield"
+  text: "Take Basilisk Scales to Bavic in Volcano Town and trade them to him for the Basilisk Shield."
+  items:
+    - sprite: "28-21"
+    - sprite: "28-20"
+
+- name: "Betty Atonement"
+  text: "Get Betty's Doll from Art on the west side of Frore. Go NW to the island of skeletons and harpies. Hold the doll while leading her back to Art. You will need to kill every monster because otherwise she might die. She can be protted, so liminv works here. When you get back to Art, you'll receive some miscellaneous rewards including an atonement."
+  items:
+    - sprite: "28-44"
+
+- name: "Regen Amulet (Small)"
+  text: "Get a key from an npc in Maeling-2 by trading a Flawless Pearl from Maeling-3. Take two Silver Bows, a Door Pearl, and the resulting key to Peewee in King Minotaur Dungeon-2 (the key will unlock his door). Hold the Door Pearl in hand and click Peewee 5 times. Drop 1 bow and say `pee, trade`. Do that with the second bow as well, and he'll give you a Regen Amulet (Small)."
+  items:
+    - sprite: "28-3"
+    - sprite: "28-5"
+    - sprite: "28-53"
+    - sprite: "27-209"
+    - sprite: "27-209"
+    - sprite: "28-9"
+
+- name: "Strength Halberd"
+  text: "Take a 6oz Root and a Minotaur Blood to the trader on King Minotaur Dungeon-5 and trade them for the Strength Halberd."
+  items:
+    - sprite: "26-116"
+    - sprite: "26-149"
+    - sprite: "28-133"
+
+- name: "Wartberg's Amulet"
+  text: "Take a tanned Mummy King Cloak to Wartberg in Nork. Drop both the cloak and 2k gold on his hex and click him to receive his amulet."
+  items:
+    - sprite: "28-11"
+    - sprite: "27-126"
+    - sprite: "27-145"
+
+- name: "Hector's Ring"
+  text: "Retrieve the Goblin Lord Gem and use the key he drops to open the door and hold the gem and show Pelagus: `pel, proof`. Take the ring from Pelagis to Genetta (randomly found in Nork-1) and tell her `gen, pelagis` and she will give you an amulet. Take both of those to Hector and he'll give you his ring if you drop them both on the ground."
+  items:
+    - sprite: "27-127"
+    - sprite: "27-129"
+    - sprite: "27-145"
+    - sprite: "27-129"
+
+- name: "Club House Access"
+  text: "Gather Chipuda's Staff, Breshard's Stiletto, a Sabre, and the King's Key. Go to the Club House in the ice floes E of Frore. Open the door with the key, then trade the staff for the Power Helm. Hold the helm to walk through the next door, then trade the stiletto for the Power Robe. Hold the robe and helm in hand to walk through the next door, then trade the Sabre to go up the stairs and into the Club House."
+  items:
+    - sprite: "27-182"
+    - sprite: "28-70"
+    - sprite: "27-139"
+    - sprite: "28-54"
+    - sprite: "28-64"
+    - sprite: "28-92"
+
+- name: "Queen's Goblets"
+  text: "
+Find the 15 Queen Goblets and bring them to Harkob in the Steel Flower. He will enchant a piece of armor held in your right hand. Each piece of armor can only receive an enchantment from each goblet once. These lairs drop these goblets:
+
+
+* #0 Naga (Prisons)
+
+* #1 Random in Maeling
+
+* #2 Random in Nork Dungeon (common in Nork-10)
+
+* #3 Hill Giant
+
+* #4 Silver Dragon (Volcano Town)
+
+* #5 Black Dragon (Volcano Town)
+
+* #6 Mino in Maze
+
+* #7 Chipuda
+
+* #8 Papa Lich
+
+* #9 Uther
+
+* #10 Snowbeast
+
+* #11 Slicer
+
+* #12 Fire Giant
+
+* #13 Big Red Dragon
+
+* #14 Slith
+
+* #15 Big Rakshasha
+  "
+  items:
+    - sprite: "26-137"
+
+- name: "Help Nolid"
+  text: "Talk to Nolid in the Nork Inn and say `nol, steel flower`. He will reward you with 2k gold."
+  items:
+    - sprite: "27-126"
+
+- name: "HP Amulet"
+  text: "Canub in the Nork Casino wants a Sanquin Egg and a Silver Bow. Hold both of them and click him to receive the HP Amulet."
+  items:
+    - sprite: "28-72"
+    - sprite: "27-209"
+    - sprite: "29-23"
+
+- name: "Griffon Zaps"
+  text: "Zelcia in Volcano Town wants the corpse of a Griffon. Bringing one to him will drop Zaps on the ground."
+  items:
+    - sprite: "6-121"
+    - sprite: "27-173"
+
+- name: "Improved Ratburrow Sash"
+  text: "Devew on the west side of Nork town wants a Ratburrow Sash and Spider Queen Egg. He will improve it."
+  items:
+    - sprite: "27-207"
+    - sprite: "26-80"
+    - sprite: "27-207"
+
+- name: "Improved Katsumo Gauntlets"
+  text: "Olarth will improve your Katsumo Gauntlets somehow to do something."
+  items:
+    - sprite: "28-86"
+    - sprite: "28-86"
+
+- name: "Improved Yeti Fur"
+  text: "Oivoi in Nork will take a look at your Yeti Fur and improve it's cold resistance."
+  items:
+    - sprite: "27-192"
+    - sprite: "27-192"
+
+- name: "Returning Hammer"
+  text: "Luth in the Steel Flower wants a Succor Scroll, ProtStun Scroll, Respirate Scroll, and a Dark Guard Axe. Bring all of those to trade for a Returning Hammer."
+  items:
+    - sprite: "27-138"
+    - sprite: "27-138"
+    - sprite: "27-138"
+    - sprite: "26-49"
+    - sprite: "26-53"
+
+- name: "Improved Silver Dagger"
+  text: "Mythe in the Nork Smithy would like a Silver Dagger (purchased in the Steel Flower) to be encrusted with a Flawless Emerald. He will improve the dagger for you."
+  items:
+    - sprite: "27-219"
+    - sprite: "27-157"
+    - sprite: "27-219"
+
+- name: "Improved Poison Bow"
+  text: "Ptath on the east side of Nork will improve the Poison on your Poison Bow if you bring him a Poison Bow and a Poison Vial."
+  items:
+    - sprite: "28-81"
+    - sprite: "27-175"
+    - sprite: "28-81"
+
+- name: "Improved Bisento"
+  text: "Balaba in Maeling wants to improve your Ogre Lord Bisento, and he will, if you bring him 10k gold."
+  items:
+    - sprite: "26-167"
+    - sprite: "27-126"
+    - sprite: "26-167"
+
+- name: "Improved Lightning Hammer"
+  text: "Mingor in Maeling will improve the Lightning on your Lightning Hammer if you bring him the hammer, the corpse of a Kinzo, and 25k gold."
+  items:
+    - sprite: "27-186"
+    - sprite: "6-104"
+    - sprite: "27-126"
+    - sprite: "27-186"
+
+- name: "Improved Yellow Robe"
+  text: "Dulain can improve your Yellow Robe if you bring him that and a Lair Diamond."
+  items:
+    - sprite: "28-71"
+    - sprite: "27-161"
+    - sprite: "28-71"
+
+- name: "Improved Black Ninja Robe"
+  text: "Bakoru, located east of Maeling, will improve your Black Ninja Robe's agility by 1 if you bring it with a piece of Jade."
+  items:
+    - sprite: "27-191"
+    - sprite: "28-1"
+    - sprite: "27-191"
+
+- name: "Minotaur Axe Alignment Change"
+  text: "Lotu, west of Maeling, will change the alignment on a Minotaur Axe to be G/G."
+  items:
+    - sprite: "27-215"
+    - sprite: "27-215"
+
+- name: "Improved Mummy Cloak"
+  text: "Basae will add Acid Prot to your Mummy Cloak if you bring it to him with a Mudsetter corpse."
+  items:
+    - sprite: "28-11"
+    - sprite: "6-112"
+    - sprite: "28-11"
+
+- name: "Improved Black Dragon Scales"
+  text: "Kekig on the west side of Volcano Town will take Black Dragon Scales and Silver Dragon Scales and add Lightning Prot to the Black Dragon Scales."
+  items:
+    - sprite: "28-12"
+    - sprite: "27-216"
+    - sprite: "28-12"
+
+- name: "Glittering Shortsword"
+  text: "Nanat in Volcano Town will trade you a Glittering Shortsword for Naga Scales and a Minotaur Axe."
+  items:
+    - sprite: "27-189"
+    - sprite: "27-215"
+    - sprite: "28-114"
+
+- name: "Improved Basilisk Shield"
+  text: "Boravaca in Volcano Town's basement will take two Basilisk Shields and 50k gold and give you an improved Basilisk Shield."
+  items:
+    - sprite: "28-20"
+    - sprite: "28-20"
+    - sprite: "27-126"
+    - sprite: "28-20"
+
+- name: "Succor Ring"
+  text: "Sonth in Volcano Town will trade you a Succor Ring for a Silver Bow and a Gold Plated Ring."
+  items:
+    - sprite: "27-209"
+    - sprite: "27-180"
+    - sprite: "27-153"
+
+- name: "Improved Griffon Longsword"
+  text: "Fanel in Volcano Town's basement will take a Griffon Longsword and some gold and improve it for you."
+  items:
+    - sprite: "28-23"
+    - sprite: "27-126"
+    - sprite: "28-23"
+
+- name: "Improved Dragon Gauntlets"
+  text: "Karoth in Volcano Town will take Dragon Gauntlets and 5k gold and improve the gauntlets."
+  items:
+    - sprite: "27-208"
+    - sprite: "27-126"
+    - sprite: "27-208"
+
+- name: "Katsumo Gauntlets"
+  text: "Bring a Black Ninja Robe to Katsumo to trade for the Katsumo Gauntlets."
+  items:
+    - sprite: "27-191"
+    - sprite: "28-86"

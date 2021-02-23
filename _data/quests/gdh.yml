@@ -1,0 +1,100 @@
+
+- name: "Gatherer Robe"
+  text: "Take a Gatherer Feather to the farmer at the entrance of GDH to receive a Gatherer Robe."
+  items:
+    - sprite: "30-215"
+    - sprite: "30-193"
+
+- name: "Needler Ring"
+  text: "Take a Needler Heart to Sturderon in the second area of GDH to receive a Needler Ring."
+  items:
+    - sprite: "30-214"
+    - sprite: "30-192"
+
+- name: "Progression 1"
+  text: "Take a Hatchling Scale to the Botanist NPC in the first area of GDH to progress to the second area of GDH1."
+  items:
+    - sprite: "30-221"
+
+- name: "Progression 2"
+  text: "First, you have to get flagged by talking to the NPC in the Escapee Caves. Then, you have to collect 2 Mercenary Twigs and `trade enable` them to the lunches that wander the area. Once you've done so, you can progress to the third area of GDH1."
+  items:
+    - sprite: "30-220"
+
+- name: "Progression 3"
+  text: "First, you have to collect a Beholder Staff and a Golem Essence. Then, hold them both and right-click the essence to activate the fight. After you kill Medusa, take her Medusa Gem to the Servant in the SwampWitch area (you can also find the gem rarely from Remains). Once you've done this, you can progress to the fourth area of GDH1."
+  items:
+    - sprite: "30-208"
+    - sprite: "30-207"
+    - sprite: "30-225"
+
+- name: "Progression 4"
+  text: "Kill FoodGuardian and take the Climbing Twig. Hold it in the south-west-most hex of the swampwitch side of the water and climb up. Once you've done so, you can safely discard the twig (or save it for another class). This will get you into GDH2."
+  items:
+    - sprite: "30-224"
+
+- name: "Basic Glaive"
+  text: "Trade a Pure Water to Armon in GDH2."
+  items:
+    - sprite: "30-240"
+    - sprite: "30-239"
+
+- name: "Basic Bow"
+  text: "Trade a Pure Water to Gipler in GDH2."
+  items:
+    - sprite: "30-240"
+    - sprite: "30-247"
+
+- name: "Castle Access"
+  text: "Kill NPCs near castle to find a key to the castle. After that, you need to kill merccaptains to find 2 more keys to get all the way into the castle."
+  items:
+    - sprite: "30-253"
+    - sprite: "30-251"
+    - sprite: "30-252"
+
+- name: "Barbarian Fields Access"
+  text: "Kill NPCs in the castle to find 10 Infected Apples, and give them to the Cook in the kitchen. Danfur will give you a Barbarian Fields Key to the fields to open the doors."
+  items:
+    - sprite: "30-226"
+    - sprite: "30-248"
+
+- name: "Bear None"
+  text: "Collect 10 Bear Meat and turn it into Smokie. When you give him 10, he gives you a Smoked Bear Meat. You'll have to brew the Smoked Bear Meat with other reagents to make Bear Beer (req. skill 13~15). Activate the Cave Bear lair and kill him to get Climbing Hooks, then climb up to the Trapper from the south side of the Barbarian Fields. Give him a Bear Beer to start the encounter (similar to Wakka) and make sure you kill all of the bears. Repeat this up to 5 times to max out Bear None."
+  items:
+    - sprite: "30-249"
+    - sprite: "30-254"
+    - sprite: "30-256"
+    - sprite: "30-255"
+
+- name: "Wackaflexes"
+  text: "Head to the Castle and find Wakka (he is behind a locked door, a key can be found nearby). If you do `wakka, begin` you can fight a bunch of moles. When you succeed, click him again and you will gain a point in the Wackaflexes quirk. You can get up to 5. There is a small delay between them as well."
+  items:
+    - sprite: "28-47"
+
+- name: "Improved Thermature Ring"
+  text: "Collect 10 Bear Meat. Take them to Smokie in the Barbarian Fields and trade them for a Smoked Bear Meat. Take a Thermature Ring and the Smoked Bear Meat to Krog and he will improve your ring."
+  items:
+    - sprite: "30-249"
+    - sprite: "30-254"
+    - sprite: "30-201"
+    - sprite: "30-201"
+
+- name: "Vine Shield"
+  text: "Lead 10 LostFarmers from Offical to the boat near Captain. You have to do `los, follow` to get them to follow you. Go back to Official to get your shield when you've done them all."
+  items:
+    - sprite: "30-189"
+
+- name: "Vine Sash"
+  text: "Talk to Captain, bring him 20 Canteens. Tell him `capt, help` to turn in Canteens."
+  items:
+    - sprite: "30-209"
+    - sprite: "30-188"
+
+- name: "Combat Earring"
+  text: "Bring Hatchling Scales to Barnlot near Medusa. Trade them for the Combat Earring."
+  items:
+    - sprite: "30-222"
+    - sprite: "30-299"
+
+- name: "Marton Robe"
+  text: "See <a href=\"https://seiyria.com/drakkar/other/brewing\">Brewing</a>."

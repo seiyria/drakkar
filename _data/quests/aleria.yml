@@ -1,0 +1,181 @@
+- name: "Light Ring"
+  text: "Take a GoblinKing Axe to to King Borav. Drop it on the ground and say `kin, axe` and `kin, alliance` and he will give you a ring."
+  items:
+    - sprite: "28-150"
+    - sprite: "28-190"
+
+- name: "Poison Amulet"
+  text: "Locate the statues in Seldari Forest and read all of them. Drop the Light Ring on Elshea's hex and repeat the words from the statues to rececive the Poison Amulet."
+  items:
+    - sprite: "28-190"
+    - sprite: "28-1"
+
+- name: "Seldari Forest Access"
+  text: "Wear a Light Ring to enter the Seldari Forest."
+  items:
+    - sprite: "28-190"
+
+- name: "Seldari Dungeon Access"
+  text: "Wear a Poison Amulet to enter the Seldari Dungeon."
+  items:
+    - sprite: "28-1"
+
+- name: "Seldari Queen Access"
+  text: "Hold a Seldari Eye while stepping onto the Pylon in -2 to get to the Seldari Queen."
+  items:
+    - sprite: "26-63"
+
+- name: "Bandit Lord Access"
+  text: "Find the npc in NW caves and say `npc, password`. Take the password to Tiny and say `tin, <password>`. If you leave, you have to re-do the quest."
+
+- name: "Tarak Castle Access"
+  text: "Find Tarak in the prison cell in Carrena and he'll tell you about a Slimebeast. Go kill Slimebeast and take the Slimebeast Hammer back to Tarak. Drop it on his hex and say `tar, hammer`. He will kill you and escape. Go to the jail guard outside of jail and say `xxx, tarak`. Go find Kiara in town and say `kia, blessing` then `kia, whatever she said to you`. Take Mujaba's Dagger to Karazov on the island south of Mujaba's lair. Drop it on his hex and say `kar, kukri` and he will give you a Floating Potion. Go to the caves SW of town and look for a clearing. There will be a hex that says you are beneath a castle and drink the Floating Potion to go up to Tarak's Castle."
+  items:
+    - sprite: "26-58"
+    - sprite: "28-107"
+    - sprite: "26-42"
+
+- name: "Tarak Robe Alignment Change"
+  text: "Take Tarak's Robe to Kiara and if you are N/N or G/G say `kia, bounty` and she will trade you either the Neutral Robe or Good Robe."
+  items:
+    - sprite: "28-172"
+    - sprite: "28-181"
+    - sprite: "28-171"
+
+- name: "Neutral Helm"
+  text: "Trade Loranon's Staff to Tamorwil to get the Neutral Helm."
+  items:
+    - sprite: "28-154"
+    - sprite: "26-28"
+
+- name: "Alerian Good Quest"
+  text: "
+* Be G/G
+
+* Find Loranon: `lor, sever`
+
+* Find Caspian, drop the Bandit Lord Shortsword on his hex: `cas, kassel`, `cas, evidence`
+
+* Find Duke Talinar: `tal, quest`
+
+* Find Eldoral: `eld, allegiance`
+
+* Find Caspian: `cas, promotion`
+
+* Find Duke Talinar: `tal, fur`
+
+* Tan a Winter Wolf and take the Winter Wolf Fur
+
+* Find Arogar, drop Winter Wolf Fur on his hex: `aro, fur` - take coins
+
+* Find Talinar, drop coins from Arogar: `tal, fur`, `tal, solution`, `tal, coins`
+
+* Find Caspian, `cas, promotion`
+
+* Find Lady Ela: `lad, hello`
+
+* Find King Borav, drop GoblinKing Axe on his hex: `kin, alliance`, `kin, goblin`, `kin, treaty`, `kin, deal`, `kin, axe` - take the ring he drops
+
+* Find Lady Ela, hold Seldari Queen Goblet in hand: `lad, liadril`, `lad, secret`, `lad, seldari`, `lad, allies`, `lad, goblet`
+
+* Find Caspian: `cas, dub`
+
+* Find Duke Talinar: `tal, quest`
+
+* (have Mujaba's Key at this point)
+
+* Find Loranon: `lor, sever`
+
+* Use Mujaba's Key to get past the first skull in the dungeon you find yourself in
+
+* Find Hessian: `hes, ela`, `hes, borav`, `hes, talinar`
+
+* Kill Lord Koss and take Koss's Morningstar to Talinar and choose either `tal, fortune` (1mil gold), `tal, fame` (Charisma Pot), or `tal, ???` (Featherfall Helm)
+
+  "
+  items:
+    - sprite: "26-109"
+    - sprite: "28-117"
+    - sprite: "28-150"
+    - sprite: "26-138"
+    - sprite: "28-53"
+    - sprite: "28-218"
+    - sprite: "27-126"
+    - sprite: "28-164"
+    - sprite: "27-128"
+
+- name: "Alerian Neutral Quest"
+  text: "
+* Be N/N
+
+* Find Loranon: `lor, sever`, `lor, peace`, `lor, neutrality`, `lor, task`, `lor, neutrality`
+
+* Find Caspian, drop the Bandit Lord Shortsword on his hex: `cas, kassel`, `cas, evidence`
+
+* Tan a Winter Wolf and take the Winter Wolf Fur
+
+* Find Arogar, drop Winter Wolf Fur on his hex: `aro, hello`, `aro, fur` - take the coins he drops
+
+* Find Duke Talinar: `tal, fur`, `tal, solution`, `tal, coins`, `tal, redemption` (if you want the atone)
+
+* Find King Borav, drop the GoblinKing Axe on his hex: `kin, hello`, `kin, axe`, `kin, alliance` - take the ring he drops
+
+* Find Lady Ela, hold Seldari Queen Goblet in hand: `lad, hello`, `lad, goblet`
+
+* Find Loranon, click him: `lor, task`
+
+* Find Eldoral, drop a Pink Leaf on his hex: `eld, hello`, `eld, leaf`
+
+* Find Culcula, drop a Pink Leaf on his hex: `cul, hello`, `cul, leaf`
+
+* Find Loranon: `lor, armistice` then choose either `lor, fame` (Charisma Pot) or `lor, fortune` (Loranon's Staff)
+  "
+  items:
+    - sprite: "26-109"
+    - sprite: "28-117"
+    - sprite: "26-138"
+    - sprite: "26-124"
+    - sprite: "26-124"
+    - sprite: "27-126"
+    - sprite: "28-154"
+
+- name: "Alerian Evil Quest"
+  text: "
+* Be E/E
+
+* Find Loranon: `lor, sever`
+
+* Find Culcula: `cul, hello`, `cul, allegiance`
+
+* Find Hessian: `hes, pass skull`, `hes, talinar`, `hes, pass skull`, `hes, ela`, `hes, pass skull`, `hes, borav`
+
+* Find Lord Koss: `lor, hello`, `lor, kneel`
+
+* Find Koron, drop the Bandit Lord Shortsword on his hex: `kor, hello`, `kor, mission`, `kor, banditlord` - take the shortsword from the ground
+
+* Find Lord Koss: `lor, ela`
+
+* Find Culcula: `cul, ela`
+
+* Find Lady Ela, hold the Seldari Queen Goblet in hand: `ela, hello`, `ela, goblet`
+
+* Find Koron: `kor, hello`
+
+* Tan a Winter Wolf and take the Winter Wolf Fur
+
+* Find Arogar, drop the Winter Wolf Fur on his hex: `aro, fur` - take the coins he drops
+
+* Find Koron: `kor, hello`
+
+* Find Lord Koss: `lor, hello`, `lor, quest`
+
+* Hold a Pink Leaf in your hand, and go upstairs to meet Duke Talinar. Kill him and take his Tower Shield, then take it to Lord Koss and choose either `lor, fortune` (1mil gold) or `lor, ???` (Evil Helm) - you can also keep the Tower Shield.
+  "
+  items:
+    - sprite: "28-117"
+    - sprite: "26-138"
+    - sprite: "26-109"
+    - sprite: "26-124"
+    - sprite: "28-213"
+    - sprite: "27-126"
+    - sprite: "26-30"

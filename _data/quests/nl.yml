@@ -1,0 +1,286 @@
+
+- name: "Basic HP/EP Regen Boost"
+  text: "You need to take a Mines Key (Outer) to either Samex in the Basement for HP regen, or Giltry in Nameless Town for EP regen."
+  items:
+    - sprite: "29-160"
+   
+- name: "Advanced HP/EP Regen Boost"
+  text: "You need to take a Large Pine Tree to either Blamex in the Decaying Lands Caves for HP regen, or Fidaltry for EP regen."
+  items:
+    - sprite: "29-175"
+
+- name: "Akronium Brick"
+  text: "You need to find 100 lbs of ore. You can do this by finding any combination of 10lb and 1lb chunks. To turn them in, head to Jebroon in Nameless Town. At 100 lbs, he will give you an Akronium Brick."
+  items:
+    - sprite: "29-157"
+    - sprite: "29-158"
+    - sprite: "29-159"
+
+- name: "Akronium Coins"
+  text: "Take 1 Akronium Brick and 1 Coin Mold to Emerax in Nameless Town to get Akronium Coins."
+  items:
+    - sprite: "29-159"
+    - sprite: "29-165"
+
+- name: "Bandit Lord Ring"
+  text: "To gain access to the Bandit Lord in the Ice Floes, first you must get both of the Bandit Keys. To get the Bandit Lord Key (outer), you must hunt monsters in the ice floes. Then, you have to take an Improved Merkon Shortsword to Yomin in Graine town for a Bandit Lord Key (inner). Afterwards, you have to take the Bandit Lord Head to Jelterban and say `jelt, freedom`. To do this, you must be factioned (ie, you must see the Bandit Lord die twice before being able to trade for a ring)."
+  items:
+    - sprite: "29-199"
+    - sprite: "29-155"
+    - sprite: "29-156"
+    - sprite: "29-180"
+    - sprite: "29-200"
+
+- name: "Bandit5"
+  text: "Start the Primal quest, and find Adjuticon on the NL Surface. Make sure you have a party before starting. Tell him `adj, prove`, and your party members will say `adj, join`. Defend the Bandit Towns children, and you will get one Ingot (Justice) per child saved, plus one for killing Bandit5."
+  items:
+    - sprite: "29-206"
+
+- name: "Breath Capture Vial"
+  text: "Take a Terror Blood (enchanted) and a Bat Wing to Kurrashna in the Decaying Lands Cave to create a Breath Capture Vial."
+  items:
+    - sprite: "30-3"
+    - sprite: "30-4"
+    - sprite: "30-5"
+
+- name: "Coin Mold"
+  text: "Take an Apple Sapling and Dryad Parts to Arnes in Nameless Town to get a Coin Mold."
+  items:
+    - sprite: "29-177"
+    - sprite: "29-178"
+    - sprite: "29-204"
+
+- name: "Defense Staff"
+  text: "Enchant an Akronium Brick to +6, then take it to Jinx in Nameless Town. She will give you an Akronium Ring, which you can trade to Jeblaxin in Homlet for a Defense Staff."
+  items:
+    - sprite: "29-159"
+    - sprite: "29-163"
+    - sprite: "29-192"
+
+- name: "Defense Staff Upgrade"
+  text: "Take a Defense Staff and a Volcanic Ore (small) from Minlok to Irabob in Graine Town to get an improved Defense Staff."
+  items:
+    - sprite: "29-192"
+    - sprite: "31-273"
+    - sprite: "29-192"
+
+- name: "Dornar Entry"
+  text: "Speak with Mekik in Nameless Town, then talk to Kimja outside of SW Town. You need to first find a Brigand Heart and `trade enable` it to a Dryad to get Dryad Bread. Alternatively, you can hold the heart in your right hand and say `dry, hello`."
+  items:
+    - sprite: "29-154"
+    - sprite: "29-153"
+
+- name: "Duke Marvin"
+  text: "You want to be at least level 60 before starting this. First, talk to the first DukeSummoner near the Nameless Lord by saying `duk, help`. He will direct you to Shimok, who is hidden behind a locked door. If you talk to him and say `shi, book`, he will tell you to go find his book and his pages. Once you've filled the book with all 20 pages, bring it back to Shimok and say `shi, research`. He will take your book and grant you favor with the first Duke, allowing you to summon him with `duk, summon`. The Duke will then want Volcanic Ore (large) from the Bandit Lord. After you've given it to him, you'll be 1/3 of the way to completing the Nameless Lord quest."
+  items:
+    - sprite: "28-101"
+    - sprite: "26-180"
+    - sprite: "31-273"
+
+- name: "Duke Xuladan"
+  text: "You want to be at least level 60 before starting this. First, talk to the second DukeSummoner near the Nameless Lord by saying `duk, help`. He will ask you first to complete the maze in Nameless Town. You can get 5 tries in the maze for one chunk of Akronium Coins (`keep, go`). When in the maze, you have to find the Judge, stand on his hex, and click his npc box. This will satisfy the DukeSummoner, so you can summon the Duke with `duk, summon`. The Duke will want a Packet of Mandrake Root, found in the Bog. After you've given it to him, you'll be 2/3 of the way to completing the Nameless Lord quest."
+  items:
+    - sprite: "29-165"
+    - sprite: "26-90"
+
+- name: "Duke Merntax"
+  text: "You want to be at least level 60 before starting this. First, talk to the third DukeSummoner near the Nameless Lord by saying `duk, help`. He will ask you to get the research notes from Mormar. To do this, you need to kill Foreman on Mormar-15 and take his book, then begin collecting pages from every floor in Mormar. Once your book is full of all 25 pages, bring it to him. Then, you just have to summon the Duke with `duk, summon` and get his blessing, no extra items required this time. This will complete the Nameless Lord Quest."
+  items:
+    - sprite: "28-101"
+    - sprite: "26-180"
+
+- name: "Enchanted Terror Blood"
+  text: "Take a Terror Blood and a Perfect Oak Sapling to Alchemix in the Decaying Lands Caves to get an Enchanted Terror Blood."
+  items:
+    - sprite: "30-3"
+    - sprite: "29-176"
+    - sprite: "30-3"
+
+- name: "Flame Hammer"
+  text: "Take a Merkon Shortsword to Moman in Nameless Town to get a Flame Hammer."
+  items:
+    - sprite: "29-151"
+    - sprite: "29-152"
+
+- name: "Great Halls Access"
+  text: "Faction with either Nameless or Graine (you can check at a Diplomat by going `dip, graine` or `dip, nameless`. You want 13000 points in a specific faction. The easiest way to do it is to kill Elites in Nameless Town for a few hours. After you've factioned, take an Akronium Brick, a Dragon Heart, and Forgotten Dust to the appropriate CryptKeeper (the one you factioned for) and you will have access to the Great Halls. You will need to be level 35 to speak to any NPCs in here."
+  items:
+    - sprite: "29-159"
+    - sprite: "29-202"
+    - sprite: "29-173"
+
+- name: "Improved Merkon Shortsword"
+  text: "Take a Merkon Shortsword and an Akronium Ring to Yomin in Graine Town."
+  items:
+    - sprite: "29-151"
+    - sprite: "29-163"
+    - sprite: "29-199"
+
+- name: "Improved Saber"
+  text: "Take Akronium Coins and a Saber Mold to Derinder in the Basement to get an Improved Saber."
+  items:
+    - sprite: "29-165"
+    - sprite: "30-14"
+    - sprite: "30-13"
+
+- name: "Improved Vamps"
+  text: "Talk to Axxen in Nameless Town (`axx, sell`). He will send you to Felontes on the NL Surface (just north of the swamp lake) and say `fel, sell`. Felontes will send you to Pupixil in Graine Town, who will send you back to Felontes, then back to Axxen again. Go to Felontes and trade him Akronium Coins and a Dragon Heart for a pair of Improved Vamps."
+  items:
+    - sprite: "29-165"
+    - sprite: "29-202"
+    - sprite: "28-52"
+
+- name: "Keep Access"
+  text: "You have access by default to the Keep floor on NL Surface, but to progress further you need to find an item on each of the Keep floors, and turn them in to Almora in Homlet. First you have to find an Amulet on the first floor, then Armor on the second floor, and a Ring on the third floor. To get access to the fourth floor, you have to party with a Thief and have them `mug` Almora."
+  items:
+    - sprite: "29-169"
+    - sprite: "29-170"
+    - sprite: "29-171"
+
+- name: "Titan Breath Capture"
+  text: "Hold a Breath Capture Vial while you see a RiftTitan or Albron die."
+  items:
+    - sprite: "30-5"
+    - sprite: "30-6"
+
+- name: "Titan Weapon"
+  text: "Trade a Titan Bone and a Titan Annealed Akronium Brick to one of the traders in Refuge for a Titan Weapon."
+  items:
+    - sprite: "30-1"
+    - sprite: "30-2"
+    - sprite: "29-210"
+    - sprite: "29-211"
+    - sprite: "29-212"
+    - sprite: "29-213"
+    - sprite: "29-214"
+    - sprite: "29-215"
+
+- name: "Titan Upgrades"
+  text: "You can upgrade just about every aspect of your Titan Weapon in ways such as:
+
+
+    * You can increase the offense of your weapon by getting 10 Fluidic Diamonds and taking them to Enjador on Mormar-1.
+
+    * You can increase the defense of your weapon by getting X Terror Bloods and taking them to Jhular on Mormar-2. Every weapon has a different number of Terror Bloods required (Greatsword: 50, Halberd: 30, Shortsword: 30, Longsword: 30, Mace: 30, Dagger: 11).
+
+    * You can make your weapon silver by taking an Improved Saber to Simjil on Mormar-3.
+
+    * You can make your weapon a power weapon by taking a Fluidic Akronium Brick to Moxmor on Mormar-4.
+
+    * You can make your weapon prone by taking a Large Pine Tree to Stompr on Mormar-5.
+
+    * You can make your weapon have Deadeye by taking a set of Lorsulan Armor to Hawk on Mormar-9.
+
+    * You can increase the damage output of your weapon by taking a Titan Bone to Excruton on Mormar-10.
+
+    * You can make your weapon dance by taking a ProtIce potion to X on Mormar-12.
+
+    * You can make your weapon glow by taking 10 non-Cobrahn Youth Pots to Youpor in the Decaying Lands Caves. Take his 10oz Youth Pot to Famador on Mormar-15."
+
+  items:
+    - sprite: "27-161"
+    - sprite: "30-3"
+    - sprite: "30-13"
+    - sprite: "30-2"
+    - sprite: "29-175"
+    - sprite: "30-12"
+    - sprite: "30-1"
+    - sprite: "28-69"
+    - sprite: "27-167"
+
+- name: "Level 50"
+  text: "You have to be level 50 and dedicated to the Primal quest before starting this quest. Take 2 Akronium Coins to Emergon and you can advance past 50. **Note**: This quest can be skipped entirely by just going Primal."
+  items:
+    - sprite: "29-165"
+
+- name: "Tortulan Plate"
+  text: "Trade 1 Akronium Coin and Tortulan Scales to Kidbana in the Basement."
+  items:
+    - sprite: "29-165"
+    - sprite: "30-7"
+    - sprite: "30-10"
+
+- name: "Mantrapon Plate"
+  text: "Trade 1 Akronium Coin and Mantrapon Scales (while wearing Tortulan Plate) to Mindra in the Basement."
+  items:
+    - sprite: "29-165"
+    - sprite: "30-10"
+    - sprite: "30-8"
+    - sprite: "30-11"
+
+- name: "Lorsulan Plate"
+  text: "Trade 1 Akronium Coin and Lorsulan Scales (while wearing Tortulan Plate) to Duneral in the Basement."
+  items:
+    - sprite: "29-165"
+    - sprite: "30-10"
+    - sprite: "30-9"
+    - sprite: "30-12"
+
+- name: "Mormar Entry"
+  text: "Trade 2 Breath Capture Vials to Interim in the Decaying Lands Bog (he wanders). This is not necessary as you can just do pads with a M1 ring."
+  items:
+    - sprite: "30-5"
+    - sprite: "30-5"
+
+- name: "Nameless Lord"
+  text: "First, you have to have completed the Primal quest and be at least level 60. Then, you have to do the quests for Duke Marvin, Duke Xuladan, and Duke Merntax. After summoning all of the Dukes, you are granted +600 NL-only HP and you can talk to the LordSummoner. Doing `lor, summon` will summon the Nameless Lord. After killing him, you can advance to level 75."
+
+- name: "Primal"
+  text: "To start the Primal quest, you have to go find a certain npc dependent on your alignment:
+
+
+    * Good: Halgroth, in Graine Town (NW).
+
+    * Neutral: Primas, in Nameless Town (SE).
+
+    * Evil: Necron, in Homlet (N).
+
+
+    Say `xxx, path`. They will want you to get the 5 Ingots:
+
+
+    * Justice, from Bandit5.
+
+    * Primal, from Bandit Lord.
+
+    * Prudence, from Merkon.
+
+    * Strength, from Ajamtax.
+
+    * Wisdom, which is gotten by taking the Spy Scroll from Ajamtax to Breshard (`bresh, hail`) and giving him an Akronium Brick (hold scroll + akronium, `bresh, akronium`), then `bresh, when all else fails there exists the cold reality of steel`, then taking the Wisdom Scroll to the Spy on Mormar-2.
+
+
+    When you give all of the ingots to the npc, you can advance to 70/35."
+
+  items:
+    - sprite: "29-206"
+    - sprite: "29-209"
+    - sprite: "29-208"
+    - sprite: "29-205"
+    - sprite: "29-207"
+    - sprite: "29-159"
+    - sprite: "27-138"
+    - sprite: "26-180"
+
+- name: "Saber Mold"
+  text: "Take an Akronium Brick and a norken Saber to Altur in Nameless Town."
+  items:
+    - sprite: "29-159"
+    - sprite: "27-139"
+    - sprite: "30-14"
+
+- name: "Titan Annealed Akronium"
+  text: "Take an Akronium Brick and a Breath Capture Vial (filled) to Encorma in Forge."
+  items:
+    - sprite: "29-159"
+    - sprite: "30-6"
+    - sprite: "30-2"
+
+- name: "Minlok Access"
+  text: "To get the Mines Key (Outer), take a Forgotten Dust to Akbat and say `ak, mines`, `ak, key`, `ak, price`. Trade Forgotten Dust for the first key to get into the mines. Then, get your Miner faction to 13000 by killing enemies in the ice floes (you can check your faction with `dip, miner`). When you are friendly, go to any miner in the facility and say `min, key` while holding a Brigand Heart and you will get the second key. To get the third key, simply kill `rogueminer` enemies."
+  items: 
+    - sprite: "29-173"
+    - sprite: "29-160"
+    - sprite: "29-154"
+    - sprite: "29-161"
+    - sprite: "29-162"

@@ -1,0 +1,312 @@
+- name: "Beetle"
+  text: "Shreds. Tan for scales. Leeches XP on hit."
+  found: "Swamp, climb down at hole"
+  sprite: "10-175"
+  drops:
+    - name: "Beetle Armor"
+  quests:
+    - name: "Forged Weapons"
+
+- name: "Roc"
+  text: "Bites (w/ poison)."
+  found: "NW Caves, climb up on hay"
+  sprite: "6-108"
+  quests:
+    - name: "Lucien Gauntlets"
+
+- name: "DeathSasquatch"
+  text: "Tan for armor. Lair is surrounded by UD-5 monsters - be careful."
+  found: "UD-5"
+  sprite: "6-78"
+  drops:
+    - name: "Water Scroll"
+    - name: "Defensive Ring"
+    - name: "Vanidor Key"
+    - name: "DeathSasquatch Fur"
+  quests:
+    - name: "Improva Weapons"
+
+- name: "Automoton"
+  text: "Loriapi's Assistant. Autoheals frequently."
+  found: "Loriapi's Hut"
+  sprite: "6-105"
+
+- name: "Loriapi"
+  text: "Uses energyspear, energylance, shockwave, and deplete. Hits with staff. If not wearing Loriapi Robe, staff hits take 2 perm hp."
+  found: "Loriapi's Hut"
+  sprite: "6-143"
+  drops:
+    - name: "Loriapi Robe"
+    - name: "Red Robe"
+    - name: "Loriapi Staff"
+    - name: "Combat Sash"
+    - name: "Balanced Ring"
+    - name: "Youth Pot"
+    - name: "Loriapi Statue"
+  quests:
+    - name: "Conqueror's Club Access"
+
+- name: "Red Dragon"
+  text: "Uses firebreath. Tan for scales."
+  found: "Gauntlet"
+  sprite: "6-82"
+  drops:
+    - name: "Fire Ruby"
+    - name: "Red Dragon Scales"
+
+- name: "Silver Dragon"
+  text: "Uses lightning. Tan for scales."
+  found: "Gauntlet"
+  sprite: "6-85"
+  drops:
+    - name: "Dragon Diamond"
+    - name: "Silver Dragon Scales"
+
+- name: "Black Dragon"
+  text: "Uses acid. Tan for scales."
+  found: "Gauntlet"
+  sprite: "6-84"
+  drops:
+    - name: "Black Pearl"
+    - name: "Black Dragon Scales"
+
+- name: "Gold Dragon"
+  text: "Uses earthcrush. Tan for scales."
+  found: "Gauntlet"
+  sprite: "6-83"
+  drops:
+    - name: "Gold Brick"
+    - name: "Gold Dragon Scales"
+  quests:
+    - name: "Earthcrush Prot Amulet"
+
+- name: "Green Dragon"
+  text: "Uses corspray. Tan for scales."
+  found: "Gauntlet"
+  sprite: "6-86"
+  drops:
+    - name: "Green Dragon Scales"
+    - name: "Flight Emerald"
+  quests:
+    - name: "Green Dragon Helm"
+
+- name: "Boris"
+  text: ""
+  found: "Downstairs in NW caves"
+  sprite: "6-126"
+  drops:
+    - name: "Batwing Greatsword"
+    - name: "Combat Sash"
+    - name: "Youth Pot"
+
+- name: "BD Scaler"
+  text: "Uses acidbreath."
+  found: "Psi Tower"
+  sprite: "6-163"
+  drops:
+    - name: "Black Dragon Scales"
+    - name: "EP Amulet"
+  quests:
+    - name: "Energylance"
+
+- name: "GD Scaler"
+  text: "Uses earthcrush."
+  found: "Psi Tower"
+  sprite: "6-167"
+  drops:
+    - name: "Gold Dragon Scales"
+    - name: "Strength Amulet"
+  quests:
+    - name: "Energylance"
+
+- name: "Beetle Scaler"
+  text: "Shreds."
+  found: "Psi Tower"
+  sprite: "6-167"
+  drops:
+    - name: "Beetle Scales"
+    - name: "Agility Amulet"
+  quests:
+    - name: "Energylance"
+
+- name: "SD Scaler"
+  text: "Shreds."
+  found: "Psi Tower"
+  sprite: "6-163"
+  drops:
+    - name: "Silver Dragon Scales"
+    - name: "Intelligence Amulet"
+  quests:
+    - name: "Energylance"
+
+- name: "Energylance Scaler"
+  text: "UIses energylance"
+  found: "Psi Tower"
+  sprite: "10-125"
+  items:
+    - name: "Green Dragon Scales (padded)"
+    - name: "Energylance Robe"
+  quests:
+    - name: "Energylance"
+
+- name: "Kaldor"
+  text: "Uses lightning, earthcrush, and stun."
+  found: "Kaldor's Castle"
+  sprite: "6-38"
+  drops:
+    - name: "Kaldor Robe"
+    - name: "Kaldor Mace"
+    - name: "Kaldor Dagger"
+    - name: "Kaldor Amulet"
+  quests:
+    - name: "+100 HP (Kaldor Shackle)"
+    - name: "Forged Weapons"
+    - name: "Conqueror's Club Access"
+
+- name: "Vanidor"
+  text: ""
+  found: "Under UD-5"
+  sprite: "6-161"
+  drops:
+    - name: "Vanidor Plate"
+    - name: "Vanidor Axe"
+    - name: "Vanidor Axe"
+    - name: "Combat Sash"
+  quests:
+    - name: "Conqueror's Club Access"
+
+- name: "Graaagh"
+  text: ""
+  found: "Graaagh Castle"
+  sprite: "6-159"
+  drops:
+    - name: "Graaagh Halberd"
+    - name: "Balanced Ring"
+  quests:
+    - name: "Conqueror's Club Access"
+
+- name: "Juntes"
+  text: ""
+  found: ""
+  sprite: "6-135"
+  drops:
+    - name: "Juntes Gauntlets"
+    - name: "Juntes Robe"
+  quests:
+    - name: "+100 HP (Juntes' Brother)"
+
+- name: "Guntver"
+  text: "Uses earthcrush, acid, icebreath, firebreath."
+  found: "UD-3.5"
+  sprite: "10-135"
+  drops:
+    - name: "Guntver Robe"
+    - name: "Guntver Staff"
+
+- name: "Arun"
+  text: "Uses psicrush, scare."
+  found: "Under Juntes"
+  sprite: "6-130"
+  drops:
+    - name: "Arun Robe"
+    - name: "Arun Staff"
+    - name: "Combat Sash"
+
+- name: "Ningizidda"
+  text: "Bites w/ poison. Tan for scales."
+  found: "Under Arun"
+  sprite: "6-176"
+  drops:
+    - name: "Ningizidda Scales"
+    - name: "Ningizidda Helm"
+  quests:
+    - name: "Padded Armor"
+
+- name: "EvilTimmeh"
+  text: ""
+  found: "Upstairs in Timmy-2"
+  sprite: "6-46"
+  drops:
+    - name: "Energyspear Bow"
+    - name: "Combat Robe"
+
+- name: "Mr.Alverica"
+  text: ""
+  found: "Above EvilTimmeh's Lair"
+  sprite: "6-148"
+  drops:
+    - name: "Alverica's Crossbow"
+
+- name: "GiantKing"
+  text: ""
+  found: "Climb up on blood spot in giant keep"
+  sprite: "6-159"
+  drops:
+    - name: "GiantKing Sash"
+    - name: "Offensive Ring"
+    - name: "GiantKing Halberd"
+    - name: "GiantKing Greatsword"
+
+- name: "Son of Graaagh"
+  text: "There are 5 in lair - be careful."
+  found: "Above Graaagh"
+  sprite: "11-10"
+  drops:
+    - name: "Graaagh Halberd"
+    - name: "Son of Graaagh Spear"
+    - name: "Son of Graaagh Halberd"
+  quests:
+    - name: "Conqueror's Club Access"
+
+- name: "Pokick"
+  text: ""
+  found: "Arun Secret"
+  sprite: "6-130"
+  drops:
+    - name: "Pokick Bracers"
+  quests:
+    - name: "Po Earthcrush Prot Bracers"
+
+- name: "Pomend"
+  text: "Uses psicrush, heals Pokick"
+  found: "Arun Secret"
+  sprite: "6-130"
+  drops:
+    - name: "Pomend Bracers"
+  quests:
+    - name: "Po Earthcrush Prot Bracers"
+
+- name: "Lazloth"
+  text: "Has archers with Push Bows in lair. Hurts. Heals to full every 50 rounds. Aid helps significantly."
+  found: "Upstairs, past puzzle, Conqueror's Club"
+  sprite: "6-151"
+  drops:
+    - name: "Lazloth Shockwave Robe"
+    - name: "Lazloth Earthcrush Robe"
+    - name: "Lazloth Dagger"
+    - name: "Lazloth Boots"
+    - name: "Lazloth Sash"
+  quests:
+    - name: "Lazloth Sash"
+    - name: "Lanapi Access"
+
+- name: "ArchMagiGuard"
+  text: ""
+  found: "Lanapi's Lair"
+  sprite: "6-105"
+  drops:
+    - name: "Shockwave Prot Bracers"
+    - name: "Earthcrush Prot Bracers"
+  quests:
+    - name: "Lanapi Access"
+
+- name: "Lanapi"
+  text: "Casts earthcrush, shockwave, energyspear, energylance, liminv. Can teleport you to anywhere in Cobrahn, including lairs. Can transmute your gear."
+  found: "Lanapi's Lair"
+  sprite: "6-143"
+  drops:
+    - name: "Lanapi Robe"
+    - name: "Lanapi Sash"
+    - name: "Lanapi Staff"
+  quests:
+    - name: "Lanapi Access"

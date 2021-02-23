@@ -1,0 +1,63 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+  - name: "Stolen Skill Amulet"
+    reqs: "Level 99"
+    attrs: "8/0, Glowing, Stolen Skill (+1 Attack)"
+    sprite: "28-34"
+armors:      
+boots:
+bracers: 
+earrings:
+  - name: "Melee Earring"
+    reqs: "Level 40"
+    attrs: "X/0 (X = floor found on)"
+    sprite: "28-192"
+helms:
+gauntlets:
+rings:
+  - name: "Dungeon Ring"
+    reqs: "Level 99"
+    attrs: "12/12 +9 all stats, random Ice/Fire/Lightning Inflation/Ablation II"
+    sprite: "27-155"
+robes:
+  - name: "Banshee Robe"
+    reqs: "Level 96"
+    attrs: "+10, +5 STR/INT/WIS/AGI Ice prot"
+    sprite: "26-106"
+    drops: 
+      - name: "banshee"
+  - name: "Mummy Robe"
+    reqs: "Level 96"
+    attrs: "+10, +5 STR/INT/WIS/AGI Fire prot"
+    drops:
+      - name: "mummy"
+    sprite: "26-27"
+sashes:    
+  - name: "Dungeon Sash"
+    reqs: "Level 90"
+    attrs: "5/5, psicutter, damage deflate"
+    sprite: "28-166"
+weapons:    
+others:
+  - name: "Iron Bread"
+    reqs: ""
+    attrs: ""
+    sprite: "29-153"
+    quests:
+      - name: Iron Bread Armor
+  - name: "Undead Silk"
+    found: ""
+    drops:
+      - name: "tan"
+    quests:
+      - name: "Undead Silk Armor"
+    sprite: "30-282"

@@ -1,0 +1,40 @@
+- name: "Progression 1"
+  text: "Kill hunters in area 1 to find an AGI pot. They are in temporal flux and require level 85 to drink. Drink it and you should receive the message 'your lungs feel stronger.' You will gain access to SK Cave, your level cap will increase to 87, and your skill cap will increase to 42."
+  items:
+    - sprite: "27-171"
+
+- name: "Progression 2"
+  text: "Kill creatures in SK Cave to find a Climbing Book and 10 Climbing Pages. Fill up the book, then climb up on the puddle once you've reached level 86 (or else you're not powerful enough)."
+  items:
+    - sprite: "28-101"
+    - sprite: "26-180"
+
+- name: "Progression 3"
+  text: "Use the stairs to get between cave and SK Silver to flag progress to level 88. You can do this any time after climbing up from cave (via Progression 2)."
+
+- name: "Progression 4"
+  text: "Once you've reached level 88, you have to take the stairs to the Black area of SK to progress to level 90."
+
+- name: "Progression 5"
+  text: "Once you've reached level 90, you have to take the stairs to the Green area of SK to progress to level 95."
+
+- name: "SK Armor"
+  text: "Collect 10 pages of armor and buy a mold from Armornon, then turn it in to an npc nearby to get the corresponding armor. Fieldplates are used by Barbarian/Martialist, Boneplates are used by everyone else. Here are where you can find each page:
+  
+    * Silver - Drops infrequently from Silver enemies, somewhat frequently from Gold enemies
+    
+    * Gold - Drops infrequently from Gold enemies, somewhat frequently from Black enemies
+    
+    * Black - Drops infrequently from Black enemies, somewhat frequently from Green enemies
+    
+    * Green - Drops infrequently from Green enemies, somewhat frequently from Parapet enemies"
+    
+  items:
+    - sprite: "28-223"
+    - sprite: "29-0"
+    - sprite: "28-220"
+    - sprite: "28-222"
+    - sprite: "29-1"
+    - sprite: "29-3"
+    - sprite: "29-5"
+    - sprite: "29-4"

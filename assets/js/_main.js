@@ -4,79 +4,136 @@
 
 $(document).ready(function(){
 
-  // FitVids init
-  $("#main").fitVids();
+  var currentX = 0;
+  var currentY = 0;
 
-  // init sticky sidebar
-  $(".sticky").Stickyfill();
-
-  var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
-    // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
-    // console.log("Window Width: " + windowWidth);
-    // console.log("show: " + show);
-    //old code was if($(window).width() > 1024)
-    if (show) {
-      // fix
-      Stickyfill.rebuild();
-      Stickyfill.init();
-      $(".author__urls").show();
-    } else {
-      // unfix
-      Stickyfill.stop();
-      $(".author__urls").hide();
-    }
+  window.onmousemove = function (e) {
+      var x = e.clientX,
+          y = e.clientY;
+      currentX = x;
+      currentY = y;
   };
 
-  stickySideBar();
+  $(".is-fancy").each(function() {
+    var node = $(this);
 
-  $(window).resize(function(){
-    stickySideBar();
-  });
+    node.on('click', function(e) {
+      e.preventDefault();
 
-  // Follow menu drop down
+      var gutter = '20px';
 
-  $(".author__urls-wrapper button").on("click", function() {
-    $(".author__urls").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper button").toggleClass("open");
-  });
+      var bigImage = $([
+        '<div style="position: absolute; z-index: 100; left: ' + gutter + '; right: ' + gutter + '; top: ' + gutter + '; bottom: ' + gutter + '">',
+          '<img style="max-width: none" src="' + node.attr('href').split('_thumbs').join('') + '" usemap="' + node.data('map') + '" />',
+        '</div>'
+      ].join(''));
 
-  // init smooth scroll
-  $("a").smoothScroll({offset: -20});
+      var closeDiv = $('<div class="close" style="z-index: 500; position: absolute; right: 20px; top: 20px; cursor: pointer; font-size: 2rem; text-align: center; width: 50px; color: #fff; background-color: #000">&times;</div>');
 
-  // add lightbox class to all image links
-  $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+      var backdrop = $('<div style="opacity: 0.8; background-color: #000; cursor: crosshair; z-index: 50; position: absolute; right: 0; top: 0; left: 0; bottom: 0;"></div>')
 
-  // Magnific-Popup options
-  $(".image-popup").magnificPopup({
-    // disableOn: function() {
-    //   if( $(window).width() < 500 ) {
-    //     return false;
-    //   }
-    //   return true;
-    // },
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-    },
-    image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
-    },
-    removalDelay: 500, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open.
-    // make it unique to apply your CSS animations just to this exact popup
-    mainClass: 'mfp-zoom-in',
-    callbacks: {
-      beforeOpen: function() {
-        // just a hack that adds mfp-anim class to markup
-        this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+      $("body").css("overflow", "hidden");
+
+      bigImage.appendTo("body");
+      closeDiv.appendTo("body");
+      backdrop.appendTo("body");
+
+      var close = function() {
+        bigImage.remove();
+        closeDiv.remove();
+        backdrop.remove();
+        $("body").css("overflow", "auto");
+
+        $(".tooltipstered").tooltipster('destroy');
+
+        zoom.parent().off('mousewheel.focal');
+
+        $(document).unbind("keyup", watch);
       }
-    },
-    closeOnContentClick: true,
-    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-  });
 
+      var watch = function(e) {
+        if(e.keyCode !== 27) return;
+        close();
+      }
+
+      $(document).keyup(watch);
+
+      closeDiv.on('click', close);
+      backdrop.on('click', close);
+
+      bigImage.find('img').maphilight({
+        alwaysOn: true
+      });
+
+      var zoom = bigImage.panzoom({
+        maxScale: 1,
+        minScale: 0.1
+      });
+
+      var map = $('map[name="' + node.data('map').substring(1) + '"]');
+
+      map.find('area').each(function() {
+        var area = $(this);
+
+        var content = '<span>' + area.data('name') + '</span>';
+
+        if(area.data('desc')) {
+          content += '<br>' + area.data('desc') + '<br>';
+        }
+
+        if(area.data('lair')) {
+          content += '<br><a target="_blank" href="lairs#' + area.data('name').split(' ').join('+') + '">Lair Info</a>';
+        }
+
+        if(area.data('quests')) {
+          var quests = area.data('quests');
+
+          if(quests.indexOf(',') === -1) {
+            quests = [quests];
+          } else {
+            quests = quests.split(',');
+          }
+
+          quests = quests.map(function(q) {
+            return '<a target="_blank" href="quests#' + q.split(' ').join('+') + '">' + q + '</a>';
+          });
+
+          content += '<br><br>Related Quests<br>' + quests.join('<br>');
+        }
+
+        area.tooltipster({
+          theme: 'borderless',
+          trigger: 'click',
+          interactive: true,
+          content: $(content),
+          delay: 0,
+          functionPosition: function(instance, helper, props) {
+            props.coord.left = currentX - $(helper.tooltipClone).width();
+            props.coord.top = currentY - $(helper.tooltipClone).height() - 20;
+            return props;
+          }
+        });
+
+      });
+
+      zoom.parent().on('mousewheel.focal', function(e) {
+        e.preventDefault();
+
+        var delta = e.delta || e.originalEvent.wheelDelta;
+        var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+
+        zoom.panzoom('zoom', zoomOut, {
+          increment: 0.1,
+          animate: false,
+          focal: e
+        });
+/*
+        $(".tooltipstered").each(function() {
+          $(this).tooltipster('instance').reposition();
+        });
+*/
+      });
+
+    });
+  });
 });

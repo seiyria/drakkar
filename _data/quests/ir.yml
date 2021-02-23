@@ -1,0 +1,9 @@
+- name: "Iron Armor Upgrade"
+  text: "Take an Iron Bread and any armor to an anvil in any zone. Hold the armor in your right and the Iron Bread in your left and click the anvil. This can be done once per floor, and gives +2% AC per upgrade."
+  items:
+    - sprite: "29-153"
+
+- name: "Undead Silk Armor"
+  text: "Take an Undead Silk to an NPC in the south caves. Each Silk has a random number assigned to it, and you can only add each piece to your armor once."
+  items:
+    - sprite: "30-282"

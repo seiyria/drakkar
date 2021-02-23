@@ -1,0 +1,296 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+armors:
+  - name: "Ozonous Armor"
+    found: "Lava City"
+    attrs: "10/10, +10 AGI/STR/INT/WIS, Lightning Prot, 250 Damage Absorption"
+    reqs: "Level 82"
+    drops:
+      - name: "OzonousMax"
+        lair: true
+    sprite: "31-323"
+
+  - name: "Skar Armor"
+    reqs: "Level 82"
+    attrs: "7/7 Hammer of Skar"
+    drops:
+      - name: "Skar"
+        lair: true
+    sprite: "2-27"
+
+  - name: "Betrayer Armor"
+    reqs: "Level 80"
+    attrs: "7/7 Betrayal of Ice, Fire/Ice Prot"
+    drops:
+      - name: "Betrayer"
+        lair: true
+    sprite: "27-216"
+
+boots:
+bracers:
+  - name: "Ozonous Bracers (Armor)"
+    reqs: "Level 85"
+    attrs: "9/9, +450 HP/EP, Autosense, Consort Armor (+AC)"
+    drops:
+      - name: "OzonousMax"
+        lair: true
+    sprite: "31-319"
+  - name: "Ozonous Bracers (Regeneration)"
+    reqs: "Level 85"
+    attrs: "9/9, +450 HP/EP, Autosense, Consort Regeneration (+200 HP/EP Regen)"
+    drops:
+      - name: "OzonousMax"
+        lair: true
+    sprite: "31-319"
+  - name: "Ozonous Bracers (Strike)"
+    reqs: "Level 85"
+    attrs: "9/9, +450 HP/EP, Autosense, Consort Strike (+230 damage/hit)"
+    drops:
+      - name: "OzonousMax"
+        lair: true
+    sprite: "31-319"
+
+earrings:
+helms:
+gauntlets:
+rings:
+  - name: "IceTitan Ring"
+    reqs: "Level 75"
+    attrs: "9/9 +8 all stats, random Ice/Fire/Lightning Inflation/Ablation II"
+    sprite: "27-155"
+    drops:
+      - name: "IceTitan"
+        lair: true
+
+  - name: "Gnomes Ring"
+    reqs: "Level 75"
+    attrs: "9/9 +4 all stats, random Ice/Fire/Lightning Inflation/Ablation"
+    sprite: "27-155"
+    drops:
+      - name: "gnomes"
+
+robes:
+
+  - name: "Spur Robe"
+    reqs: "Level 82"
+    attrs: "5/5, +2 AGI/INT/STR/WIS, Lightning Prot"
+    drops:
+      - name: "Spur"
+        lair: true
+    sprite: "2-27"
+
+weapons:
+  - name: "LavaCity Shield"
+    attrs: "20/20"
+    sprite: "28-18"
+    drops:
+      - name: "FireGiant"
+      - name: "FireLord"
+
+  - name: "Betrayer Shield"
+    attrs: "Lesser Strength Elixir"
+    sprite: "28-212"
+    drops:
+      - name: "Betrayer"
+        lair: true
+
+  - name: "Betrayer Mace"
+    sprite: "26-176"
+    reqs: "Level 80"
+    attrs: "8/8, Lesser Intelligence Elixir, +2 INT, +10 STR/WIS/AGI"
+    drops:
+      - name: "Betrayer"
+        lair: true
+
+  - name: "Broom"
+    reqs: "Level 80"
+    attrs: "20/20"
+    sprite: "27-143"
+    drops:
+      - name: "Corosonous"
+        lair: true
+
+  - name: "FireLord Spear"
+    reqs: "Level 85"
+    attrs: "20/20, Glowing, Proning, Power, Silver"
+    sprite: "31-324"
+
+  - name: "Healer Totem"
+    reqs: "Level 82, Healer"
+    attrs: "10/10, +500 EP (stacks), +50 EP Regen, +Psi damage"
+    drops:
+      - name: "LavaMental"
+      - name: "LavaLizard"
+    sprite: "31-325"
+
+  - name: "Mentalist Totem"
+    reqs: "Level 82 Mentalist"
+    attrs: "10/10, +500 EP (stacks), +50 EP Regen, +Psi damage"
+    drops:
+      - name: "LavaMental"
+      - name: "LavaLizard"
+    sprite: "31-326"
+
+others:
+  - name: "AGI Pot"
+    quests:
+      - name: "AGI 40"
+    sprite: "27-171"
+
+  - name: "Climbing Pick"
+    quests:
+      - name: "Progression 1"
+    sprite: "30-334"
+
+  - name: "Dark Knowledge Book"
+    drops:
+      - name: "OzonousMax"
+        lair: true
+      - name: "Skar"
+        lair: true
+      - name: "Spur"
+        lair: true
+    quests:
+      - name: "Dark Knowledge"
+    sprite: "30-338"
+
+  - name: "Dark Knowledge Page"
+    found: "Everywhere"
+    quests:
+      - name: "Dark Knowledge"
+    sprite: "30-339"
+
+  - name: "Gnome Head"
+    found: "Gnome Area"
+    drops:
+      - name: "Gnome"
+      - name: "Crusher"
+      - name: "ElderGnome"
+      - name: "Shaman"
+    quests:
+      - name: "Cavern Creeper II"
+    sprite: "31-228"
+    
+  - name: "Spectre Silk"
+    found: "Sick Caves"
+    drops:
+      - name: "Spectre"
+    quests:
+      - name: "Crystal Resistance I"
+    sprite: "30-282"
+
+  - name: "Small Nugget"
+    found: "Gnome Area"
+    drops:
+      - name: "Gnome"
+      - name: "Crusher"
+      - name: "ElderGnome"
+      - name: "Shaman"
+    quests:
+      - name: "Level 85/Skill 40"
+    sprite: "26-75"
+
+  - name: "Medium Nugget"
+    quests:
+      - name: "Level 85/Skill 40"
+    sprite: "26-75"
+
+  - name: "Large Nugget"
+    drops:
+      - name: "Betrayer"
+        lair: true
+    quests:
+      - name: "Level 85/Skill 40"
+    sprite: "26-75"
+
+  - name: "River Nugget"
+    found: "SDC Forest"
+    quests:
+      - name: "Level 76"
+    sprite: "30-366"
+
+  - name: "Thumper Rock"
+    found: "Thumper Caves"
+    quests:
+      - name: "Progression 1"
+    sprite: "30-335"
+
+  - name: "Wyvern Talon"
+    found: "Wyvern Area"
+    drops:
+      - name: "Wyvern"
+    quests:
+      - name: "Level 78"
+    sprite: "27-135"
+
+  - name: "Cavebat Skin Scroll"
+    found: "Thumper Caves"
+    drops:
+      - name: "Cavebat"
+        lair: true
+    quests:
+      - name: "Cavern Creeper I"
+    sprite: "30-339"
+
+  - name: "Gumbo"
+    quests:
+      - name: "Root Armor"
+    sprite: "28-64"
+
+  - name: "Omnilla Skull"
+    found: "Water Area"
+    drops:
+      - name: "Omnilla"
+    quests:
+      - name: "Root Armor"
+    sprite: "28-64"
+
+  - name: "Chum"
+    found: "Water Area"
+    drops:
+      - name: "Carnifish"
+    quests:
+      - name: "Root Armor"
+    sprite: "29-153"
+
+  - name: "Lava Twig"
+    found: "LavaCity"
+    drops:
+      - name: "OzonousMax"
+        lair: true
+      - name: "Corosonous"
+        lair: true
+      - name: "firegiant"
+    quests:
+      - name: "Root Weapon"
+    sprite: "30-220"
+
+  - name: "Spur Key"
+    drops:
+      - name: "Spur"
+        lair: true
+    quests:
+      - name: "OzonousMax Access"
+    sprite: "30-251"
+
+  - name: "Skar Key"
+    drops:
+      - name: "Skar"
+        lair: true
+    quests:
+      - name: "OzonousMax Access"
+    sprite: "30-251"
+
+  - name: "Miner49er Key"
+    quests:
+      - name: "Progression 2"
+    sprite: "27-205"

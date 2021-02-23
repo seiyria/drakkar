@@ -1,0 +1,65 @@
+{% include base_path %}
+
+{% assign all_maps = site.data.maps.[page.maps_id] | sort:"name" %}
+
+<p>Click a map to expand, use the mousewheel to zoom, drag a map to pan</p>
+
+<div class="maps-container">
+  {% for map_data in all_maps %}
+
+    <div class="map" data-mapid="#{{ map_data.img }}">
+
+      <map name="{{ map_data.img }}" href="#">
+        {% for node in map_data.nodes %}
+          <area shape="rect"
+                {% assign result_x = node.x | plus:1 %}
+                {% if node.width %}
+                  {% assign result_x = result_x | plus:node.width %}
+                {% endif %}
+                {% assign result_x = result_x | times:64 %}
+
+                {% assign result_y = node.y | plus:1 %}
+                {% if node.height %}
+                  {% assign result_y = result_y | plus:node.height %}
+                {% endif %}
+                {% assign result_y = result_y | times:64 %}
+
+                coords="{{ node.x | times:64 }}, {{ node.y | times:64 }}, {{ result_x }}, {{ result_y }}"
+
+              {% if node.lair %}
+                data-lair="{{ node.name }}"
+              {% endif %}
+
+              {% if node.desc %}
+                data-desc="{{ node.desc }}"
+              {% endif %}
+
+              {% if node.related_quests %}
+                data-quests="{{ node.related_quests | join:','}}"
+              {% endif %}
+
+                alt="{{node.name}}"
+                data-name="{{ node.name }}">
+        {% endfor %}
+      </map>
+
+      <a id="{{ map_data.img }}"
+         data-map="#{{ map_data.img }}"
+         class="is-fancy"
+         href="{{ map_data.img | prepend: "-" | prepend: page.maps_id | prepend: "/assets/maps/" | prepend: base_path | append: ".png" }}">
+
+        <img src="{{ map_data.img | prepend: "-" | prepend: page.maps_id | prepend: "/assets/maps_thumbs/" | prepend: base_path | append: ".png" }}"
+         width="200"
+         height="200"
+         alt="{{map_data.name}} Map"
+         class="image-map" />
+
+       </a>
+
+      <br>
+
+      <span>{{ map_data.name }}</span>
+    </div>
+
+  {% endfor %}
+</div>

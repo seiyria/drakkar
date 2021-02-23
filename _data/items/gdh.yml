@@ -1,0 +1,323 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+
+armors:
+  - name: "Hatchling Armor"
+    reqs: "Level 50"
+    attrs: "2/2 Swampcat Accuracy (does not encumber Martialist/Barbarian)"
+    drops:
+      - name: "Hatchling"
+    sprite: "30-222"
+
+  - name: "Swampcat Fur"
+    reqs: "Level 40"
+    attrs: "Swampcat Accuracy (does not encumber Barbarian)"
+    drops:
+      - name: "Swampcat"
+    sprite: "27-200"
+boots:
+
+bracers:
+
+earrings:
+  - name: "Combat Earring"
+    reqs: "Level 40"
+    attrs: "1/1"
+    sprite: "30-299"
+    quests:
+      - name: "Combat Earring"
+      
+  - name: "Hatchling Earring"
+    reqs: "Level 40"
+    attrs: "+75 HP"
+    drops:
+      - name: "Hatchling"
+    sprite: "30-293"
+helms:
+
+gauntlets:
+  - name: "Climbing Hooks"
+    drops:
+      - name: "Cave Bear"
+        lair: true
+    quests:
+      - name: "Bear None"
+    sprite: "30-255"
+
+  - name: "Barbarian Gauntlets"
+    reqs: "Level 65, Barbarian"
+    attrs: "5/0 +5 STR"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-197"
+  - name: "Healer Gauntlets"
+    reqs: "Level 65, Healer"
+    attrs: "0/5 +5 AGI"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-195"
+  - name: "Mentalist Gauntlets"
+    reqs: "Level 65, Mentalist, Fighter/Mentalist"
+    attrs: "0/5 +5 AGI"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-195"
+  - name: "Fighter Gauntlets"
+    reqs: "Level 65, Fighter, Paladin, Fighter/Mentalist"
+    attrs: "4/4 +3 STR/AGI"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-198"
+  - name: "Thief Gauntlets"
+    reqs: "Level 65, Thief"
+    attrs: "4/4 +3 STR/AGI"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-198"
+
+rings:
+  - name: "Needler Ring"
+    reqs: "Level 50"
+    attrs: "7/7 +4 All Stats"
+    sprite: "30-192"
+    quests:
+      - name: "Needler Ring"
+  - name: "Thermature Ring"
+    reqs: "Level 70"
+    attrs: "8/0 +5 All Stats"
+    sprite: "30-201"
+    drops:
+      - name: "Thermature"
+        lair: true
+    quests:
+      - name: "Improved Thermature Ring"
+  - name: "Thermature Ring (improved)"
+    reqs: "Level 70"
+    attrs: "9/9 +5 All Stats"
+    sprite: "30-201"
+    quests:
+      - name: "Improved Thermature Ring"
+
+robes:
+  - name: "Gatherer Robe"
+    reqs: "Level 55"
+    attrs: "6/6 200 Damage Reflect"
+    sprite: "30-193"
+    quests:
+      - name: "Gatherer Robe"
+  - name: "Marton Robe"
+    reqs: "Level 70"
+    attrs: "5/0 Acid Prot, Lightning Prot, +1 All Stats"
+    sprite: "30-202"
+    quests:
+      - name: "Marton Robe"
+  - name: "Thermature Robe"
+    reqs: "Level 70"
+    attrs: "2/2 200 Acid Prot, Lightning Prot"
+    sprite: "30-233"
+    drops:
+      - name: "Thermature"
+        lair: true
+
+sashes:
+  - name: "FoodGuardian Sash"
+    reqs: "Level 60"
+    attrs: "5/5"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-194"
+
+  - name: "Vine Sash"
+    reqs: "Level 35"
+    attrs: "4/4"
+    sprite: "30-188"
+    related_quests:
+      - name: "Vine Sash"
+
+weapons:
+  - name: "Beholder Staff"
+    drops:
+      - name: "Beholder"
+        lair: true
+    sprite: "30-208"
+    quests:
+      - name: "Progression 3"
+  - name: "Medusa Shield"
+    reqs: "Level 60"
+    attrs: "Medusa Strategy (To Hit Bonus)"
+    drops:
+      - name: "Medusa"
+        lair: true
+    sprite: "30-183"
+  - name: "Vine Shield"
+    reqs: "Level 40"
+    attrs: ""
+    sprite: "30-189"
+  - name: "Basic Glaive"
+    reqs: ""
+    attrs: "??"
+    sprite: "30-239"
+    quests:
+      - name: "Basic Glaive"
+  - name: "Advanced Glaive"
+    reqs: ""
+    attrs: "9/9 Psi Cutter, Returning, Fire/Ice Prot"
+    sprite: "30-234"
+  - name: "Basic Bow"
+    reqs: "??"
+    attrs: "??"
+    sprite: "30-247"
+    quests:
+      - name: "Basic Bow"
+  - name: "Advanced Bow"
+    reqs: "??"
+    attrs: "??"
+    sprite: "30-235"
+
+others:
+  - name: "Canteen"
+    drops:
+      - name: "Militia"
+    sprite: "30-209"
+
+  - name: "Climbing Twig"
+    drops:
+      - name: "FoodGuardian"
+        lair: true
+    sprite: "30-224"
+
+  - name: "Gatherer Feather"
+    sprite: "30-215"
+    drops:
+      - name: "Gatherer"
+    quests:
+      - name: "Gatherer Robe"
+
+  - name: "Golem Essence"
+    sprite: "30-207"
+    drops:
+      - name: "Golem"
+    quests:
+      - name: "Progression 3"
+
+  - name: "Hatchling Scale"
+    drops:
+      - name: "Hatchling"
+    sprite: "30-221"
+    quests:
+      - name: "Progression 1"
+
+  - name: "Marton Gem"
+    sprite: "30-241"
+    drops:
+      - name: "barbarian"
+    quests:
+      - name: "Marton Robe"
+
+  - name: "Medusa Gem"
+    sprite: "30-225"
+    drops:
+      - name: "Medusa"
+        lair: true
+    quests:
+      - name: "Progression 3"
+
+  - name: "Mercenary Twig"
+    sprite: "30-220"
+    drops:
+      - name: "Mercenary"
+    quests:
+      - name: "Progression 2"
+
+  - name: "Needler Heart"
+    sprite: "30-214"
+    drops:
+      - name: "Needler"
+    quests:
+      - name: "Needler Ring"
+
+  - name: "Green Dragon Tongue"
+    sprite: "30-245"
+    drops:
+      - name: "mature green dragon"
+
+  - name: "Infected Tongue"
+    sprite: "30-246"
+
+  - name: "Green Dragon Blood"
+    sprite: "30-236"
+    drops:
+      - name: "youth green dragon"
+
+  - name: "Mixed Blood Vial"
+    sprite: "30-237"
+
+  - name: "Infected Apple"
+    sprite: "30-226"
+    found: "Castle"
+    quests:
+      - name: "Barbarian Fields Access"
+
+  - name: "Barbarian Fields Key"
+    sprite: "30-248"
+    quests:
+      - name: "Barbarian Fields Access"
+
+  - name: "Bear Meat"
+    sprite: "30-249"
+    drops:
+      - name: "bear"
+    found: "Barbarian Fields"
+    quests:
+      - name: "Bear None"
+
+  - name: "Smoked Bear Meat"
+    sprite: "30-254"
+    found: "Barbarian Fields"
+    quests:
+      - name: "Bear None"
+
+  - name: "Bear Beer"
+    sprite: "30-256"
+    found: "Barbarian Fields"
+    quests:
+      - name: "Bear None"
+
+  - name: "Castle Key"
+    sprite: "30-253"
+    found: "GDH2"
+    quests:
+      - name: "Castle Access"
+
+  - name: "MercCaptain Key 1"
+    sprite: "30-251"
+    found: "GDH Castle"
+    quests:
+      - name: "Castle Access"
+
+  - name: "MercCaptain Key 2"
+    sprite: "30-252"
+    found: "GDH Castle"
+    quests:
+      - name: "Castle Access"
+
+  - name: "Wakka Key"
+    sprite: "28-47"
+    found: "GDH Castle"
+    quests:
+      - name: "Wackaflexes"

@@ -1,0 +1,64 @@
+
+- name: "Class Descriptions"
+  desc: "Class descriptions not spoken in the game... Maybe they were meant for the tutorial!"
+  filter: "sfx/class-"
+
+- name: "Stat Lines"
+  desc: "Stat has gone up! Stat has gone down!"
+  filter: "sfx/stat-"
+
+- name: "Background Music"
+  desc: "Noises that go on long enough that they could be considered background music."
+  filter: "sfx/bgm-"
+
+- name: "Chatter Noises"
+  desc: "Just people talking."
+  filter: "sfx/sfx-chatter-"
+
+- name: "Combat Noises"
+  desc: "Various noises heard in combat."
+  filter: "sfx/sfx-combat-"
+
+- name: "Character Noises"
+  desc: "Noises that would be heard by characters doing various things."
+  filter: "sfx/sfx-char-"
+
+- name: "Death Noises"
+  desc: "The piercing scream of death."
+  filter: "sfx/sfx-death-"
+
+- name: "Discipline Noises"
+  desc: "The sound effects used by disciplines in game."
+  filter: "sfx/sfx-disc-"
+
+- name: "Door Noises"
+  desc: "Opening and closing doors."
+  filter: "sfx/sfx-door-"
+
+- name: "Stair Noises"
+  desc: "Up and down stairs."
+  filter: "sfx/sfx-stairs-"
+
+- name: "Quirk Noises"
+  desc: "Quirk-related noises."
+  filter: "sfx/sfx-quirk-"
+
+- name: "Monster Noises"
+  desc: "Ambient noises created by certain monsters."
+  filter: "sfx/sfx-monster-"
+
+- name: "Weird Noises"
+  desc: "Noises that are just plain weird."
+  filter: "sfx/sfx-weird-"
+
+- name: "Micellaneous Vocals"
+  desc: "Some lines spoken for whatever possible purpose."
+  filter: "sfx/sfx-voice-"
+
+- name: "Miscellaneous Noises"
+  desc: "Lots of strange noises that may or may not be in the game."
+  filter: "sfx/sfx-drak"
+
+- name: "Wat"
+  desc: "What you've all been scrolling for..."
+  filter: "sfx/sfx-wat-"

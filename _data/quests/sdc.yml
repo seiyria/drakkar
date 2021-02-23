@@ -1,0 +1,149 @@
+
+- name: "Level 76"
+  text: "Take a River Nugget (dropped by any named NPC in the SDC Forest) to Jarvoh. This will allow you to progress to level 76."
+  items:
+    - sprite: "30-366"
+
+- name: "Level 78"
+  text: "Take a Wyvern Talon to Arpigo on the second floor of Wyvern Area (you must be level 76 to turn this in)."
+  items:
+    - sprite: "27-135"
+
+- name: "Level 85"
+  text: "You need to collect 64 Small Nuggets from the gnome cave or town nearby, then smelt it (in the nearby brewing pot; this takes no brewing skill) into one Large Nugget. 8 Small Nugget = 1 Medium Nugget, and 8 Medium Nugget = 1 Large Nugget. Afterwards, take the Large Nugget to Armon (you must be level 78 to turn this in). Note: if you did not do BDC Hermit before this to advance to skill 39, you will be capped at skill 39. To fix this, you have to turn in another big nugget."
+  items:
+    - sprite: "26-75"
+    - sprite: "26-75"
+    - sprite: "26-75"
+
+- name: "Progression 1"
+  text: "Gather 2 Thumper Rocks and take them to Mneer. He will take them from your sack and give you a Climbing Pick. First, drop the Climbing Pick and then pick it up (this will tie it to you). Take the Climbing Pick to the most northwest hex of SDC Forest and climb up."
+  items:
+    - sprite: "30-335"
+    - sprite: "30-334"
+
+- name: "Progression 2"
+  text: "Gather 1 Large Nugget and take it to Modax. He will trade it for a key which you can use to access the Miner49er area (hold in right hand and walk onto the SE hex in Gnomes). Beware of the lair. This is optional - you can just get a MT past it."
+  items:
+    - sprite: "26-75"
+    - sprite: "27-205"
+
+- name: "Sick Caves Access"
+  text: "Gather 4 furs from nearby animals and take them to Mac. You will be able to `down` on the nearby hole into the cave."
+  items:
+    - sprite: "30-367"
+    - sprite: "30-368"
+    - sprite: "30-369"
+    - sprite: "30-370"
+
+- name: "Sick Caves 2 Access"
+  text: "Gather 5 Wraith Cloth and give to Mac` and you will be able to climb down to Sick Caves 2."
+  items:
+    - sprite: "30-282"
+
+- name: "AGI 40"
+  text: "In SDC 3 Solo Caves, you can find AGI Pots. Drinking them will increase your AGI to a base of 40."
+  items:
+    - sprite: "27-171"
+
+- name: "Stat 35"
+  text: "Throughout SDC 3 you can find flowers that increase your base stats to 35. Here are the flowers and what stat they correspond to:
+
+
+    * California Poppy = STR
+
+    * Canary Island Cress = INT
+
+    * Card Thistle = WIS
+
+    * Cardoon = CON
+
+
+    Take these flowers to Rogue in Lava Town, and have 50m in your bank, and he will give you a stat increase for the flower held in your right hand.
+    "
+  items:
+    - sprite: "30-75"
+    - sprite: "30-76"
+    - sprite: "30-77"
+    - sprite: "30-79"
+
+- name: "Crystal Resistance I"
+  text: "Find 5 Spectre Silk in Sick Caves 2 and bring them to Mac`."
+  items:
+    - sprite: "30-282"
+
+- name: "Crystal Resistance II"
+  text: "Find a Dragon Scale in Sick Caves 2 and bring it to Marburn."
+  items:
+    - sprite: "30-347"
+
+- name: "Cavern Creeper I"
+  text: "Take the scroll to Cargon to gain the first Cavern Creeper quirk."
+  items:
+    - sprite: "30-339"
+
+- name: "Cavern Creeper II"
+  text: "Find a Gnome Head and turn it in to Jaxon in Gnome Town to get the second Cavern Creeper quirk."
+  items:
+    - sprite: "31-228"
+
+- name: "Tree Hugger I"
+  text: "Smelt 8 plate armors into a silver extract and give it to Juan in Gnome Town."
+  items:
+    - sprite: "29-0"
+    - sprite: "30-347"
+
+- name: "Tree Hugger II"
+  text: "Bring a Broadleaf Arrowhead flower to Monrah near Betrayer."
+  items:
+    - sprite: "30-74"
+
+- name: "Root Armor"
+  text: "Find 1 Omnilla Skull, 1 Chum, and buy 1 Brew Pot and brew them together to make Gumbo (no brewing skill needed, but they must be brewed in SDC Town fountain). Trade the Gumbo to an npc in SDC Town for a +1 to your base armor (slot 1) Root Protective Quality. You need 1 Gumbo for +1, 3 for +2, 5 for +3, etc."
+  items:
+    - sprite: "28-64"
+    - sprite: "29-153"
+    - sprite: "30-219"
+    - sprite: "28-64"
+
+- name: "Root Weapon"
+  text: "Bring Lava Twigs to Hermit to upgrad the defense of a weapon. You need 1 Lava Twig for +1, 3 for +2, 5 for +3, etc."
+  items:
+    - sprite: "30-220"
+
+- name: "Dark Knowledge"
+  text: "Collect 40 pages and a book from Skar, Spur or OzonousMax. The pages can be found in increments of 5 in certain areas:
+
+
+    * 1-5: SDC Forest
+
+    * 6-10: Thumper Caves
+
+    * 11-15: Sick Caves
+
+    * 16-20: SDC 3 Solo Area
+
+    * 21-25: SDC 3 Meadows
+
+    * 26-30: Lava City
+
+    * 31-35: SDC 3 Water Area
+
+    * 36-40: SDC 2 IceTitan Area
+
+
+    Additionally, Corosonous and OzonousMax drop 10 random pages.
+
+    Completing this book will unlock the Dark Knowledge quirk."
+  items:
+    - sprite: "30-338"
+    - sprite: "30-339"
+
+- name: "+12 Titan"
+  text: "Collect 8 leathers and 8 plate mails. Smelt the leathers into a crystal extract and enchant it to +6. Smelt the plates into a silver extract. Smelt the +6 crystal extract, silver extract, brew pot, and a small gold nugget to receive a refined fluidic crystal. Enchant the crystal to +6. Take the crystal to Alex with a Titan weapon to have it improved."
+
+- name: "OzonousMax Access"
+  text: "Collect the keys from Skar and Spur and use them to open the doors leading to OzonousMax."
+  items:
+    - sprite: "30-251"
+    - sprite: "30-251"

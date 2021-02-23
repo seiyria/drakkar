@@ -1,0 +1,102 @@
+
+- name: "Sullen Keep Forest/Cave"
+  img: "forest-cave"
+  nodes:
+    - name: "Cave Entry"
+      x: 9
+      y: 9
+      related_quests:
+        - "Progression 1"
+        
+    - name: "Cave Exit"
+      x: 11
+      y: 11
+
+    - name: "Shady"
+      desc: "Sells anti-prone potions for 3mil"
+      x: 29
+      y: 11
+
+    - name: "SK Climb Up"
+      x: 21
+      y: 28
+      related_quests:
+        - "Progression 2"
+
+    - name: "Basilisk"
+      lair: true
+      x: 29
+      y: 26
+      width: 2
+      height: 2
+
+- name: "Sullen Keep Base"
+  img: "keep+0"
+  nodes:
+    - name: "Forger"
+      map: "keep+1"
+      x: 29
+      y: 3
+      related_quests:
+        - "SK Armor"
+
+    - name: "Armornon"
+      x: 7
+      y: 18
+      related_quests:
+        - "SK Armor"
+
+    - name: "Black Captain"
+      lair: true
+      x: 18
+      y: 7
+
+    - name: "Stairs: Barracks"
+      x: 28
+      y: 24
+      related_quests:
+        - "Progression 3"
+
+- name: "Sullen Keep +1"
+  img: "keep+1"
+  nodes:
+    - name: "Stairs: Black Level"
+      x: 2
+      y: 10
+      related_quests:
+        - "Progression 4"
+
+    - name: "Stairs: Green Level"
+      x: 23
+      y: 10
+      related_quests:
+        - "Progression 5"
+
+    - name: "Gold Captain"
+      lair: true
+      x: 14
+      y: 3
+
+- name: "Sullen Keep +2"
+  img: "keep+2"
+  nodes:
+    - name: "Stairs: Gold Level"
+      x: 22
+      y: 10
+
+    - name: "Stairs: Parapet"
+      x: 1
+      y: 10
+
+    - name: "Green Captain"
+      lair: true
+      x: 13
+      y: 3
+
+
+- name: "Sullen Keep Parapet"
+  img: "keep+3"
+  nodes:
+  - name: "Stairs: Green Level"
+    x: 3
+    y: 16

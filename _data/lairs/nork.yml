@@ -1,0 +1,404 @@
+- name: "Goblin Lord"
+  text: ""
+  found: "Nork-1"
+  sprite: "6-50"
+  drops:
+    - name: "Goblin Lord Gem"
+  quests:
+    - name: "Goblin Lord Access"
+    - name: "Hector's Ring"
+
+- name: "Lizard King"
+  text: "Uses fireball."
+  found: "Nork-2"
+  sprite: "6-220"
+  drops:
+    - name: "Annalie's Doll"
+  quests:
+    - name: "Lizard King Access"
+
+- name: "Mummy King"
+  text: "Tan for cloak."
+  found: "Nork-3"
+  sprite: "6-65"
+  drops:
+    - name: "Mummy Cloak"
+    - name: "Mummy King Crossbow"
+  quests:
+    - name: "Mummy King Access"
+
+- name: "Naga"
+  text: "Bites (w/ poison). Uses darkness. Tan for scales. Eats."
+  found: "Prisons"
+  sprite: "6-120"
+  drops:
+    - name: "Naga Scales"
+  quests:
+    - name: "Prisons Naga Access"
+
+- name: "Roc"
+  text: "Tan for feathers."
+  found: "Nork-3"
+  sprite: "6-108"
+  drops:
+    - name: "Roc Feathers"
+    - name: "Roc Egg"
+  quests:
+    - name: "Roc Access"
+    - name: "Poison Bow"
+
+- name: "Ghost"
+  text: "Can hide. Tan for cloak."
+  found: "Nork-3.5"
+  sprite: "6-94"
+  drops:
+    - name: "Ghost Cloak"
+    - name: "Ghost Pearl"
+  quests:
+    - name: "Roc Access"
+    - name: "Poison Bow"
+
+- name: "Basilisk"
+  text: "Stuns. Charges. Turns you to stone on death. Tan for scales."
+  found: "NW of Volcano Town"
+  sprite: "6-134"
+  drops:
+    - name: "Basilisk Scales"
+  quests:
+    - name: "Basilisk Access"
+
+- name: "Griffon"
+  text: "Uses Icebreath. Tan for armor. Eats."
+  found: "South of Nork, near Red Dragon/Volcano Town, Fisheries"
+  sprite: "6-121"
+  drops:
+    - name: "Griffon Longsword"
+    - name: "Griffon Feathers"
+
+- name: "Big Griffon"
+  text: "Uses Icebreath. Tan for armor. Eats. Spawns periodically instead of a normal Griffon."
+  found: "South of Nork, near Red Dragon/Volcano Town, Fisheries"
+  sprite: "6-121"
+  drops:
+    - name: "Griffon Longsword"
+    - name: "Griffon Feathers (Big)"
+
+- name: "Red Dragon"
+  text: "Uses firebreath. Steals IH. Tan for scales. Eats."
+  found: "South of Volcano Town, Nork-5, beneath Fate Pools"
+  sprite: "6-81"
+  drops:
+    - name: "Red Dragon Amulet (Fire)"
+    - name: "Dragon Gauntlets"
+    - name: "Red Dragon Scales (Fire)"
+
+- name: "Firestorm Red Dragon"
+  text: "Uses firestorm. Steals IH. Tan for scales. Eats."
+  found: "Nork-6"
+  sprite: "6-81"
+  drops:
+    - name: "Red Dragon Amulet (Firestorm)"
+    - name: "Dragon Gauntlets"
+    - name: "Red Dragon Scales (Firestorm)"
+
+- name: "Big Red Dragon"
+  text: "Uses firebreath. Steals IH. Tan for scales. Eats."
+  found: "Beneath Fate Pools"
+  sprite: "6-81"
+  drops:
+    - name: "Haste Boots"
+    - name: "Red Dragon Scales (Big)"
+
+- name: "Silver Dragon"
+  text: "Uses lightning. Tan for scales. Eats."
+  found: "NW of Red Dragon (Volcano Town) lair"
+  sprite: "6-85"
+  drops:
+    - name: "Silver Dragon Scales"
+    - name: "Lightning Prot Bracers"
+
+- name: "Black Dragon"
+  text: "Uses acid. Tan for scales. Eats."
+  found: "Fate Pools area, under Volcano Town"
+  sprite: "6-84"
+  drops:
+    - name: "Black Dragon Scales"
+    - name: "Acid Prot Amulet"
+
+- name: "Leviathan"
+  text: "Bites (w/ poison). Bring respirate. Eats."
+  found: "SW of Frore"
+  sprite: "6-125"
+  drops:
+    - name: "Leviathan Egg"
+  quests:
+    - name: "Fullplate"
+
+- name: "Minotaur"
+  text: ""
+  found: "Prisons, W of Frore"
+  sprite: "6-123"
+  drops:
+    - name: "Minotaur Axe"
+  quests:
+    - name: "+4 Halberd"
+
+- name: "King Minotaur"
+  text: "Axe is thrown. Eats."
+  found: "King Minotaur Dungeon-5"
+  sprite: "6-221"
+  drops:
+    - name: "King Minotaur Axe"
+  quests:
+    - name: "Attack Sash"
+
+- name: "Kaxmaxmillion"
+  text: ""
+  found: "Funhouse"
+  sprite: "6-110"
+  drops:
+    - name: "Kaxx Dagger"
+
+- name: "Slicer"
+  text: ""
+  found: "Nork-7"
+  sprite: "7-3"
+  drops:
+    - name: "Slicer Sword (Longsword)"
+    - name: "Slicer Sword (Greatsword)"
+
+- name: "Smasher"
+  text: "Casts darkness"
+  found: "Nork-7"
+  sprite: "10-187"
+  drops:
+    - name: "Smasher Mace"
+
+- name: "Halberd Giant"
+  text: ""
+  found: "SW of Frore, near Leviathan"
+  sprite: "6-222"
+  drops:
+    - name: "Halberd Giant Halberd"
+
+- name: "Cloud Giant"
+  text: "Eats, somehow."
+  found: "Evil Nork - School Building"
+  sprite: "6-122"
+
+- name: "Hill Giant"
+  text: ""
+  found: "S of Nork Griffon"
+  sprite: "6-222"
+  drops:
+    - name: "Push Club"
+  quests:
+    - name: "Hill Giant Access"
+
+- name: "Fire Giant"
+  text: ""
+  found: "Fire Plains"
+  sprite: "6-223"
+  drops:
+    - name: "Fire Giant Boots"
+    - name: "Fire Giant Halberd"
+
+- name: "Spot"
+  text: "Uses firestorm. Tan for scales."
+  found: "Fire Plains"
+  sprite: "6-81"
+  drops:
+    - name: "Red Dragon Amulet (Firestorm)"
+    - name: "Red Dragon Scales (Firestorm)"
+
+- name: "Big Lich"
+  text: "Uses espear, darkness."
+  sprite: "6-130"
+  found: "Lich Dungeon, S of Frore"
+  drops:
+    - name: "Regen Amulet (Big)"
+  quests:
+    - name: "Big Lich Access"
+
+- name: "Maeling Tengu"
+  text: "Uses enmiss."
+  sprite: "6-101"
+  found: "Maeling-4"
+  drops:
+    - name: "Gem (Pulsating)"
+    - name: "Super Enmiss Robe"
+  quests:
+    - name: "Maeling Dungeon Lair Access"
+
+- name: "Maeling Ninja"
+  text: ""
+  sprite: "6-100"
+  found: "Maeling-4"
+  drops:
+    - name: "Gem (Ray)"
+    - name: "Maeling Ninja Katana"
+  quests:
+    - name: "Maeling Dungeon Lair Access"
+
+- name: "Maeling Stunner"
+  text: "Uses stun. Weapon is ranged."
+  sprite: "6-61"
+  found: "Maeling-4"
+  drops:
+    - name: "Gem (Flecked)"
+    - name: "Lightning Tanto"
+  quests:
+    - name: "Maeling Dungeon Lair Access"
+
+- name: "Maeling Golem"
+  text: ""
+  sprite: "6-105"
+  found: "Maeling-4"
+  drops:
+    - name: "Gem (Trapped)"
+  quests:
+    - name: "Maeling Dungeon Lair Access"
+
+- name: "Maeling Double Ninja"
+  text: ""
+  sprite: "6-100"
+  drops:
+    - name: "Silver Ninja Robe"
+  quests:
+    - name: "Maeling Dungeon Lair Access"
+
+- name: "Stunrah"
+  text: "Uses stun. Alt 2 only. Must be < lvl 18 to damage."
+  sprite: "6-61"
+  found: "Underneath Paladin Trainer, then W"
+  drops:
+    - name: "Stunrah Amulet"
+
+- name: "Volton"
+  text: "Alt 2 only. Must be < lvl 18 to damage."
+  sprite: "6-104"
+  found: "Up from Volcano Town Red Dragon lair, then E"
+  drops:
+    - name: "Volton Amulet"
+
+- name: "Breshard"
+  text: "Stiletto poisons and sucks stats."
+  sprite: "6-131"
+  found: "Up from Big Dragon Lair, through a wall."
+  drops:
+    - name: "Breshard Stiletto"
+    - name: "Breshard Shield"
+
+- name: "Big Rakshasha"
+  text: "Uses Psicrush, charm, mindwipe. Tan for cloak."
+  sprite: "6-60"
+  found: "Nork-8"
+  drops:
+    - name: "Rakshasha Cloak (Glowing)"
+
+- name: "Uther"
+  text: "Sucks xp/skill on hit."
+  sprite: "6-126"
+  found: "Uther's Lair"
+  drops:
+    - name: "Uther's Broadsword"
+    - name: "Uther's Plate"
+  quests:
+    - name: "Uther Access"
+    - name: "Sabre"
+
+- name: "Big Naga"
+  text: "Uses darkness, stun, poison. Tan for armor. Eats."
+  sprite: "6-120"
+  found: "Nork-8"
+  drops:
+    - name: "Naga Scales (Big)"
+  quests:
+    - name: "Nork-9 Access"
+
+- name: "Erodian"
+  text: ""
+  sprite: "6-140"
+  found: "Evil Nork"
+  drops:
+    - name: "Erodian Crossbow"
+
+- name: "Vampire"
+  text: "Sucks xp/skill on hit. Can hide."
+  sprite: "6-133"
+  found: "W of Frore"
+  drops:
+    - name: "Vampire Heart"
+  quests:
+    - name: "Vampire Gauntlets"
+
+- name: "Wardens"
+  text: "Sucks xp/skill on hit. Can hide."
+  sprite: "6-133"
+  found: "Nork-10"
+  drops:
+    - name: "Warden Dagger"
+    - name: "Warden Heart"
+  quests:
+    - name: "NeoLightning Hammer"
+    - name: "Excalibur"
+
+- name: "Guardian"
+  text: "Uses stun, deplete, psicrush, firestorm. Dying pops gear."
+  sprite: "6-124"
+  found: "South of prisons, west side of Dark Tower"
+
+- name: "Seahag"
+  text: "Shreds. Minions shred. Uses stun, charm."
+  sprite: "7-18"
+  drops:
+    - name: "Seahag Robe"
+  quests:
+    - name: "Seahag Class Armor"
+
+- name: "Chipuda"
+  text: "Uses shockwave, acid, darkness, espear. Staff takes hp on hit."
+  found: "North of Frore, upstairs"
+  sprite: "6-132"
+  drops:
+    - name: "Chipuda's Staff"
+    - name: "Regen Amulet (Big)"
+  quests:
+    - name: "Chipuda Access"
+
+- name: "Slith"
+  text: "Espears once per eye (6 by default). Must lose all eyes (kill it 6 times). Sucks xp/skill on bite. Tan for eye."
+  found: "King Minotaur Dungeon-5"
+  sprite: "10-191"
+  drops:
+    - name: "Slith Eye"
+    - name: "Slith Amber"
+    - name: "Slith Stat Pot"
+  quests:
+    - name: "Slith Staff"
+    - name: "Slith Robe"
+
+- name: "Snowbeast"
+  text: "Uses stun. Tan for armor."
+  found: "North of Frore (outside north gate)"
+  sprite: "6-129"
+  drops:
+    - name: "Snowbeast Fur"
+    - name: "Snowbeast Skull"
+  quests:
+    - name: "King's Key"
+
+- name: "Berovar"
+  text: ""
+  found: "Clubhouse, east stairs"
+  sprite: "6-162"
+  drops:
+    - name: "Berovar Greatsword"
+
+- name: "Durgon"
+  text: "Uses espear."
+  found: "Clubhouse, east stairs, past Berovar"
+  sprite: "6-143"
+  drops:
+    - name: "Durgon Amulet"
+    - name: "Durgon Staff"

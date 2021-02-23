@@ -1,0 +1,237 @@
+
+- name: "+100 HP (Guard Replacement)"
+  text: "Go find Drizzle in Tree Town and say `dri, replacement`. He will tell you a name of the guard, and go to the Guard House (north of tree climb up) and say `xxx, replacement is <name>` to the NPC in the Guard House."
+
+- name: "+100 HP (Graaagh's Halberd)"
+  text: "Take Graagh's Halberd to Duke Moreal in the well in Graaagh's Castle."
+  items:
+    - sprite: "28-135"
+
+- name: "+100 HP (Juntes' Brother)"
+  text: "Find Ionas in Desert Town and talk to him, and he will give you a ring to take to Juntes. Go southwest into the swamp and find Juntes and click him while holding the ring in your right hand, he will give you a ring to take to Ionas. Take it back to Ionas."
+  items:
+    - sprite: "27-154"
+    - sprite: "27-155"
+
+- name: "+100 HP (Kaldor Shackle)"
+  text: "Kill Kaldor to get a key to his Jail Cell (east of the lair). Open the cell and the prisoner will give you Kaldor Shackles upon click (it is not a bad idea to stockpile these as the HP Doc asks for them). Go find Drizzle in Tree Town and click him to get your reward."
+  items:
+    - sprite: "28-47"
+    - sprite: "27-198"
+
+- name: "Stat Pots"
+  text: "There are a bunch of items you can find and trade in Cobrahn to get stats to 21 (and EP can go to that particular class max). Here are the items you take [where the item is found] (the stat they give), and where you take them:
+
+
+    * Grub [Psi Tower] (EP) - SW Caves
+
+    * Cedar Packet [Forest Floor] (CON) - Near Tree Town
+
+    * Sapphire [Giant Keep] (WIS) - Cave NW of Desert Town
+
+    * Silver Nugget [Timmy Caves] (STR) - NW Caves, north and up stairs
+
+    * Turnip [Giant Keep] (INT) - NW Caves, east side
+
+    * Brass Ring [Desert Area] (AGI) - Timmy Caves
+
+    * Mandrake Packet [Swamp] (WIL) - east side of Jungle
+"
+  items:
+    - sprite: "26-78"
+    - sprite: "26-164"
+    - sprite: "26-88"
+    - sprite: "26-161"
+    - sprite: "26-69"
+    - sprite: "26-163"
+    - sprite: "26-74"
+    - sprite: "26-159"
+    - sprite: "26-101"
+    - sprite: "26-165"
+    - sprite: "26-64"
+    - sprite: "26-162"
+    - sprite: "26-90"
+    - sprite: "26-160"
+
+- name: "Doom Town Access"
+  text: "When in the Giants Keep, find the four pillars. The \"Pillar Dance\", as it were, is to step on the north hex, west hex, south hex, east hex, and then the middle one. You should now be able to get to Doom Town."
+
+- name: "Anti-Steve Amulet"
+  text: "Find a cthon egg in the Psi Tower and trade it to Murg in Desert Town to receive this amulet. Wearing it will make it so you don't lose 2 hp on death."
+  items:
+    - sprite: "26-121"
+    - sprite: "26-10"
+
+- name: "Forged Weapons"
+  text: "Get Beetle Armor and a Kaldor Dagger as well as a store-bought weapon of your choice and take them to Artifex. Hold the Beetle Armor and the Kaldor Dagger and click on the trader. Then hold the store-bought weapon and click again to get your Forged Weapon."
+  items:
+    - sprite: "26-16"
+    - sprite: "28-108"
+    - sprite: "26-173"
+    - sprite: "26-173"
+    - sprite: "26-170"
+    - sprite: "28-114"
+    - sprite: "27-112"
+    - sprite: "26-171"
+    - sprite: "26-169"
+    - sprite: "26-172"
+    - sprite: "27-140"
+    - sprite: "26-173"
+    - sprite: "27-111"
+    - sprite: "26-174"
+    - sprite: "27-118"
+    - sprite: "26-176"
+    - sprite: "27-109"
+    - sprite: "26-170"
+    - sprite: "27-151"
+    - sprite: "26-152"
+
+- name: "Improva Weapons"
+  text: "Gather the 4 elemental scrolls and a Forged Longsword, Shortsword, or Hammer and take them to Improva in UD-1."
+  items:
+    - sprite: "26-180"
+    - sprite: "26-180"
+    - sprite: "26-180"
+    - sprite: "26-180"
+    - sprite: "26-174"
+    - sprite: "28-123"
+    - sprite: "26-170"
+    - sprite: "28-113"
+    - sprite: "26-173"
+    - sprite: "28-147"
+
+- name: "Energylance"
+  text: "As a Mentalist at skill 24 or greater, you can learn `energylance`. To do so, you must collect the 4 amulets from the Psi Tower and hold them in your hand 1 at a time as you step around the portal on the top floor of the Tower until you \"hear a click\". Then step on the teleporter. You'll find the Energylance Scaler here. You can trade the robe to an npc in Timmy Town to be taught `energylance`."
+  items:
+    - sprite: "28-184"
+    - sprite: "28-186"
+    - sprite: "28-187"
+    - sprite: "28-188"
+    - sprite: "28-181"
+
+- name: "Titanium Shield"
+  text: "Find a Wooden Bolt (drops in the Giant Keep) and take it to the Spectre Dungeon and find Igli. Trade him the Wooden Bolt for a Spectre Sash. Take the Spectre Sash to Sasha in the same dungeon and trade it for the Spectre Ring. Trade the Spectre Ring for the Moon Shield in the Spectre lair. When you have the Moon Shield you can trade it for the Titanium Shield in UD-2."
+  items:
+    - sprite: "27-116"
+    - sprite: "27-150"
+    - sprite: "26-38"
+    - sprite: "28-211"
+    - sprite: "28-26"
+
+- name: "Kite Shield"
+  text: "Trade a DeathSasquatch fur and a Titanium Shield to the trader above the Titanium Shield Trader in UD-2."
+  items:
+    - sprite: "27-192"
+    - sprite: "28-26"
+    - sprite: "26-136"
+
+- name: "Lucien Gauntlets"
+  text: "Trade a Roc egg to Lucien for his Gauntlets."
+  items:
+    - sprite: "28-82"
+    - sprite: "28-156"
+
+- name: "Beetle Fullplate"
+  text: "Take Beetle Scales to an NPC in Timmy Town and click to trade for the Beetle Fullplate."
+  items:
+    - sprite: "26-16"
+    - sprite: "28-74"
+
+- name: "Abner Boots"
+  text: "Trade Silver Dragon Scales for Abner Boots in Tree Town."
+  items:
+    - sprite: "2-27"
+    - sprite: "28-208"
+
+- name: "Jasper Boots"
+  text: "Trade a tanned alligator to Jasper."
+  items:
+    - sprite: "28-205"
+
+- name: "Infravision Helm"
+  text: "Find Maggio in Timmy Town and click him to get a name to kill. Search for that name in Desert Town and make sure he dies. He will drop Maggio's Ring. Take the ring to Maggio and trade it to him, and he will give you an Infravision Helm."
+  items:
+    - sprite: "26-38"
+    - sprite: "27-149"
+
+- name: "Green Dragon Helm"
+  text: "Take Green Dragon Scales to the trader behind the Green Dragon lair and trade for the Green Dragon Helm."
+  items:
+    - sprite: "29-6"
+    - sprite: "28-161"
+
+- name: "Po Earthcrush Prot Bracers"
+  text: "Kill Pokick and Pomend and take both of their bracers to trade to Prisona for a Po Ring. Trade the Po Ring to someone for the Po Earthcrush Prot Bracers."
+  items:
+    - sprite: "27-148"
+    - sprite: "27-148"
+    - sprite: "27-129"
+    - sprite: "27-148"
+
+- name: "Earthcrush Prot Amulet"
+  text: "Take a Gold Brick to an NPC in Desert Town and trade for the amulet."
+  items:
+    - sprite: "28-103"
+    - sprite: "28-8"
+
+- name: "Padded Helms"
+  text: "Take Large Yeti Fur and other helm to Merton in Timmy Town. Trade them for a padded helm (better versions of the previous helm). Most helms can be padded (if you have a full list of items+stats, please submit)."
+  items:
+    - sprite: "27-192"
+    
+- name: "Padded Armor"
+  text: "Take Large Yeti Fur and other armor to the padding NPC in Ningizidda's lair (locked behind a door). Trade them for padded armor (better versions of the previous armor). Most armor can be padded (if you have a full list of items+stats, please submit)."
+  items:
+    - sprite: "27-192"
+
+- name: "3oz Constitution Major"
+  text: "Talk to Bob in Tree Town. He will give you a note to take to someone in Timmy Town, who will, in turn, send you to someone in Desert Town. Go talk to Bob afterwards."
+  items:
+    - sprite: "27-177"
+
+- name: "Shalalala Mini-Fate Potion"
+  text: "Talk to Huddleston in Timmy Town to get a number, then go to Desert Town and tell Shalalala the number (`sha, ###`)."
+  items:
+    - sprite: "27-167"
+
+- name: "Dion Mini-Fate Potion"
+  text: "Find Dion on the world map and give her either a gem with value >30k or a ring with value >6k. All UD-5 gems work for this purpose. After a few times, Dion will run to a new place."
+  items:
+    - sprite: "27-167"
+
+- name: "Conqueror's Club Access"
+  text: "Take a Chipuda Staff, King's Key, Berovar Greatsword, GoblinKing Axe, Mujaba Dagger, BanditLord Shortsword, Graaagh Halberd, Loriapi Staff, and Kaldor Mace to Conqueros above Vanidor's lair. PS: The password is Zebra!"
+  items:
+    - sprite: "27-182"
+    - sprite: "28-54"
+    - sprite: "28-130"
+    - sprite: "28-150"
+    - sprite: "28-107"
+    - sprite: "28-117"
+    - sprite: "28-135"
+    - sprite: "28-152"
+    - sprite: "28-142"
+
+- name: "King's Robe"
+  text: "Take a Graaagh Halberd and a Loriapi Robe to the NPC in Conqueror's Club and trade them for the King's Robe."
+  items:
+    - sprite: "28-135"
+    - sprite: "28-91"
+    - sprite: "28-173"
+
+- name: "Timmy Atonement"
+  text: "Do a quest that involves Timmy in Timmy Town to get an atonement."
+
+- name: "Unprone Gear"
+  text: "Take 2 of the same item to an NPC in the Conqueror's Club and he will give you one that does not prone."
+
+- name: "Lair Regen"
+  text: "Take a Regen Rock to an NPC in the Conqueror's Club and he will regen either Beetle, Graaagh, or Loriapi."
+  items:
+    - sprite: "26-71"
+
+- name: "Lazloth Access"
+  text: "Go up stairs in Conqueror's Club. Kill Ooga, and use the key to unlock the door. Next puzzle, place the 4 Espear bows (from killing archers) on the SW tiled hex. After that, in the air puzzle, type in these steps: E S E SW SE. Then you'll be at Lazloths lair."
+
+- name: "Lanapi Access"
+  text: "Get a killshot on Lazloth to get access to Lanapis lair."

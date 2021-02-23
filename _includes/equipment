@@ -1,0 +1,85 @@
+{% include base_path %}
+
+{% assign equipment = all_equipment.[include.type] %}
+
+{% if equipment %}
+<div class="equipment equipment-{{include.type}}" id="{{include.name}}">
+  <h3>
+    {{include.name}} <small><a href="#top">[Back to Top]</a></small>
+  </h3>
+  <div class="item__table">
+
+    <table>
+      <thead>
+        <th width="96"></th>
+        <th>Name</th>
+        <th>Attributes</th>
+        <th>Found</th>
+        <th>Drops</th>
+        <th>Requirements</th>
+        <th>Quests</th>
+      </thead>
+
+      <tbody>
+
+      {% for f in equipment %}
+        <tr id="{{ f.name | cgi_escape }}" itemscope itemtype="http://schema.org/IndividualProduct" itemid="#{{include.name}}-{{ f.name | cgi_escape }}">
+
+          <td class="sprite-container">
+            <img itemprop="image" src="{{ f.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" alt="{{f.name}}" />
+          </td>
+          <td>
+            <a href="#{{ f.name | cgi_escape }}">
+            <span itemprop="name">{{ f.name }}</span>
+
+            <span class="hidden" itemprop="description">
+              <strong>Attributes</strong>: {{ f.attrs }}<br>
+              <strong>Found At</strong>: {{ f.found }}<br>
+              <strong>Dropped By</strong>: {{ f.drops | join:', ' }}<br>
+              <strong>Requirements</strong>: {{ f.reqs }}<br>
+            </span>
+
+            </a>
+          </td>
+          <td>{{ f.attrs }}</td>
+          <td>{{ f.found }}</td>
+          <td>
+            <ul class="quest-list">
+            {% for d in f.drops %}
+            <li>
+              {% if d.lair %}
+              <a href="./lairs#{{ d.name | cgi_escape }}">{{ d.name }}</a>
+              {% else %}
+              {{ d.name }}
+              {% endif %}
+            </li>
+            {% endfor %}
+            </ul>
+          </td>
+          <td>{{ f.reqs }}</td>
+          <td>
+            <ul class="quest-list">
+            {% for q in f.quests %}
+              <li>
+                {% if q.scenario %}
+                  <a href="../{{ q.scenario }}/quests#{{q.name | cgi_escape}}">{{ q.name }}</a>
+                {% endif %}
+
+                {% unless q.scenario %}
+                  <a href="./quests#{{q.name | cgi_escape}}">{{ q.name }}</a>
+                {% endunless %}
+              </li>
+            {% endfor %}
+            </ul>
+          </td>
+
+        </tr>
+
+      {% endfor %}
+      </tbody>
+
+    </table>
+
+  </div>
+</div>
+{% endif %}

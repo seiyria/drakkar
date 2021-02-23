@@ -1,0 +1,55 @@
+
+- name: "Beholder"
+  text: "Sucks EXP and Skill on hit."
+  found: "Medusa Area"
+  sprite: "6-73"
+  quests:
+    - name: "Progression 3"
+  drops:
+    - name: "Beholder Staff"
+
+- name: "Cave Bear"
+  text: "Grey to evil characters. Nasty. Gets nastier if you take too long."
+  found: "GDH2"
+  sprite: "6-76"
+  drops:
+    - name: "Climbing Hooks"
+  quests:
+    - name: "Bear None"
+
+- name: "FoodGuardian"
+  text: "Sucks EXP and Skill on hit. Can hit up to 8x/round, 4 strikes max per target."
+  found: "FoodGuardian Area"
+  sprite: "foodguardian_full"
+  quests:
+    - name: "Progression 4"
+  drops:
+    - name: "Barbarian Gauntlets"
+    - name: "Healer Gauntlets"
+    - name: "Mentalist Gauntlets"
+    - name: "Paladin Gauntlets"
+    - name: "Thief Gauntlets"
+    - name: "FoodGuardian Sash"
+    - name: "Climbing Twig"
+
+- name: "Medusa"
+  text: "You can wall Medusa in to make the fight easier."
+  found: "Medusa Area"
+  sprite: "7-18"
+  quests:
+    - name: "Progression 3"
+  drops:
+    - name: "Medusa Gem"
+    - name: "Medusa Shield"
+
+- name: "Merc Captain"
+  text: "Has a strong attack that can one-shot players. High HP regen."
+  found: "GDH2"
+  sprite: "6-152"
+
+- name: "Thermature"
+  text: "Casts nasty icebreath."
+  found: "Dragon River"
+  sprite: "6-88"
+  drops:
+    - name: "Thermature Ring"

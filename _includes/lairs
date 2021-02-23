@@ -1,0 +1,63 @@
+{% include base_path %}
+
+{% assign lairs = site.data.lairs.[page.lair_id] | sort:"name" %}
+
+<small><a target="_blank" href="https://github.com/seiyria/drakkar/edit/gh-pages/_data/lairs/{{ page.lair_id }}.yml">[Improve this data?]</a></small>
+
+{% if lairs %}
+<div id="top"></div>
+<h4>Go To:</h4>
+<div class="flex-container">
+  {% for q in lairs %}
+  <div class="flex-item">
+    <small><a href="#{{q.name | cgi_escape}}">{{ q.name }}</a></small>
+  </div>
+  {% endfor %}
+</div>
+
+{% for q in lairs %}
+<div id="{{q.name | cgi_escape }}" itemscope itemtype="http://schema.org/IndividualProduct" itemid="#{{q.name | cgi_escape }}">
+  <h3>
+    <span itemprop="name">{{q.name}}</span> <small><a href="#top">[Back to top]</a></small>
+  </h3>
+  <h5>Found At: {{q.found}}</h5>
+  <img src="{{ q.sprite | prepend: "/images/content/" | prepend: base_path | append: ".png" }}" />
+  <p itemprop="description">{{q.text | markdownify}}</p>
+
+  {% if q.drops %}
+  <div class="flex-container">
+    <div class="flex-item">
+      <strong><small>Drops:</small></strong>
+    </div>
+    {% for d in q.drops %}
+    <small class="flex-item">
+      <a href="./items#{{d.name | cgi_escape}}">{{ d.name }}</a>
+    </small>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if q.quests %}
+  <div class="flex-container">
+    <div class="flex-item">
+      <strong><small>Related Quests:</small></strong>
+    </div>
+    {% for d in q.quests %}
+    <small class="flex-item">
+      {% if d.scenario %}
+        <a href="../{{ d.scenario }}/quests#{{d.name | cgi_escape}}">{{ d.name }}</a>
+      {% endif %}
+
+      {% unless d.scenario %}
+        <a href="./quests#{{d.name | cgi_escape}}">{{ d.name }}</a>
+      {% endunless %}
+    </small>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+{% endfor %}
+
+{% else %}
+There are no lairs listed for this area.
+{% endif %}

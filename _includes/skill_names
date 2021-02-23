@@ -1,0 +1,22 @@
+{% include base_path %}
+
+{% assign category = include.category %}
+
+<table>
+  <thead>
+    <th>Level</th>
+    <th>Skill Title</th>
+  </thead>
+
+  <tbody>
+
+  {% for f in site.data.skill_names[category] %}
+    <tr>
+      <td>{{ forloop.index0 }}</td>
+      <td>{{ f }}</td>
+    </tr>
+
+  {% endfor %}
+  </tbody>
+
+</table>

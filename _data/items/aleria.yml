@@ -1,0 +1,329 @@
+
+empty:
+  - name:
+    reqs:
+    attrs:
+    found:
+    drops:
+    sprite:
+    quests:
+
+amulets:
+  - name: "Poison Amulet"
+    reqs:
+    attrs: "Poison prot"
+    found:
+    quests:
+      - name: "Poison Amulet"
+      - name: "Seldari Dungeon Access"
+    sprite: "28-1"
+
+armors:
+  - name: "Duke Plate"
+    drops:
+      - name: "Duke Talinar"
+        lair: true
+    sprite: "26-22"
+
+  - name: "Seldari Jacket"
+    drops:
+      - name: "seldari"
+    sprite: "26-20"
+
+  - name: "Winter Wolf Fur"
+    drops:
+      - name: "winterwolf"
+    sprite: "26-109"
+
+boots:
+  - name: "Fire Lizard Boots"
+    reqs:
+    attrs: "Fire Prot"
+    found:
+    drops:
+      - name: "Fire Lizard"
+        lair: true
+    sprite: "28-62"
+
+  - name: "Haste Boots"
+    reqs:
+    attrs: "+3 Movement"
+    found:
+    drops:
+      - name: "Hippogriff"
+        lair: true
+    sprite: "28-25"
+
+  - name: "Combat Boots"
+    reqs:
+    attrs: "+2"
+    found:
+    sprite: "28-60"
+
+  - name: "Snow Boots"
+    reqs:
+    attrs: "Ice Prot"
+    found:
+    sprite: "28-61"
+
+  - name: "Succor Boots"
+    reqs:
+    attrs: "+2"
+    found:
+    sprite: "28-207"
+
+  - name: "Sandals"
+    reqs: "Martialist"
+    attrs: "+4"
+    sprite: "26-104"
+
+bracers:
+  - name: "Enmiss Bracers"
+    reqs:
+    attrs: "Enmiss Prot"
+    found:
+    drops:
+    sprite: "26-12"
+
+  - name: "Lightning Bracers"
+    reqs:
+    attrs: "Lightning Prot"
+    found:
+    drops:
+    sprite: "26-14"
+
+earrings:
+helms:
+  - name: "Good Helm"
+    reqs: "G/G"
+    attrs: "+1 Willpower, Featherfall"
+    found:
+    drops:
+    sprite: "28-164"
+    quests:
+      - name: "Alerian Good Quest"
+
+  - name: "Neutral Helm"
+    reqs: "N/N"
+    attrs: "+2 AGI"
+    found:
+    drops:
+    sprite: "26-28"
+    quests:
+      - name: "Neutral Helm"
+
+  - name: "Evil Helm"
+    reqs: "E/E"
+    attrs: "Limited Infravision"
+    found:
+    drops:
+    sprite: "26-30"
+    quests:
+      - name: "Alerian Evil Quest"
+
+gauntlets:
+  - name: "Chitin Claws"
+    attrs: "+1"
+    sprite: "28-160"
+
+  - name: "Paladin Gauntlets"
+    reqs: "Fighter, Paladin, Fighter/Mentalist"
+    attrs: "???"
+    found:
+    drops:
+    sprite: "26-139"
+
+rings:
+  - name: "Light Ring"
+    reqs:
+    attrs: "+1 Luck"
+    found:
+    drops:
+    sprite: "28-190"
+    quests:
+      - name: "Light Ring"
+      - name: "Seldari Forest Access"
+
+  - name: "Bone Ring"
+    reqs:
+    attrs: "+1 EP Regen, -5 HP"
+    found:
+    drops:
+    sprite: "26-130"
+
+robes:
+  - name: "Good Robe"
+    reqs: "G/G"
+    attrs: "+1 Luck, +1 EP Regen"
+    found:
+    drops:
+    sprite: "28-171"
+    quests:
+      - name: "Tarak Robe Alignment Change"
+
+  - name: "Neutral Robe"
+    reqs: "N/N"
+    attrs: "2/0 +15 HP"
+    found:
+    drops:
+    sprite: "28-181"
+    quests:
+      - name: "Tarak Robe Alignment Change"
+
+  - name: "Tarak's Robe"
+    reqs: "E/E"
+    attrs: "See hidden characters more easily."
+    found:
+    drops:
+    sprite: "28-172"
+    quests:
+      - name: "Tarak Robe Alignment Change"
+
+  - name: "Camouflage Cloak"
+    reqs: "Thief"
+    attrs: "+2 AGI"
+    found:
+    drops:
+    sprite: "28-73"
+
+weapons:
+  - name: "Bandit Lord Shortsword"
+    attrs: "0/5"
+    drops:
+      - name: "Bandit Lord"
+        lair: true
+    sprite: "28-117"
+    quests:
+      - name: "Alerian Good Quest"
+      - name: "Alerian Neutral Quest"
+      - name: "Alerian Evil Quest"
+      - name: "Conqueror's Club Access"
+        scenario: "cob"
+
+  - name: "Defense Axe"
+    attrs: "0/3-5"
+    sprite: "28-146"
+
+  - name: "Defense Greatsword"
+    attrs: "0/4"
+    sprite: "28-127"
+
+  - name: "Defense Halberd"
+    attrs: "0/3-4"
+    sprite: "28-131"
+
+  - name: "Dread Longsword"
+    attrs: "+5, -30 HP"
+    sprite: "28-120"
+
+  - name: "GoblinKing Axe"
+    attrs: ""
+    sprite: "28-150"
+    drops:
+      - name: "GoblinKing"
+        lair: true
+    quests:
+      - name: "Light Ring"
+      - name: "Alerian Good Quest"
+
+  - name: "Koss Morningstar"
+    sprite: "28-218"
+    reqs: "E/E Fighter, Paladin, Fighter/Mentalist"
+    quests:
+      - name: "Alerian Good Quest"
+    drops:
+      - name: "Lord Koss"
+        lair: true
+
+  - name: "Kukri"
+    attrs: "+3"
+    sprite: "28-107"
+    drops:
+      - name: "Mujaba"
+        lair: true
+
+  - name: "Light Shortsword"
+    reqs: "G/G"
+    attrs: "+6, LvX Light"
+    sprite: "28-114"
+
+  - name: "Obsidian Dagger"
+    attrs: "+6"
+    sprite: "28-110"
+
+  - name: "Push Club"
+    attrs: "Lv? Push"
+    sprite: "27-152"
+    drops:
+      - name: "Kragan"
+        lair: true
+
+  - name: "Seldari Bow"
+    attrs: ""
+    sprite: "28-139"
+    drops:
+      - name: "seldari"
+
+  - name: "Slimebeast Hammer"
+    sprite: "26-58"
+    quests:
+      - name: "Tarak Castle Access"
+
+  - name: "Tarak Blast Hammer"
+    attrs: "Lv? Blast"
+    sprite: "28-143"
+    drops:
+      - name: "Tarak"
+        lair: true
+
+  - name: "Tower Shield"
+    reqs: "G/G"
+    attrs: "0/5, +30 HP"
+    sprite: "28-213"
+    drops:
+      - name: "Duke Talinar"
+        lair: true
+    quests:
+      - name: "Alerian Evil Quest"
+
+others:
+  - name: "Random Stat Pot"
+    sprite: "26-95"
+    
+  - name: "Floating Pot"
+    sprite: "26-42"
+    quests:
+      - name: "Tarak Castle Access"
+
+  - name: "Mujaba's Key"
+    attrs: "Opens many doors in every scenario"
+    sprite: "28-53"
+    drops:
+      - name: "Mujaba"
+        lair: true
+
+  - name: "Pink Leaf"
+    sprite: "26-124"
+    quests:
+      - name: "Alerian Good Quest"
+      - name: "Alerian Neutral Quest"
+      - name: "Alerian Evil Quest"
+
+  - name: "Ela's Goblet"
+    sprite: "26-137"
+
+  - name: "Seldari Queen Goblet"
+    sprite: "26-138"
+    quests:
+      - name: "Alerian Good Quest"
+      - name: "Alerian Neutral Quest"
+      - name: "Alerian Evil Quest"
+
+  - name: "Seldari Eye"
+    attrs: "Eat for Vision"
+    found: "Treehouse Store"
+    sprite: "26-63"
+    drops:
+      - name: "seldari"
+    quests:
+      - name: "Seldari Queen Access"
