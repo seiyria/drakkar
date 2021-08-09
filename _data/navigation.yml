@@ -20,6 +20,8 @@ other:
       url: /other/audio-gallery
     - title: "Brewing Guide"
       url: /other/brewing
+    - title: "DrakProxy"
+      url: /other/proxy
     - title: "EXP Chart"
       url: /other/exp
     - title: "HP/EP Doc Items"
