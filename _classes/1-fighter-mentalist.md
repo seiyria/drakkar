@@ -9,7 +9,7 @@ excerpt: "Kingdom of Drakkar Fighter/Mentalist Information"
 A combat/psionic hybrid. There are two ways to grow into this class:
 
 * Start as a [Mentalist]({{ base_path }}/classes/mentalist), have more EP than normal, and the option to obtain energylance
-* Start as a [Fighter]({{ base_path }}/classes/fighter), and be able to gain [weapon specializations]({{ base_path }}/other/weaponspecs)
+* Start as a [Fighter]({{ base_path }}/classes/fighter), and be able to gain [weapon specializations]({{ base_path }}/other/weapon-specs)
 
 Once you rest past experience level 20, you can no longer dedicate to this class.
 
