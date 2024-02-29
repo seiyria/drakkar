@@ -85,7 +85,7 @@ amulets:
 armors:
   - name: "Rat Fur"
     reqs:
-    attrs: "Psicutter"
+    attrs:
     found:
     drops:
       - name: "Rat"
@@ -93,7 +93,7 @@ armors:
 
   - name: "Roc Feathers"
     reqs:
-    attrs: "Psicutter"
+    attrs:
     found:
     drops:
       - name: "Roc"
@@ -108,9 +108,9 @@ armors:
         lair: true
     sprite: "27-204"
 
-  - name: "Griffon Feathers (Big)"
+  - name: "Big Griffon Feathers (Bruce)"
     reqs:
-    attrs: "250 Fire/Ice Prot"
+    attrs: "200 Fire/Ice Prot"
     found:
     drops:
       - name: "Big Griffon"
@@ -125,35 +125,39 @@ armors:
     sprite: "28-21"
 
   - name: "Naga Scales"
+    reqs: "level 10"
     attrs: "20 Fire/Ice Prot"
     drops:
       - name: "Naga"
         lair: true
     sprite: "27-189"
 
-  - name: "Naga Scales (Big)"
-    attrs: "???"
+  - name: "Big Naga Scales (Mama)"
+    reqs: "level 12"
+    attrs: "220 Fire/Ice Prot"
     drops:
       - name: "Big Naga"
         lair: true
     sprite: "27-189"
 
-  - name: "Red Dragon Scales (Fire)"
+  - name: "Red Dragon Scales"
+    reqs: "level 12"
     attrs: "80 Fire/Ice Prot"
     drops:
       - name: "Red Dragon"
         lair: true
     sprite: "27-187"
 
-  - name: "Red Dragon Scales (Firestorm)"
-    attrs: "80 Fire/Ice Prot, 50 Firestorm Prot"
+  - name: "Firestorm Red Dragon Scales"
+    attrs: "150 Fire/Ice/Firestorm Prot"
     drops:
       - name: "Firestorm Red Dragon"
         lair: true
     sprite: "27-187"
 
-  - name: "Red Dragon Scales (Big)"
-    attrs: "250 Fire/Ice Prot, 100 Acid Prot"
+  - name: "Big Red Dragon Scales (Mama)"
+    reqs: "level 17"
+    attrs: "200 Fire/Ice/Acid Prot"
     drops:
       - name: "Big Red Dragon"
         lair: true
@@ -170,11 +174,10 @@ armors:
         lair: true
       - name: "Chipuda"
         lair: true
-    quests:
-      - name: "Improved Black Dragon Scales"
     sprite: "27-216"
 
   - name: "Black Dragon Scales"
+    "reqs" "level 15"
     attrs: "100 Fire/Ice/Acid Prot"
     drops:
       - name: "Black Dragon"
@@ -184,30 +187,33 @@ armors:
     sprite: "28-12"
 
   - name: "Gold Dragon Scales"
-    attrs: "70 Fire/Ice Prot, 100 Earthcrush Pto"
+    attrs: "50 Fire/Ice/Earthcrush Prot"
     drops:
       - name: "Gold Dragon"
     sprite: "27-190"
 
-  - name: "Black Dragon Scales (Improved)"
+  - name: "Improved Black Dragon Scales"
+    reqs: "level 15"
     attrs: "100 Fire/Ice/Acid/Lightning Prot"
     quests:
       - name: "Improved Black Dragon Scales"
     sprite: "28-12"
 
   - name: "Yeti Fur (Small)"
-    attrs: "50 Fire/Ice Prot"
+    attrs: "50 Ice Prot"
     drops:
       - name: "Yeti"
     sprite: "27-192"
 
   - name: "Yeti Fur (Big)"
-    attrs: "???"
+    attrs: "Psicutter"
     drops:
       - name: "Yeti"
     sprite: "27-192"
 
   - name: "Snowbeast Fur"
+    reqs: "Evil alignment"
+    attrs: "Psicutter"
     drops:
       - name: "Snowbeast"
         lair: true
@@ -220,28 +226,28 @@ armors:
     sprite: "27-183"
 
   - name: "Fullplate"
-    attrs: "250 Fire/Ice Prot, 100 Acid Prot"
+    attrs: "+5, 100 Fire/Ice Prot, melee damage absorption"
     quests:
       - name: "Fullplate"
     sprite: "28-74"
 
   - name: "Uther's Plate"
-    attrs: "+2 100 Fire/Ice Prot"
+    attrs: "+2, 100 Fire/Ice Prot"
     drops:
       - name: "Uther"
         lair: true
     sprite: "27-213"
 
-  - name: "Batwings"
+  - name: "Seahag Bat Armor"
     reqs: "Thief, Mentalist"
     attrs: "5/5, Infinite Succor"
     quests:
       - name: "Seahag Class Armor"
     sprite: "28-174"
 
-  - name: "White Plate"
+  - name: "Seahag Fullplate"
     reqs: "Paladin, Fighter, Fighter/Mentalist"
-    attrs: "0/6"
+    attrs: "0/6, 60 Fire/Ice Prot, melee damage absorption"
     quests:
       - name: "Seahag Class Armor"
     sprite: "26-145"
