@@ -424,7 +424,7 @@ robes:
     found: ""
     sprite: "27-125"
 
-    - name: "Frore Griffon Cloak"
+  - name: "Frore Griffon Cloak"
     attrs: "25 Fire/Ice Prot"
     found: "Frore City Armor Shop"
     sprite: "27-204"
