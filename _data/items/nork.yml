@@ -419,8 +419,18 @@ rings:
     sprite: "27-153"
 
 robes:
+  - name: "Wool Cloak"
+    attrs:
+    found:
+    sprite: "27-125"
+
+    - name: "Frore Griffon Cloak"
+    attrs: "25 Fire/Ice Prot"
+    found: "Frore City Armor Shop"
+    sprite: "27-204"
+    
   - name: "Ghost Cloak"
-    attrs: "Door Charges"
+    attrs: "One Door Charge(crumbles after use)"
     drops:
       - name: "Ghost"
         lair: true
@@ -435,7 +445,7 @@ robes:
     sprite: "28-11"
 
   - name: "Mummy Cloak (Improved)"
-    attrs: "1/1, Acid Prot"
+    attrs: "0/1, 50 Acid Prot"
     quests:
       - name: "Improved Mummy Cloak"
     sprite: "28-11"
@@ -452,15 +462,23 @@ robes:
       - name: "Improved Yellow Robe"
     sprite: "28-71"
 
+    - name: "Sabertooth Fur"
+    attrs: "500 Ice Prot"
+    found: "Frore Ice Floes"
+    drops:
+      - name: "Sabertooth"
+    sprite: "27-200"
+
   - name: "Rakshasha Cloak"
-    attrs: "30 Fire Prot, Assault Prot"
+    attrs: "30 Fire/Assault Prot"
     found: "Prisons"
     drops:
       - name: "Rakshasha"
     sprite: "27-193"
 
   - name: "Rakshasha Cloak (Glowing)"
-    attrs: "3/3, Psimirror, Energyshield"
+    reqs: "Level 18"
+    attrs: "+3, Psimirror, Melee Damage Absorption"
     drops:
       - name: "Big Rakshasha"
         lair: true
@@ -474,13 +492,14 @@ robes:
     sprite: "28-67"
 
   - name: "Enmiss Robe (Super)"
-    attrs: "100 Enmiss Prot"
+    attrs: "80 Enmiss Prot"
     drops:
       - name: "Maeling Tengu"
         lair: true
     sprite: "28-67"
 
   - name: "Black Ninja Robe"
+    reqs: "Level 12"
     attrs: "+2 AGI"
     found: "Maeling-3"
     quests:
@@ -488,6 +507,7 @@ robes:
     sprite: "27-191"
 
   - name: "Black Ninja Robe (Improved)"
+    reqs: "Level 12"
     attrs: "+3 AGI"
     quests:
       - name: "Improved Black Ninja Robe"
@@ -499,7 +519,7 @@ robes:
     sprite: "28-32"
 
   - name: "Seahag Robe"
-    attrs: "+1"
+    attrs: "+2"
     drops:
       - name: "Seahag"
         lair: true
@@ -508,19 +528,19 @@ robes:
     sprite: "27-134"
 
   - name: "Slith Robe (Fighter)"
-    attrs: "3/3, +15 HP, Psicrush Prot"
+    attrs: "+3, +15 HP, 150 Psicrush Prot"
     quests:
       - name: "Slith Robe"
     sprite: "26-25"
 
   - name: "Slith Robe (Psionic)"
-    attrs: "3/3, +15 EP, Psicrush Prot"
+    attrs: "+3, +15 EP, 150 Psicrush Prot"
     quests:
       - name: "Slith Robe"
     sprite: "26-25"
 
   - name: "Slith Robe (Martialist)"
-    attrs: "3/3, +1 STR/AGI"
+    attrs: "+3, +1 STR/AGI, 150 Psicrush Prot"
     quests:
       - name: "Slith Robe"
     sprite: "26-25"
