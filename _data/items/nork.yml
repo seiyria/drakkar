@@ -177,7 +177,7 @@ armors:
     sprite: "27-216"
 
   - name: "Black Dragon Scales"
-    "reqs" "level 15"
+    reqs: "level 15"
     attrs: "100 Fire/Ice/Acid Prot"
     drops:
       - name: "Black Dragon"
