@@ -462,7 +462,7 @@ robes:
       - name: "Improved Yellow Robe"
     sprite: "28-71"
 
-    - name: "Sabertooth Fur"
+  - name: "Sabertooth Fur"
     attrs: "500 Ice Prot"
     found: "Frore Ice Floes"
     drops:
