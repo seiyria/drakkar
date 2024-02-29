@@ -420,8 +420,8 @@ rings:
 
 robes:
   - name: "Wool Cloak"
-    attrs:
-    found:
+    attrs: ""
+    found: ""
     sprite: "27-125"
 
     - name: "Frore Griffon Cloak"
