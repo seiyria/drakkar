@@ -9,23 +9,51 @@ empty:
     quests:
 
 amulets:
-  - name: "Protection Amulet"
-    reqs:
-    attrs: "50 Enmiss/Lightning Prot, 100 Acid Prot"
+  - name: "Protection Amulet (Enmiss)"
+    reqs: "untied"
+    attrs: "25 Enmiss Prot"
     found:
+    drops:
+    sprite: "28-9"
+    quests:
+
+  - name: "Protection Amulet (Lightning)"
+    reqs: "untied"
+    attrs: "25 Lightning Prot"
+    found:
+    drops:
+    sprite: "28-9"
+    quests:
+  
+  - name: "Protection Amulet (Acid)"
+    reqs: "untied"
+    attrs: "100 Acid Prot"
+    found:
+    drops:
+      - name: "Black Dragon"
+        lair: true
     sprite: "28-9"
 
-  - name: "Regen Amulet (Small)"
+  - name: "Regen Amulet Peewee (Small/Muzi)"
     reqs:
-    attrs: "+5 EP Regen"
+    attrs: "+2 EP Regen"
     found:
     quests:
       - name: "Regen Amulet (Small)"
     sprite: "28-9"
 
-  - name: "Regen Amulet (Large)"
+  - name: "Regen Amulet Spectre (Small/Muzi)"
     reqs:
-    attrs: "+10 EP Regen"
+    attrs: "+3 EP Regen"
+    found: "KM-5"
+    drops: 
+      - name: "Spectre"
+    sprite: "28-9"
+    quests:
+
+  - name: "Regen Amulet (Large/Uzi)"
+    reqs: "Level 14, untied(Chipuda)"   
+    attrs: "+5 EP Regen"
     found:
     drops:
       - name: "Chipuda"
@@ -41,14 +69,14 @@ amulets:
     sprite: "29-23"
 
   - name: "Red Dragon Amulet (Fire)"
-    attrs: "25-50 Fire Prot"
+    attrs: "50 Fire Prot"
     drops:
       - name: "Red Dragon"
         lair: true
     sprite: "28-8"
 
   - name: "Red Dragon Amulet (Firestorm)"
-    attrs: "50-100 Fire Prot"
+    attrs: "50 Firestorm Prot (FS RD), 100 Firestorm Prot (Spot)"
     drops:
       - name: "Firestorm Red Dragon"
         lair: true
@@ -108,7 +136,7 @@ armors:
         lair: true
     sprite: "27-204"
 
-  - name: "Big Griffon Feathers (Bruce)"
+  - name: "Griffon Feathers (Big/Bruce)"
     reqs:
     attrs: "200 Fire/Ice Prot"
     found:
@@ -132,7 +160,7 @@ armors:
         lair: true
     sprite: "27-189"
 
-  - name: "Big Naga Scales (Mama)"
+  - name: "Naga Scales (Big/Mama)"
     reqs: "level 12"
     attrs: "220 Fire/Ice Prot"
     drops:
@@ -148,14 +176,14 @@ armors:
         lair: true
     sprite: "27-187"
 
-  - name: "Firestorm Red Dragon Scales"
+  - name: "Red Dragon Scales (Firestorm)"
     attrs: "150 Fire/Ice/Firestorm Prot"
     drops:
       - name: "Firestorm Red Dragon"
         lair: true
     sprite: "27-187"
 
-  - name: "Big Red Dragon Scales (Mama)"
+  - name: "Red Dragon Scales (Big/Mama)"
     reqs: "level 17"
     attrs: "200 Fire/Ice/Acid Prot"
     drops:
@@ -186,18 +214,18 @@ armors:
       - name: "Improved Black Dragon Scales"
     sprite: "28-12"
 
-  - name: "Gold Dragon Scales"
-    attrs: "50 Fire/Ice/Earthcrush Prot"
-    drops:
-      - name: "Gold Dragon"
-    sprite: "27-190"
-
-  - name: "Improved Black Dragon Scales"
+  - name: "Black Dragon Scales (Improved)"
     reqs: "level 15"
     attrs: "100 Fire/Ice/Acid/Lightning Prot"
     quests:
       - name: "Improved Black Dragon Scales"
     sprite: "28-12"
+
+  - name: "Gold Dragon Scales"
+    attrs: "50 Fire/Ice/Earthcrush Prot"
+    drops:
+      - name: "Gold Dragon"
+    sprite: "27-190"
 
   - name: "Yeti Fur (Small)"
     attrs: "50 Ice Prot"
@@ -430,7 +458,7 @@ robes:
     sprite: "27-204"
     
   - name: "Ghost Cloak"
-    attrs: "One Door Charge(crumbles after use)"
+    attrs: "One Door Charge (crumbles after use)"
     drops:
       - name: "Ghost"
         lair: true

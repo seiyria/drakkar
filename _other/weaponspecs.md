@@ -14,4 +14,4 @@ If you choose to specialize multiple times in different weapons, you can do it a
 
 To specialize, you go to a trainer, hold a weapon from the particular weapon class (say, longsword) and you'll say `xxx, specialize longsword`. Halberds are considered "polearm" for specialization purposes.
 
-Specializations can be removed by going to an NPC in the Conqueror's Club and giving up a Lanapi stuff (warning: you will LOSE access to this area and have to regain it by fetching the 9 items).
+Specializations can be removed by going to an NPC in the Conqueror's Club and giving up a Lanapi staff (warning: you will LOSE access to this area and have to regain it by fetching the 9 items).
