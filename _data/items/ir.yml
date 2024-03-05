@@ -13,16 +13,88 @@ amulets:
     reqs: "Level 99"
     attrs: "8/0, Glowing, Stolen Skill (+1 Attack)"
     sprite: "28-34"
-armors:      
+armors:
+
 boots:
+  - name: "Santa Boots (2020)"
+    reqs: "Level 95"
+    attrs: "14/14, +13 Con, AC 100"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-112"
+    quests:
+  
+  - name: "Santa Boots"
+    reqs: "Level 95"
+    attrs: "15/15, +14 Con, AC 100"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-112"
+    quests:
+
 bracers: 
 earrings:
   - name: "Melee Earring"
     reqs: "Level 40"
     attrs: "X/0 (X = floor found on)"
     sprite: "28-192"
+
 helms:
+  - name: "Santa Hat (2020)"
+    reqs: "Level 94"
+    attrs: "12/12, +600 HP, Psicutter, Stun Prot, AC 50"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-121"
+    quests:
+  
+  - name: "Santa Hat"
+    reqs: "Level 94"
+    attrs: "13/13, +600 HP, Psicutter, Stun Prot, AC 50"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-121"
+    quests:
+
 gauntlets:
+  - name: "Santa MA Gauntlets"
+    reqs: "Level 99"
+    attrs: "+20"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "28-157"
+    quests:
+  
+  - name: "Santa Gauntlets (2020)"
+    reqs: "Level 95"
+    attrs: "8/8, +8 STR/AGI/WIS/INT, AC 50"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "30-37"
+    quests:
+  
+  - name: "Santa Gauntlets"
+    reqs: "Level 95"
+    attrs: "9/9, +8 STR/AGI/WIS/INT, AC 50"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "30-37"
+    quests:
+
 rings:
   - name: "Dungeon Ring"
     reqs: "Level 99"
@@ -35,18 +107,70 @@ robes:
     sprite: "26-106"
     drops: 
       - name: "banshee"
+
   - name: "Mummy Robe"
     reqs: "Level 96"
     attrs: "+10, +5 STR/INT/WIS/AGI Fire prot"
     drops:
       - name: "mummy"
     sprite: "26-27"
+
+  - name: "Santa Robe"
+    reqs: "Level 82"
+    attrs: "10/10, AC 400"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "27-185"
+    quests:
+
 sashes:    
   - name: "Dungeon Sash"
     reqs: "Level 90"
     attrs: "5/5, psicutter, damage deflate"
     sprite: "28-166"
-weapons:    
+
+weapons:
+  - name: "Santa Bisento"
+    reqs: "Level 95"
+    attrs: "+20"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-145"
+    quests:  
+  
+  - name: "Santa Halberd"
+    reqs: "Level 95"
+    attrs: "+20"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-145"
+    quests:
+
+    - name: "Santa Cane Totem"
+    reqs: "Level 86"
+    attrs: "+21, Jolly Jelly (+200 EP, +120 EP Regen, Psi damage boost)"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-118"
+    quests:
+
+    - name: "Santa Cookie Totem"
+    reqs: "Level 86"
+    attrs: "+21, Jolly Jelly (+200 EP, +120 EP Regen, Psi damage boost)"
+    found:
+    drops:
+      - name: "Santa"
+        lair: true 
+    sprite: "29-115"
+    quests:
 others:
   - name: "Iron Bread"
     reqs: ""
@@ -54,6 +178,7 @@ others:
     sprite: "29-153"
     quests:
       - name: Iron Bread Armor
+
   - name: "Undead Silk"
     found: ""
     drops:
