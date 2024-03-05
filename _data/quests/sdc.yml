@@ -151,6 +151,7 @@
     - sprite: "26-72"
     - sprite: "26-75"
     - sprite: "26-72"
+    
 - name: "OzonousMax Access"
   text: "Collect the keys from Skar and Spur and use them to open the doors leading to OzonousMax."
   items:

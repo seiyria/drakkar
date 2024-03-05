@@ -1,0 +1,17 @@
+
+- name: "Santa"
+  text: "Only appears during the Winter Holiday. Hits very hard. Shreds. Turn in presents (found randomly in IR) to SantasHelper in IR town or directly to Santa to calm him down. Presents turned in directly are more effective"
+  found: "Random Location in IR"
+  sprite: "11-37"
+  drops:
+    - name: "Santa Boots"
+    - name: "Santa MA Gauntlets"
+    - name: "Santa Gauntlets"
+    - name: "Santa Hat"
+    - name: "Santa Robe"
+    - name: "Santa Bisento"
+    - name: "Santa Halberd"
+    - name: "Santa Cane Totem"
+    - name: "Santa Cookie Totem"
+  quests:
+    - name: ""
