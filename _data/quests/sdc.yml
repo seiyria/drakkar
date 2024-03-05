@@ -141,7 +141,16 @@
 
 - name: "+12 Titan"
   text: "Collect 8 leathers and 8 plate mails. Smelt the leathers into a crystal extract and enchant it to +6. Smelt the plates into a silver extract. Smelt the +6 crystal extract, silver extract, brew pot, and a small gold nugget to receive a refined fluidic crystal. Enchant the crystal to +6. Take the crystal to Alex with a Titan weapon to have it improved."
-
+  items:
+    - sprite: "27-216"
+    - sprite: "26-72"
+    - sprite: "29-0"
+    - sprite: "26-72"
+    - sprite: "30-219"
+    - sprite: "26-72"
+    - sprite: "26-72"
+    - sprite: "26-75"
+    - sprite: "26-72"
 - name: "OzonousMax Access"
   text: "Collect the keys from Skar and Spur and use them to open the doors leading to OzonousMax."
   items:
