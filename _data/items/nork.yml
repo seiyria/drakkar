@@ -10,7 +10,7 @@ empty:
 
 amulets:
   - name: "Protection Amulet (Enmiss)"
-    reqs: "untied"
+    reqs: "Untied"
     attrs: "25 Enmiss Prot"
     found:
     drops:
@@ -18,7 +18,7 @@ amulets:
     quests:
 
   - name: "Protection Amulet (Lightning)"
-    reqs: "untied"
+    reqs: "Untied"
     attrs: "25 Lightning Prot"
     found:
     drops:
@@ -26,7 +26,7 @@ amulets:
     quests:
   
   - name: "Protection Amulet (Acid)"
-    reqs: "untied"
+    reqs: "Untied"
     attrs: "100 Acid Prot"
     found:
     drops:
@@ -52,7 +52,7 @@ amulets:
     quests:
 
   - name: "Regen Amulet (Large/Uzi)"
-    reqs: "Level 14, untied(Chipuda)"   
+    reqs: "Level 14, Untied(Chipuda)"   
     attrs: "+5 EP Regen"
     found:
     drops:
@@ -67,8 +67,17 @@ amulets:
     quests:
       - name: "HP Amulet"
     sprite: "29-23"
+  
+  - name: "Protfire Amulet"
+    reqs: ""
+    attrs: "25 Fire Prot"
+    found: "All over Nork"
+    drops:
+    sprite:
+    quests:
 
   - name: "Red Dragon Amulet (Fire)"
+    reqs: "Untied"
     attrs: "50 Fire Prot"
     drops:
       - name: "Red Dragon"
@@ -76,6 +85,7 @@ amulets:
     sprite: "28-8"
 
   - name: "Red Dragon Amulet (Firestorm)"
+    reqs: "Untied(Spot)"
     attrs: "50 Firestorm Prot (FS RD), 100 Firestorm Prot (Spot)"
     drops:
       - name: "Firestorm Red Dragon"
@@ -91,6 +101,7 @@ amulets:
     sprite: "27-145"
 
   - name: "Volton Amulet"
+    reqs: "G/G, Untied"
     attrs: "3/3"
     drops:
       - name: "Volton"
@@ -98,6 +109,7 @@ amulets:
     sprite: "27-145"
 
   - name: "Stunrah Amulet"
+    reqs: G/G, Untied
     attrs: "2/2"
     drops:
       - name: "Stunrah"
@@ -153,7 +165,7 @@ armors:
     sprite: "28-21"
 
   - name: "Naga Scales"
-    reqs: "level 10"
+    reqs: "Level 10"
     attrs: "20 Fire/Ice Prot"
     drops:
       - name: "Naga"
@@ -161,7 +173,7 @@ armors:
     sprite: "27-189"
 
   - name: "Naga Scales (Big/Mama)"
-    reqs: "level 12"
+    reqs: "Level 12"
     attrs: "220 Fire/Ice Prot"
     drops:
       - name: "Big Naga"
@@ -169,7 +181,7 @@ armors:
     sprite: "27-189"
 
   - name: "Red Dragon Scales"
-    reqs: "level 12"
+    reqs: "Level 12"
     attrs: "80 Fire/Ice Prot"
     drops:
       - name: "Red Dragon"
@@ -184,7 +196,7 @@ armors:
     sprite: "27-187"
 
   - name: "Red Dragon Scales (Big/Mama)"
-    reqs: "level 17"
+    reqs: "Level 17"
     attrs: "200 Fire/Ice/Acid Prot"
     drops:
       - name: "Big Red Dragon"
@@ -205,7 +217,7 @@ armors:
     sprite: "27-216"
 
   - name: "Black Dragon Scales"
-    reqs: "level 15"
+    reqs: "Level 15"
     attrs: "100 Fire/Ice/Acid Prot"
     drops:
       - name: "Black Dragon"
@@ -215,7 +227,7 @@ armors:
     sprite: "28-12"
 
   - name: "Black Dragon Scales (Improved)"
-    reqs: "level 15"
+    reqs: "Level 15"
     attrs: "100 Fire/Ice/Acid/Lightning Prot"
     quests:
       - name: "Improved Black Dragon Scales"
@@ -281,17 +293,28 @@ armors:
     sprite: "26-145"
 
 boots:
+  - name: "Leather Boots"
+    reqs:
+    attrs:
+    found: "All over Nork"
+    drops:
+    sprite:
+    quests:
+  
   - name: "Combat Boots"
     attrs: "2/0"
     sprite: "28-60"
 
   - name: "Climbing Boots"
+    found: "Prisons, Nork Dungeon-4"
+    drops: 
+      - name: "Named NPC's"
     quests:
       - name: "Hill Giant Access"
     sprite: "28-60"
 
   - name: "Snow Boots"
-    attrs: "??? Ice Prot"
+    attrs: "50 Ice Prot"
     sprite: "27-201"
 
   - name: "Lizard Boots"
@@ -299,7 +322,7 @@ boots:
     sprite: "28-62"
 
   - name: "Fire Giant Boots"
-    attrs: "0/3 100 Fire Prot"
+    attrs: "+3, 100 Fire Prot"
     drops:
       - name: "Fire Giant"
         lair: true
@@ -336,21 +359,23 @@ boots:
 bracers:
   - name: "Golden Bracers"
     attrs: "Imbuable"
+    found: "All over Nork"
     sprite: "27-148"
 
   - name: "Fire Prot Bracers"
-    attrs: "50 Fire Prot"
+    attrs: "25 Fire Prot"
+    found: "All over Nork"
     sprite: "27-203"
 
   - name: "Lightning Prot Bracers"
-    attrs: "25 Lightning Prot"
+    attrs: "50 Lightning Prot"
     drops:
       - name: "Silver Dragon"
         lair: true
     sprite: "27-198"
 
   - name: "Acid Prot Bracers"
-    attrs: "25 Acid Prot"
+    attrs: "50 Acid Prot"
     found: "Acid Caves"
     sprite: "27-198"
 
