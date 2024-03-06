@@ -152,7 +152,7 @@ weapons:
     sprite: "29-145"
     quests:
 
-    - name: "Santa Cane Totem"
+  - name: "Santa Cane Totem"
     reqs: "Level 86"
     attrs: "+21, Jolly Jelly (+200 EP, +120 EP Regen, Psi damage boost)"
     found:
@@ -162,7 +162,7 @@ weapons:
     sprite: "29-118"
     quests:
 
-    - name: "Santa Cookie Totem"
+  - name: "Santa Cookie Totem"
     reqs: "Level 86"
     attrs: "+21, Jolly Jelly (+200 EP, +120 EP Regen, Psi damage boost)"
     found:
@@ -171,6 +171,7 @@ weapons:
         lair: true 
     sprite: "29-115"
     quests:
+    
 others:
   - name: "Iron Bread"
     reqs: ""
