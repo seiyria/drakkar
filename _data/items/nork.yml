@@ -73,7 +73,7 @@ amulets:
     attrs: "25 Fire Prot"
     found: "All over Nork"
     drops:
-    sprite:
+    sprite: "28-8"
     quests:
 
   - name: "Red Dragon Amulet (Fire)"
@@ -252,7 +252,7 @@ armors:
     sprite: "27-192"
 
   - name: "Snowbeast Fur"
-    reqs: "Evil alignment"
+    reqs: "E/E"
     attrs: "Psicutter"
     drops:
       - name: "Snowbeast"
@@ -298,7 +298,7 @@ boots:
     attrs:
     found: "All over Nork"
     drops:
-    sprite:
+    sprite: "27-146"
     quests:
   
   - name: "Combat Boots"
@@ -514,14 +514,14 @@ robes:
     quests:
       - name: "Improved Yellow Robe"
     sprite: "28-71"
-
+  
   - name: "Sabertooth Fur"
     attrs: "500 Ice Prot"
     found: "Frore Ice Floes"
     drops:
       - name: "Sabertooth"
     sprite: "27-200"
-
+  
   - name: "Rakshasha Cloak"
     attrs: "30 Fire/Assault Prot"
     found: "Prisons"
@@ -655,7 +655,8 @@ weapons:
     sprite: "26-173"
 
   - name: "Minotaur Axe"
-    attrs: "+1"
+    reqs: "Barbarian"
+    attrs: "Proning"
     found: "Nork-3.5"
     drops:
       - name: "Minotaur"
@@ -665,7 +666,7 @@ weapons:
 
   - name: "Minotaur Axe"
     reqs: "E/E"
-    attrs: "+3"
+    attrs: "+3, Silver"
     drops:
       - name: "Minotaur"
         lair: true
@@ -673,19 +674,67 @@ weapons:
       - name: "Minotaur Axe Alignment Change"
     sprite: "27-215"
 
-  - name: "Minotaur Axe (Dungeon)"
-    attrs: "+4, Returning, Glowing, Silver"
+  - name: "Minotaur Axe"
+    reqs: "N/N"
+    attrs: "+4, Silver"
+    found: "King Minotaur Dungeon-1"
+    drops:
+      - name: "Minotaur"
+        lair: true
+    quests:
+      - name: "Minotaur Axe Alignment Change"
+    sprite: "27-215"
+
+  - name: "Minotaur Axe (KM4)"
+    attrs: "+3, Silver"
     found: "King Minotaur Dungeon-4"
     drops:
       - name: "Minotaur"
     sprite: "27-215"
+  
+  - name: "Minotaur Axe (KM4 Returning)"
+    attrs: "+3, Silver, Returning"
+    found: "King Minotaur Dungeon-4"
+    drops:
+      - name: "Minolord"
+    sprite: "27-215"
+
+  - name: "Minotaur Axe (KM5)"
+    attrs: "+4, Silver, Glowing, Proning"
+    found: "King Minotaur Dungeon-5"
+    drops:
+      - name: "Minotaur"
+    sprite: "27-215"
+
+  - name: "Minotaur Axe (KM5 Returning)"
+    attrs: "+4, Silver, Glowing, Proning, Returning"
+    found: "King Minotaur Dungeon-5"
+    drops:
+      - name: "Minoguard"
+    sprite: "27-215"
 
   - name: "King Minotaur Axe"
-    attrs: "+6, Returning, Silver"
+    attrs: "+6, Silver, Proning, Returning"
     drops:
       - name: "King Minotaur"
         lair: true
     sprite: "27-215"
+
+  - name: "Heavy Crossbow"
+    reqs: 
+    attrs:
+    found: "Nork Town Weapon Shop"
+    drops:
+    sprite: "27-115"
+    quests:
+  
+  - name: "Heavy Crossbow"
+    reqs:
+    attrs: "+1"
+    found: "Nork"
+    drops:
+    sprite: "27-215"
+    quests:
 
   - name: "Mummy King Crossbow"
     attrs: "+2, Glowing"
@@ -693,6 +742,15 @@ weapons:
       - name: "Mummy King"
         lair: true
     sprite: "27-115"
+
+  - name: "Champion Heavy Crossbow"
+    reqs: "Thief"
+    attrs: "Proning"
+    found: "Nork Dungeon-3.5"
+    drops:
+      - name: "Champion"
+    sprite: "27-215"
+    quests:
 
   - name: "Erodian Crossbow"
     reqs: "N/N"
@@ -702,9 +760,34 @@ weapons:
         lair: true
     sprite: "27-115"
 
+  - name: "Skinny Crossbow"
+    reqs: "Thief"
+    attrs: "+5, Silver, Glowing"
+    found:
+    drops:
+    sprite: "27-115"
+    quests:
+      - name: "Skinny Crossbow"
+
+  - name: "Wooden Shortbow"
+    reqs:
+    attrs:
+    found: "Nork Town Weapon Shop"
+    drops:
+    sprite: "27-113"
+    quests:
+
+  - name: "Wooden Shortbow"
+    reqs:
+    attrs: "+1"
+    found: "Mid-Advanced Areas of Nork"
+    drops:
+    sprite: "27-113"
+    quests:       
+
   - name: "Poison Bow"
     reqs: "N/N"
-    attrs: "+3, Glowing, LvX Poison"
+    attrs: "+3, Glowing, Lvl 6 Poison"
     quests:
       - name: "Poison Bow"
       - name: "Improved Poison Bow"
@@ -712,20 +795,55 @@ weapons:
 
   - name: "Poison Bow (Improved)"
     reqs: "N/N"
-    attrs: "+3, Glowing, LvX Poison"
+    attrs: "+5, Glowing, Lv 10 Poison"
     quests:
       - name: "Poison Bow"
       - name: "Improved Poison Bow"
     sprite: "28-81"
 
-  - name: "Silver Bow (Norken)"
+  - name: "Pine Longbow"
+    reqs:
+    attrs:
+    found: "Nork Town Weapon Shop"
+    drops:
+    sprite: "27-114"
+    quests:  
+
+  - name: "Pine Longbow"
+    reqs:
+    attrs: "+1"
+    found: "Mid-Advanced Areas of Nork"
+    drops:
+    sprite: "27-114"
+    quests:
+
+  - name:  "Pine Longbow"
+    reqs:
     attrs: "+3"
+    found: "Maeling Dungeon-4"
+    drops:
+      - name: "Maeling Tengu"
+        lair: true
+    sprite: "27-114"
+    quests:
+
+  - name: "Pine Longbow"
+    reqs: "N/N"
+    attrs: "+4, Glowing"
+    found: "Maeling Dungeon-4"
+    drops:
+      - name: "Ogrelord"
+    sprite: "27-114"
+    quests:  
+
+  - name: "Silver Bow (Norken)"
+    attrs: "+3, Silver"
     quests:
       - name: "Silver Bow (Norken)"
     sprite: "27-209"
 
   - name: "Silver Bow"
-    attrs: "+4"
+    attrs: "+4, Silver"
     drops: "Fisheries"
     quests:
       - name: "Regen Amulet (Small)"
@@ -733,39 +851,29 @@ weapons:
       - name: "Succor Ring"
     sprite: "27-209"
 
-  - name: "Silver Bow (Minotaurian)"
-    found: "King Minotaur Dungeon-4, -5"
-    attrs: "+6, Proning, Glowing"
+  - name: "Silver Bow (KM-4)"
+    attrs: "+6, Silver, Proning"
+    found: "King Minotaur Dungeon-4"
+    drops:
+      - name: "Archer"
     sprite: "27-209"
 
-  - name: "Bullywog Dagger"
-    found: "Maeling Forest"
-    attrs: "+3, Returning"
+  - name: "Silver bow (KM-5)"
+    reqs:
+    attrs: "+6, Silver, Glowing, Proning"
+    found: "King Minotaur Dungeon-5"
     drops:
-      - name: "Bullywog"
-    sprite: "28-22"
+      - name: "Archer"
+    sprite: "27-209"
+    quests:
 
-  - name: "Kaxx Dagger"
-    attrs: "+5"
+  - name: "Steel Dagger"
+    reqs:
+    attrs:
+    found: "All over Nork, Ratburrow Shop"
     drops:
-      - name: "Kaxmaxmillion"
-        lair: true
-    sprite: "28-22"
-
-  - name: "Lightning Tanto"
-    attrs: "Glowing, Lv5 Lightning"
-    drops:
-      - name: "Maeling Stunner"
-        lair: true
-    sprite: "27-220"
-
-  - name: "Warden Dagger"
-    attrs: "+6, Returning"
-    reqs: "N/N"
-    drops:
-      - name: "Warden"
-        lair: true
     sprite: "27-119"
+    quests:  
 
   - name: "Silver Dagger"
     attrs: "+2, Silver"
@@ -780,12 +888,88 @@ weapons:
       - name: "Improved Silver Dagger"
     sprite: "27-219"
 
+  - name: "Silver Dagger"
+    reqs: 
+    attrs: "+4, Silver"
+    found: "Nork Thief Guildhall"
+    drops:
+    sprite: "27-219"
+    quests:  
+
+  - name: "Bullywog Dagger"
+    found: "Maeling Forest"
+    attrs: "+3, Glowing, Returning"
+    drops:
+      - name: "Bullywog"
+    sprite: "28-22"
+
+  - name: "Kaxx Dagger"
+    attrs: "+5, Glowing"
+    drops:
+      - name: "Kaxmaxmillion"
+        lair: true
+    sprite: "28-22"
+
+  - name: "Gnoll Dagger"
+    reqs: 
+    attrs: "+5, Glowing, Returning"
+    found: "Nork Dungeon-8-9"
+    drops:
+      - name: "Gnoll"
+    sprite: "28-22"
+    quests:  
+
+  - name: "Warden Dagger"
+    attrs: "+6, Returning"
+    reqs: "N/N"
+    drops:
+      - name: "Warden"
+        lair: true
+    sprite: "27-119"
+
+  - name: "Tanto"
+    reqs:
+    attrs:
+    found: "Maeling Weapon Shop"
+    drops:
+    sprite: "27-220"
+    quests:
+  
+  - name: "Lightning Tanto"
+    reqs:
+    attrs: "+4, Glowing, Returning, Lv8 Lightning"
+    found: "Maeling Town Shop, Clubhouse"
+    drops:
+    sprite: "27-220"
+    quests:  
+
+  - name: "Lightning Tanto (M-4)"
+    reqs: "N/N"
+    attrs: "+2-5. Returning, Lv5 Lightning"
+    found: "Maeling Dungeon-4"
+    drops:
+      - name: "Stunner"
+    sprite: "27-220"
+
+  - name: "Lightning Tanto (Stunner Lair)"
+    reqs: "N/N"
+    attrs: "+5, Returning, Lv8 Lightning"
+    found:
+    drops:
+      - name: "Maeling Stunner"
+        lair: true
+    sprite: "27-220"
+    quests:  
+
   - name: "Breshard Stiletto"
-    attrs: "+6, Returning, Lv30 Poison, Stat Suck"
+    reqs: "Level 17"
+    attrs: "+6, Silver, Glowing, Power Weapon, Returning, Lv30 Poison, Stat Suck"
     drops:
       - name: "Breshard"
         lair: true
     sprite: "28-70"
+    quests:
+     - name: "Club House Access"
 
   - name: "Slicer Sword (Greatsword)"
     attrs: "+3, Glowing, Proning"

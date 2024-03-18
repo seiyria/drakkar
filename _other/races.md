@@ -15,13 +15,13 @@ Here are what each race can roll at max:
 Race/Stat           | STR  | INT  | WIS  | WILL | CON  | AGI  | CHA  | LUK
 ----                | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
 City Dweller        | 18   | 18   | 18   | 18   | 18   | 18   | 18   | 18
-Woodlands Dweller   | 17   | 19   | 18   | 18   | 18   | 18   | 18   | 18
-Forest Dweller      | 18   | 18   | 18   | 18   | 18   | 18   | 18   | 17
-Outcast             | 19   | 18   | 18   | 18   | 19   | 19   | 16   | 18
-Mountain Dweller    | 19   | 18   | 18   | 18   | 18   | 18   | 17   | 18
-Underground Dweller | 18   | 18   | 18   | 18   | 18   | 18   | 15   | 12
+Woodlands Dweller   | 18   | 18   | 18   | 18   | 18   | 18   | 16   | 17
+Forest Dweller      | 18   | 18   | 18   | 18   | 16   | 18   | 16   | 16
+Outcast             | 19   | 18   | 18   | 14   | 19   | 18   | 12   | 6
+Mountain Dweller    | 18   | 18   | 18   | 16   | 18   | 18   | 14   | 12
+Underground Dweller | 17   | 15   | 9    | 15   | 16   | 16   | 7    | 7
 
 There are also some hidden benefits to each race. While some are confirmed and others are dubious, here are a firm list of benefits per race:
 
-* Outcast: +2 ATK
+* Outcast: +2 Combat adds
 * Woodlands Dweller: EP Regen Bonus
